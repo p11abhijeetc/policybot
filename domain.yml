@@ -1,0 +1,181 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about_leave
+  - apply_leave
+  - numberof_leave
+  - retail
+  - corporate
+  - sick
+  - casual
+  - privilege
+  - maternity
+  - paternity
+  - without_pay
+  - about_leave_types
+  - leave_benefits
+  - approve_leave
+  - club_leave
+  - encash_leave
+  - leave_carry_forward
+  - leave_proration
+  - weekend_counted
+
+entities:
+- leave_type
+- employee_type
+- leave_benefit
+
+slots:
+  leave_benefit:
+    type: categorical
+    values:
+    - approval
+    - club
+    - carry_forward
+    - proration
+    - encash
+  employee_type:
+    type: categorical
+    values:
+    - corporate
+    - retail
+
+actions:
+- utter_sick
+- utter_casual
+- utter_maternity
+- utter_paternity
+- utter_without_pay
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_leave_apply
+- utter_about_leave_policy
+- utter_ask_employee_type
+- utter_corporate_number_of_leaves
+- utter_retail_number_of_leaves
+- utter_different_leaves
+- utter_privilege_retail
+- utter_privilege_corporate
+- utter_ask_employee_types
+- utter_which_benefit
+- utter_approve
+- utter_club
+- utter_encash
+- utter_carry_forward
+- utter_proration
+- utter_weekends_counted
+
+templates:
+  utter_approve:
+  - text: "Prior approval is needed for all leaves except sick leaves. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties."
+  utter_club:
+  - text: "Only Sick leaves and privilege leaves can be clubbed. Maternity leave can be clubbed with both sick and privilege leave."
+  utter_encash:
+  - text: "Only privilege leave can be encashed. 30 days of privilege leaves can be encashed once the balance in more than 90 days. Please get in touch with HR for the exact computation of exact encashable amounts."
+  utter_carry_forward:
+  - text: "Sick leaves can be carried forward upto a maximum of 45 days and privilege leaves can be carried forward upto a maximum of 210 days."
+  utter_proration:
+  - text: "As per company policy, casual leaves, sick leaves and privilege leaves are prorated."
+  utter_weekends_counted:
+  - text: "Only in case of casual leaves, weekends are not counted. For all other leave types weekends are counted"
+  utter_which_benefit:
+  - buttons:
+    - payload: /approve_leave
+      title: Approval process
+    - payload: /club_leave
+      title: Clubbing of leaves
+    - payload: /encash_leave
+      title: Leave encashment
+    - payload: /leave_carry_forward
+      title: Leave carry forward
+    - payload: /leave_proration
+      title: Leave proration
+    - payload: /weekend_counted
+      title: Counting of Weekends
+    - payload: /apply_leave
+      title: Leave Apply
+    text: Could you please help me with the exact details of what you would like to know?
+    
+  utter_greet:
+  - text: "Hey! How are you?"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_leave_apply:
+  - text: "Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application will be submitted at least 10 days in advance."
+  
+  utter_about_leave_policy:
+  - text: "The leave policy is for all the corporate Benetton employees – Regular rolls of the company / third party payroll"
+
+  utter_ask_employee_type:
+  - buttons:
+    - payload: /retail
+      title: Retail Employee
+    - payload: /corporate
+      title: Corporate Employee
+    text: Could you please tell me if you are a retail or corporate employee?
+  
+  utter_ask_employee_types:
+  - buttons:
+    - payload: /retail
+      title: Retail Employee
+    - payload: /corporate
+      title: Corporate Employee
+    text: Could you please tell me if you are a retail or corporate employee?
+
+  utter_different_leaves:
+  - buttons:
+    - payload: /sick
+      title: Sick Leave
+    - payload: /privilege
+      title: Privilege Leave
+    - payload: /casual
+      title: Casual Leave
+    - payload: /without_pay
+      title: Without Pay
+    - payload: /maternity
+      title: Maternity
+    - payload: /paternity
+      title: Paternity
+    text: The leave types are mentioned below. Please click on anyone to know more?
+  utter_corporate_number_of_leaves:
+  - text: "Corporate employees have 7 days of  casual leaves, 7 days of Sick leaves and 30 days of privilege leaves."
+  utter_retail_number_of_leaves:
+  - text: "Retail or Store employees have 7 days of  casual leaves, 7 days of Sick leaves and 21 days of privilege leaves."
+  utter_sick:
+  - text: "Employees can get 7 days of sick leaves. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Unused sick leaves can be carried forward up to a maximum of 45 days of leave."
+  utter_casual:
+  - text: "Employees have 7 casual leaves. These leaves are prorated. One can take a maximum of 3 casual leave in one go.  Casual leaves are not  encashable and cannot be clubbed or carried forward."
+  utter_privilege_corporate:
+  - text: "Corporate employees have 30 days of privilege leaves. These leaves are prorated. One can take a minimum of 4 days of privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
+  utter_privilege_retail:
+  - text: "Retail employees have 21 days of privilege leaves. These leaves are prorated. One can take a minimum of 4 days of privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
+  utter_maternity:
+  - text: "As per the maternity leave policy, an expecting mother can get a maximum if 26 weeks/182 days of leaves. The employee has the discretion to split these 182 days between pre natal and post natal leaves."
+  utter_paternity:
+  - text: "The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable."
+  utter_without_pay:
+  - text: "Leave without pay has to be approved by the MD. Employees need to show proof of reason for such leaves. Employees will not be getting any salary while they are no leave without pay."
