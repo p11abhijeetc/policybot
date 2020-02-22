@@ -25,11 +25,31 @@ intents:
   - leave_carry_forward
   - leave_proration
   - weekend_counted
+  - about_maternity
+  - about_maternity_benefits
+  - apply_maternity
+  - maternity_counted
+  - club_maternity
+  - from_home_working_maternity
+  - child_adoption
+  - maternity_duration
+  - number_of_children
+  - approval_process_maternity
+  - maternity_payment
+  - apply_for_benefit
+  - seek_approval
+  - paternity_benefit
+  - paternity_counted
+  - about_paternity
+  - apply_paternity
+  - approval_process_paternity
+  - paternity_duration
 
 entities:
 - leave_type
 - employee_type
 - leave_benefit
+- maternity_benefit
 
 slots:
   leave_benefit:
@@ -40,13 +60,34 @@ slots:
     - carry_forward
     - proration
     - encash
+    - medical_certificate
   employee_type:
     type: categorical
     values:
     - corporate
     - retail
-
+  leave_type:
+    type: categorical
+    values:
+    - sick
+    - privilege
+    - casual
+  maternity_benefit:
+    type: categorical
+    values:
+    - duration
+    - adoption
+    - child_number
+    - work_from_home
+    - payment
+  policy_type:
+    type: categorical
+    values:
+    - leave_policy
+    - maternity_leave_policy
+    - paternity_leave_policy
 actions:
+- action_set_policy_type
 - utter_sick
 - utter_casual
 - utter_maternity
@@ -74,8 +115,93 @@ actions:
 - utter_carry_forward
 - utter_proration
 - utter_weekends_counted
+- utter_privilege_leave_corporate
+- utter_privilege_leave_retail
+- utter_casual_leave
+- utter_sick_leave
+- utter_about_maternity
+- utter_maternity_not_counted
+- utter_maternity_apply
+- utter_number_of_children
+- utter_child_adoption
+- utter_about_maternity_benefits
+- utter_maternity_payment
+- utter_maternity_duration
+- utter_club_maternity
+- utter_from_home_working_maternity
+- utter_default
+- utter_about_paternity
+- utter_apply_paternity
+- utter_approval_process_paternity
+- utter_number_of_children_paternity
+- utter_child_adoption_paternity
+- utter_paternity_duration
+- utter_counted_paternity
 
 templates:
+  utter_default:
+  - text: "I didn't understand. I am still learning. Please help me by rephrasing your question"
+  utter_maternity_payment:
+  - text: "During the maternity leave period the employee shall be paid leave salary equal to the pay drawn immediately before proceeding on maternity leave."
+  utter_about_maternity_benefits:
+  - buttons:
+    - payload: /apply_maternity
+      title: Application process
+    - payload: /approval_process_maternity
+      title: Approval process
+    - payload: /number_of_children
+      title: Number of children
+    - payload: /maternity_duration
+      title: Duration of maternity leave
+    - payload: /child_adoption
+      title: Adoption of a child
+    - payload: /from_home_working_maternity
+      title: Option to work from home
+    - payload: /club_maternity
+      title: Clubbing of leaves
+    - payload: /maternity_payment
+      title: Salary during maternity
+    text: Looks like you want to know about maternity benefits. Could you please tell me which benefit would you like to know about?
+
+  utter_club_maternity:
+  - text: "As per company policy, maternity leave many be clubbed with both sick leave and privilege leaves"
+  utter_from_home_working_maternity:
+  - text: "Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HOD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HOD and the woman mutually agree in written"
+  utter_child_adoption:
+  - text: "As per the maternity policy, for adopting/commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth /age proof of the child to be given by the adopting/commissioning mother"
+  utter_maternity_duration:
+  - text: "A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only. For more than two surviving children a woman shall be entitled twelve weeks of which not more than six weeks shall precede the date of her expected delivery"
+  utter_number_of_children:
+  - text: "The maximum period for which any woman shall be entitled to maternity benefit shall now be 26/182 days weeks of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall proceed with the date of expected delivery."
+  utter_maternity_apply:
+  - text: "Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms."
+  utter_maternity_not_counted:
+  - text: "As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types"
+  utter_about_maternity:
+  - buttons:
+    - payload: /apply_maternity
+      title: Application process
+    - payload: /approval_process_maternity
+      title: Approval process
+    - payload: /number_of_children
+      title: Number of children
+    - payload: /maternity_duration
+      title: Duration of maternity leave
+    - payload: /child_adoption
+      title: Adoption of a child
+    - payload: /from_home_working_maternity
+      title: Option to work from home
+    - payload: /club_maternity
+      title: Clubbing of leaves
+    text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
+  utter_privilege_leave_corporate:
+  - text: "Corporate employees have 30 days of previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 day's prior approval is needed in case of privilege leaves"
+  utter_privilege_leave_retail:
+  - text: "Retail employees have 21 days of previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 day's prior approval is needed in case of privilege leaves"
+  utter_casual_leave:
+  - text: "Employees have 7 days of casual leaves. One can take upto 3 casual leaves in one go. Prior approval is needed is case of casual leaves"
+  utter_sick_leave:
+  - text: "Employees have 7 days of sick leaves in a year. For more than 2 days of sick leaves the employee needs to show a medical certificate"
   utter_approve:
   - text: "Prior approval is needed for all leaves except sick leaves. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties."
   utter_club:
@@ -104,8 +230,7 @@ templates:
       title: Counting of Weekends
     - payload: /apply_leave
       title: Leave Apply
-    text: Could you please help me with the exact details of what you would like to know?
-    
+    text: Could you please help me with the exact details of what you would like to know?  
   utter_greet:
   - text: "Hey! How are you?"
   utter_cheer_up:
@@ -128,7 +253,7 @@ templates:
   - text: "Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application will be submitted at least 10 days in advance."
   
   utter_about_leave_policy:
-  - text: "The leave policy is for all the corporate Benetton employees – Regular rolls of the company / third party payroll"
+  - text: "The company has a leave policy for all the corporate Benetton employees – Regular rolls of the company / third party payroll."
 
   utter_ask_employee_type:
   - buttons:
@@ -179,3 +304,29 @@ templates:
   - text: "The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable."
   utter_without_pay:
   - text: "Leave without pay has to be approved by the MD. Employees need to show proof of reason for such leaves. Employees will not be getting any salary while they are no leave without pay."
+  utter_about_paternity:
+  - buttons:
+    - payload: /apply_paternity
+      title: Application process
+    - payload: /approval_process_paternity
+      title: Approval process
+    - payload: /number_of_children
+      title: Number of children
+    - payload: /paternity_duration
+      title: Duration of paternity leave
+    - payload: /child_adoption
+      title: Adoption of a child
+    text: As per company policy, male employee who have completed at least 6 months of service in the company are allowed 5 days of paternity leave for the birth of a child. Please let me know if you want to know anything particular about maternity leave.
+
+  utter_apply_paternity:
+    - text: "Paternity leave has to be applied on Empxtrack"
+  utter_approval_process_paternity:
+    - text: "employee wishes to request the paternity leave in respect of the birth / adoption of a child, he must give his line manager 4 weeks' written notice of the date on which his partner's baby is due, the length of the paternity leave he wishes to take and the date on which he wishes the leave to commence. If an employee subsequently wishes to change the timing of the paternity leave, he must give written notice of the new dates."
+  utter_number_of_children_paternity:
+    - text: "Paternity leave would be granted for maximum two children."
+  utter_child_adoption_paternity:
+    - text: "Paternity leave policy is applicable for both childbirth and for adoption."
+  utter_paternity_duration:
+    - text: "A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption."
+  utter_counted_paternity:
+    - text: "Paternity leave is granted in addition to an employee's normal annual holiday entitlement and shall not be debited against the leave account."
