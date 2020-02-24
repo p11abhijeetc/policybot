@@ -55,7 +55,7 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent: about_leave
+## intent:about_leave
 - Is there a leave policy?
 - Does the company have a leave policy?
 - What is my leave policy?
@@ -67,13 +67,13 @@
 - Tell me about [sick leaves](leave_type:sick)
 - And [casual leave](leave_type:casual)?
 - What about [privilege leave](leave_type:privilege)
-- I am [retail](employee_type:retail) staff. may i know about [privilege leaves](leave_type:privilege)
+- I am [retail](employee_type) staff. may i know about [privilege leaves](leave_type:privilege)
 - Please tell me about the leave policy
 - I want to know about [privilege leaves](leave_type:privilege)
 - What about [casual leave](leave_type:casual)?
 - And what about [sick leave](leave_type:sick)?
 
-## intent: about_leave_types
+## intent:about_leave_types
 - What are the types of leaves
 - How many differnt kinds of leaves
 - What all leaves are there?
@@ -84,7 +84,7 @@
 - Tell me about the types of leaves?
 - Can i know different leave types?
 
-## intent: apply_for_benefit
+## intent:apply_for_benefit
 - I want to apply for leave
 - How to apply
 - How can i apply
@@ -109,14 +109,14 @@
 - What is the notice period for my maternity leave?
 - I want to apply for mat leave
 
-## intent: numberof_leave
+## intent:numberof_leave
 - How many leaves do you have?
 - What is my total leaves?
 - What is the total number leaves?
 - What is my leave entitlement?
 - Will i need [medical certificate](leave_benefit:medical_certificate) for [sick leaves](leave_type:sick)
 - Do i have to show any [doctor certificate](leave_benefit:medical_certificate) for going on leave?
-- I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick leaves](leave_type:sick) 
+- I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick leaves](leave_type:sick)
 - What is my [sick leave](leave_type:sick) entitlement?
 - How many [sick leaves](leave_type:sick) do i have?
 - How many [casual leaves](leave_type:casual) can i get?
@@ -125,33 +125,28 @@
 - How many [privilege leaves](leave_type:privilege) can i take?
 - And [casual leaves](leave_type:casual)
 - what about [sick leaves](leave_type:sick)
-- I am [retail](employee_type:retail) employee. How many [privilege leaves](leave_type:privilege) can i take?
-- I am [corporate](employee_type:corporate) employee. How many [privilege leaves](leave_type:privilege) can i take?
+- I am [retail](employee_type) employee. How many [privilege leaves](leave_type:privilege) can i take?
+- I am [corporate](employee_type) employee. How many [privilege leaves](leave_type:privilege) can i take?
 - I work in the [store](employee_type:retail). How many [privilege leaves](leave_type:privilege) can i take?
-- I work in the [corporate](employee_type:corporate) office. How many [privilege leaves](leave_type:privilege) can i take?
+- I work in the [corporate](employee_type) office. How many [privilege leaves](leave_type:privilege) can i take?
 - How many leaves are there?
 - Total number of leaves
-- How many [sick leaves](leave_type:sick) are there for [retail](employee_type:retail) employees
-- How many [casual leaves](leave_type:casual) are there for [corporate](employee_type:corporate) employees
+- How many [sick leaves](leave_type:sick) are there for [retail](employee_type) employees
+- How many [casual leaves](leave_type:casual) are there for [corporate](employee_type) employees
 - I am [store](employee_type:retail) staff. How many [privilege leaves](leave_type:privilege) can i take?
 - can i take leave for [medical](leave_type:sick) reasons
 
-## intent: leave_benefits
+## intent:leave_benefits
 - I want to know about my leave benefits?
-- What leave benefits do i have? 
-<!--- Is [approval](leave_benefit:approval) needed for going on leave?
-- Do i need manager [approval](leave_benefit:approval) before going on leave?
-- Is manager [approval](leave_benefit:approval) required?
-- Does my manager need to [approve](leave_benefit:approval)my leaves? -->
-- Can i [club](leave_benefit:club) my leaves?
-- Can i [club](leave_benefit:club) [casual leaves](leave_type:casual)?
+- What leave benefits do i have?
+- Can i [club](leave_benefit) my leaves?
+- Can i [club](leave_benefit) [casual leaves](leave_type:casual)?
 - Is [clubbing](leave_benefit:club) allowed?
 - Can i [combine](leave_benefit:club) two types of leaves?
 - Is [combining](leave_benefit:club) leave types allowed?
-- Can i [club](leave_benefit:club) [casual leaves](leave_type:casual)?
 - Is [clubbing](leave_benefit:club) of [sick leaves](leave_type:sick) allowed?
 - Can leaves be [clubbed](leave_benefit:club)
-- Can i [club](leave_benefit:club)[sick leaves](leave_type:sick) with [casual leaves](leave_type:casual)? 
+- Can i [club](leave_benefit)[sick leaves](leave_type:sick) with [casual leaves](leave_type:casual)?
 - Can i [mix and match](leave_benefit:club) leave types?
 - Are the leaves [carried forward](leave_benefit:carry_forward)
 - Will my leaves get [lapsed](leave_benefit:carry_forward)
@@ -159,19 +154,17 @@
 - Will my leaves get [lapsed](leave_benefit:carry_forward) if i don't use them?
 - Will my leaves get [lapse](leave_benefit:carry_forward)
 - Will leaves be [prorated](leave_benefit:proration)?
-- Is there any kind of [proration](leave_benefit:proration)?
-- Is there leave [proration](leave_benefit:proration)?
+- Is there any kind of [proration](leave_benefit)?
+- Is there leave [proration](leave_benefit)?
 - Will my leaves be on [pro rata basis](leave_benefit:proration)
-- Can i [encash](leave_benefit:encash) my leaves?
+- Can i [encash](leave_benefit) my leaves?
 - Are leaves [encashable](leave_benefit:encash)?
-- Is there an option to [encash](leave_benefit:encash) my leaves?
+- Is there an option to [encash](leave_benefit) my leaves?
 - Is leave [encashment](leave_benefit:encash) possible?
-<!--- I have an urgent requirement of leaves. Do i need [approval](leave_benefit:approval)?
-- I have an emergency. Can i go on leave without [approval](leave_benefit:approval)? -->
 - How are leave [encashment](leave_benefit:encash) calculated?
 - what is leave [encashment](leave_benefit:encash) policy?
 
-## intent: weekend_counted
+## intent:weekend_counted
 - Will the weekends falling during my holiday counted?
 - Holiday during my leave will be consideres as leave?
 - Will the weekends also be counted?
@@ -183,7 +176,7 @@
 - If i am on leave on a holiday, will that be counted as a leave?
 - If i am on leave on an off day, will that be counted as a leave?
 
-## intent: about_maternity
+## intent:about_maternity
 - What is the maternity leave policy?
 - Is there a policy for pregnant employees?
 - Is there a policy for expecting mothers?
@@ -197,13 +190,13 @@
 - what about maternity?
 - I want to know about mat leave?
 
-## intent: about_maternity_benefits
+## intent:about_maternity_benefits
 - Can i get maternity leave?
 - Am i eligible for maternity leave?
 - Who is eligible for maternity leave benefit?
 - What is the [length](maternity_benefit: duration) of pat leave?
 - How [long](maternity_benefit: duration) can be the maternity leave?
-- What is the [duration](maternity_benefit:duration) of maternity leave?
+- What is the [duration](maternity_benefit) of maternity leave?
 - What is the [longest](maternity_benefit: duration) maternity leave i can take
 - What is the [maximum length](maternity_benefit:duration) of maternity leave?
 - How [many days](maternity_benefit:duration) of maternity
@@ -211,9 +204,9 @@
 - Can maternity leave be [extended](maternity_benefit:duration)?
 - what is the [period](maternity_benefit: duration) of maternity leave?
 - what is the [total length](maternity_benefit:duration) of maternity leave?
-- will i get maternity leave for child [adoption](maternity_benefit:adoption)
+- will i get maternity leave for child [adoption](maternity_benefit)
 - will i get maternity leave for [adopting](maternity_benefit:adoption) a child?
-- Is maternity leave allwoed in case of [adoption](maternity_benefit:adoption)
+- Is maternity leave allwoed in case of [adoption](maternity_benefit)
 - Can i get maternity leave if i [adopt](maternity_benefit:adoption)
 - For how [many kids](maternity_benefit:child_number) can i take maternity leave?
 - For how [many kids](maternity_benefit:child_number) is maternity policy applicable?
@@ -230,7 +223,7 @@
 - Is maternity bennefit applicable to a limited [number of deleveries](maternity_benefit:child_number)
 - This is my [second delivery](maternity_benefit:child_number). Will i get maternity leave?
 - can i [work from home](maternity_benefit:work_from_home) during pregnancy?
-- Am i allowed to [login from home](maternity_benefit:work_from_home) during or after pregnancy? 
+- Am i allowed to [login from home](maternity_benefit:work_from_home) during or after pregnancy?
 - Will i be [paid](maternity_benefit:payment) during maternity?
 - will i get my [salary](maternity_benefit:payment) during maternity?
 - will my [salary](maternity_benefit: payment) deducted during maternity?
@@ -241,25 +234,26 @@
 - How much of my maternity leave can i take before childbirth?
 - can i [split](maternity_benefit:leave_split) my maternity leave?
 - can i take maternity leave in [multiple tranches](maternity_benefit:leave_split)
-- can i [club](leave_benefit:club) my maternity leave with other leaves?
+- can i [club](leave_benefit) my maternity leave with other leaves?
 - can i [combine](leave_benefit:club) my maternity leave with other leaves?
+- How to apply?
 
-## intent: maternity_counted
+## intent:maternity_counted
 - Will my maternity leave result in deduction of leave balance?
 - will maternity leave be counted as regular leave?
 - Is maternity counted as leave?
 - will maternity be counted as leave?
 - Am i going to loose my leaves due to maternity?
 
-## intent: seek_approval
+## intent:seek_approval
 - who will [approve](leave_benefit:approval) my maternity leave?
 - How will my maternity leave be [approved](leave_benefit:approval)?
-- What is the [approval](leave_benefit:approval) process for maternity leave?
-- I have an urgent requirement of leaves. Do i need [approval](leave_benefit:approval)?
-- I have an emergency. Can i go on leave without [approval](leave_benefit:approval)?
-- Is [approval](leave_benefit:approval) needed for going on leave?
-- Do i need manager [approval](leave_benefit:approval) before going on leave?
-- Is manager [approval](leave_benefit:approval) required?
+- What is the [approval](leave_benefit) process for maternity leave?
+- I have an urgent requirement of leaves. Do i need [approval](leave_benefit)?
+- I have an emergency. Can i go on leave without [approval](leave_benefit)?
+- Is [approval](leave_benefit) needed for going on leave?
+- Do i need manager [approval](leave_benefit) before going on leave?
+- Is manager [approval](leave_benefit) required?
 - Does my manager need to [approve](leave_benefit:approval)my leaves?
 - Is approval needed?
 - How to get an approval?
@@ -275,8 +269,7 @@
 - Is prior approval needed?
 - Can i go on leave and get it approved later?
 
-<!-- -------------------------------------------------------------------------Paternity Leave -------------------------------------------------------- -->
-## intent: about_paternity
+## intent:about_paternity
 - Is there a paternity policy?
 - Tell me about paternity policy?
 - And paternity leave?
@@ -284,25 +277,24 @@
 - Is there a pat leave policy?
 - May i know about pat leave?
 - Can i know about paternity policy?
-- Is there a pat leave policy?
 - What is paternity leave policy?
 - What is pat leave policy?
 - What is paternity policy?
 
-## intent: paternity_counted
+## intent:paternity_counted
 - Will my paternity leave result in deduction of leave balance?
 - will paternity leave be counted as regular leave?
 - Is paternity counted as leave?
 - will paternity be counted as leave?
 - Am i going to loose my leaves due to paternity?
 
-## intent: paternity_benefit
+## intent:paternity_benefit
 - Can i get paternity leave?
 - Am i eligible for paternity leave?
 - Who is eligible for paternity leave benefit?
 - How [long](maternity_benefit: duration) can be the paternity leave?
 - What is the [length](maternity_benefit: duration) of pat leave?
-- What is the [duration](maternity_benefit:duration) of paternity leave?
+- What is the [duration](maternity_benefit) of paternity leave?
 - What is the [longest](maternity_benefit: duration) paternity leave i can take
 - What is the [maximum length](maternity_benefit:duration) of paternity leave?
 - How [many days](maternity_benefit:duration) of paternity
@@ -310,9 +302,9 @@
 - Can paternity leave be [extended](maternity_benefit:duration)?
 - what is the [period](maternity_benefit: duration) of paternity leave?
 - what is the [total length](maternity_benefit:duration) of paternity leave?
-- will i get paternity leave for child [adoption](maternity_benefit:adoption)
+- will i get paternity leave for child [adoption](maternity_benefit)
 - will i get paternity leave for [adopting](maternity_benefit:adoption) a child?
-- Is paternity leave allwoed in case of [adoption](maternity_benefit:adoption)
+- Is paternity leave allwoed in case of [adoption](maternity_benefit)
 - Can i get paternity leave if i [adopt](maternity_benefit:adoption)
 - For how [many kids](maternity_benefit:child_number) can i take paternity leave?
 - For how [many kids](maternity_benefit:child_number) is paternity policy applicable?
@@ -327,35 +319,123 @@
 - will i get a leave for my [first child](maternity_benefit:child_number)
 - Will i get leave for any [number of childbirths](maternity_benefit:child_number)
 - Is paternity bennefit applicable to a limited [number of children](maternity_benefit:child_number)
-- This is my [second kid](maternity_benefit:child_number). Will i get paternity leave? 
+- This is my [second kid](maternity_benefit:child_number). Will i get paternity leave?
 - can i take my maternity leave in [multiple chunks](maternity_benefit:leave_split)
 - How much of my paternity leave can i take before childbirth?
 - can i [split](maternity_benefit:leave_split) my paternity leave?
 - can i take pate leave in [multiple tranches](maternity_benefit:leave_split)
-- can i [club](leave_benefit:club) my pat leave with other leaves?
+- can i [club](leave_benefit) my pat leave with other leaves?
 - can i [combine](leave_benefit:club) my pat leave with other leaves?
 - In how [many blocks](maternity_benefit:leave_split) can i avail paternity leave?
 - Can i take paternity leave in [multiple blocks](maternity_benefit:leave_split)
 
-<!--  --------------------------------------------------------------------------Synonnyms------------------------------------------------------------  -->
+## synonym: duration
+- long
+- longest
+- length
+- longer
+- period
+
+## synonym: payment
+- salary
+
+## synonym:adoption
+- adopt
+- adopting
+
+## synonym:approval
+- approve
+- approved
+
+## synonym:carry_forward
+- carried forward
+- carry forward
+- lapsed
+- lapse
+
+## synonym:casual
+- casual leave
+- casual leaves
+
 ## synonym:child_number
-- second child
+- first child
+- many delivery
 - third child
+- second dilivery
+- second delivery
+- many deliveries
+- first delivery
+- 1st dilivery
+- first dilivery
+- many kids
+- number of childbirths
+- number of children
+- many pregnancies
 - 3rd child
 - 2nd child
-- first child
-- 1st child
-- first dilivery
-- second dilivery
-- third dilivery
-- 1st dilivery
-- 2nd dilivery
-- 3rd dilivery
-- many deliveries
-- many delivery
 - many childs
+- 3rd dilivery
+- second child
 - many children
-- many kids
 - many childbirths
+- third dilivery
+- second kid
+- number of deleveries
+- 2nd dilivery
+- 1st child
 - first pregnancy
-- many pregnancies
+
+## synonym:club
+- mix and match
+- combine
+- clubbing
+- combining
+- clubbed
+
+## synonym:duration
+- extended
+- total length
+- maximum length
+- many days
+- extend
+
+## synonym:encash
+- encashable
+- encashment
+
+## synonym:leave_split
+- multiple chunks
+- many blocks
+- multiple blocks
+- multiple tranches
+- split
+
+## synonym:medical_certificate
+- certificate from a doctor
+- doctor certificate
+- medical certificate
+
+## synonym:payment
+- paid
+- unpaid
+
+## synonym:privilege
+- earned leave
+- privilege leave
+- privilege leaves
+
+## synonym:proration
+- pro rata basis
+- prorated
+
+## synonym:retail
+- store
+
+## synonym:sick
+- sick leave
+- medical
+- sick leaves
+
+## synonym:work_from_home
+- login from home
+- work from home
