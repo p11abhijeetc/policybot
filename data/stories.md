@@ -305,17 +305,16 @@
   - slot{"policy_type": "maternity_leave_policy"}
   - utter_maternity_apply
 
+## apply for maternity leave -with mat leave policy type
+* apply_for_benefit{"policy_type": "maternity_leave_policy"}
+  - slot{"policy_type": "maternity_leave_policy"}
+  - utter_maternity_apply
+
 ## maternity counted as regular leave
 * maternity_counted
   - action_set_policy_type
   - slot{"policy_type": "maternity_leave_policy"}
   - utter_maternity_not_counted
-
-## about maternity
-* about_maternity
-  - action_set_policy_type
-  - slot{"policy_type": "maternity_leave_policy"}
-  - utter_about_maternity
 
 ## know about maternity benefits - apply
 * about_maternity_benefits
@@ -331,7 +330,7 @@
   - slot{"policy_type": "maternity_leave_policy"}
   - utter_about_maternity_benefits
 * approval_process_maternity
-  - utter_maternity_apply
+  - utter_maternity_approve
 
 ## know about maternity benefits - number_of_children
 * about_maternity_benefits
@@ -422,12 +421,17 @@
   - slot{"leave_benefit":"approval"}
   - action_set_policy_type
   - slot{"policy_type": "maternity_leave_policy"}
-  - utter_maternity_apply
+  - utter_maternity_approve
 
 ## know about maternity benefits - approval happy day
 * seek_approval
   - slot{"policy_type": "maternity_leave_policy"}
-  - utter_maternity_apply
+  - utter_maternity_approve
+
+## know about maternity benefits - approval with ploicy type happy day
+* seek_approval{"policy_type": "maternity_leave_policy"}
+  - slot{"policy_type": "maternity_leave_policy"}
+  - utter_maternity_approve
 
 ## know about maternity benefits - payment during maternity happy day
 * about_maternity_benefits{"maternity_benefit":"payment"}
@@ -438,52 +442,22 @@
 
 <!-- ---------------------------------------------------------------------------Paternity Leave Stories-------------------------------------             -->
 ## about paternity leave - apply
-* about_paternity
-  - action_set_policy_type
+* apply_for_benefit
   - slot{"policy_type": "paternity_leave_policy"}
-  - utter_about_paternity
-* apply_paternity
   - utter_apply_paternity
 
-## about paternity leave - approve
-* about_paternity
-  - action_set_policy_type
-  - slot{"policy_type": "paternity_leave_policy"}
-  - utter_about_paternity
-* approval_process_paternity
-  - utter_approval_process_paternity
-
-## about paternity leave - number of children
-* about_paternity
-  - action_set_policy_type
-  - slot{"policy_type": "paternity_leave_policy"}
-  - utter_about_paternity
-* number_of_children
-  - utter_number_of_children_paternity
-
-## about paternity leave - duration
-* about_paternity
-  - action_set_policy_type
-  - slot{"policy_type": "paternity_leave_policy"}
-  - utter_about_paternity
-* Duration of paternity leave
-  - utter_paternity_duration
-
-## about paternity leave - adoption
-* about_paternity
-  - action_set_policy_type
-  - slot{"policy_type": "paternity_leave_policy"}
-  - utter_about_paternity
-* child_adoption
-  - utter_child_adoption_paternity
-
-## about paternity leave - apply
-* apply_for_benefit
+## about paternity leave - apply with policy type
+* apply_for_benefit{"policy_type": "paternity_leave_policy"}
   - slot{"policy_type": "paternity_leave_policy"}
   - utter_apply_paternity
 
 ## about paternity leave - approval
 * seek_approval
+  - slot{"policy_type": "paternity_leave_policy"}
+  - utter_approval_process_paternity
+
+## about paternity leave - approval with policy type
+* seek_approval{"policy_type": "paternity_leave_policy"}
   - slot{"policy_type": "paternity_leave_policy"}
   - utter_approval_process_paternity
 
