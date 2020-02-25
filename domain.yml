@@ -1,3 +1,6 @@
+session_config:
+  session_expiration_time: 480  # value in minutes, 0 means infinitely long
+  carry_over_slots_to_new_session: false  # set to false to forget slots between sessions
 intents:
   - greet
   - goodbye
@@ -43,6 +46,19 @@ intents:
   - apply_paternity
   - approval_process_paternity
   - paternity_duration
+  - about_policy
+  - about_timing
+  - about_payment
+  - about_visitors
+  - about_coupons
+  - about_food_options
+  - cafeteria_timing
+  - cafeteria_payments
+  - cafeteria_guest
+  - cafeteria_visiting_employee
+  - cafeteria_coupons
+  - cafeteria_temp_employees
+  - employee_cafeteria_policy
 
 entities:
 - leave_type
@@ -50,6 +66,12 @@ entities:
 - leave_benefit
 - maternity_benefit
 - policy_type
+- voucher
+- meal
+- frequency
+- visiting_employee
+- guest
+- temporary_staff
 
 slots:
   leave_benefit:
@@ -86,6 +108,8 @@ slots:
     - leave_policy
     - maternity_leave_policy
     - paternity_leave_policy
+    - cafeteria_policy
+
 actions:
 - action_set_policy_type
 - utter_sick
@@ -138,6 +162,16 @@ actions:
 - utter_paternity_duration
 - utter_counted_paternity
 - utter_maternity_approve
+- utter_cafeteria_policy
+- utter_cafeteria_timing
+- utter_cafeteria_payments
+- utter_cafeteria_guests
+- utter_cafeteria_visiting_employee
+- utter_cafeteria_coupons
+- utter_cafeteria_temp_employee
+- utter_which_cafeteria_visitors
+- utter_food_options
+- utter_ask_which_policy
 
 templates:
   utter_default:
@@ -216,7 +250,7 @@ templates:
   utter_proration:
   - text: "As per company policy, casual leaves, sick leaves and privilege leaves are prorated."
   utter_weekends_counted:
-  - text: "Only in case of casual leaves, weekends are not counted. For all other leave types weekends are counted"
+  - text: "Only in case of casual leaves, weekends and holidays are not counted. For all other leave types weekends are counted"
   utter_which_benefit:
   - buttons:
     - payload: /approve_leave
@@ -333,3 +367,50 @@ templates:
     - text: "A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption."
   utter_counted_paternity:
     - text: "Paternity leave is granted in addition to an employee's normal annual holiday entitlement and shall not be debited against the leave account."
+
+  utter_cafeteria_policy:
+  - buttons:
+    - payload: /cafeteria_timing
+      title: Cafeteria Timings
+    - payload: /cafeteria_payments
+      title: Payment for cafeteria services
+    - payload: /cafeteria_guest
+      title: Guests
+    - payload: /cafeteria_visiting_employee
+      title: Employee from other UCB locations
+    - payload: /cafeteria_coupons
+      title: Cafeteria coupon distribution
+    - payload: /cafeteria_temp_employees
+      title: Cafeteria for temporary employees
+    text: The company has a cafeteria to give quality food at affordable prices at the Cafeteria provided by the Company. Please let me know what about the cafeteria would you like to know.
+  utter_cafeteria_timing:
+    - text: "Lunch timings at the cafeteria would be 1.00 pm – 2.00 pm from Monday to Friday"
+  utter_cafeteria_payments:
+    - text: "Cafeteria charges of Rs.35/- per day (Upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free"
+  utter_cafeteria_guests:
+    - text: "Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be shall be debited to the respective Departmental Budget. Please try to inform of guests to admin by 10:30 am in the morning"
+  utter_cafeteria_visiting_employee:
+    - text: "As per the cafeteria policy, visiting employees of other locations shall be charged Rs.35/- per lunch which shall be recovered from their salary every month."
+  utter_cafeteria_coupons:
+    - text: "As per company policy on the 20th of every month, employees will be issued 22 coupons till the 20th of the next month. These coupons may be used to have lunch at the cafeteria. Please note that if the issued coupons are not used within the month, they will get lapsed and they cannot be used next month."
+  utter_cafeteria_temp_employee:
+    - text: "As per the cafeteria policy, temporary staff (Casuals) & Interns shall be charged @ Rs.35/- per day and payment shall be collected by Admn by 20th of the succeeding month."
+  
+  utter_which_cafeteria_visitors:
+  - buttons:
+    - payload: /cafeteria_temp_employees
+      title: Cafeteria services for temp staff
+    - payload: /cafeteria_guest
+      title: Cafeteria services for Guests
+    - payload: /cafeteria_visiting_employee
+      title: Services employee from other UCB locations
+    text: The cafeteria policy is applicable for UCB employees, temp staff and even for guests in extra ordinary circumstances. Please help me with the specific information you would like to know.
+
+  utter_food_options:
+    - text: "Tuck Shop & a Juice Counter is also be available in the cafeteria from 9.30 am to 7.30 pm from Monday to Friday. Employees would have to pay directly to the Tuck Shop and Juice Counter towards the purchase made."
+  
+  utter_ask_which_policy:
+  - buttons:
+    - payload: /employee_cafeteria_policy
+      title: Cafeteria policy
+    text: Could you please tell me if you are talking about Cafeteria policy?.

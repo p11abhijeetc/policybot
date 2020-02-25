@@ -191,7 +191,7 @@
 - If i am on leave on an off day, will that be counted as a leave?
 
 ## intent: about_maternity_benefits
-- - What is the [maternity](policy_type:maternity_leave_policy) leave policy?
+- What is the [maternity](policy_type:maternity_leave_policy) leave policy?
 - Is there a policy for [pregnant](policy_type:maternity_leave_policy) employees?
 - Is there a policy for [expecting mothers](policy_type:maternity_leave_policy)?
 - Is there a policy for leaves during [pregnancy](policy_type:maternity_leave_policy)?
@@ -249,8 +249,7 @@
 - can i [club](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
 - can i [combine](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
-- can i [club](leave_benefit:club)[maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)?
-
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)?
 
 ## intent: maternity_counted
 - Will my [maternity](policy_type:maternity_leave_policy) leave result in deduction of leave balance?
@@ -283,8 +282,6 @@
 - Is prior approval needed?
 - Can i go on leave and get it approved later?
 
-<!-- -------------------------------------------------------------------------Paternity Leave -------------------------------------------------------- -->
-
 ## intent: paternity_counted
 - Will my [paternity](policy_type:paternity_leave_policy) leave result in deduction of leave balance?
 - will [paternity](policy_type:paternity_leave_policy) leave be counted as regular leave?
@@ -293,8 +290,11 @@
 - Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
 
 ## intent: paternity_benefit
+- can i get some more information about [pat](policy_type:paternity_leave_policy) leave?
+- may i have some more information about [pat](policy_type:paternity_leave_policy) policy?
 - Is there a [paternity](policy_type:paternity_leave_policy) policy?
 - Tell me about [paternity](policy_type:paternity_leave_policy) policy?
+- Tell me about [pat](policy_type:paternity_leave_policy) leave
 - And [paternity](policy_type:paternity_leave_policy) leave?
 - what about [paternity](policy_type:paternity_leave_policy) policy?
 - Is there a [pat](policy_type:paternity_leave_policy) leave policy?
@@ -303,7 +303,6 @@
 - Is there a [pat](policy_type:paternity_leave_policy) leave policy?
 - What is [paternity](policy_type:paternity_leave_policy) leave policy?
 - What is [pat](policy_type:paternity_leave_policy) leave policy?
-- What is [paternity](policy_type:paternity_leave_policy) policy?
 - Can i get [paternity](policy_type:paternity_leave_policy) leave?
 - Am i eligible for [paternity](policy_type:paternity_leave_policy) leave?
 - Who is eligible for [paternity](policy_type:paternity_leave_policy) leave benefit?
@@ -346,4 +345,110 @@
 - Please tell me about [pat](policy_type:paternity_leave_policy) leave?
 - Please tell me about [paternity](policy_type:paternity_leave_policy) policy?
 
-<!--  --------------------------------------------------------------------------Synonnyms------------------------------------------------------------  -->
+## about_policy
+- Tell me about the [cafeteria](policy_type:cafeteria_policy) facility
+- Is there a [cafeteria](policy_type:cafeteria_policy) policy?
+- Is there a [cafeteria](policy_type:cafeteria_policy) in office?
+- May i know if there are arrangements for [lunch](meal) in office?
+- May i know if there are [meal](meal) arrangements in office?
+- Is there an option of having [lunch](meal) in office?
+- Can i have [lunch] in office?
+- Are there [meal](meal) facilities in office?
+- Does the company provide for [cafeteria](policy_type:cafeteria_policy) facility?
+- Is there a facility for having [lunch](meal) in office?
+- Will employees get [lunch](meal) in office?
+- Can i get [lunch] in office?
+- What is [cafeteria](policy_type:cafeteria_policy) policy?  
+
+## about_timing
+- What are the [cafeteria](policy_type:cafeteria_policy) timing?
+- Is the [cafeteria](policy_type:cafeteria_policy) open through out the day?
+- What are the [cafeteria](policy_type:cafeteria_policy) timings?
+- Is the [cafeteria](policy_type:cafeteria_policy) open for the full day?
+- Can i get [lunch](meal) in the [cafeteria](policy_type:cafeteria_policy) anytime?
+- Can i go for [lunch](meal) now?
+- When can i go for [lunch](meal) now?
+- For how long is the [cafeteria](policy_type:cafeteria_policy) open?
+- For how long does the [cafeteria](policy_type:cafeteria_policy) remain open?
+- What time does the [cafeteria](policy_type:cafeteria_policy) open?
+- What time does the [cafeteria](policy_type:cafeteria_policy) close?
+- Is the [cafeteria](policy_type:cafeteria_policy) closed now?
+- Is the [cafeteria](policy_type:cafeteria_policy) open now?
+- Please tell me about the timings?
+- may i know about time slots for which the [cafeteria](policy_type:cafeteria_policy) will remain open?
+- Can i go to the [cafeteria](policy_type:cafeteria_policy) for food any time?
+- Tell me [cafeteria](policy_type:cafeteria_policy) timings.
+- May i know [cafeteria](policy_type:cafeteria_policy) timings.
+
+## about_payment
+- Do i have to pay for that?
+- Will i be charged for [food](meal) in the [cafeteria](policy_type:cafeteria_policy)
+- Do i have to pay for the [food](meal) in cafeteria?
+- What is the cost of using the [cafeteria](policy_type:cafeteria_policy)
+- What are the charges for having [lunch](meal) in the office?
+- What are the charges for the [cafeteria](policy_type:cafeteria_policy)?
+- What are the charges for having [lunch](meal) in office?
+- What are the charges for having [meal](meal) in office?
+- What will be the cost of having [lunch](meal)?
+- What is the cost of having [meal](meal)?
+- What is going to be the cost of having [meal](meal)?
+- What is the cost of having [meal](meal) at the [cafeteria](policy_type:cafeteria_policy)?
+- Are there any charges?
+- What is the cost?
+- What are the associated charges?
+- What are the associated costs?
+- Will i need to pay?
+- Will i be charged for this?
+
+## about_visitors
+- Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
+- Can i take [my friends](guest) to [cafeteria](policy_type:cafeteria_policy)?
+- Can i bring [guests](guest) along to the [cafeteria](policy_type:cafeteria_policy)?
+- Can i bring a [guest](guest) along for [lunch](meal)?
+- Can i bring [guests](guest) to [cafeteria](policy_type:cafeteria_policy)?
+- Is bringing [guests](guest) allowed?
+- Is bringing [friends](guest) to [cafeteria](policy_type:cafeteria_policy) allowed?
+- Can my friend have [lunch](meal) at the company [cafeteria](policy_type:cafeteria_policy)
+- Can [visiting employees](visiting_employee) have lunch at office?
+- Are [visitors](guest) allowed?
+- Can [visitors](guest) have [lunch](meal) at the company [cafeteria](policy_type:cafeteria_policy)?
+- Can [staff from other locations](visiting_employee) have lunch at the [cafeteria](policy_type:cafeteria_policy)
+- Are [employees from other office](visiting_employee) locations allowed in the [cafeteria](policy_type:cafeteria_policy)
+- Can [employees visiting the corporate office](visiting_employee) have [lunch](meal)?
+- can i bring [employees from other benetton locations](visiting_employee) have lunch at the [cafeteria](policy_type:cafeteria_policy)
+- [Employees from regional offices](visiting_employee) are allowed to have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)
+- I dont have [food](meal) [regularly](frequency) in the cafeteria(policy_type:cafeteria_policy). Is that allowed?
+- Can i have [occassionl](frequency) [meals](meal) in the cafeteria(policy_type:cafeteria_policy)?
+- Can i have [once in a while](frequency) [lunch](meal) in cafeteria?
+- Can i have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy) ocassionally?
+- I am a [temp](temporary_staff) employee. Can i use the [cafeteria](policy_type:cafeteria_policy)
+- I am an [intern](temporary_staff). Am i allowed to have [lunch] in the [cafeteria](policy_type:cafeteria_policy)
+- Are [interns](temporary_staff) allowed to use the cafeteria facilities?
+- Can [temporary](temporary_staff) staff have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)    
+
+## about_coupons
+- How can i get [coupons](voucher)?
+- How to purchase [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
+- Will my [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
+- How to get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
+- Can i get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
+- How to get [vouchers](voucher) for [lunch](meal)
+- Can i get [lunch](meal) [vouchers](voucher)
+- Can i [carry forward](leave_benefit:carry_forward) meal [vouchers] bought this month to the next month?
+- Will my meal [coupons] get [lapsed](leave_benefit:carry_forward)
+- Will [coupons](voucher) issued this month be [valid](leave_benefit:carry_forward) next month?
+- Is there an [expiry date](leave_benefit:carry_forward) for [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)
+- Is there any [validity](leave_benefit:carry_forward) of [coupons](voucher)
+- Are [coupons](voucher) [valid](leave_benefit:carry_forward) only for a limited period?
+- Can i use [coupons](voucher) issued this month sometime later?
+- How can i get the [vouchers](voucher) for the company [cafeteria](policy_type:cafeteria_policy)
+
+## about_food_options
+- Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
+- Does the [cafeteria](policy_type:cafeteria_policy) have snacks counters?
+- Can i purchase additional foods in the [cafeteria](policy_type:cafeteria_policy)?
+- Are there food joints in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i buy snack in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i buy my own food in the [cafeteria](policy_type:cafeteria_policy)?
+- Are there independent shops in the [cafeteria](policy_type:cafeteria_policy)?
+- Are there alternate food options in the [cafeteria](policy_type:cafeteria_policy)?

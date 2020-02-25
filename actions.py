@@ -49,6 +49,8 @@ class SetSlot(Action):
             policy_type= "maternity_leave_policy"
         elif current_intent == "paternity_benefit" or current_intent == "paternity_counted" or current_intent == "about_paternity":
             policy_type= "paternity_leave_policy"
+        elif current_intent == "employee_cafeteria_policy":
+            policy_type= "cafeteria_policy"
         else:
             policy_type = tracker.get_slot("policy_type") 
         return [SlotSet("policy_type", policy_type )]
