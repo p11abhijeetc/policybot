@@ -386,7 +386,7 @@ templates:
   utter_cafeteria_timing:
     - text: "Lunch timings at the cafeteria would be 1.00 pm – 2.00 pm from Monday to Friday"
   utter_cafeteria_payments:
-    - text: "Cafeteria charges of Rs.35/- per day (Upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free"
+    - text: "Cafeteria charges of Rs.35/- per day (Upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free. You can collect your cafeteria coupons from the admin on 20th of every month."
   utter_cafeteria_guests:
     - text: "Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be shall be debited to the respective Departmental Budget. Please try to inform of guests to admin by 10:30 am in the morning"
   utter_cafeteria_visiting_employee:

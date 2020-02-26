@@ -9,9 +9,9 @@ pipeline: supervised_embeddings
 policies:
 - name: FormPolicy
 - name: MemoizationPolicy
-  max_history: 1
+  max_history: 2
 - name: KerasPolicy
-  max history: 1
+  max history: 2
 - name: MappingPolicy
 - name: FallbackPolicy
   nlu_threshold: 0.4
