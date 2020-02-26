@@ -1,2 +1,2 @@
-foo bar
+foontain
 second foo
