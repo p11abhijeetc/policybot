@@ -55,7 +55,173 @@
 - am I talking to a bot?
 - am I talking to a human?
 
+## intent: about_leave
+- Is there a leave policy?
+- Does the company have a leave policy?
+- What is leave policy?
+- What is company leave policy?
+- Please tell me about leave policy?
+- And what about leave policy?
+- And leave policy?
+- May i know about leave policy?
+- Please tell me about [sick](leave_type:sick) leaves
+- Please tell me more about [casual](leave_type:casual) leaves
+- And [privilege](leave_type:privilege) leaves?
+- What about [sick](leave_type:sick) leave?
+- May i know about [SL](leave_type:sick) leave?
+- Please tell me about [CL](leave_type:casual)
+- May i know about [PL](leave_type:privilege)
+- Please tell me more about [earned](leave_type:privilege) leaves
+- Explain about leave
+- leave policy
+- leave
+
+## intent: apply_for_benefit
+- I want to apply for leave
+- How to apply
+- How can i apply
+- What is the process to apply
+- I want to apply
+- I need leave
+- How can i apply for leave
+- How to apply leave
+- Apply leave
+- how can i get leaves?
+- I want apply for [sick](leave_type:sick) leave
+- I want to apply [casual](leave_type:casual) leave
+- I want to apply for [earned](leave_type:privilege) leave
+- How can i apply for [maternity](policy_type:maternity_leave_policy)?
+- How to apply for [maternity](policy_type:maternity_leave_policy)?
+- How can i get [maternity](policy_type:maternity_leave_policy) leave?
+- How to apply for [maternity](policy_type:maternity_leave_policy) leave?
+- What is the process for applying for [maternity](policy_type:maternity_leave_policy) leave?
+- What is the procedure to apply for [maternity](policy_type:maternity_leave_policy) leave?
+- What is the notice period for my [maternity](policy_type:maternity_leave_policy) leave?
+- I want to apply for [mat](policy_type:maternity_leave_policy) leave
+- how to apply for [paternity](policy_type:paternity_leave_policy) leave?
+- how can i apply [pat](policy_type:paternity_leave_policy) leave?
+- how can i apply for [sick](leave_type:sick) leave?
+- how to apply for [paternity](policy_type:paternity_leave_policy) leave?
+- How can i apply for [patternity](policy_type:paternity_leave_policy) leave?
+- can i get [paternity](policy_type:paternity_leave_policy) leave?
+- What is the process for applying for [pat](policy_type:paternity_leave_policy) leave?
+- What is the process for applying for [paternity](policy_type:paternity_leave_policy) leave?
+
+## intent: seek_approval
+- who will [approve](leave_benefit:approval) my [maternity](policy_type:maternity_leave_policy) leave?
+- How will my [maternity](policy_type:maternity_leave_policy) leave be [approved](leave_benefit:approval)?
+- What is the [approval](leave_benefit:approval) process for [maternity](policy_type:maternity_leave_policy) leave?
+- I have an urgent requirement of leaves. Do i need [approval](leave_benefit:approval)?
+- I have an emergency. Can i go on leave without [approval](leave_benefit:approval)?
+- Is [approval](leave_benefit:approval) needed for going on leave?
+- Do i need manager [approval](leave_benefit:approval) before going on leave?
+- Is manager [approval](leave_benefit:approval) required?
+- Does my manager need to [approve](leave_benefit:approval) my leaves?
+- Is approval needed?
+- How to get an approval?
+- What is the approval process?
+- Is approval mandatory?
+- How can i get an approval?
+- I want to go on maternity leave?
+- How to apply for paternity leave?
+- How can i apply?
+- How to apply for pat leave?
+- Who will approve my pat leave?
+- How can i get my pat leave approved?
+- Is prior approval needed?
+- Can i go on leave and get it approved later?
+
+## intent: leave_benefits
+- I want to know about my leave benefits?
+- What leave benefits do i have?
+- Can i [club](leave_benefit:club) [sick](leave_type:sick) leave with [PL](leave_type:privilege)
+- Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed 
+- Can i [club](leave_benefit:club) my leaves?
+- Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
+- Is [clubbing](leave_benefit:club) allowed?
+- Can i [combine](leave_benefit:club) two types of leaves?
+- Is [combining](leave_benefit:club) leave types allowed?
+- Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
+- Is [clubbing](leave_benefit:club) of [sick](leave_type:sick) leaves allowed?
+- Can leaves be [clubbed](leave_benefit:club)
+- Can i [club](leave_benefit:club) [sick](leave_type:sick) leaves with [casual](leave_type:casual) leaves? 
+- Can i [mix and match](leave_benefit:club) leave types?
+- Are the leaves [carried forward](leave_benefit:carry_forward)
+- Will my leaves get [lapsed](leave_benefit:carry_forward)
+- Is is allowed to [carry forward](leave_benefit:carry_forward) leaves?
+- Will my leaves get [lapsed](leave_benefit:carry_forward) if i don't use them?
+- Will my leaves get [lapse](leave_benefit:carry_forward)
+- Will leaves be [prorated](leave_benefit:proration)?
+- Is there any kind of [proration](leave_benefit:proration)?
+- Is there leave [proration](leave_benefit:proration)?
+- Will my leaves be on [pro rata basis](leave_benefit:proration)
+- Can i [encash](leave_benefit:encash) my leaves?
+- Are leaves [encashable](leave_benefit:encash)?
+- Is there an option to [encash](leave_benefit:encash) my leaves?
+- Is leave [encashment](leave_benefit:encash) possible?
+- How are leave [encashment](leave_benefit:encash) calculated?
+- what is leave [encashment](leave_benefit:encash) policy?
+
+## intent: weekend_counted
+- Will the weekends falling during my holiday counted?
+- Holiday during my leave will be consideres as leave?
+- Will the weekends also be counted?
+- If i combine a holiday with my leaves, will it be counted?
+- Are weekends considered as leave?
+- Will the weekends be considered as leave?
+- weekend_counted
+- are off days counted in leaves?
+- If i am on leave on a holiday, will that be counted as a leave?
+- If i am on leave on an off day, will that be counted as a leave?
+
+## intent: about_leave_types
+- What are the types of leaves
+- How many differnt kinds of leaves
+- What all leaves are there?
+- What the the different kinds of leaves?
+- What are the different types of leaves?
+- How many kinds of leaves are there?
+- Are there different kinds of leaves?
+- Tell me about the types of leaves?
+- Can i know different leave types?
+
+## intent: leave_entitement
+- Can i get leave
+- Can i get [sick](leave_type:sick) leave?
+- I am [not well](leave_type:sick). can i take the day off?
+- I have [fever](leave_type:sick). May i take leave?
+- I am [not feeling well](leave_type:sick) and wanted to take leave today?
+- How many [sick](leave_type:sick) leaves can i take?
+- Is there any limit on the number of [sick] leave
+- How many leaves do you have?
+- What is my total leaves?
+- What is the total number leaves?
+- What is my leave entitlement?
+- Will i need [medical certificate](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves
+- Do i have to show any [doctor certificate](leave_benefit:medical_certificate) for going on leave?
+- I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves 
+- What is my [sick](leave_type:sick) leave entitlement?
+- How many [sick](leave_type:sick) leaves do i have?
+- How many [casual](leave_type:casual) leaves can i get?
+- Can i take leave for more than 5 days?
+- Can i get [sick](leave_type:sick) leave?
+- How many leaves can i take in one go?
+- How many [privilege](leave_type:privilege) leaves can i take?
+- And [casual](leave_type:casual) leaves
+- what about [sick](leave_type:sick) leaves
+- I am [retail](employee_type:retail) employee. How many [privilege](leave_type:privilege) leaves can i take?
+- I am [corporate](employee_type:corporate) employee. How many [privilege](leave_type:privilege) leaves can i take?
+- I work in the [store](employee_type:retail). How many [privilege](leave_type:privilege) leaves can i take?
+- I work in the [corporate](employee_type:corporate) office. How many [privilege](leave_type:privilege) leaves can i take?
+- How many leaves are there?
+- Total number of leaves
+- How many [sick](leave_type:sick) leaves are there for [retail](employee_type:retail) employees
+- How many [casual](leave_type:casual) leaves are there for [corporate](employee_type:corporate) employees
+- I am [store](employee_type:retail) staff. How many [privilege](leave_type:privilege) leaves can i take?
+- can i take leave for [medical](leave_type:sick) reasons
+
 ## intent: about_policy
+- Is there a [leave] policy
 - Tell me about the [cafeteria](policy_type:cafeteria_policy) facility
 - Is there a [cafeteria](policy_type:cafeteria_policy) policy?
 - Is there a [cafeteria](policy_type:cafeteria_policy) in office?
@@ -182,5 +348,3 @@
 - Can i buy my own food in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there independent shops in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there alternate food options in the [cafeteria](policy_type:cafeteria_policy)?
-
-## intent:

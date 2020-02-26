@@ -11,7 +11,7 @@ intents:
   - bot_challenge
   - about_leave
   - apply_leave
-  - numberof_leave
+  - leave_entitement
   - retail
   - corporate
   - sick
