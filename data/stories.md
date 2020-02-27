@@ -438,3 +438,61 @@
 * employee_cafeteria_policy
 - action_set_policy_type
 - utter_cafeteria_timing
+
+<!--      -------------------------------------------------------------------maternity leave stories-----------------------------------  -->
+
+## about policy maternity - apply
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* apply_maternity
+- utter_maternity_apply
+
+## about policy maternity - approve
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* approval_process_maternity
+- utter_maternity_approve
+
+## about policy maternity - Number of Children
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* number_of_children
+- utter_number_of_children
+
+## about policy maternity - Duration
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* maternity_duration
+- utter_maternity_duration
+
+## about policy maternity - Child adoption
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* child_adoption
+- utter_child_adoption
+
+## about policy maternity - Work from home
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* from_home_working_maternity
+- utter_from_home_working_maternity
+
+## about policy maternity - Club
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* club_maternity
+- utter_club_maternity
+
+## about policy maternity - Work from home
+* about_policy{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity
+* maternity_payment
+- utter_maternity_payment

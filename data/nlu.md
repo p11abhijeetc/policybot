@@ -227,7 +227,12 @@
 - can i take leave for [medical](leave_type:sick) reasons
 
 ## intent: about_policy
-- Is there a [leave] policy
+- Is there a [paternity](policy_type:paternity_leave_policy) policy?
+- May i know about the [pat](policy_type:paternity_leave_policy) leave policy?
+- Tell me more about the [paternity](policy_type:paternity_leave_policy) plocy?
+- What is [maternity](policy_type:maternity_leave_policy) leave policy?
+- Does the company have a [mat](policy_type:maternity_leave_policy) leave policy?
+- Please tell me about [maternity](policy_type:maternity_leave_policy) leave policy?
 - Tell me about the [cafeteria](policy_type:cafeteria_policy) facility
 - Is there a [cafeteria](policy_type:cafeteria_policy) policy?
 - Is there a [cafeteria](policy_type:cafeteria_policy) in office?
@@ -300,7 +305,13 @@
 - Will i salary be deducted if i apply for leave?
 - Will the company deduct my salary for
 - Is [maternity] leave a paid benefit?
-- Will there be salary deduction if i 
+- Will i be paid during [maternity](policy_type:maternity_leave_policy)?
+- will i get my salary during [maternity](policy_type:maternity_leave_policy)?
+- will my salary deducted during [maternity](policy_type:maternity_leave_policy)?
+- Am i going to be unpaid during [maternity](policy_type:maternity_leave_policy)?
+- Is [maternity](policy_type:maternity_leave_policy) a paidbenefit?
+- Will i get my full salary while on [maternity](policy_type:maternity_leave_policy) leave?
+- Will there is any salary deduction if i go on [maternity](policy_type:maternity_leave_policy) leave?
 
 ## intent: about_visitors
 - Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
@@ -358,3 +369,76 @@
 - Can i buy my own food in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there independent shops in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there alternate food options in the [cafeteria](policy_type:cafeteria_policy)?
+
+## intent: parental_leave_counted
+- Will my [maternity](policy_type:maternity_leave_policy) leave result in deduction of leave balance?
+- will [maternity](policy_type:maternity_leave_policy) leave be counted as regular leave?
+- Is [maternity](policy_type:maternity_leave_policy) counted as leave?
+- will [maternity](policy_type:maternity_leave_policy) be counted as leave?
+- Am i going to loose my leaves due to [maternity](policy_type:maternity_leave_policy)?
+- Will my [paternity](policy_type:paternity_leave_policy) leave result in deduction of leave balance?
+- will [paternity](policy_type:paternity_leave_policy) leave be counted as regular leave?
+- Is [paternity](policy_type:paternity_leave_policy) counted as leave?
+- will [paternity](policy_type:paternity_leave_policy) be counted as leave?
+- Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
+
+## intent: patental_leave_benefits
+- Can i get [paternity](policy_type:paternity_leave_policy) leave?
+- Am i eligible for [maternity](policy_type:maternity_leave_policy) leave?
+- Who is eligible for [paternity](policy_type:paternity_leave_policy) leave benefit?
+- How [long](maternity_benefit:duration) can be the [maternity](policy_type:maternity_leave_policy) leave?
+- What is the [length](maternity_benefit:duration) of [pat](policy_type:paternity_leave_policy) leave?
+- What is the [duration](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- What is the [longest](maternity_benefit:duration) [maternity](policy_type:maternity_leave_policy) leave i can take
+- What is the [maximum length](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- How [many days](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy)
+- Can i [extend](maternity_benefit:duration) my [maternity](policy_type:maternity_leave_policy) leave?
+- Can [paternity](policy_type:paternity_leave_policy) leave be [extended](maternity_benefit:duration)?
+- what is the [period](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- what is the [total length](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- will i get [paternity](policy_type:paternity_leave_policy) leave for child [adoption](maternity_benefit:adoption)
+- will i get [paternity](policy_type:paternity_leave_policy) leave for [adopting](maternity_benefit:adoption) a child?
+- Is [paternity](policy_type:paternity_leave_policy) leave allwoed in case of [adoption](maternity_benefit:adoption)
+- Can i get [paternity](policy_type:paternity_leave_policy) leave if i [adopt](maternity_benefit:adoption)
+- For how [many kids](maternity_benefit:child_number) can i take [paternity](policy_type:paternity_leave_policy) leave?
+- For how [many kids](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) policy applicable?
+- For how [many children](maternity_benefit:child_number) can i get [paternity](policy_type:paternity_leave_policy) leave?
+- For how [many deliveries](maternity_benefit:child_number)
+- For how [many child births](maternity_benefit:child_number)?
+- For how [many kids](maternity_benefit:child_number)
+- Is [paternity](policy_type:paternity_leave_policy) leave applicable only for [first child](maternity_benefit:child_number)?
+- Is [paternity](policy_type:paternity_leave_policy) leave applicable only for [second child](maternity_benefit:child_number)?
+- This is my [third child](maternity_benefit:child_number). Will i get leave?
+- For how [many childbirths](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) leave applicable?
+- Will i get a [longer](maternity_benefit:duration) [paternity](policy_type:paternity_leave_policy) leave for my [first delivery](maternity_benefit:child_number)?
+- will i get a leave for my [second child](maternity_benefit:child_number)
+- will i get a leave for my [first child](maternity_benefit:child_number)
+- Will i get leave for any [number of childbirths](maternity_benefit:child_number)
+- Is [paternity](policy_type:paternity_leave_policy) bennefit applicable to a limited [number of children](maternity_benefit:child_number)
+- This is my [second kid](maternity_benefit:child_number). Will i get [paternity](policy_type:paternity_leave_policy) leave? 
+- can i take my [paternity](policy_type:paternity_leave_policy) leave in [multiple chunks](maternity_benefit:leave_split)
+- How much of my [paternity](policy_type:paternity_leave_policy) leave can i take before childbirth?
+- can i [split](maternity_benefit:leave_split) my [paternity](policy_type:paternity_leave_policy) leave?
+- can i take [pat](policy_type:paternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
+- can i [club](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
+- can i [combine](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
+- In how [many blocks](maternity_benefit:leave_split) can i avail [paternity](policy_type:paternity_leave_policy) leave?
+- Can i take [paternity](policy_type:paternity_leave_policy) leave in [multiple blocks](maternity_benefit:leave_split)
+- Will i get a [longer](maternity_benefit:duration) maternity leave for my [first delivery](maternity_benefit:child_number)?
+- will i get a leave for my [second delivery](maternity_benefit:child_number)
+- will i get a leave for my [first pregnancy](maternity_benefit:child_number)
+- Will i get leave for any [number of childbirths](maternity_benefit:child_number)
+- Is [maternity](policy_type:maternity_leave_policy) bennefit applicable to a limited [number of deleveries](maternity_benefit:child_number)
+- This is my [second delivery](maternity_benefit:child_number). Will i get [maternity](policy_type:maternity_leave_policy) leave?
+- can i [work from home](maternity_benefit:work_from_home) during [pregnancy](policy_type:maternity_leave_policy)?
+- Am i allowed to [login from home](maternity_benefit:work_from_home) during or after [pregnancy](policy_type:maternity_leave_policy)? 
+- Is [maternity](policy_type:maternity_leave_policy) considered leave without pay?
+- can i take my [maternity](policy_type:maternity_leave_policy) leave in [multiple chunks](maternity_benefit:leave_split)
+- How much of my [maternity](policy_type:maternity_leave_policy) leave can i take before childbirth?
+- can i [split](maternity_benefit:leave_split) my [maternity](policy_type:maternity_leave_policy) leave?
+- can i take [maternity](policy_type:maternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
+- can i [club](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
+- can i [combine](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)? 
+
