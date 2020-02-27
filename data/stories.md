@@ -155,6 +155,12 @@
 * without_pay
   - utter_without_pay
 
+## know about leave without pay
+* about_leave_types OR leave_entitement OR about_leave_types OR weekend_counted OR leave_benefits OR seek_approval OR apply_for_benefit OR about_leave
+  - slot{"leave_type":"unpaid"}
+  - utter_without_pay
+  - action_reset_LWP_slot
+
 ## know about maternity leave
 * about_leave_types
   - action_set_policy_type

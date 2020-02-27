@@ -94,6 +94,7 @@ slots:
     - sick
     - privilege
     - casual
+    - unpaid
   maternity_benefit:
     type: categorical
     values:
@@ -112,6 +113,7 @@ slots:
 
 actions:
 - action_set_policy_type
+- action_reset_LWP_slot
 - utter_sick
 - utter_casual
 - utter_maternity

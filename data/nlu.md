@@ -75,6 +75,9 @@
 - Explain about leave
 - leave policy
 - leave
+- Can you tell me about [leave without pay](leave_type:unpaid)
+- And what about [LWP](leave_type:unpaid)
+- Please tell me about [lwp](leave_type:unpaid)
 
 ## intent: apply_for_benefit
 - I want to apply for leave
@@ -106,6 +109,7 @@
 - can i get [paternity](policy_type:paternity_leave_policy) leave?
 - What is the process for applying for [pat](policy_type:paternity_leave_policy) leave?
 - What is the process for applying for [paternity](policy_type:paternity_leave_policy) leave?
+- Is there a separate process to apply for [LWP](leave_type:unpaid)
 
 ## intent: seek_approval
 - who will [approve](leave_benefit:approval) my [maternity](policy_type:maternity_leave_policy) leave?
@@ -117,6 +121,8 @@
 - Do i need manager [approval](leave_benefit:approval) before going on leave?
 - Is manager [approval](leave_benefit:approval) required?
 - Does my manager need to [approve](leave_benefit:approval) my leaves?
+- Is approval needed for [LWP](leave_type:unpaid)
+- Who will approve if i want to go on a long [unpaid leave](leave_type:witout_pay)
 - Is approval needed?
 - How to get an approval?
 - What is the approval process?
@@ -291,6 +297,10 @@
 - Will i be charged for this?
 - Will my salary be deducted for having lunch in the [cafeteria](policy_type:cafeteria_policy)?
 - Will there be any salary deduction for using [cafeteria](policy_type:cafeteria_policy)?
+- Will i salary be deducted if i apply for leave?
+- Will the company deduct my salary for
+- Is [maternity] leave a paid benefit?
+- Will there be salary deduction if i 
 
 ## intent: about_visitors
 - Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?

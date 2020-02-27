@@ -54,3 +54,12 @@ class SetSlot(Action):
         else:
             policy_type = tracker.get_slot("policy_type") 
         return [SlotSet("policy_type", policy_type )]
+    
+class ResetSlot(Action):
+    "resets the LWP Slot to None"
+
+    def name(self) -> Text:
+        return "action_reset_LWP_slot"
+
+    def run(self, dispatcher, tracker, domain):  
+        return [SlotSet("leave_type", None)]
