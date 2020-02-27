@@ -176,9 +176,14 @@ actions:
 
 templates:
   utter_default:
-  - text: "I didn't understand. I am still learning. Please help me by rephrasing your question"
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
   utter_maternity_payment:
-  - text: "During the maternity leave period the employee shall be paid leave salary equal to the pay drawn immediately before proceeding on maternity leave."
+  - text: During the maternity leave period the employee shall be paid leave salary equal to the pay drawn immediately before proceeding on maternity leave.
   utter_about_maternity_benefits:
   - buttons:
     - payload: /apply_maternity
@@ -198,23 +203,22 @@ templates:
     - payload: /maternity_payment
       title: Salary during maternity
     text: Looks like you want to know about maternity benefits. Could you please tell me which benefit would you like to know about?
-
   utter_club_maternity:
-  - text: "As per company policy, maternity leave many be clubbed with both sick leave and privilege leaves"
+  - text: As per company policy, maternity leave many be clubbed with both sick leave and privilege leaves.
   utter_from_home_working_maternity:
-  - text: "Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HOD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HOD and the woman mutually agree in written"
+  - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HOD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HOD and the woman mutually agree in written.
   utter_child_adoption:
-  - text: "As per the maternity policy, for adopting/commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth /age proof of the child to be given by the adopting/commissioning mother"
+  - text: As per the maternity policy, for adopting / commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth /age proof of the child to be given by the adopting/commissioning mother.
   utter_maternity_duration:
-  - text: "A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only. For more than two surviving children a woman shall be entitled twelve weeks of which not more than six weeks shall precede the date of her expected delivery"
+  - text: A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only. For more than two surviving children a woman shall be entitled twelve weeks of which not more than six weeks shall precede the date of her expected delivery.
   utter_number_of_children:
-  - text: "The maximum period for which any woman shall be entitled to maternity benefit shall now be 26/182 days weeks of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall proceed with the date of expected delivery."
+  - text: The maximum period for which any woman shall be entitled to maternity benefit shall now be 26/182 days weeks of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall proceed with the date of expected delivery.
   utter_maternity_approve:
-  - text: "Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms."
+  - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
   utter_maternity_apply:
-  - text: "Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms."
+  - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
   utter_maternity_not_counted:
-  - text: "As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types"
+  - text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types.
   utter_about_maternity:
   - buttons:
     - payload: /apply_maternity
@@ -235,31 +239,50 @@ templates:
       title: Salary during maternity
     text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
   utter_privilege_leave_corporate:
-  - text: "Corporate employees have 30 days of previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 day's prior approval is needed in case of privilege leaves"
+  - text: Corporate employees have previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: Corporate employees get 30 previlege leaves. Minimum of 4 privilege leaves must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
+  - text: 30 previlege leaves (PL) are there for corporate employees. You must take a minimum of 4 PLs at a time. PLs can be taken upto 3 times in a year. You must apply at least 10 days in advance for approvals processing.
   utter_privilege_leave_retail:
-  - text: "Retail employees have 21 days of previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 day's prior approval is needed in case of privilege leaves"
+  - text: Retail employees have 21 previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: 21 previlege leaves (PL) are there for retail employees. You must take a minimum of 4 PLs at a time. PLs can be taken upto 3 times in a year. You must apply at least 10 days in advance for approvals processing.
+  - text: Retail employees get 21 previlege leaves (PL). Minimum of 4 privilege leaves must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
   utter_casual_leave:
-  - text: "Employees have 7 days of casual leaves. One can take upto 3 casual leaves in one go. Prior approval is needed is case of casual leaves"
+  - text: Employees have 7 casual leaves. One can take upto 3 casual leaves in one go. Prior approval is needed is case of casual leaves.
+  - text: 7 casual leaves are available. You can take upto 3 casual leaves at a time. Prior approval is a must for casual leaves.
+  - text: You have 7 casual leaves. Upto 3 casual leaves can be taken at a time. You must take prior approvals for availing casual leaves.
   utter_sick_leave:
-  - text: "Employees have 7 days of sick leaves in a year. For more than 2 days of sick leaves the employee needs to show a medical certificate"
+  - text: Employees have 7 sick leaves in a year. For more than 2 days of sick leaves the employee needs to show a medical certificate.
+  - text: In case of illness, you can take upto 7 sick leaves in a year. A medical certificate is required for more than 2 days of sick leaves.
+  - text: 7 sick leaves are there in a year. You must produce a medical certificate for applying more than 2 days of sick leaves.
   utter_approve:
-  - text: "Prior approval is needed for all leaves except sick leaves. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties."
+  - text: Prior approval is needed for all leaves except sick leaves. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  - text: All leaves except sick leaves require appropriate prior approvals. For emergencies/sickenss, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
+  - text: Prior approvals must be taken for all leaves except sick leave. For emergencies/sickenss, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
   utter_club:
-  - text: "Only Sick leaves and privilege leaves can be clubbed. Maternity leave can be clubbed with both sick and privilege leave."
+  - text: Only sick leaves and privilege leaves can be clubbed. Maternity leave can be clubbed with both sick and privilege leaves.
+  - text: You can only club sick leaves with privilege leaves. However, maternity leave can be merged with both sick and privilege leaves.
+  - text: Only sick and privilege leaves can be combined. However, maternity leave can be merged with both sick and privilege leaves.
   utter_encash:
-  - text: "Only privilege leave can be encashed. 30 days of privilege leaves can be encashed once the balance in more than 90 days. Please get in touch with HR for the exact computation of exact encashable amounts."
+  - text: Only privilege leave can be encashed. 30 privilege leaves can be encashed once the balance in more than 90 days. Please get in touch with HR for the exact computation of encashable amounts.
+  - text: You can only encash privilege leaves. 30 privilege leaves can be encashed if the balance is more than 90. Please get in touch with HR for the exact calculations.
+  - text: Only privilege leaves are encashable. You can encash 30 privilege leaves if your balance is more than 90. Please get in touch with HR for the exact calculations.
   utter_carry_forward:
-  - text: "Sick leaves can be carried forward upto a maximum of 45 days and privilege leaves can be carried forward upto a maximum of 210 days."
+  - text: Upto a maximum of 45 sick leaves and 210 privilege leaves can be carried forward.
+  - text: You can carry forward upto 45 sick leaves and 210 privilege leaves.
+  - text: You can carry forward a maximum of 45 sick leaves and 210 privilege leaves.
   utter_proration:
-  - text: "As per company policy, casual leaves, sick leaves and privilege leaves are prorated."
+  - text: As per company policy, casual leaves, sick leaves and privilege leaves are prorated.
+  - text: Casual leaves, sick leaves and privilege leaves are prorated.
   utter_weekends_counted:
-  - text: "Only in case of casual leaves, weekends and holidays are not counted. For all other leave types weekends are counted"
+  - text: Only in case of casual leaves, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
+  - text: Weekends and holidays are counted for all leave types except casual leaves.
+  - text: For casual leaves, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
   utter_which_benefit:
   - buttons:
     - payload: /approve_leave
       title: Approval process
     - payload: /club_leave
-      title: Clubbing of leaves
+      title: Clubbing leaves
     - payload: /encash_leave
       title: Leave encashment
     - payload: /leave_carry_forward
@@ -267,77 +290,71 @@ templates:
     - payload: /leave_proration
       title: Leave proration
     - payload: /weekend_counted
-      title: Counting of Weekends
+      title: Counting weekends
     - payload: /apply_leave
       title: Leave Apply
-    text: Could you please help me with the exact details of what you would like to know?  
+    text: Did you mean?  
   utter_greet:
-  - text: "Hey! How are you?"
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  - text: Hey! How are you?
+  - text: Hey there, my name is iona.
+  - text: Hi, I'm iona!
+  - text: Hi! My name's iona.
   utter_did_that_help:
   - text: "Did that help you?"
-
   utter_happy:
   - text: "Great, carry on!"
-
   utter_goodbye:
   - text: "Bye"
-
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  - text: "I am a chatbot, powered by iona."
   utter_leave_apply:
-  - text: "Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application will be submitted at least 10 days in advance."
-  
+  - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance.
+  - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance.
   utter_about_leave_policy:
-  - text: "The company has a leave policy for all the corporate Benetton employees – Regular rolls of the company / third party payroll."
-
+  - text: The company has a generous leave policy for all corporate employees – regular rolls of the company / third party payroll.
   utter_ask_employee_type:
   - buttons:
     - payload: /retail
-      title: Retail Employee
+      title: Retail employee
     - payload: /corporate
-      title: Corporate Employee
-    text: Could you please tell me if you are a retail or corporate employee?
-  
+      title: Corporate employee
+    text: Did you mean?
   utter_ask_employee_types:
   - buttons:
     - payload: /retail
-      title: Retail Employee
+      title: Retail employee
     - payload: /corporate
-      title: Corporate Employee
-    text: Could you please tell me if you are a retail or corporate employee?
+      title: Corporate employee
+    text: Did you mean?
 
   utter_different_leaves:
   - buttons:
     - payload: /sick
-      title: Sick Leave
+      title: Sick leave
     - payload: /privilege
-      title: Privilege Leave
+      title: Privilege leave
     - payload: /casual
-      title: Casual Leave
+      title: Casual leave
     - payload: /without_pay
-      title: Without Pay
+      title: Without pay
     - payload: /maternity
       title: Maternity
     - payload: /paternity
       title: Paternity
-    text: The leave types are mentioned below. Please click on anyone to know more?
+    text: Would you like to know more about -
   utter_corporate_number_of_leaves:
-  - text: "Corporate employees have 7 days of  casual leaves, 7 days of Sick leaves and 30 days of privilege leaves."
+  - text: Corporate employees have 7 casual leaves, 7 sick leaves and 30 privilege leaves.
   utter_retail_number_of_leaves:
-  - text: "Retail or Store employees have 7 days of  casual leaves, 7 days of Sick leaves and 21 days of privilege leaves."
+  - text: Retail or store employees have 7 casual leaves, 7 sick leaves and 21 privilege leaves.
   utter_sick:
-  - text: "Employees can get 7 days of sick leaves. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Unused sick leaves can be carried forward up to a maximum of 45 days of leave."
+  - text: Employees can get 7 sick leaves. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
+  - text: You can get 7 sick leaves which are prorated. A medical certificate is required for availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
   utter_casual:
-  - text: "Employees have 7 casual leaves. These leaves are prorated. One can take a maximum of 3 casual leave in one go.  Casual leaves are not  encashable and cannot be clubbed or carried forward."
+  - text: Employees have 7 casual leaves. These leaves are prorated. One can take a maximum of 3 casual leave in one go. Casual leaves are not  encashable and cannot be clubbed or carried forward.
   utter_privilege_corporate:
-  - text: "Corporate employees have 30 days of privilege leaves. These leaves are prorated. One can take a minimum of 4 days of privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
+  - text: "Corporate employees have 30 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
   utter_privilege_retail:
-  - text: "Retail employees have 21 days of privilege leaves. These leaves are prorated. One can take a minimum of 4 days of privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
+  - text: "Retail employees have 21 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
   utter_maternity:
   - text: "As per the maternity leave policy, an expecting mother can get a maximum if 26 weeks/182 days of leaves. The employee has the discretion to split these 182 days between pre natal and post natal leaves."
   utter_paternity:
@@ -357,7 +374,6 @@ templates:
     - payload: /child_adoption
       title: Adoption of a child
     text: As per company policy, male employee who have completed at least 6 months of service in the company are allowed 5 days of paternity leave for the birth of a child. Please let me know if you want to know anything particular about maternity leave.
-
   utter_apply_paternity:
     - text: "Paternity leave has to be applied on Empxtrack"
   utter_approval_process_paternity:
@@ -370,11 +386,10 @@ templates:
     - text: "A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption."
   utter_counted_paternity:
     - text: "Paternity leave is granted in addition to an employee's normal annual holiday entitlement and shall not be debited against the leave account."
-
   utter_cafeteria_policy:
   - buttons:
     - payload: /cafeteria_timing
-      title: Cafeteria Timings
+      title: Cafeteria timings
     - payload: /cafeteria_payments
       title: Payment for cafeteria services
     - payload: /cafeteria_guest
@@ -385,20 +400,20 @@ templates:
       title: Cafeteria coupon distribution
     - payload: /cafeteria_temp_employees
       title: Cafeteria for temporary employees
-    text: The company has a cafeteria to give quality food at affordable prices at the Cafeteria provided by the Company. Please let me know what about the cafeteria would you like to know.
+    text: The company has a cafeteria which provides quality food at affordable prices. You may want to know more about - 
   utter_cafeteria_timing:
-    - text: "Lunch timings at the cafeteria would be 1.00 pm – 2.00 pm from Monday to Friday"
+    - text: Lunch timings at the cafeteria would be 1.00 pm – 2.00 pm from Monday to Friday.
+    - text: Lunch timing is from 1.00 PM – 2.00 PM from Monday to Friday.
   utter_cafeteria_payments:
-    - text: "Cafeteria charges of Rs.35/- per day (Upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free. You can collect your cafeteria coupons from the admin on 20th of every month."
+    - text: Cafeteria charges of Rs.35/- per day (upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free. You can collect your cafeteria coupons from the admin on 20th of every month.
   utter_cafeteria_guests:
-    - text: "Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be shall be debited to the respective Departmental Budget. Please try to inform of guests to admin by 10:30 am in the morning"
+    - text: Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be debited to the respective Departmental Budget. Please try to inform of guests to admin by 10:30 am in the morning.
   utter_cafeteria_visiting_employee:
-    - text: "As per the cafeteria policy, visiting employees of other locations shall be charged Rs.35/- per lunch which shall be recovered from their salary every month."
+    - text: As per the cafeteria policy, visiting employees of other locations shall be charged Rs.35/- per lunch which shall be recovered from their salary as applicable.
   utter_cafeteria_coupons:
-    - text: "As per company policy on the 20th of every month, employees will be issued 22 coupons till the 20th of the next month. These coupons may be used to have lunch at the cafeteria. Please note that if the issued coupons are not used within the month, they will get lapsed and they cannot be used next month."
+    - text: As per company policy, on the 20th of every month, employees will be issued 22 coupons till the 20th of the next month. These coupons may be used to have lunch at the cafeteria. Please note that if the issued coupons are not used within the month, they will get lapsed and they cannot be used next month.
   utter_cafeteria_temp_employee:
-    - text: "As per the cafeteria policy, temporary staff (Casuals) & Interns shall be charged @ Rs.35/- per day and payment shall be collected by Admn by 20th of the succeeding month."
-  
+    - text: "As per the cafeteria policy, temporary staff (casuals) & interns shall be charged @ Rs.35/- per day and payment shall be collected by Admin by 20th of the succeeding month."
   utter_which_cafeteria_visitors:
   - buttons:
     - payload: /cafeteria_temp_employees
@@ -407,13 +422,11 @@ templates:
       title: Cafeteria services for Guests
     - payload: /cafeteria_visiting_employee
       title: Services employee from other UCB locations
-    text: The cafeteria policy is applicable for UCB employees, temp staff and even for guests in extra ordinary circumstances. Please help me with the specific information you would like to know.
-
+    text: The cafeteria policy is applicable for UCB employees, temp staff and even for guests in extraordinary circumstances. You may like to know more about -
   utter_food_options:
-    - text: "Tuck Shop & a Juice Counter is also be available in the cafeteria from 9.30 am to 7.30 pm from Monday to Friday. Employees would have to pay directly to the Tuck Shop and Juice Counter towards the purchase made."
-  
+    - text: Tuck Shop & a Juice Counter is also be available in the cafeteria from 9.30 am to 7.30 pm from Monday to Friday. Employees would have to pay directly to the Tuck Shop and Juice Counter towards the purchase made.
   utter_ask_which_policy:
   - buttons:
     - payload: /employee_cafeteria_policy
       title: Cafeteria policy
-    text: Could you please tell me if you are talking about Cafeteria policy?.
+    text: Are you referring to cafeteria policy?.
