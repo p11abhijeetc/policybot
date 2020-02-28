@@ -87,7 +87,6 @@
 * leave_entitement{"leave_type": "sick"}
   - slot{"leave_type": "sick"}
   - action_set_policy_type
-  - slot{"policy_type": "leave_policy"}
   - utter_sick_leave
 
 ## leave entitlement - casual leave
@@ -156,7 +155,7 @@
   - utter_without_pay
 
 ## know about leave without pay
-* about_leave_types OR leave_entitement OR about_leave_types OR weekend_counted OR leave_benefits OR seek_approval OR apply_for_benefit OR about_leave
+* about_leave_types OR leave_entitement OR weekend_counted OR leave_benefits OR seek_approval OR apply_for_benefit OR about_leave
   - slot{"leave_type":"unpaid"}
   - utter_without_pay
   - action_reset_LWP_slot
@@ -490,9 +489,149 @@
 * club_maternity
 - utter_club_maternity
 
-## about policy maternity - Work from home
+## about policy maternity - Payment
 * about_policy{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * maternity_payment
 - utter_maternity_payment
+
+
+
+## about policy maternity - apply
+* apply_for_benefit{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_maternity_apply
+
+## about policy maternity - approve
+* seek_approval{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_maternity_approve
+
+## about policy maternity - Number of Children
+* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"child_number"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"child_number"}
+- utter_number_of_children
+
+## about policy maternity - Duration
+* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"duration"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"duration"}
+- utter_maternity_duration
+
+## about policy maternity - Child adoption
+* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"adoption"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"adoption"}
+- utter_child_adoption
+
+## about policy maternity - Work from home
+* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"work_from_home"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"work_from_home"}
+- utter_from_home_working_maternity
+
+## about policy maternity - Club
+* about_policy{"policy_type":"maternity_leave_policy", "leave_benefit":"club"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"leave_benefit":"club"}
+- utter_club_maternity
+
+## about policy maternity - Payment
+* about_payment{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_maternity_payment
+
+
+
+## about policy maternity - apply
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* apply_maternity
+- utter_maternity_apply
+
+## about policy maternity - approve
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* approval_process_maternity
+- utter_maternity_approve
+
+## about policy maternity - Number of Children
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* number_of_children
+- utter_number_of_children
+
+## about policy maternity - Duration
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* maternity_duration
+- utter_maternity_duration
+
+## about policy maternity - Child adoption
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* child_adoption
+- utter_child_adoption
+
+## about policy maternity - Work from home
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* from_home_working_maternity
+- utter_from_home_working_maternity
+
+## about policy maternity - Club
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* club_maternity
+- utter_club_maternity
+
+## about policy maternity - Payment
+* patental_leave_benefits{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_about_maternity_benefits
+* maternity_payment
+- utter_maternity_payment
+
+## about policy maternity - Number of Children
+* patental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"child_number"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"child_number"}
+- utter_number_of_children
+
+## about policy maternity - Duration
+* patental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"duration"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"duration"}
+- utter_maternity_duration
+
+## about policy maternity - Child adoption
+* patental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"adoption"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"adoption"}
+- utter_child_adoption
+
+## about policy maternity - Work from home
+* patental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"work_from_home"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"maternity_benefit":"work_from_home"}
+- utter_from_home_working_maternity
+
+## about policy maternity - Club
+* patental_leave_benefits{"policy_type":"maternity_leave_policy", "leave_benefit":"club"}
+- slot{"policy_type":"maternity_leave_policy"}
+- slot{"leave_benefit":"club"}
+- utter_club_maternity
+
+## maternity counted as leave
+* parental_leave_counted{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_maternity_not_counted

@@ -192,26 +192,26 @@
 - Can i know different leave types?
 
 ## intent: leave_entitement
-- Can i get leave
-- Can i get [sick](leave_type:sick) leave?
+- Can i get [leave](policy_type:leave_policy)
+- Can i get [sick](leave_type:sick) [leave](policy_type:leave_policy)?
 - I am [not well](leave_type:sick). can i take the day off?
 - I have [fever](leave_type:sick). May i take leave?
 - I am [not feeling well](leave_type:sick) and wanted to take leave today?
 - How many [sick](leave_type:sick) leaves can i take?
 - Is there any limit on the number of [sick] leave
 - How many leaves do you have?
-- What is my total leaves?
-- What is the total number leaves?
-- What is my leave entitlement?
+- What is my total [leaves](policy_type:leave_policy)?
+- What is the total number [leaves](policy_type:leave_policy)?
+- What is my leave [entitlement](policy_type:leave_policy)?
 - Will i need [medical certificate](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves
 - Do i have to show any [doctor certificate](leave_benefit:medical_certificate) for going on leave?
 - I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves 
 - What is my [sick](leave_type:sick) leave entitlement?
 - How many [sick](leave_type:sick) leaves do i have?
 - How many [casual](leave_type:casual) leaves can i get?
-- Can i take leave for more than 5 days?
+- Can i take [leave](policy_type:leave_policy) for more than 5 days?
 - Can i get [sick](leave_type:sick) leave?
-- How many leaves can i take in one go?
+- How many [leaves](policy_type:leave_policy) can i take in one go?
 - How many [privilege](leave_type:privilege) leaves can i take?
 - And [casual](leave_type:casual) leaves
 - what about [sick](leave_type:sick) leaves
@@ -219,7 +219,7 @@
 - I am [corporate](employee_type:corporate) employee. How many [privilege](leave_type:privilege) leaves can i take?
 - I work in the [store](employee_type:retail). How many [privilege](leave_type:privilege) leaves can i take?
 - I work in the [corporate](employee_type:corporate) office. How many [privilege](leave_type:privilege) leaves can i take?
-- How many leaves are there?
+- How many [leaves](policy_type:leave_policy) are there?
 - Total number of leaves
 - How many [sick](leave_type:sick) leaves are there for [retail](employee_type:retail) employees
 - How many [casual](leave_type:casual) leaves are there for [corporate](employee_type:corporate) employees
@@ -227,6 +227,10 @@
 - can i take leave for [medical](leave_type:sick) reasons
 
 ## intent: about_policy
+- Is there a [leave](policy_type:leave_policy) policy
+- Tell me about the [leave](policy_type:leave_policy) policy
+- What about [leaves](policy_type:leave_policy)
+- And [leave](policy_type:leave_policy) policy?
 - Is there a [paternity](policy_type:paternity_leave_policy) policy?
 - May i know about the [pat](policy_type:paternity_leave_policy) leave policy?
 - Tell me more about the [paternity](policy_type:paternity_leave_policy) plocy?
