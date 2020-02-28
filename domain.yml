@@ -353,15 +353,17 @@ templates:
   utter_casual:
   - text: Employees have 7 casual leaves. These leaves are prorated. One can take a maximum of 3 casual leave in one go. Casual leaves are not  encashable and cannot be clubbed or carried forward.
   utter_privilege_corporate:
-  - text: "Corporate employees have 30 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
+  - text: Corporate employees have 30 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward.
   utter_privilege_retail:
-  - text: "Retail employees have 21 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward."
+  - text: Retail employees have 21 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward.
   utter_maternity:
-  - text: "As per the maternity leave policy, an expecting mother can get a maximum if 26 weeks/182 days of leaves. The employee has the discretion to split these 182 days between pre natal and post natal leaves."
+  - text: As per the maternity leave policy, an expecting mother can get a maximum of 26 weeks/182 days leaves. The employee has the discretion to split these 182 days between pre natal and post natal leaves.
+  - text: Expecting mothers can get a maximum of 26 weeks/182 days leaves as per the maternity policy. There is an option for splitting these 182 days between pre natal and post natal leaves.
+  - text: A maximum of 26 weeks/182 days of maternity leaves are available for expecting mothers. There is an option for splitting these 182 days between pre natal and post natal leaves.
   utter_paternity:
-  - text: "The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable."
+  - text: The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable.
   utter_without_pay:
-  - text: "Leave without pay has to be approved by the MD. Employees need to show proof of reason for such leaves. Employees will not be getting any salary while they are no leave without pay."
+  - text: Leave without pay has to be approved by the MD. Employees need to show proof of reason for such leaves. Employees will not be getting any salary while they are on leave without pay.
   utter_about_paternity:
   - buttons:
     - payload: /apply_paternity
@@ -374,19 +376,25 @@ templates:
       title: Duration of paternity leave
     - payload: /child_adoption
       title: Adoption of a child
-    text: As per company policy, male employee who have completed at least 6 months of service in the company are allowed 5 days of paternity leave for the birth of a child. Please let me know if you want to know anything particular about maternity leave.
+    text: A male employee who has completed at least 6 months of service in the company is allowed 5 days of paternity leave for the birth / adoption of a child. Would you like to know more about -.
   utter_apply_paternity:
-    - text: "Paternity leave has to be applied on Empxtrack"
+    - text: Paternity leave has to be applied on Empxtrack.
   utter_approval_process_paternity:
-    - text: "Employees who wishe to request the paternity leave in respect of the birth / adoption of a child, must give their line manager 4 weeks' written notice of the date on which his partner's baby is due, the length of the paternity leave they wishe to take and the date on which they wish the leave to commence. If an employee subsequently wishes to change the timing of the paternity leave, he must give written notice of the new dates."
+    - text: Employees who wish to request the paternity leave in respect of the birth / adoption of a child, must give their line manager 4 weeks written notice of the date on which his partner's baby is due, the length of the paternity leave they wish to take and the date on which they wish the leave to commence. If an employee subsequently wishes to change the timing of the paternity leave, he must give written notice of the new dates.
   utter_number_of_children_paternity:
-    - text: "Paternity leave would be granted for maximum two children."
+    - text: Paternity leave would be granted for maximum two children.
+    - text: Paternity leave policy applies for maximum two children.
+    - text: You can only take paternity leaves for maximum two children.
   utter_child_adoption_paternity:
-    - text: "Paternity leave policy is applicable for both childbirth and for adoption."
+    - text: Paternity leave policy is applicable for both childbirth and for adoption.
+    - text: Both childbirth and adoption are eligible for paternity leaves.
+    - text: Childbirth and adoption both are applicable for paternity leaves.
   utter_paternity_duration:
-    - text: "A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days’ Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption."
+    - text: A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption.
   utter_counted_paternity:
-    - text: "Paternity leave is granted in addition to an employee's normal annual holiday entitlement and shall not be debited against the leave account."
+    - text: Paternity leave is granted in addition to an employee's normal annual holiday entitlement and shall not be debited against the leave account.
+    - text: Paternity leaves are in addition to your normal annual leaves entitlement. No other leaves are used against the leave account.
+    - text: Paternity leaves are on top of your normal annual holiday entitlement and shall not be debited against the leave account.
   utter_cafeteria_policy:
   - buttons:
     - payload: /cafeteria_timing
