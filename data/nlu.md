@@ -1,16 +1,297 @@
 ## intent:greet
-- hey
-- hello
-- hi
-- good morning
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HELLO
+- HEY
+- HEllo
+- HI
+- HI iona
+- Hallo
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello IONA
+- Hello iona
+- Hello Iona
+- Hello!
+- Hey
+- Hey iona
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi iona
+- Hi Iona!
+- Hi bot
+- Hi man
+- Hi iona
+- Hi Iona
+- Hi iona..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hi chatbot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
 - good evening
+- good moring
+- good morning
+- greet
+- greetings
+- hai
+- hallo
+- hallo iona
+- halloo
+- halloooo
+- halo
+- halo iona
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello Iona
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello iona
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello, my name is [Amit Srivastava](name)
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey rasa
+- hey sara
+- hey ther
 - hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, sara!
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi i'm [Abhijeet Chakravarty](name)
+- hi im [Ankita Menon](name)
+- hi mrs iona
+- hi pal!
+- hi iona
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- i am [Sumit Pandey](name)
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola sara
+- rasa hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
 
-## intent:goodbye
+## intent:handleinsult
+- FUCK
+- Fuck
+- Fuck Off
+- Fuck off
+- Fuck u
+- Fuck you
+- God you're a moron
+- I can't believe how dumb you are
+- I hate you
+- Loser
+- Stupid
+- You are a fool.
+- You are an idiot.
+- You are dumb.
+- You are shortsighted.
+- You are unintelligent.
+- You are unknowing.
+- You brain is dull.
+- You have no brains.
+- You have no intelligence.
+- You have no sense.
+- You know nothing.
+- You lack intelligence.
+- You lack understanding.
+- You're a dolt.
+- You're a dunce.
+- You're an idiot.
+- You're foolish.
+- Your intelligence is laughable.
+- Your mindset is naive.
+- a baby knows more than you
+- are u dump?
+- are you brain dead?
+- asshole
+- bitch
+- bloody dunce
+- but you are idiot
+- deal with my ass, you bitch
+- f*ck
+- fuck
+- fuck off
+- fuck iona
+- fuck u
+- fuck you
+- fuck you machine learning bot
+- fuck you iona
+- fuck you!
+- fucking stupid
+- fucking work
+- get lost
+- go away
+- go fuck yourself
+- go to hell
+- how can you be such an idiot?
+- i hate you
+- i hate your dumb face
+- i think that you're a bullshit
+- idiot
+- insult you
+- ok fuck you
+- ok shut up
+- iona you look like a burnt sparrow
+- shit
+- shit bot
+- shut up asshole
+- so dumb
+- so fucking dumb
+- sucker
+- that wasn't very funny
+- thta was a terrible fucking joke
+- u r a piece of junk
+- ur a pussy
+- what fuck
+- yep but you are idiot
+- you are a moron
+- you are a stupid bot
+- you are an idiot
+- you are dumb
+- you are fucking stupid
+- you are fucking stupid guy！
+- you are idiot
+- you are idiotic
+- you are so ignorant
+- you are stupid
+- you are unintelligent
+- you are useless bot
+- you asshole
+- you idiot
+- you idiot bot
+- you son of a bitch
+- you suck
+- you're a loser lmao
+- you're an idiot
+- you're dumb
+- you're not smart
+- you're so dumb
+- you're the most moronic person I know
+- your mom gay
+- you are annoying
+
+## intent:bye
 - bye
 - goodbye
 - see you around
 - see you later
+- Bye
+- Bye bye
+- adios
+- adios?
+- bye
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- good bye rasa bot!
+- good night
+- goodbye
+- goodbye.
+- goodnight
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
+- tschüssikowski
 
 ## intent:affirm
 - yes
@@ -18,6 +299,231 @@
 - of course
 - that sounds good
 - correct
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- nice
+- not bad
+- of course
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok sara
+- ok, I behave now
+- ok, I understood
+- ok, Sara
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you asked me a yes or no question, which i answered with yes
+- you got me, I accept, if you want me to
+- yres
+- ys
+- yup
+- yyeeeh
 
 ## intent:deny
 - no
@@ -26,6 +532,714 @@
 - don't like that
 - no way
 - not really
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- never mind
+- no
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- very bad
+- I do not need help installing
+- I don't wanna tell the name of my company
+- no stop
+- stop it, i do not care!!!
+
+## intent:human_handoff
+- Can I speak to anyone who can really help me?
+- Could I talk to [HR](name)?
+- I don't wanna talk to a bot
+- I dont like to talk to a machine
+- I want to talk to a human
+- I want to talk to the managers
+- are there also humans working for your company?
+- can I speak to a person?
+- Could I talk to [Humar Resources](name)?
+- can i please speak to a human?
+- can you forward me to your team
+- can you please connect me to a real UCB employee?
+- can you put me in touch with a human?
+- do you have human support ?
+- gimme a proper human
+- give me a human
+- give me a human now
+- human handoff
+- i dont wanna talk to a bot
+- i want to speak to a [manager](job_function)
+- i want to speak to a real person
+- i want to speak to customer service
+- i want to talk to a human
+- i want to talk to a person
+- i want to talk to human
+- i want to talk to someone at ucb
+- i want to talk to someone else
+- i want to talk to someone who is smarter than you
+- i would like to speak to a person
+- i'd rather speak with a real UCB employee
+- id like to talk to a real benetton employee
+- let me speak with a real person please
+- let me talk to a human
+- let me talk to a real person
+- please give me a human
+- service agent
+- someone from customer care
+- speak to a real person
+- talking to a bot is stupid
+- that's annoying I'd like to speak to someone real
+- thats not helping, can i talk to human?
+- wrong i want to speak to a human
+
+## intent:nicetomeeyou
+- Delighted to make your acquaintance.
+- Feels great to see you!
+- Glad to finally meet you!
+- Glad to make your acquaintance.
+- Glad to meet you
+- Glad to meet you!
+- Glad to meet you.
+- Glad we've met.
+- Good to meet you!
+- Good to see you!
+- Great interacting with you
+- Great seeing you
+- Great to meet you!
+- Great to meet you.
+- Happy to get to see you.
+- Hi iona, just wanted to test you
+- Hi, glad to meet you.
+- Hi, nice to meet you!
+- I am glad I met you.
+- I am glad he introduced us.
+- I had a great meeting with you
+- I'm glad to have met you!
+- I'm glad to meet you!
+- I'm happy that we have met!
+- I'm pleased to meet you!
+- I'm so happy that I could meet you.
+- I'm thrilled to meet you!
+- It is indeed a pleasure to be able to meet you.
+- It was a pleasure to have your company.
+- It was nice to have met you
+- It's a pleasure to make your acquaintance!
+- It's a pleasure to meet you!
+- It's good that I could meet you. It was a pleasure.
+- It's great to get to know you!
+- It's great to make your acquaintance!
+- It's nice to finally meet you.
+- It's wonderful to meet you!
+- It’s a pleasure to meet you
+- It’s great connecting with you.
+- Lovely to meet you.
+- Nice to have met you.
+- Pleased to make your acquaintance!
+- Pleased to meet you!
+- Pleased to meet you.
+- See you around. It was a pleasure meeting you.
+- Thank you for this meeting. It was great to see you.
+- nice to meet you
+
+## intent:out_of_scope
+- 4 + 2 = ?
+- After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+- Are you ready?
+- But you're an english site :(
+- Can I ask you questions first?
+- Can I die
+- Can I get a hamburger?
+- Can YouTube talk?
+- Can you call me back ?
+- Can you give me your datacenter's password
+- Can you give me your datacenter's password?
+- Can you make sandwiches?
+- Can you please send me an uber
+- Do I have to accept?
+- Do you know [Anil Choudhary](name)
+- Find nearest [pizzahut](company)
+- Have we met before?
+- HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+- How long does it take to set up a bot?
+- I already told you! I'm a shitmuncher
+- I am User
+- I am an opioid addic
+- I am an opioid addict
+- I am hungry
+- I am trying to build one, and did some research before, but I have not do hand-on work yet
+- I can barely see this white text on light gray background ...
+- I changed my mind
+- I have installed it
+- I ned a GP in 94301
+- I need a GP in 94301
+- I need a girl friend!
+- I need to eat cake
+- I wan to buy a plane
+- I wanna marry you
+- I want a new laptop
+- I want book a hotel
+- I want french cuisine
+- I want pizza
+- I want to die
+- I want to order pizza
+- I want to use pipe
+- I will check
+- I'm a shitmuncher
+- Is Rasa really smart?
+- Is this Goal-Oriented Chatbot?
+- Is today saturday?
+- Mail me the guide
+- Make me a sandwich
+- NLW
+- Nice name
+- Now?
+- Pizza bot
+- Recharge
+- SEL ME SOMETHING
+- The Try it out is not working
+- The weather is good
+- Today
+- Try it out broken
+- What day is it today?
+- What did you eat yesterday?
+- What do you prefer?
+- What is todays date
+- What is your hobbies?
+- What makes you better than a human?
+- What's 1 + 1?
+- What's do YouTube do
+- What's your backend system?
+- Where am I right now?
+- Where am I?
+- Who ?
+- Who are your customers
+- Why don’t you answer?
+- Why is my TRUST score set to 50 after I completed the registration process?
+- Won't you ask me how I am?
+- You'r blue.
+- [Ekta](name), I want to marry you
+- [german](language)?
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- aRE YOU SINGLE
+- again?
+- alexa, order 5 tons of natrium chloride
+- and make chicken noises into the phone
+- are the newsletter worth the subscription?
+- are u facebook
+- are u, facebook?
+- are you single?
+- are you dev?
+- are you human ?
+- are you russian?
+- are you sick
+- are you vegan
+- better than you
+- book a ticket
+- but I just told you that :(
+- but if iona is open source why do you have a sales team
+- buy one please
+- buy groceries
+- call me father
+- can we keep chatting?
+- can you book dinner
+- can you cheer me up
+- can you cook dinner
+- can you give me a cup of coffee
+- can you help me with the docs?
+- can you help me with your docs
+- can you help me with your docs?
+- can you learn from our conversation?
+- can you speak about politic ?
+- can you understand ?
+- cannot see
+- chgfhgh
+- chinese ok?
+- colder
+- common, just try
+- connect to alexa
+- cr
+- custom service
+- de donde eres
+- de que lugar eres?
+- did i break you
+- dinner
+- do you believe in god?
+- do you have a phone number?
+- do you have your photo?
+- do you know me
+- do you know ras
+- do you liek cheese?
+- do you like football
+- do you like movies
+- do you sell vacuum robots?
+- do you want to marry me?
+- docs
+- doctor
+- epdi iruka
+- eres humana
+- everything
+- example of a chatbot
+- genocide
+- get me a club mate
+- github link?
+- give me a girl friend
+- give me food
+- go back
+- google?
+- great, I'd like to buy a house
+- hang on let me find it
+- have you ever seen [Chinmaya Singh](name)?
+- help with [Kumar Vishwas](name)
+- help with my life
+- hey little mama let em whisper in your ear
+- hey, I contacted you a couple of days ago but didn't get any response, any news?
+- how
+- how about NYC
+- how are [Alicia Jackson](name)'s cats doing?
+- how are the kids
+- how can i get them?
+- how can i test this
+- how come you say ok ?
+- how come?
+- how do you learn
+- how good is Rasa
+- how it compares to alexa
+- how long have you been online?
+- how long will the next version will launch?
+- how many lines of codes
+- how much is 10 + 89 ?
+- how much is 10 + 89
+- how to extract relationship
+- how to get alexa studio
+- how to go to newyork ?
+- i am hungry
+- i am hungry, what should i do?
+- i am not a developer but need this for business
+- i am qq
+- i can't deal with _your_ request
+- i do not care how are you
+- i hope you will be better
+- i immediately need help with implementing the coolest bot you can imagine
+- i m looking for job
+- i told you already
+- i wanna party
+- i want a non dripping ice cream
+- i want caffe
+- i want food
+- i want good flycam
+- i want more of you in my life!
+- i want pizza
+- i want pizza!!
+- i want to book a hotel
+- i want to buy a roomba for my grandson
+- i want to eat
+- i want to find new friends
+- i want to find out what you can build with rasa
+- i want to fly
+- i want to grab lunch
+- i want to know current situtation in pakistan
+- i want to order a pizza
+- i want to see your happy customers
+- i will tame a mouse for you
+- is [John Lewis](name) still married to you
+- is it a wasteland full of broken robot parts?
+- is it allow to
+- is rasa a studio?
+- is rasa any good
+- is that any of your business
+- isn't the newsletter just spam?
+- it's a pity
+- i´m hungry
+- kalhmera sara ti kaneis
+- kannst du auch deutsch?
+- kannst du dies auch auf deutsch?
+- license
+- ljljl
+- lunch
+- lunch??
+- machine learning
+- mail me the steps
+- mascot means?
+- more
+- mountain
+- my name k
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- offer me lunch
+- oh my god, not again!
+- oh wait i gave you my work email address can i change it?
+- ok one then
+- on wiche nlp based system are you build?
+- only that?
+- order good
+- order pizza
+- oui je besoine de l'aide
+- personal or work?
+- pizza
+- please help with my ice cream it's dripping
+- please hjave lunchj
+- please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+- please play music
+- que puedes hacer?
+- rasa topics
+- really? you're so touchy?
+- refresh
+- region with no. of records
+- remember my name
+- search wikipedia
+- shitmuncher
+- show me a picture of a chicken
+- silly bot
+- sing me a song
+- so, I'm helping right now to training you?
+- some thing else
+- someone call the police i think the bot died
+- sorry, i cannot rephrase
+- sudo make me a sandwich
+- tell me about yourself
+- tell me more about next best action
+- that doesn't sound like a joke
+- that link doesn't work!
+- the one that is better than you
+- tricked  ya
+- tu parles francais?
+- tudo bom
+- turn off my stove
+- umm
+- wait a bit i am still reading
+- what about wheather
+- what are contextual AI assistants and how different are they from chatbots?
+- what are you doing now?
+- what are your uses for universities
+- what did you eat for lunch?
+- what do oyu think about siri?
+- what do you think abou siri?
+- what do you think about [Stanley Ramirez](name)?
+- what do you think of alexa
+- what does your soul feel my friend
+- what doing
+- what else?
+- what films do you like
+- what i do after cd starter-pack-rasa-stack?
+- what is a discourse?
+- what is a mascot
+- what is adlingo
+- what is differance between bot and mascot?
+- what is evolution ?
+- what is google rcs
+- what is machine learning
+- what is nice?
+- what is rasa mascot
+- what is the capital of delhi
+- what is the capital of india
+- what is the current petrol price
+- what is the day ?
+- what is the real use case where we can use this one
+- what is your address?
+- what is your github link
+- what is your purpose
+- what lnu mean?
+- what the latest news ?
+- what you ate today?
+- what's 5 + 5
+- what's a newsletter?
+- what's gingerale
+- what's your wife doing this weekend
+- what?
+- whats that
+- whats the sign
+- when is the next train is coming?
+- where do i get install files for mac?
+- where is Oslo?
+- where is mexico?
+- wheres the party?
+- which city are you talking about?
+- which email
+- which email should i send to ?
+- which file is created first while developing chat bot
+- which is the LNU asynchronism ?
+- which kind
+- who are the engineers at rasa?
+- who are they?
+- who is [Sharon Zeches](name)
+- who is the MD of samsung bangalore ?
+- who is the president of india ?
+- who is your favourite robot?
+- who let the dog out
+- who was hitler
+- who will anser my email?
+- who's Bill Gates?
+- whta you think about gdpr?
+- why
+- why do you need that?
+- why its called rasa ?
+- will u kill me
+- will u kill me?
+- winter is already leaving
+- with you recommend me?
+- would you like some water
+- yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+- you already have that
+- you can learn how to make a coffe
+- you have children?
+- you have job opening
+- you lock sweety
+- you should learn to count
+- you will know it from the single red rose it carries between its teeth
+- you're a woman
+- ı am learning python
+
+## intent:react_negative
+- I am feeling bad
+- I am sad
+- I am super sad
+- I'm sad
+- I'm super sad
+- Now I'm sad
+- This is bad
+- You are quite bad
+- bad
+- bad boy
+- crappy joke
+- documentation of iona is very bad
+- i am angry over you
+- i am feel sad
+- i am sad
+- i am sad about that
+- i am very sad
+- i feel sad
+- i sad
+- i'm sad
+- iona is bad
+- sad
+- so sad
+- so sad :(
+- super sad
+- u broke my heart
+- very very sad
+- you are bad
+- you are bad bot
+- you make me sad
+- You are mad
+- You are rude
+- bots are bad
+- i don't care!!!!
+- i dont like bots
+- this is a really frustrating experience
+- you're rather dull
+
+## intent:react_positive
+- :)
+- :D
+- HAHA
+- I am happy
+- LOL
+- Lol
+- Lol thats funny
+- Looks nice
+- WOW
+- Wow
+- You are great
+- You're cute.
+- You're nice.
+- You're really cool
+- hAHAHA
+- ha ha
+- haha
+- hahah
+- hahaha
+- happy
+- i am feeling happy
+- i am happy
+- i am happy today
+- i am very happy with your response
+- i love you
+- it's pretty cool
+- lol
+- love you
+- okay iona bot, you're cool
+- rasa is awesome
+- such a great demo
+- that is funny
+- that was a great interaction
+- thats funny
+- today was a nice day
+- wow
+- you are a badass bot!
+- you are awesome
+- you are cool
+- you are cool man
+- you are doin great
+- you are funny
+- you are great
+- you are my new bestfriend
+- you seem pretty cool :D
+- I like you
+- I love you
+- you are realy intelligent
+
+## intent:telljoke
+- Can you tell a joke?
+- Can you tell me a joke.
+- Come up with a joke you think I'll find funny.
+- Could you please share a joke with me.
+- Could you tell me a joke.
+- Do you have any jokes?
+- Do you know any jokes?
+- Entertain me with a joke.
+- Give me a funny joke.
+- Give me a joke.
+- Give me some comic relief.
+- I need a good joke.
+- I want to hear something funny.
+- Know any jokes?
+- Let's hear a joke from you.
+- Make me laugh.
+- Please tell me a joke.
+- Say something funny.
+- Share a joke with me!
+- Tell joke.
+- Tell me something funny.
+- Tell me something humorous!
+- Tell me something that you think will make me laugh.
+- Tell me the best joke you know.
+- What's a good joke?
+- Will you tell me a joke.
+- Would you share a joke with me.
+- Would you tell me a joke
+- give me a good joke
+- make me laugh with a bad joke
+- make me laugh with a joke
+- say a funny joke
+- say a joke
+- say a joke that's funny
+- say a joke that's so bad it's funny
+- tell me a joke
+- tell me a short joke
+- tell me a story joke
+- tell me something funny, like a joke
+- you can say a jok
+
+## intent:thank
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you Sara
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks sara
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for forum link, I'll check it out
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
 
 ## intent:mood_great
 - perfect
