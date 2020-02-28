@@ -152,7 +152,7 @@
 - Can leaves be [clubbed](leave_benefit:club)
 - Can i [club](leave_benefit:club) [sick](leave_type:sick) leaves with [casual](leave_type:casual) leaves? 
 - Can i [mix and match](leave_benefit:club) leave types?
-- Are the leaves [carried forward](leave_benefit:carry_forward)
+- Are the [leaves](policy_type:leave_policy) [carried forward](leave_benefit:carry_forward)
 - Will my leaves get [lapsed](leave_benefit:carry_forward)
 - Is is allowed to [carry forward](leave_benefit:carry_forward) leaves?
 - Will my leaves get [lapsed](leave_benefit:carry_forward) if i don't use them?
@@ -172,24 +172,24 @@
 - Will the weekends falling during my holiday counted?
 - Holiday during my leave will be consideres as leave?
 - Will the weekends also be counted?
-- If i combine a holiday with my leaves, will it be counted?
-- Are weekends considered as leave?
-- Will the weekends be considered as leave?
+- If i combine a holiday with my [leaves](policy_type:leave_policy), will it be counted?
+- Are weekends considered as [leave](policy_type:leave_policy)?
+- Will the weekends be considered as [leave](policy_type:leave_policy)?
 - weekend_counted
 - are off days counted in leaves?
 - If i am on leave on a holiday, will that be counted as a leave?
 - If i am on leave on an off day, will that be counted as a leave?
 
 ## intent: about_leave_types
-- What are the types of leaves
-- How many differnt kinds of leaves
-- What all leaves are there?
-- What the the different kinds of leaves?
-- What are the different types of leaves?
-- How many kinds of leaves are there?
-- Are there different kinds of leaves?
-- Tell me about the types of leaves?
-- Can i know different leave types?
+- What are the types of [leaves](policy_type:leave_policy)
+- How many differnt kinds of [leaves](policy_type:leave_policy)
+- What all [leaves](policy_type:leave_policy) are there?
+- What the the different kinds of [leaves](policy_type:leave_policy)?
+- What are the different types of [leaves](policy_type:leave_policy)?
+- How many kinds of [leaves](policy_type:leave_policy) are there?
+- Are there different kinds of [leaves](policy_type:leave_policy)?
+- Tell me about the types of [leaves](policy_type:leave_policy)?
+- Can i know different [leave](policy_type:leave_policy) types?
 
 ## intent: leave_entitement
 - Can i get [leave](policy_type:leave_policy)
@@ -206,8 +206,8 @@
 - Will i need [medical certificate](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves
 - Do i have to show any [doctor certificate](leave_benefit:medical_certificate) for going on leave?
 - I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves 
-- What is my [sick](leave_type:sick) leave entitlement?
-- How many [sick](leave_type:sick) leaves do i have?
+- What is my [sick](leave_type:sick) [leave](policy_type:leave_policy) entitlement?
+- How many [sick](leave_type:sick) [leaves](policy_type:leave_policy) do i have?
 - How many [casual](leave_type:casual) leaves can i get?
 - Can i take [leave](policy_type:leave_policy) for more than 5 days?
 - Can i get [sick](leave_type:sick) leave?
@@ -220,11 +220,11 @@
 - I work in the [store](employee_type:retail). How many [privilege](leave_type:privilege) leaves can i take?
 - I work in the [corporate](employee_type:corporate) office. How many [privilege](leave_type:privilege) leaves can i take?
 - How many [leaves](policy_type:leave_policy) are there?
-- Total number of leaves
+- Total number of [leaves](policy_type:leave_policy)
 - How many [sick](leave_type:sick) leaves are there for [retail](employee_type:retail) employees
 - How many [casual](leave_type:casual) leaves are there for [corporate](employee_type:corporate) employees
 - I am [store](employee_type:retail) staff. How many [privilege](leave_type:privilege) leaves can i take?
-- can i take leave for [medical](leave_type:sick) reasons
+- can i take [leave](policy_type:leave_policy) for [medical](leave_type:sick) reasons
 
 ## intent: about_policy
 - Is there a [leave](policy_type:leave_policy) policy
