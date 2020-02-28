@@ -496,8 +496,6 @@
 * maternity_payment
 - utter_maternity_payment
 
-
-
 ## about policy maternity - apply
 * apply_for_benefit{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
@@ -542,8 +540,6 @@
 * about_payment{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_maternity_payment
-
-
 
 ## about policy maternity - apply
 * patental_leave_benefits{"policy_type":"maternity_leave_policy"}
@@ -635,3 +631,126 @@
 * parental_leave_counted{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_maternity_not_counted
+
+<!-- -------------------------------------------------------------------------Paternity policy stories-----------------------------------------------------  -->
+
+## paternity counted as leave
+* parental_leave_counted{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_counted_paternity
+
+## about policy paternity - apply
+* about_policy{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* apply_paternity
+- utter_apply_paternity
+
+## about policy paternity - approve
+* about_policy{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* approval_process_paternity
+- utter_approval_process_paternity
+
+## about policy paternity - Number of Children
+* about_policy{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* number_of_children
+- utter_number_of_children_paternity
+
+## about policy paternity - Duration
+* about_policy{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* paternity_duration
+- utter_paternity_duration
+
+## about policy paternity - adoption
+* about_policy{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* child_adoption
+- utter_child_adoption_paternity
+
+## about policy paternity - apply
+* apply_for_benefit{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_apply_paternity
+
+## about policy paternity - approve
+* seek_approval{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_approval_process_paternity
+
+## about policy paternity - Number of Children
+* about_policy{"policy_type":"paternity_leave_policy", "maternity_benefit":"child_number"}
+- slot{"policy_type":"paternity_leave_policy"}
+- slot{"maternity_benefit":"child_number"}
+- utter_number_of_children_paternity
+
+## about policy paternity - Duration
+* about_policy{"policy_type":"paternity_leave_policy", "maternity_benefit":"duration"}
+- slot{"policy_type":"paternity_leave_policy"}
+- slot{"maternity_benefit":"duration"}
+- utter_paternity_duration
+
+## about policy paternity - adoption
+* about_policy{"policy_type":"paternity_leave_policy", "maternity_benefit":"adoption"}
+- slot{"policy_type":"paternity_leave_policy"}
+- slot{"maternity_benefit":"adoption"}
+- utter_child_adoption_paternity
+
+## about policy paternity - apply
+* patental_leave_benefits{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* apply_paternity
+- utter_apply_paternity
+
+## about policy paternity - approve
+* patental_leave_benefits{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* approval_process_paternity
+- utter_approval_process_paternity
+
+## about policy paternity - Number of Children
+* patental_leave_benefits{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* number_of_children
+- utter_number_of_children_paternity
+
+## about policy paternity - Duration
+* patental_leave_benefits{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* paternity_duration
+- utter_paternity_duration
+
+## about policy paternity - adoption
+* patental_leave_benefits{"policy_type":"paternity_leave_policy"}
+- slot{"policy_type":"paternity_leave_policy"}
+- utter_about_paternity
+* child_adoption
+- utter_child_adoption_paternity
+
+## about policy paternity - Number of Children
+* patental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"child_number"}
+- slot{"policy_type":"paternity_leave_policy"}
+- slot{"maternity_benefit":"child_number"}
+- utter_number_of_children_paternity
+
+## about policy paternity - Duration
+* patental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"duration"}
+- slot{"policy_type":"paternity_leave_policy"}
+- slot{"maternity_benefit":"duration"}
+- utter_paternity_duration
+
+## about policy paternity - adoption
+* patental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"adoption"}
+- slot{"policy_type":"paternity_leave_policy"}
+- slot{"maternity_benefit":"adoption"}
+- utter_child_adoption_paternity

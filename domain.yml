@@ -378,7 +378,7 @@ templates:
   utter_apply_paternity:
     - text: "Paternity leave has to be applied on Empxtrack"
   utter_approval_process_paternity:
-    - text: "employee wishes to request the paternity leave in respect of the birth / adoption of a child, he must give his line manager 4 weeks' written notice of the date on which his partner's baby is due, the length of the paternity leave he wishes to take and the date on which he wishes the leave to commence. If an employee subsequently wishes to change the timing of the paternity leave, he must give written notice of the new dates."
+    - text: "Employees who wishe to request the paternity leave in respect of the birth / adoption of a child, must give their line manager 4 weeks' written notice of the date on which his partner's baby is due, the length of the paternity leave they wishe to take and the date on which they wish the leave to commence. If an employee subsequently wishes to change the timing of the paternity leave, he must give written notice of the new dates."
   utter_number_of_children_paternity:
     - text: "Paternity leave would be granted for maximum two children."
   utter_child_adoption_paternity:
