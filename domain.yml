@@ -59,6 +59,9 @@ intents:
   - cafeteria_temp_employees
   - employee_cafeteria_policy
   - patental_leave_benefits
+  - about_tax_saving
+  - about_benefits
+  - about_tax_benefits
 
 entities:
 - leave_type
