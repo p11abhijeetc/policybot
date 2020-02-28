@@ -1464,16 +1464,7 @@
 - Is there a facility for having [lunch](meal) in office?
 - Will employees get [lunch](meal) in office?
 - Can i get [lunch] in office?
-- What is [cafeteria](policy_type:cafeteria_policy) policy?
-- Is there a policy related to [tax saving](policy_type:reimbursement_policy) measures?
-- Are there any [tax efficient](policy_type:reimbursement_policy) measures?
-- Are there any measures to [save tax](policy_type:reimbursement_policy)
-- Does the company promote any measures for [saving tax](policy_type:reimbursement_policy)
-- Are there any facilities for [tax planning](policy_type:reimbursement_policy)?
-- Can i [plan my tax](policy_type:reimbursement_policy)?
-- How can i [save taxes](policy_type:reimbursement_policy)?
-- Tell me about income [tax planning](policy_type:reimbursement_policy) measures that the company provides
-- May i know about [income tax](policy_type:reimbursement_policy) measures provided to employees?   
+- What is [cafeteria](policy_type:cafeteria_policy) policy?   
 
 ## intent: about_timing
 - What are the [cafeteria](policy_type:cafeteria_policy) timing?
@@ -1577,6 +1568,7 @@
 - Can i use [coupons](voucher) issued this month sometime later?
 - How can i get the [vouchers](voucher) for the company [cafeteria](policy_type:cafeteria_policy)
 - Where can i get [coupons](voucher)
+- Can i get [meal](meal) [vouchers](voucher) for [tax saving]
 
 ## intent: about_food_options
 - Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
@@ -1660,3 +1652,99 @@
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)? 
 
+## intent: about_tax_saving
+- Is there a policy related to [tax saving](policy_type:reimbursement_policy) measures?
+- Does the company have a policy to [save income tax](policy_type:reimbursement_policy)?
+- Are there any [tax efficient](policy_type:reimbursement_policy) measures?
+- Are there any measures to [save tax](policy_type:reimbursement_policy)
+- Does the company promote any measures for [saving tax](policy_type:reimbursement_policy)
+- Are there any facilities for [tax planning](policy_type:reimbursement_policy)?
+- Can i [plan my tax](policy_type:reimbursement_policy)?
+- How can i [save taxes](policy_type:reimbursement_policy)?
+- Tell me about income [tax planning](policy_type:reimbursement_policy) measures that the company provides
+- May i know about [income tax](policy_type:reimbursement_policy) measures provided to employees?
+- What is [tax benefits](policy_type:reimbursement_policy) does the company offer?
+- What benefits for [planning tax](policy_type:reimbursement_policy) are there?
+- And what about [tax planning](policy_type:reimbursement_policy) benefits?
+- What is [tax benefit](policy_type:reimbursement_policy) policy?
+- [Tax benefits](policy_type:reimbursement_policy) reimbursement policy
+- [tax benefits](policy_type:reimbursement_policy)
+- [Reimbursement benefits](policy_type:reimbursement_policy)
+- [reimbursement benefits](policy_type:reimbursement_policy)
+- Is there [tax saving](policy_type:reimbursement_policy) policy?
+- Does the company has any [tax related benefits](policy_type:reimbursement_policy)?
+- What is [tax benefit](policy_type:reimbursement_policy)?
+- Will the company provide any [tax related benefits](policy_type:reimbursement_policy)?
+- About [tax benefits](policy_type:reimbursement_policy)
+- Tell me about [tax benefits](policy_type:reimbursement_policy)
+- Explain [tax benefits](policy_type:reimbursement_policy)
+- More about [tax related benefits](policy_type:reimbursement_policy)
+- What [tax saving](policy_type:reimbursement_policy) benefits does the company provide to employees
+- Does the company have any [tax saving](policy_type:reimbursement_policy) reimbursements 
+
+## intent: about_benefits
+- And what are the benefits?
+- And what will i get?
+- Whats the benefit?
+- What can i claim?
+- What benefits can i get?
+- Can i get any benefit?
+- What claims can i make?
+- How much can i claim
+- How is reimbursible?
+- What is the limit of reimbursement?
+
+## intent: about_tax_benefits
+- What [tax benefits](policy_type:reimbursement_policy) can i get?
+- What are my [tax benefits](policy_type:reimbursement_policy) eligibility
+- Am i eligible for company [tax saving](policy_type:reimbursement_policy) plans
+- Who is eligible to [save tax](policy_type:reimbursement_policy)
+- I have a [car](car). What reimbursements can i claim?
+- Are there any [tax benefits](policy_type:reimbursement_policy) for my [car](car)
+- What [tax benefits](policy_type:reimbursement_policy) can i claim for my [car](car)
+- What benefits can i get for my [car](car)
+- Can i claim [fuel](fuel) expenses?
+- Can i calim [car](car) [fuel](fuel) expenses?
+- What can i claim for my [four wheeler](car)?
+- What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](car)
+- I use my [car] for [official use](office_use) only. What benefits can i claim?
+- I use my [car] only for [work](office_use). Can i claim 
+- How much [driver salary](chauffeur) can i claim?
+- How much [car](car) [fuel](fuel) can i claim?
+- Can i claim [driver expenses](chauffer)?
+- Can i claim [chauffeur](chauffer) expenses?
+- Can i claim [chauffeur's](chauffer) salary?
+- Is [driver's salary](chauffer) reimbursible?
+- I user my [car](car) for [official](office_use) only.
+- My [car](car) is used for [company purposes](office_use) only.
+- Can i claim my [telephone](landline) bill?
+- Can i claim by [internet](internet) bill?
+- Claiming [broadband](landline) bills is allowed?
+- Can i get [tax reimbursement](policy_type:reimbur)
+- Can i claim reimbursement for [telephone](landline) expenses?
+- Is [telephone](landline) expenses covered?
+- Can i get my [mobile](mobile) bills reimbursed?
+- Will the company reimburse my [mobile](mobile) bills?
+- Can i get reimbursement for my [internet](internet) connection
+- can i claim reimbursement for my [wifi](internet) connection at home
+- Does the company provide any [health club](health_club) benefit?
+- Can i join a [health club](health_club?)
+- Is a [gym](health_club) membership allowed?
+- Will the company reimburse my [fitness center](health_club) expenses
+- Can i get my [wellness center](health_club) cost reimbursed?
+- Can i get reimbursement for [medical expenses](medical_reimbursement)
+- Can i get reimbursement for expenses for [treatment](medical_reimbursement)?
+- Can i get my [hospital](medical_reimbursement) expenses reimbursed?
+- Will the company reimburse my [healthcare](medical_reimbursement) bills
+- Are [medical bills](medical_reimbursement) reimbursible?
+- Will my [medical expense](medical_reimbursement) be reimbursed?
+- Can i reimburse my [medical cost](medical_reimbursement)?
+
+## synonym: office_use
+- official use
+- office use
+- company purpose
+- Company use
+- Company use
+- official purpose
+- Official purpose
