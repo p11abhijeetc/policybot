@@ -91,8 +91,7 @@
 - hey dude
 - hey hey
 - hey let's talk
-- hey rasa
-- hey sara
+- hey sweetie
 - hey ther
 - hey there
 - hey there boy
@@ -652,6 +651,7 @@
 - human handoff
 - i dont wanna talk to a bot
 - i want to speak to a [manager](job_function)
+- i have to speak to the [supervisor](job_function)
 - i want to speak to a real person
 - i want to speak to customer service
 - i want to talk to a human
@@ -740,7 +740,6 @@
 - Can you please send me an uber
 - Do I have to accept?
 - Do you know [Anil Choudhary](name)
-- Find nearest [pizzahut](company)
 - Have we met before?
 - HomeBase is advertised as a community. Is there a way to interact with other members of the community?
 - How long does it take to set up a bot?
@@ -802,6 +801,8 @@
 - You'r blue.
 - [Ekta](name), I want to marry you
 - [german](language)?
+- [hind](language)?
+- [french](language)
 - a tamed mouse will arrive at your doorstep in the next couple of days
 - aRE YOU SINGLE
 - again?
@@ -1470,6 +1471,7 @@
 - may i know a little bit about [Leave Travel](policy_type:leave_travel_policy) policy
 - Is there an [LTA](policy_type:leave_travel_policy) benefit?
 - Does the company provide [Leave travel allowance](policy_type:leave_travel_policy)?
+- I want to know about [LTA](policy_type:leave_travel_policy) rules
 
 ## intent: about_timing
 - What are the [cafeteria](policy_type:cafeteria_policy) timing?
@@ -1526,6 +1528,10 @@
 - Is [maternity](policy_type:maternity_leave_policy) a paidbenefit?
 - Will i get my full salary while on [maternity](policy_type:maternity_leave_policy) leave?
 - Will there is any salary deduction if i go on [maternity](policy_type:maternity_leave_policy) leave?
+- How will the amount be credited?
+- How will the [LTA](policy_type:leave_travel_policy) disbursement happen?
+- How will i get the amount?
+- How will the amount be credited in my account?
 
 ## intent: about_visitors
 - Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
@@ -1584,6 +1590,8 @@
 - Can i buy my own food in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there independent shops in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there alternate food options in the [cafeteria](policy_type:cafeteria_policy)?
+- What other food options are there in the [canteen](policy_type:cafeteria_policy)?
+- Does the [canteen](policy_type:cafeteria_policy) have food stalls? 
 
 ## intent: parental_leave_counted
 - Will my [maternity](policy_type:maternity_leave_policy) leave result in deduction of leave balance?
@@ -1637,7 +1645,6 @@
 - can i take [pat](policy_type:paternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
 - can i [club](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
 - can i [combine](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
-- In how [many blocks](maternity_benefit:leave_split) can i avail [paternity](policy_type:paternity_leave_policy) leave?
 - Can i take [paternity](policy_type:paternity_leave_policy) leave in [multiple blocks](maternity_benefit:leave_split)
 - Will i get a [longer](maternity_benefit:duration) maternity leave for my [first delivery](maternity_benefit:child_number)?
 - will i get a leave for my [second delivery](maternity_benefit:child_number)
@@ -1721,10 +1728,10 @@
 - I use my [car](travel_mode:car) only for [work](office_use). Can i claim 
 - How much [driver salary](chauffeur) can i claim?
 - How much [car](travel_mode:car) [fuel](fuel) can i claim?
-- Can i claim [driver expenses](chauffer)?
-- Can i claim [chauffeur](chauffer) expenses?
-- Can i claim [chauffeur's](chauffer) salary?
-- Is [driver's salary](chauffer) reimbursible?
+- Can i claim [driver expenses](chauffeur)?
+- Can i claim [chauffeur](chauffeur) expenses?
+- Can i claim [chauffeur's](chauffeur) salary?
+- Is [driver's salary](chauffeur) reimbursible?
 - I user my [car](travel_mode:car) for [official](office_use) only.
 - My [car](travel_mode:car) is used for [company purposes](office_use) only.
 - Can i claim my [telephone](landline) bill?
@@ -1738,7 +1745,7 @@
 - Can i get reimbursement for my [internet](internet) connection
 - can i claim reimbursement for my [wifi](internet) connection at home
 - Does the company provide any [health club](health_club) benefit?
-- Can i join a [health club](health_club?)
+- Can i join a [health club](health_club)?
 - Is a [gym](health_club) membership allowed?
 - Will the company reimburse my [fitness center](health_club) expenses
 - Can i get my [wellness center](health_club) cost reimbursed?
@@ -1751,12 +1758,26 @@
 - Can i reimburse my [medical cost](medical_reimbursement)?
 - Tell me about the [LTA](policy_type:leave_travel_policy) benefits?
 - What is my [leave travel](policy_type:leave_travel_policy) entitlement?
-- What can i calim under [LTA]?
+- What can i calim under [LTA](policy_type:leave_travel_policy)?
 - Is [family](family) covered under [LTA](policy_type:leave_travel_policy)?
 - Can i claim [LTA](policy_type:leave_travel_policy)?
 - What can i claim under [LTA](policy_type:leave_travel_policy)?
+- I am a [new joinee](employee_type:new). Can i calim LTA?
+- I have [joined recently](employee_type:new). What [tax benefits](policy_type:reimbursement_policy) can i claim?
+- I [just joined](employee_type:new) the company. Wanted to know more about [tax plannig](policy_type:reimbursement_policy)
+- I am [new employee](employee_type:new). What [tax benefits](policy_type:reimbursement_policy) can i get?
+- I have [just started](employee_type:new). Can i claim [LTA](policy_type:leave_travel_policy)
+- How many days of [privilege](leave_type:privilege) leaves are necessary for [LTA](policy_type:leave_travel_policy)
+- How many times can i take [LTA](policy_type:leave_travel_policy) in a [year](year)
+- In how many [years](year) can i claim [LTA](policy_type:leave_travel_policy)
+- Can i claim [LTA](policy_type:leave_travel_policy) twice in a [year](year)?
+- What is the current [window period](year) for [LTA](policy_type:leave_travel_policy)
+- What is the current 4 [years](year) for claiming [LTA](policy_type:leave_travel_policy)
+- What if i [did not avail](unclaimed) the [LTA](policy_type:leave_travel_policy) benefit?
+- What if i [did not avail](unclaimed) the [LTA](policy_type:leave_travel_policy) benefits?
+- In case my [LTA](policy_type:leave_travel_policy) remains [unavailed](unclaimed)
 
-## intent:about_accomodation_benefits?
+## intent:about_accomodation_benefits
 - Can i claim my [hotel](accomodation_type:hotel) expenses?
 - Can i claim my [hotel](accomodation_type:hotel) expenses?
 - Are [hotel](accomodation_type:hotel) expenses covered?
@@ -1775,7 +1796,7 @@
 - Can i claim for my [family's] travel as well?
 - Who can travel?
 - Can my [wife](family) also trave with me?
-- Can i claim [LTA](policy_type:leave_travel) for the travel of [my kids](family)
+- Can i claim [LTA](policy_type:leave_travel_policy) for the travel of [my kids](family)
 - Can i cali [Leave allowance](policy_type:leave_travel) for my [wife's](family) travel?
 - Will i get reimbursement for [my kid's](family) tickets?
 - Can i claim reimbursement for my [family's] travel?
@@ -1814,3 +1835,28 @@
 - Company use
 - official purpose
 - Official purpose
+
+## synonym: unclaimed
+- did not claim
+- did not avail
+- could not claim
+- remains unclaimed
+- could not avail
+- unavailed
+- unclaimed
+- untiilzed
+- could not utilize
+- did not utilize
+- could not be utilized
+- could not be claimed
+- could not be availed
+- did not utilize
+- dit not avail
+- did not use
+- could not use
+- could not consume
+- could not be fully utilized
+- could not be fully consumed
+- could not be fully used
+- could not be fully claimed
+- did not consume

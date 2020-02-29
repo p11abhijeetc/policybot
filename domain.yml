@@ -2,12 +2,22 @@ session_config:
   session_expiration_time: 480  # value in minutes, 0 means infinitely long
   carry_over_slots_to_new_session: false  # set to false to forget slots between sessions
 intents:
+  - react_positive
+  - nicetomeeyou
+  - telljoke
+  - handleinsult
+  - out_of_scope
+  - mood_unhappy
+  - human_handoff
+  - about_accomodation_benefits
+  - about_exit
+  - react_negative
+  - thank
+  - bye
   - greet
-  - goodbye
   - affirm
   - deny
   - mood_great
-  - mood_unhappy
   - bot_challenge
   - about_leave
   - apply_leave
@@ -75,6 +85,23 @@ entities:
 - visiting_employee
 - guest
 - temporary_staff
+- unclaimed
+- name
+- travel_mode
+- accomodation_type
+- year
+- mobile
+- fuel
+- medical_reimbursement
+- company
+- language
+- chauffeur
+- job_function
+- landline
+- health_club
+- internet
+- family
+- office_use
 
 slots:
   leave_benefit:
@@ -113,6 +140,8 @@ slots:
     - maternity_leave_policy
     - paternity_leave_policy
     - cafeteria_policy
+    - leave_travel_policy
+    - reimbursement_policy
 
 actions:
 - action_set_policy_type
@@ -123,7 +152,6 @@ actions:
 - utter_paternity
 - utter_without_pay
 - utter_greet
-- utter_cheer_up
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
