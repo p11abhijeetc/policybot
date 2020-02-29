@@ -72,6 +72,19 @@ intents:
   - about_tax_saving
   - about_benefits
   - about_tax_benefits
+  - employee_owned_car
+  - landline_internet
+  - healt_center
+  - meal_card
+  - illness_expenses
+  - travel_leave_allowance
+  - expenses_covered_under_LTA
+  - new_employee_LTA
+  - year_blocks_LTA
+  - unclaimed_LTA
+  - calculation_of_LTA
+  - apply_process_LTA
+  - disburse_process_LTA
 
 entities:
 - leave_type
@@ -205,6 +218,21 @@ actions:
 - utter_which_cafeteria_visitors
 - utter_food_options
 - utter_ask_which_policy
+- utter_about_tax_reimbursements
+- utter_employee_owned_car_tax
+- utter_landline_internet_tax
+- utter_health_center_tax
+- utter_meal_card_tax
+- utter_illness_expenses_tax
+- utter_travel_leave_allowance
+- utter_expenses_covered_under_LTA
+- utter_new_employee_LTA
+- utter_year_blocks_LTA
+- utter_unclaimed_LTA
+- utter_calculation_of_LTA
+- utter_apply_process_LTA
+- utter_disburse_process_LTA
+- utter_exist_case_LTA
 
 templates:
   utter_default:
@@ -470,3 +498,61 @@ templates:
     - payload: /employee_cafeteria_policy
       title: Cafeteria policy
     text: Are you referring to cafeteria policy?.
+  utter_about_tax_reimbursements:
+  - buttons:
+    - payload: /employee_owned_car
+      title: Employee Owned Car
+    - payload: /landline_internet
+      title: Landline or internet conenction at home
+    - payload: /healt_center
+      title: Health Club
+    - payload: /meal_card
+      title: Meal vouchers
+    - payload: /illness_expenses
+      title: Medical reimbursement
+    - payload: /travel_leave_allowance
+      title: Leave travel allowance
+    text: The company has a policy for employees to avail reimbursement benefits that help them to make their compensation tax-efficient; within the provisions of Income Tax Act of India. Please let me know if you are referring to any specific sax saving measure.
+  utter_employee_owned_car_tax:
+    - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
+  utter_landline_internet_tax:
+    - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The boradband connection should be in the name of the employee or an immediate family member (spouse,parent). Submitting original bills. Please get in touch with HR for knowing exact limits of reimbursement.
+  utter_health_center_tax:
+    - text: About the health club benefit. Only for the employee. Family not allowed.
+  utter_meal_card_tax:
+    - text: Employees are entitled to meal vouchers of INR 1000 per month as part of his or her salary. Such meal vouchers are usable only at eating joints and are non-transferrable and usable only by employees. The employees are not required to submit bills with the company for claiming exemption from tax in relation to such meal vouchers.
+  utter_illness_expenses_tax:
+    - text: Employees can avail the benefit of tax free medical reimbursement amounting to Rs 15,000/- for the year. This reimbursement would be made against original bills only. In case an employee fails to produce these bills, this component is treated taxable and the tax due is deducted. Medical bills can be for the employee himself or for his family that includes spouse, children, dependent parents and dependent siblings.
+  utter_travel_leave_allowance:
+    - buttons:
+      - payload: /expenses_covered_under_LTA
+        title: Expenses covered under LTA
+      - payload: /new_employee_LTA
+        title: LTA for new employees
+      - payload: /year_blocks_LTA
+        title: LTA Calender
+      - payload: /unclaimed_LTA
+        title: Unclaimed LTA
+      - payload: /calculation_of_LTA
+        title: LTA calculations
+      - payload: /apply_process_LTA
+        title: Applying for LTA
+      - payload: /disburse_process_LTA
+        title: Disbirsement of LTA
+      text: Under LTA benefit, expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets and boarding passes in case of Air Travel and original tickets in case of train travel as per the entitlement. Please select if which specific information you need regarding LTA benefit.
+  utter_expenses_covered_under_LTA:
+    - text: The LTA benefit covers expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets in case of train or bus travel and boarding passes in case of Air Travel. Hotel stay is not included.
+  utter_new_employee_LTA:
+    - text: A new employee can avail LTA only after having completed one year of service subject to successful completion of probation. For new joinees, entitlement for the first LTA year will be calculated on a pro-rata basis from date of joining.
+  utter_year_blocks_LTA:
+    - text: "LTA Year is a calendar year, i.e. from January 1st to December 31st. LTA can be claimed only twice in a block of four calendar years (Current block: Calendar year 2018 to 2021)"
+  utter_unclaimed_LTA:
+    - text: Where exemption claim of LTA remains unavailed during a block of four calendar years, one such claim may be availed during the first calendar year of the immediately succeeding block of four calendar years
+  utter_calculation_of_LTA:
+    - text: In order to take care of cases like change in entitlement due to salary revision and Leave without pay deductions, the LTA entitlement for the relevant year will be calculated on the basis of the actual Basic salary paid in the year for which the claim is being taken.
+  utter_apply_process_LTA:
+    - text: To apply for LTA, an employee must avail at least 3 days of Privilege leaves. Employees are required to fill up the LTA Form in triplicate and submit a copy of leave application form, availing 3 days Privilege Leave. Original tickets or bills for train or bus and boarding passes in case of air travel are also required. Factory employees are required to submit their LTA form to factory HR, rest need to submit to corporate HR. 
+  utter_disburse_process_LTA:
+    - text: The LTA will be paid along with the salary of current month. 75% of the LTA amount can be availed before proceeding on leave. Employee is required to submit LTA Bill within a week after returning from the trip. In case LTA claim bills are not submitted within one month of taking LTA advance, the LTA balance including the advance amount will be taxed and paid to the employee. 
+  utter_exist_case_LTA:
+    - text: On separation of an employee from the Company, balance LTA entitlement if any, (pro-rata basis) will be paid along with full & final settlement. No Privilege Leave is required to surrender in this case. Recovery of any excess reimbursement will be made in the full and final settlement.

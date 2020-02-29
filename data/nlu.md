@@ -1465,13 +1465,6 @@
 - Will employees get [lunch](meal) in office?
 - Can i get [lunch] in office?
 - What is [cafeteria](policy_type:cafeteria_policy) policy?
-- Tell me about [leave travel allowance](policy_type:leave_travel_policy)
-- What about [LTA](policy_type:leave_travel_policy)?
-- And [lta](policy_type:leave_travel_policy)?
-- may i know a little bit about [Leave Travel](policy_type:leave_travel_policy) policy
-- Is there an [LTA](policy_type:leave_travel_policy) benefit?
-- Does the company provide [Leave travel allowance](policy_type:leave_travel_policy)?
-- I want to know about [LTA](policy_type:leave_travel_policy) rules
 
 ## intent: about_timing
 - What are the [cafeteria](policy_type:cafeteria_policy) timing?
@@ -1776,6 +1769,8 @@
 - What if i [did not avail](unclaimed) the [LTA](policy_type:leave_travel_policy) benefit?
 - What if i [did not avail](unclaimed) the [LTA](policy_type:leave_travel_policy) benefits?
 - In case my [LTA](policy_type:leave_travel_policy) remains [unavailed](unclaimed)
+- How is [LTA](policy_type:leave_travel_policy) [calculated](computation)
+- What is the [calculation](computation) logic of [LTA](policy_type:leave_travel_policy)
 
 ## intent:about_accomodation_benefits
 - Can i claim my [hotel](accomodation_type:hotel) expenses?
@@ -1838,6 +1833,11 @@
 
 ## synonym: unclaimed
 - did not claim
+- do not avail
+- do not claim
+- do not use
+- do not utilize
+- do not comsume
 - did not avail
 - could not claim
 - remains unclaimed
@@ -1860,3 +1860,11 @@
 - could not be fully used
 - could not be fully claimed
 - did not consume
+
+## synonym: computation
+- calculated
+- calculation
+- estimation
+- estimated
+- computed
+- computation
