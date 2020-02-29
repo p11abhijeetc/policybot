@@ -1324,6 +1324,8 @@
 - What is the process for applying for [pat](policy_type:paternity_leave_policy) leave?
 - What is the process for applying for [paternity](policy_type:paternity_leave_policy) leave?
 - Is there a separate process to apply for [LWP](leave_type:unpaid)
+- How can i apply for [LTA](policy_type:leave_travel_policy)?
+- What is the prcess for applying for [lta](policy_type:leave_travel_policy)?
 
 ## intent: seek_approval
 - who will [approve](leave_benefit:approval) my [maternity](policy_type:maternity_leave_policy) leave?
@@ -1343,9 +1345,6 @@
 - Is approval mandatory?
 - How can i get an approval?
 - I want to go on maternity leave?
-- How to apply for paternity leave?
-- How can i apply?
-- How to apply for pat leave?
 - Who will approve my pat leave?
 - How can i get my pat leave approved?
 - Is prior approval needed?
@@ -1464,7 +1463,13 @@
 - Is there a facility for having [lunch](meal) in office?
 - Will employees get [lunch](meal) in office?
 - Can i get [lunch] in office?
-- What is [cafeteria](policy_type:cafeteria_policy) policy?   
+- What is [cafeteria](policy_type:cafeteria_policy) policy?
+- Tell me about [leave travel allowance](policy_type:leave_travel_policy)
+- What about [LTA](policy_type:leave_travel_policy)?
+- And [lta](policy_type:leave_travel_policy)?
+- may i know a little bit about [Leave Travel](policy_type:leave_travel_policy) policy
+- Is there an [LTA](policy_type:leave_travel_policy) benefit?
+- Does the company provide [Leave travel allowance](policy_type:leave_travel_policy)?
 
 ## intent: about_timing
 - What are the [cafeteria](policy_type:cafeteria_policy) timing?
@@ -1693,30 +1698,35 @@
 - How much can i claim
 - How is reimbursible?
 - What is the limit of reimbursement?
+- Is [family](family) allowed?
+- Will my [wife](family) be allowed?
+- Can i take my [wife](family) along?
+- Can [my children](family) come with me?
+- What about [my kids](family)?
 
 ## intent: about_tax_benefits
 - What [tax benefits](policy_type:reimbursement_policy) can i get?
 - What are my [tax benefits](policy_type:reimbursement_policy) eligibility
 - Am i eligible for company [tax saving](policy_type:reimbursement_policy) plans
 - Who is eligible to [save tax](policy_type:reimbursement_policy)
-- I have a [car](car). What reimbursements can i claim?
-- Are there any [tax benefits](policy_type:reimbursement_policy) for my [car](car)
-- What [tax benefits](policy_type:reimbursement_policy) can i claim for my [car](car)
-- What benefits can i get for my [car](car)
+- I have a [car](travel_mode:car). What reimbursements can i claim?
+- Are there any [tax benefits](policy_type:reimbursement_policy) for my [car](travel_mode:car)
+- What [tax benefits](policy_type:reimbursement_policy) can i claim for my [car](travel_mode:car)
+- What benefits can i get for my [car](travel_mode:car)
 - Can i claim [fuel](fuel) expenses?
-- Can i calim [car](car) [fuel](fuel) expenses?
-- What can i claim for my [four wheeler](car)?
-- What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](car)
-- I use my [car] for [official use](office_use) only. What benefits can i claim?
-- I use my [car] only for [work](office_use). Can i claim 
+- Can i calim [car](travel_mode:car) [fuel](fuel) expenses?
+- What can i claim for my [four wheeler](travel_mode:car)?
+- What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](travel_mode:car)
+- I use my [car](travel_mode:car) for [official use](office_use) only. What benefits can i claim?
+- I use my [car](travel_mode:car) only for [work](office_use). Can i claim 
 - How much [driver salary](chauffeur) can i claim?
-- How much [car](car) [fuel](fuel) can i claim?
+- How much [car](travel_mode:car) [fuel](fuel) can i claim?
 - Can i claim [driver expenses](chauffer)?
 - Can i claim [chauffeur](chauffer) expenses?
 - Can i claim [chauffeur's](chauffer) salary?
 - Is [driver's salary](chauffer) reimbursible?
-- I user my [car](car) for [official](office_use) only.
-- My [car](car) is used for [company purposes](office_use) only.
+- I user my [car](travel_mode:car) for [official](office_use) only.
+- My [car](travel_mode:car) is used for [company purposes](office_use) only.
 - Can i claim my [telephone](landline) bill?
 - Can i claim by [internet](internet) bill?
 - Claiming [broadband](landline) bills is allowed?
@@ -1739,6 +1749,62 @@
 - Are [medical bills](medical_reimbursement) reimbursible?
 - Will my [medical expense](medical_reimbursement) be reimbursed?
 - Can i reimburse my [medical cost](medical_reimbursement)?
+- Tell me about the [LTA](policy_type:leave_travel_policy) benefits?
+- What is my [leave travel](policy_type:leave_travel_policy) entitlement?
+- What can i calim under [LTA]?
+- Is [family](family) covered under [LTA](policy_type:leave_travel_policy)?
+- Can i claim [LTA](policy_type:leave_travel_policy)?
+- What can i claim under [LTA](policy_type:leave_travel_policy)?
+
+## intent:about_accomodation_benefits?
+- Can i claim my [hotel](accomodation_type:hotel) expenses?
+- Can i claim my [hotel](accomodation_type:hotel) expenses?
+- Are [hotel](accomodation_type:hotel) expenses covered?
+- Are [hotel](accomodation_type:hotel) expenses included in [lta](policy_type:leave_travel_policy)
+- I want to know about the [hotel](accomodation_type:hotel) entitlement?
+- Is [accomodation](accomodation_type:hotel) included in [lta](policy_type:leave_travel_policy)?
+- Can i claim for [accomodation](accomodation_type:hotel) as well?
+- Can i claim for [b&b](accomodation_type:hotel) as well?
+- Does the company reimbursement for my [stay](accomodation_type:hotel)?
+- Is [lodging](accomodation_type:hotel) reimbursible in [Leave travel](policy_type:leave_travel_policy)
+- Can [acco](accomodation_type:hotel) be claimed in [LTA]? 
+
+## about_travel_benefits
+- Can i travel with [family](family)
+- Is travelling with [wife](family) allowed?
+- Can i claim for my [family's] travel as well?
+- Who can travel?
+- Can my [wife](family) also trave with me?
+- Can i claim [LTA](policy_type:leave_travel) for the travel of [my kids](family)
+- Can i cali [Leave allowance](policy_type:leave_travel) for my [wife's](family) travel?
+- Will i get reimbursement for [my kid's](family) tickets?
+- Can i claim reimbursement for my [family's] travel?
+- Can i submit the tickets of my [family] for claiming [LTA]
+- What is my travel entitlement?
+- Tell me about my travel entitlement?
+- Do i have to sumbit tickets for claiming [LTA]?
+- Can i submit [bus](travel_mode:bus) tickets as well?
+- Can i submit [flight](travel_mode:bus) tickets as well?
+
+## intent: about_exit
+- I am serving my notice period in the company
+- I have put my papers
+- I have resigned
+- I want to exit the company
+- I have left my job
+- I an leaving the company. Will i have to repay my [LTA] claims?
+- What about seperation case?
+- What happens in case of seperation from the company?
+- How will the exit cases be handled?
+- What happens when an employee leaves his job?
+- What if i resign from the company?
+- Will i get the benefit even if i am on notice period?
+- What if i am serving my notice period?
+- What happens in case the employee puts her paper
+- What if i decide the quit?
+- What if i quit my job?
+- I have decided to quit from the company
+- Do i have to pay back if i have left my job?
 
 ## synonym: office_use
 - official use
