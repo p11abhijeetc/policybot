@@ -208,7 +208,7 @@ templates:
       title: Salary during maternity
     text: Looks like you want to know about maternity benefits. Could you please tell me which benefit would you like to know about?
   utter_club_maternity:
-  - text: As per company policy, maternity leave many be clubbed with both sick leave and privilege leaves.
+  - text: As per company policy, maternity leave may be clubbed with both sick leave and privilege leaves.
   utter_from_home_working_maternity:
   - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HOD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HOD and the woman mutually agree in written.
   utter_child_adoption:
