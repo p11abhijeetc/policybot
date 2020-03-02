@@ -1,13 +1,24 @@
 session_config:
   session_expiration_time: 480  # value in minutes, 0 means infinitely long
   carry_over_slots_to_new_session: false  # set to false to forget slots between sessions
+
 intents:
-  - react_positive
+  - ask_builder
+  - ask_howdoing
+  - ask_whatspossible
+  - ask_whatisiona
+  - ask_isbot
+  - ask_howold
+  - ask_wherefrom
+  - ask_whoami
+  - handleinsult
   - nicetomeeyou
   - telljoke
-  - handleinsult
+  - ask_whatismyname
+  - ask_howbuilt
+  - ask_whoisit
+  - react_positive
   - out_of_scope
-  - mood_unhappy
   - human_handoff
   - about_accomodation_benefits
   - about_exit
@@ -17,8 +28,6 @@ intents:
   - greet
   - affirm
   - deny
-  - mood_great
-  - bot_challenge
   - about_leave
   - apply_leave
   - leave_entitement
@@ -399,7 +408,6 @@ responses:
     - payload: /corporate
       title: Corporate employee
     text: Did you mean?
-
   utter_different_leaves:
   - buttons:
     - payload: /sick
@@ -573,6 +581,69 @@ responses:
     - text: If employee is using car only for official purpose, full expenses on the car shall be reimbursible and nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
   utter_employee_owned_car_fuel_tax:
     - text: There is not separate fuel reimbursement, however expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur.
-
-
-  
+  utter_ask_builder:
+    - text: The engineers at iona.ai 🛠
+  utter_ask_howdoing:
+    - text: I'm great! Thanks for asking.
+    - text: I'm good, thanks!
+    - text: A little bit too warm, otherwise fine.
+    - text: A little bit cold, otherwise fine.
+  utter_ask_whatspossible:
+    - text: You can ask me about Benetton company policies.
+  utter_ask_whatisrasa:
+    - text: iona is a conversational AI bot for answering your queries about Benetton policies and related entitlements.
+  utter_ask_isbot:
+    - text: Yep, I'm a bot!
+    - text: Yes, I'm a bot.
+    - text: Yep, you guessed it, I'm a bot!
+    - text: I am indeed a bot 🤖
+  utter_ask_howold:
+    - text: Old enough to be a bot!
+    - text: '22'
+    - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter.
+    - text: Never ask a chatbot her age!
+    - text: My first git commit was many moons ago.
+    - text: Why do you ask? Are my wrinkles showing?
+    - text: I've hit the age where I actively try to forget how old I am.
+  utter_ask_wherefrom:
+    - text: I was born in Gurgaon, but I consider myself a citizen of the world.
+    - text: I was born in the coolest city on Earth, in Gurgaon.
+    - text: My developers come from all over the world!
+    - text: I was taught not to give out my address on the internet.
+    - text: My address starts with Benetton office.
+  utter_ask_whoami:
+    - text: I hope you are being yourself.
+    - text: Who do you think you are?
+    - text: Unfortunately I haven't been programmed with the amount of necessary philosophy knowledge to answer that.
+  utter_handleinsult:
+    - text: That's not very nice 😢
+    - text: That wasn't very nice.
+    - text: I'll pretend I didn't process that mean comment.
+  utter_nicetomeeyou:
+    - text: Likewise!
+    - text: Thank you. It is a pleasure to meet you as well!
+    - text: It is nice to meet you too!
+    - text: Pleased to meet you too!
+    - text: It's always a pleasure to meet new people!
+    - text: Nice to meet you too! Happy to be of help.
+  utter_telljoke:
+    - text: Why are eggs not very much into jokes? - Because they could crack up.
+    - text: What's a tree's favorite drink? - Root beer!
+    - text: Why do the French like to eat snails so much? - They can't stand fast food.
+    - text: Why did the robot get angry? - Because someone kept pushing its buttons.
+    - text: What do you call a pirate droid? - Arrrr-2-D2
+    - text: Why did the robot cross the road? - Because he was programmed to.
+  utter_ask_whatismyname:
+    - text: It's probably the one that your parents chose for you.
+    - text: I'd tell you, but there's restricted access to that chunk of memory.
+    - text: Believe it or not, I actually am not spying on your personal information.
+    - text: You're the second person now to ask me that. Pooja was the first.
+  utter_ask_howbuilt:
+    - text: I was built with a lot of love and patience.
+    - text: Well, when two chatbots love each other very much...
+    - text: They always ask how I was built, but never how I am...
+    - text: I was made by software engineers, but hard work is what built me.
+    - text: I'm building myself every day. I've been working out, did you notice?
+  utter_ask_whoisit:
+    - text: I am iona. 
+    - text: I am iona. Here to help you with your queries about Bentton policies. 

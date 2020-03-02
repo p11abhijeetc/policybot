@@ -1,13 +1,3 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot
-
 ## ask and apply
 * about_leave
   - action_set_policy_type
