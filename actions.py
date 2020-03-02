@@ -8,6 +8,15 @@ import json
 from rasa_sdk.events import SlotSet
 import requests
 
+from rasa_sdk.events import (
+    SlotSet,
+    UserUtteranceReverted,
+    ConversationPaused,
+    EventType,
+    ActionExecuted,
+    UserUttered,
+)
+
 logger = logging.getLogger(__name__)
 
 class SetSlot(Action): 
@@ -42,18 +51,18 @@ class ResetSlot(Action):
 
 class ActionDefaultAskAffirmation(Action):
     """Asks for an affirmation of the intent if NLU threshold is not met."""
-
+    
     def name(self) -> Text:
         return "action_default_ask_affirmation"
 
     def __init__(self) -> None:
         import pandas as pd
 
-        #self.intent_mappings = pd.read_csv("demo/intent_description_mapping.csv")
-        #self.intent_mappings.fillna("", inplace=True)
-        #self.intent_mappings.entities = self.intent_mappings.entities.map(
-        #    lambda entities: {e.strip() for e in entities.split(",")}
-        #)
+        self.intent_mappings = pd.read_csv("demo/intent_description_mapping.csv")
+        self.intent_mappings.fillna("", inplace=True)
+        self.intent_mappings.entities = self.intent_mappings.entities.map(
+            lambda entities: {e.strip() for e in entities.split(",")}
+        )
 
     def run(
         self,
@@ -110,12 +119,26 @@ class ActionDefaultAskAffirmation(Action):
         dispatcher.utter_message(text=message_title, buttons=buttons)
 
         return []
+    def get_button_title(self, intent: Text, entities: Dict[Text, Text]) -> Text:
+        default_utterance_query = self.intent_mappings.intent == intent
+        utterance_query = (self.intent_mappings.entities == entities.keys()) & (
+            default_utterance_query
+        )
 
-        class ActionChitchat(Action):
+        utterances = self.intent_mappings[utterance_query].button.tolist()
+
+        if len(utterances) > 0:
+            button_title = utterances[0]
+        else:
+            utterances = self.intent_mappings[default_utterance_query].button.tolist()
+            button_title = utterances[0] if len(utterances) > 0 else intent
+
+        return button_title.format(**entities)    
+
+class ActionChitchat(Action):
     """Returns the chitchat utterance dependent on the intent"""
-
     def name(self) -> Text:
-        return "action_chitchat"
+          return "action_chitchat"
 
     def run(self, dispatcher, tracker, domain) -> List[EventType]:
         intent = tracker.latest_message["intent"].get("name")
