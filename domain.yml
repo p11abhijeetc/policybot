@@ -646,4 +646,6 @@ responses:
     - text: I'm building myself every day. I've been working out, did you notice?
   utter_ask_whoisit:
     - text: I am iona. 
-    - text: I am iona. Here to help you with your queries about Bentton policies. 
+    - text: I am iona. Here to help you with your queries about Bentton policies.
+  utter_contact_email:
+  - text: Please email us at hr@benetton.com.
