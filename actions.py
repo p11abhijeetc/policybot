@@ -53,7 +53,7 @@ class ActionDefaultAskAffirmation(Action):
         #self.intent_mappings.fillna("", inplace=True)
         #self.intent_mappings.entities = self.intent_mappings.entities.map(
         #    lambda entities: {e.strip() for e in entities.split(",")}
-        )
+        #)
 
     def run(
         self,
@@ -139,7 +139,7 @@ class ActionDefaultAskAffirmation(Action):
         ]:
             dispatcher.utter_message(template=f"utter_{intent}")
         return []
-        
+
 class ActionDefaultFallback(Action):
     def name(self) -> Text:
         return "action_default_fallback"
