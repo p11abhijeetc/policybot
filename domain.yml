@@ -85,6 +85,7 @@ intents:
   - calculation_of_LTA
   - apply_process_LTA
   - disburse_process_LTA
+  - about_travel_benefits
 
 entities:
 - leave_type
@@ -155,6 +156,14 @@ slots:
     - cafeteria_policy
     - leave_travel_policy
     - reimbursement_policy
+    - leave_travel_policy
+  travel_mode:
+    type: categorical
+    values:
+    - car
+    - bus
+    - train
+    - flight
 
 actions:
 - action_set_policy_type
@@ -233,6 +242,8 @@ actions:
 - utter_apply_process_LTA
 - utter_disburse_process_LTA
 - utter_exist_case_LTA
+- utter_employee_car_office_use
+- utter_employee_owned_car_fuel_tax
 
 templates:
   utter_default:
@@ -518,7 +529,7 @@ templates:
   utter_landline_internet_tax:
     - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The boradband connection should be in the name of the employee or an immediate family member (spouse,parent). Submitting original bills. Please get in touch with HR for knowing exact limits of reimbursement.
   utter_health_center_tax:
-    - text: About the health club benefit. Only for the employee. Family not allowed.
+    - text: The employees are free to avail gym facilities at a club of their choice. Exact amounts depend on the employee's band. Please get in touch with HR for exact amounts. Also, this facility is only for the employee. Employee's family is not covered under health club benefits.
   utter_meal_card_tax:
     - text: Employees are entitled to meal vouchers of INR 1000 per month as part of his or her salary. Such meal vouchers are usable only at eating joints and are non-transferrable and usable only by employees. The employees are not required to submit bills with the company for claiming exemption from tax in relation to such meal vouchers.
   utter_illness_expenses_tax:
@@ -556,3 +567,10 @@ templates:
     - text: The LTA will be paid along with the salary of current month. 75% of the LTA amount can be availed before proceeding on leave. Employee is required to submit LTA Bill within a week after returning from the trip. In case LTA claim bills are not submitted within one month of taking LTA advance, the LTA balance including the advance amount will be taxed and paid to the employee. 
   utter_exist_case_LTA:
     - text: On separation of an employee from the Company, balance LTA entitlement if any, (pro-rata basis) will be paid along with full & final settlement. No Privilege Leave is required to surrender in this case. Recovery of any excess reimbursement will be made in the full and final settlement.
+  utter_employee_car_office_use:
+    - text: If employee is using car only for official purpose, full expenses on the car shall be reimbursible and nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
+  utter_employee_owned_car_fuel_tax:
+    - text: There is not separate fuel reimbursement, however expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur.
+
+
+  

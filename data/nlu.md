@@ -1525,6 +1525,8 @@
 - How will the [LTA](policy_type:leave_travel_policy) disbursement happen?
 - How will i get the amount?
 - How will the amount be credited in my account?
+- Can i get the payment in advance?
+- Can i get claim [LTA](policy_type:leave_travel_policy) before going on leave?
 
 ## intent: about_visitors
 - Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
@@ -1564,7 +1566,7 @@
 - How to get [vouchers](voucher) for [lunch](meal)
 - Can i get [lunch](meal) [vouchers](voucher)
 - Can i [carry forward](leave_benefit:carry_forward) meal [vouchers] bought this month to the next month?
-- Will my meal [coupons] get [lapsed](leave_benefit:carry_forward)
+- Will my meal [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
 - Will [coupons](voucher) issued this month be [valid](leave_benefit:carry_forward) next month?
 - Is there an [expiry date](leave_benefit:carry_forward) for [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)
 - Is there any [validity](leave_benefit:carry_forward) of [coupons](voucher)
@@ -1572,7 +1574,7 @@
 - Can i use [coupons](voucher) issued this month sometime later?
 - How can i get the [vouchers](voucher) for the company [cafeteria](policy_type:cafeteria_policy)
 - Where can i get [coupons](voucher)
-- Can i get [meal](meal) [vouchers](voucher) for [tax saving]
+- Can i get [meal](meal) [vouchers](voucher) for [tax saving](policy_type:reimbursement_policy)
 
 ## intent: about_food_options
 - Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
@@ -1658,6 +1660,10 @@
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)? 
 
 ## intent: about_tax_saving
+- Does the company provide measures to get salary [without tax](policy_type:reimbursement_policy)?
+- Can i get some part of my salary [free of tax](policy_type:reimbursement_policy)
+- Is i claim [tax reimbursements](policy_type:reimbursement_policy)?
+- Can i get some part of my salary [tax free](policy_type:reimbursement_policy)?
 - Is there a policy related to [tax saving](policy_type:reimbursement_policy) measures?
 - Does the company have a policy to [save income tax](policy_type:reimbursement_policy)?
 - Are there any [tax efficient](policy_type:reimbursement_policy) measures?

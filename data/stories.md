@@ -734,3 +734,305 @@
 - utter_child_adoption_paternity
 
 <!--    -------------------------------------------------------Tax Saving Reimbursement Stories -----------------------------------------------------------------    -->
+
+## kenow about tax reimbursements - Owned car
+* about_tax_saving{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* employee_owned_car
+- utter_employee_owned_car_tax
+
+## know about tax reimbursement - Landline
+* about_tax_saving{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* landline_internet
+- utter_landline_internet_tax
+
+## know about tax reimbursement - Gym
+* about_tax_saving{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* healt_center
+- utter_health_center_tax
+
+## know about tax reimbursement - Meal Voucher
+* about_tax_saving{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* meal_card
+- utter_meal_card_tax
+
+## know about tax reimbursement - Medical
+* about_tax_saving{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* illness_expenses
+- utter_illness_expenses_tax
+
+## know about tax reimbursement - LTA
+* about_tax_saving{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* travel_leave_allowance
+- utter_travel_leave_allowance
+
+## know about LTA - Expenses covered
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* expenses_covered_under_LTA
+- utter_expenses_covered_under_LTA
+
+## know about LTA - New Employee
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* new_employee_LTA
+- utter_new_employee_LTA
+
+## know about LTA - Year Blocks
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* year_blocks_LTA
+- utter_year_blocks_LTA
+
+## know about LTA - Unclaimed LTA
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* unclaimed_LTA
+- utter_unclaimed_LTA
+
+## know about LTA - LTA Calculation
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* calculation_of_LTA
+- utter_calculation_of_LTA
+
+## know about LTA - LTA Apply
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* apply_process_LTA
+- utter_apply_process_LTA
+
+## know about LTA - LTA disbursement
+* about_tax_saving{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* disburse_process_LTA
+- utter_disburse_process_LTA
+
+## Exit case LTA
+* about_exit{"policy_type":"leave_travel_policy"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_exist_case_LTA
+
+## Apply for LTA
+* apply_for_benefit OR seek_approval{"policy_type":"leave_travel_policy"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_apply_process_LTA
+
+## kenow about tax reimbursements - Owned car
+* about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* employee_owned_car
+- utter_employee_owned_car_tax
+
+## know about tax reimbursement - Landline
+* about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* landline_internet
+- utter_landline_internet_tax
+
+## know about tax reimbursement - Gym
+* about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* healt_center
+- utter_health_center_tax
+
+## know about tax reimbursement - Meal Voucher
+* about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* meal_card
+- utter_meal_card_tax
+
+## know about tax reimbursement - Medical
+* about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* illness_expenses
+- utter_illness_expenses_tax
+
+## know about tax reimbursement - LTA
+* about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
+- utter_about_tax_reimbursements
+* travel_leave_allowance
+- utter_travel_leave_allowance
+
+## know about LTA - Expenses covered
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* expenses_covered_under_LTA
+- utter_expenses_covered_under_LTA
+
+## know about LTA - New Employee
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* new_employee_LTA
+- utter_new_employee_LTA
+
+## know about LTA - Year Blocks
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* year_blocks_LTA
+- utter_year_blocks_LTA
+
+## know about LTA - Unclaimed LTA
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* unclaimed_LTA
+- utter_unclaimed_LTA
+
+## know about LTA - LTA Calculation
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* calculation_of_LTA
+- utter_calculation_of_LTA
+
+## know about LTA - LTA Apply
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* apply_process_LTA
+- utter_apply_process_LTA
+
+## know about LTA - LTA disbursement
+* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
+- utter_travel_leave_allowance
+* disburse_process_LTA
+- utter_disburse_process_LTA
+
+## Car tax reimbursement
+* about_tax_benefits OR about_benefits{"travel_mode":"car"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_employee_owned_car_tax
+
+## car fully used for official work
+* about_tax_benefits OR about_benefits{"office_use":"official use"}
+- slot{"policy_type":"reimbursement_policy"}
+- slot{"travel_mode":"car"}
+- utter_employee_car_office_use
+
+## Car tax reimbursement -fuel
+* about_tax_benefits OR about_benefits{"fuel":"fuel"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_employee_owned_car_fuel_tax
+
+## Car tax reimbursement -driver
+* about_tax_benefits OR about_benefits{"chauffeur":"driver expenses"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_employee_owned_car_fuel_tax
+
+## Landline reimbursement
+* about_tax_benefits OR about_benefits{"landline":"telephone"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_landline_internet_tax
+
+## Internet reimbursement
+* about_tax_benefits OR about_benefits{"internet":"internet"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_landline_internet_tax
+
+## Mobile reimbursement
+* about_tax_benefits OR about_benefits{"mobile":"mobile"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_landline_internet_tax
+
+## Landline reimbursement
+* about_tax_benefits OR about_benefits{"landline":"telephone", "family":"wife"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_landline_internet_tax
+
+## Landline Health club
+* about_tax_benefits OR about_benefits{"health_club":"gym"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_health_center_tax
+
+## Landline health club with family
+* about_tax_benefits OR about_benefits{"health_club":"gym", "family":"wife"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_health_center_tax
+
+## Medical reimbursement
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_illness_expenses_tax
+
+## Medical reimbursement with family
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_illness_expenses_tax
+
+## Medical reimbursement with family
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_illness_expenses_tax
+
+## Meal Voucher
+* about_coupons
+- slot{"policy_type":"reimbursement_policy"}
+- utter_meal_card_tax
+
+## Meal Voucher
+* about_tax_benefits OR about_benefits{"voucher":"coupons"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_meal_card_tax
+
+## LTA benefits
+* about_tax_benefits OR about_benefits{"family":"wife}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_expenses_covered_under_LTA
+
+## LTA family coverage
+* about_tax_benefits OR about_benefits{"family":"wife}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_expenses_covered_under_LTA
+
+## LTA disbursement
+* about_payment
+- slot{"policy_type":"leave_travel_policy"}
+- utter_disburse_process_LTA
+
+## LTA New employee
+* about_tax_benefits OR about_benefits{"employee_type":"new"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_new_employee_LTA
+
+## LTA leave type - sick
+* about_tax_benefits OR about_benefits{"leave_type":"sick"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_apply_process_LTA
+
+## LTA leave type - casual
+* about_tax_benefits OR about_benefits{"leave_type":"casual"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_apply_process_LTA
+
+## LTA leave type - privilege
+* about_tax_benefits OR about_benefits{"leave_type":"privilege"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_apply_process_LTA
+
+## LTA leave type - LTA window period
+* about_tax_benefits OR about_benefits{"year":"window period"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_year_blocks_LTA
+
+## LTA  - calculation
+* about_tax_benefits OR about_benefits{"computation":"calculated"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_calculation_of_LTA
+
+## LTA - unclaimed
+* about_tax_benefits OR about_benefits{"unclaimed":"did not avail"}
+- slot{"policy_type":"leave_travel_policy"}
+- utter_unclaimed_LTA
+
+## LTA - hotel included
+* about_accomodation_benefits
+- slot{"policy_type":"leave_travel_policy"}
+- utter_expenses_covered_under_LTA
+
+## LTA Travel benefits
+* about_travel_benefits
+- slot{"policy_type":"leave_travel_policy"}
+- utter_expenses_covered_under_LTA
