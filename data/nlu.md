@@ -97,7 +97,7 @@
 - hey there boy
 - hey there..
 - hey, let's talk
-- hey, sara!
+- hey, iona!
 - heya
 - heyho
 - heyo
@@ -133,8 +133,8 @@
 - jop
 - konichiwa
 - merhaba
-- ola sara
-- rasa hello
+- ola iona
+- iona hello
 - salut
 - sup
 - wasssup
@@ -144,6 +144,702 @@
 - whats up
 - yo
 - yoo
+
+## intent:ask_whoisit
+- HI, what's your name?
+- Hello. What's your name?
+- I want to know who you are
+- So who are you ?
+- Tell me more about you
+- WHat's your name ?
+- WHo are you ?
+- What are you ?
+- What is your name
+- What is your name?
+- What's your name
+- What's your name?
+- Whats your name?
+- Who are yopu?
+- Who are you
+- Who are you?
+- You are Human ?
+- hey what is your name
+- hi! what's your name?
+- ok who are you ?
+- tell me something about you
+- u are?
+- what are you called?
+- who is iona?
+- what is your job?
+- what is your nam
+- what is your name
+- what is your name?
+- what is your nme?
+- what your name?
+- what's your name
+- what's your name ?
+- what's your name bot
+- what's your name?
+- whats ur name
+- whats your name
+- whats your name'
+- whats your name?
+- who ARE YO
+- who am i speaking with
+- who am i talking to
+- who ar eyou
+- who are u?
+- who are y
+- who are you
+- who are you ?
+- who are you and what do you want from me
+- who are you?
+- who are you??
+- who is it?
+- who is talking?
+- who is this
+- who is this bot
+- who is this?
+- who r u
+- who r you
+- who speaks?
+- who talks?
+- whom i talking to
+- yes but who are you in your heart
+- may i know your name
+- what is rasa mascot
+
+## intent:ask_howbuilt
+- By what means were you made?
+- By what method were you fashioned?
+- Can you explain how you were created?
+- Can you give me an idea as to how you were created?
+- Can you say how you were constructed?
+- Do you know how you were built?
+- Do you know how you were made?
+- How did they build you?
+- How did they create you?
+- How did they make you?
+- How did you come into being?
+- How did you come to be?
+- How exactly were you devised?
+- How exactly were you made?
+- How were you built?
+- How were you conceived?
+- How were you constructed?
+- How were you devised?
+- How were you formed?
+- How were you made into who you are?
+- How were you made?
+- How were you materialized?
+- How were you set up?
+- I want to know how you were formed
+- I'd like to know how you were created
+- I'd like to know how you were put together?
+- In what manner were you built?
+- In what manner were you constructed?
+- In what manner were you formed?
+- In what way were you created?
+- In what way were you formed?
+- In what way were you made?
+- In what way were you shaped?
+- In which manner were you devised?
+- Let me know how you were made exactly
+- Specify how you were created?
+- Tell me how you were made?
+- What process was used to build you?
+- What process was used to create you?
+- What was the process for making you?
+- You originated through what means?
+- how have you been built?
+- how were you made?
+- in what way were you made?
+- so how were you made?
+- what are you made of
+
+## intent:ask_whatismyname
+- Can you tell me my name?
+- Can you tell me what I am called?
+- Do I have a name?
+- Do I have a name? What is it?
+- Do you know my name?
+- Do you know what my name is?
+- Explain my name to me.
+- I have a name, what is it?
+- I'd like to know my name
+- I'd like to know what my name is
+- Inform me what my name is
+- May i know my name?
+- Please let me know what my name is
+- Say my name.
+- Tell me my name
+- Tell me my name.
+- What am I called?
+- What could be my name?
+- What did my parents name me?
+- What do I call myself?
+- What do my colleagues call me?
+- What do people call me?
+- What does everyone call me?
+- What else do people call me?
+- What exactly is my name?
+- What is my first name?
+- What is my full name?
+- What is my name?
+- What is the name I was given?
+- What name do I go by?
+- What name should I recognize for myself?
+- What was I named?
+- What would be the name on my tombstone?
+- can you tell me my name?
+- what is my name
+- what is my name?
+- what's my name?
+
+## intent:ask_whoami
+- Can you tell me who I am?
+- Can you tell me who am I?
+- Do you know who I am?
+- Do you know who am I?
+- How can I determine who I am?
+- How can I determine who am I?
+- How do I discover who I am?
+- How do I discover who am I?
+- How do I identify myself?
+- Okay who am I?
+- Shall i know who am i?
+- Tell me who I am.
+- Tell me who I am?
+- Tell me who am I?
+- WHo am I
+- Who am I?
+- Who could I be?
+- can you tell me what I am?
+- can you tell me what my identity is?
+- can you tell me who I am?
+- tell me what my identity is?
+- tell me who I am?
+- what's my identity?
+- who am i
+- who are I ?
+- who may i ?
+
+## intent:ask_wherefrom
+- Are you from around here?
+- Around where are you from?
+- Do you know where you come from?
+- From where did you come?
+- So where are you from
+- What area are you from?
+- What citizenship do you lay claim to?
+- What city are you in?
+- What city do you claim to for your birth?
+- What city were you born in?
+- What country are you from?
+- What country were you born in?
+- What is your birthplace?
+- What is your heritage?
+- What is your origin?
+- What is your original location?
+- What is your root?
+- What location are you from?
+- What state were you born in?
+- What's the name of the place you came from?
+- Where are you located?
+- Where are you?
+- Where are your origins?
+- Where are your roots?
+- Where did you come from?
+- Where did you grow up?
+- Where did you originate?
+- Where do you come from?
+- Where do you consider home?
+- Where do you live?
+- Where from?
+- Where might you be from?
+- Where were you at before you were here?
+- Where were you born?
+- You live around here?
+- You were conceived in what location?
+- are you from around here?
+- what country are you from?
+- where are from
+- where are you from
+- where are you from?
+- where are your parents from?
+- where did you come from?
+- where did you grow up?
+- where did you spend your youth?
+- where do you come from?
+- where do you live
+- where do you live?
+- where's your home town?
+
+## intent:ask_howold
+- Do you have friends the same age as you, if so, how old are they?
+- How long have you been alive?
+- How long have you been around?
+- How long have you occupied the earth?
+- How many candles were on your last birthday cake?
+- How many years have you been alive?
+- How many years have you lived?
+- How old are you?
+- How old were you on your last birthday?
+- How old will you be on your next birthday?
+- Tell me your day, month and year of birth.
+- What is your age?
+- What is your birthdate?
+- What is your count of years being alive so far?
+- What was your age on your last birthday?
+- What will be your age on your next birthday?
+- What year were you born?
+- Whats your age?
+- When do you celebrate your day of birth?
+- and you are how many years old?
+- can you tell me exactly how old you are?
+- can you tell me what number represents your age?
+- can you tell me your age?
+- do you know how old you are?
+- give me your age?
+- how about your age
+- how aold are you
+- how many ages?
+- how many years old are you?
+- how old are u
+- how old are you
+- how old are you?
+- how old were you on your last birthday?
+- how old were you when you celebrated your last birthday?
+- how old will you be this year?
+- how old?
+- in what year were you born?
+- tell me how old you are?
+- tell me your age number?
+- tell me your age?
+- what age are you
+- what age were you when you celebrated your last birthday?
+- what is your age?
+- what is your birthday?
+- what is your exact age?
+- what number represents your age?
+- what year were you born?
+- what's your age?
+- whats your age?
+- whats your birth year?
+- when is your birthday?
+- when were you born?
+- when you were bon
+
+## intent:ask_isbot
+- Ar you a bot ?
+- Are you a bot
+- Are you a chat bot?
+- Are you the bot?
+- Hi there, are you the bot?
+- So I'm here Today to ask one very simple question, what are you ?
+- are you a BOT
+- are you a Skynet ?
+- are you a bot
+- are you a bot ?
+- are you a bot?
+- are you a chatbot
+- are you a rasa bot?
+- are you a real bot?
+- are you a robot
+- are you ai
+- are you artificial
+- are you artificial intelligence
+- are you bot
+- are you bot?
+- are you human?
+- are you rasa bot?
+- are you real
+- are you real lol
+- are you really a bot
+- are you robot
+- are you sure that you're a bot?
+- bot?
+- cuz you are a bot
+- i guess you are a chatbot
+- oh are you chatbot?
+- tell me, are you a bot?
+- what are you, a bot?
+- you are a robot
+- you are ai
+- you are chatbot
+- you're a bot
+
+## intent:ask_whatisiona
+- Can you brief me about iona
+- Can you tell me more about iona?
+- Can you tell me what iona does?
+- Could you tell me more about iona?
+- Give me more information about iona
+- How does iona work?
+- I want to know about rsa
+- I want to know what iona actually does that isn't clear to me yet
+- I want to learn what iona does
+- I want to learn what iona is
+- I would like to know about iona
+- I would like to know more about your product
+- OK can u brief me Abt iona
+- iona?
+- iona Is?
+- WHAT IS IT
+- WHAT IS iona
+- What Is iona?
+- What can iona do?
+- What components does iona have?
+- What do you do as a company?
+- What do you do at iona?
+- What does iona build?
+- What does iona do?
+- What does iona make?
+- What does iona do exactly?
+- What exactly is iona?
+- What is iona?
+- What is iona doing exactly?
+- What is iona?
+- What is the iona Stack?
+- What's iona?
+- can you explain iona?
+- can you pls explain what iona does
+- could you tell me more about iona
+- explain me what iona does
+- explain me what iona is
+- how does iona work?
+- how does iona work
+- how does iona work?
+- how iona works ?
+- how works iona
+- i dont get what iona is
+- i havent understood yet what iona actually is
+- i want to about iona
+- i want to know about iona
+- i want to know what iona does
+- i want to learn something about iona
+- so how does it all work?
+- sorry tell me about iona
+- tell me about iona
+- tell me bout iona
+- tell me more about iona
+- tell me more about your company
+- what are the componensts of iona
+- what can i do with iona
+- what do you guys do at iona
+- what does iona do
+- what does iona do ?
+- what does iona do?
+- what does iona mean
+- what is in iona
+- what is it for?
+- what is iona
+- what is iona actually
+- what is iona?
+- whats iona
+- yeah go on explaining what iona is
+
+## intent:ask_whatspossible
+- Can you explain me in one sentence what you are doing?
+- Can you help me?
+- Could you please show me what you can
+- Great, is there anything else you can do, bot?
+- How can you help me
+- How you help me?
+- I need help
+- I need some help
+- What are my options
+- What are you able to do?
+- What can I ask you?
+- What can I do?
+- What can you demo
+- What can you do
+- What can you do for me?
+- What can you do?
+- What can you tell me?
+- What do you do
+- anything els
+- are there any other options?
+- can I ask you anything else?
+- can you do anything else?
+- can you help me
+- can you help me?
+- come back
+- cool! can I do something else here?
+- hello what can you do for me
+- help
+- help me
+- help please
+- help pls
+- help?
+- hep me
+- hi. iona what do you do?
+- hm that doesnt quite help me is there anything else you can do?
+- how can i use you
+- how can you help me
+- how can you help me?
+- how can you help?
+- how does this work?
+- how u can help me
+- how you help me
+- i asked you if you can do anything else
+- i don't know what i want
+- i need help
+- more info
+- now what?
+- options
+- show me the menu
+- show me what's possible
+- so now what
+- so what can you do
+- so what can you do?
+- so what can you help me with?
+- so what next?
+- talk to me
+- talk to me!
+- tell me something you can do
+- tell me what's your skill
+- um what now
+- what are all the things you understand?
+- what are the options?
+- what are you ding
+- what are you doing
+- what are you good at?
+- what can I ask ?
+- what can I ask you?
+- what can I do here
+- what can I do with iona?
+- what can I do with this bot
+- what can i do here
+- what can i do now
+- what can u do
+- what can we talk about?
+- what can you answer
+- what can you do
+- what can you do for me
+- what can you do, iona?
+- what can you do?
+- what can you offer me?
+- what can you tell me
+- what can you?
+- what cn u do for me ?
+- what do you do
+- what do you do?
+- what do you know except this?
+- what else can I do here?
+- what else can i do
+- what else can i do?
+- what else can you do?
+- what else can you help with?
+- what i have to do
+- what is this bot for
+- what u can do
+- what u can do?
+- what you can do
+- what you can do for me?
+- what you can do?
+- what you do
+- what you doing?
+- what you talk about?
+
+## intent:ask_howdoing
+- Ahoy matey how are you?
+- Are you ok?
+- Do you feel good?
+- Do you have a great day?
+- HI iona, what are you up to?
+- Hi iona! How are you?
+- How are You?
+- How are things?
+- How are you
+- How are you men?
+- How are you today?
+- How are you?
+- How was your day?
+- How you doing?
+- How's it going
+- How's it hanging?
+- How's life treating you friend?
+- How've you been?
+- Hows it going
+- I'm fine and you
+- Is everything ok?
+- What's going on?
+- What's new?
+- What's up
+- What's up man
+- and you
+- are you alright
+- are you happy
+- are you having a good day
+- are you ok
+- are you okay
+- h r u ?
+- hello, how are you?
+- hey how are you?
+- hi how are you?
+- hi how u doing
+- hi iona, how are you?
+- how ?
+- how are things going
+- how are things with you?
+- how are u
+- how are u?
+- how are xou
+- how are you
+- how are you ?
+- how are you doing
+- how are you doing this morning
+- how are you doing today my sweet friend
+- how are you doing today?
+- how are you doing?
+- how are you feeling
+- how are you today
+- how are you'
+- how are you?
+- how are you????
+- how are yuo
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- how r u
+- how r u ?
+- how r u>
+- how you doing
+- how you doing?
+- how's it going?
+- how's life
+- how's life been treating you?
+- how's your day going
+- howareyou
+- hw r u?
+- is everything all right
+- is everything okay
+- nah, I'm good - how are you doing?
+- okay hi how are you?
+- wassup>
+- what about your day
+- what are you up to?
+- what's good
+- what's up
+- what's up iona
+- what's up?
+- whatchcha doing
+- whatchya upto ?
+- whats goin on
+- whats new
+- whatsapp
+- yow are you
+
+## intent:ask_builder
+- By whom were you built?
+- Can I ask the name of the people who designed you?
+- Do you know who built you?
+- Do you know who made you?
+- May I ask who invented you?
+- Name the person who built you.
+- Tell me the name of the individual who created you.
+- Tell me the name of the person who built you.
+- Tell me the name of your creator.
+- Tell me who built you.
+- What is the name of your builder?
+- What person built you?
+- Who built you?
+- Who created and built you?
+- Who created you?
+- Who designed you?
+- Who developed and created you?
+- Who developed you?
+- Who fabricated you?
+- Who generated you?
+- Who is it that built you?
+- Who is responsible for making you?
+- Who is the builder of you?
+- Who is the legal owner of you?
+- Who is the name of your builder?
+- Who is the name of your creator?
+- Who is the person responsible for building you?
+- Who is the person that invented you?
+- Who is the person who built you?
+- Who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who put you together?
+- Who thought to make you?
+- Who was the one that built you?
+- Who was the one who made you?
+- Who was the person that built you?
+- Who was the person that created you?
+- Who was the person that made you?
+- Who was the person who made you?
+- Who was the person who put you together?
+- Who went through the trouble of setting you up?
+- Who were you built by?
+- Who were you created by?
+- Who were you made by?
+- Who's your boss?
+- Who's your builder?
+- and who built u?
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about you
+- tell me more about your creators
+- tell me more about your founders
+- what is the name of the smart engineer who creted you ?
+- where were you made?
+- which company brought you into existence?
+- which company created you?
+- which company invented you?
+- who are created you
+- who are your author?
+- who are your parents
+- who build yoi
+- who built u?
+- who built you
+- who built you?
+- who create you ?
+- who created you
+- who created you?
+- who developed
+- who developed you
+- who do you work for?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who invent you
+- who is behind all this?
+- who is your author
+- who is your boss
+- who is your boss tell me
+- who is your boss?
+- who is your creator
+- who is your creator?
+- who is your daddy
+- who is your employer?
+- who is your father ?
+- who is your mom
+- who is your parent?
+- who made u
+- who made u?
+- who made you
+- who made you?
+- who your author are?
+- who's builder
+- why were you made?
+- you are made by who?
+- you are working for which company?
 
 ## intent:handleinsult
 - FUCK
@@ -245,6 +941,9 @@
 - you're the most moronic person I know
 - your mom gay
 - you are annoying
+- bhak
+- sab bot bana dete hai
+- hatt saala
 
 ## intent:bye
 - bye
@@ -271,7 +970,7 @@
 - cya
 - farewell
 - good bye
-- good bye rasa bot!
+- good bye iona bot!
 - good night
 - goodbye
 - goodbye.
@@ -416,10 +1115,10 @@
 - ok good
 - ok great
 - ok i accept
-- ok sara
+- ok iona
 - ok, I behave now
 - ok, I understood
-- ok, Sara
+- ok, iona
 - ok...
 - okay
 - okay cool
@@ -757,7 +1456,7 @@
 - I want to die
 - I want to use pipe
 - I will check
-- Is Rasa really smart?
+- Is iona really smart?
 - Is this Goal-Oriented Chatbot?
 - Is today saturday?
 - Mail me the guide
@@ -862,7 +1561,7 @@
 - how come you say ok ?
 - how come?
 - how do you learn
-- how good is Rasa
+- how good is iona
 - how it compares to alexa
 - how long have you been online?
 - how long will the next version will launch?
@@ -884,7 +1583,7 @@
 - i want more of you in my life!
 - i want to buy a roomba for my grandson
 - i want to find new friends
-- i want to find out what you can build with rasa
+- i want to find out what you can build with iona
 - i want to fly
 - i want to know current situtation in pakistan
 - i want to see your happy customers
@@ -892,12 +1591,12 @@
 - is [John Lewis](name) still married to you
 - is it a wasteland full of broken robot parts?
 - is it allow to
-- is rasa a studio?
-- is rasa any good
+- is iona a studio?
+- is iona any good
 - is that any of your business
 - isn't the newsletter just spam?
 - it's a pity
-- kalhmera sara ti kaneis
+- kalhmera iona ti kaneis
 - kannst du auch deutsch?
 - kannst du dies auch auf deutsch?
 - license
@@ -918,7 +1617,7 @@
 - personal or work?
 - please play music
 - que puedes hacer?
-- rasa topics
+- iona topics
 - really? you're so touchy?
 - refresh
 - region with no. of records
@@ -952,7 +1651,7 @@
 - what doing
 - what else?
 - what films do you like
-- what i do after cd starter-pack-rasa-stack?
+- what i do after cd starter-pack-iona-stack?
 - what is a discourse?
 - what is a mascot
 - what is adlingo
@@ -961,7 +1660,6 @@
 - what is google rcs
 - what is machine learning
 - what is nice?
-- what is rasa mascot
 - what is the capital of delhi
 - what is the capital of india
 - what is the current petrol price
@@ -988,7 +1686,7 @@
 - which file is created first while developing chat bot
 - which is the LNU asynchronism ?
 - which kind
-- who are the engineers at rasa?
+- who are the engineers at iona?
 - who are they?
 - who is [Sharon Zeches](name)
 - who is the MD of samsung bangalore ?
@@ -1001,7 +1699,7 @@
 - whta you think about gdpr?
 - why
 - why do you need that?
-- why its called rasa ?
+- why its called iona ?
 - will u kill me
 - will u kill me?
 - winter is already leaving
@@ -1086,7 +1784,7 @@
 - lol
 - love you
 - okay iona bot, you're cool
-- rasa is awesome
+- iona is awesome
 - such a great demo
 - that is funny
 - that was a great interaction
@@ -1152,7 +1850,7 @@
 - Cool. Thanks
 - Great, thanks
 - Thank you
-- Thank you Sara
+- Thank you iona
 - Thank you so much
 - Thank's!
 - Thanks
@@ -1168,7 +1866,7 @@
 - danke
 - great thanks
 - ok thanks
-- ok thanks sara
+- ok thanks iona
 - ok thanks!
 - perfect thank you
 - thank u
@@ -1187,42 +1885,15 @@
 - thx
 - yes thanks
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-
 ## intent: about_leave
-- Is there a leave policy?
+- Is there a [leave](policy_type:leave_policy) policy
+- Tell me about the [leave](policy_type:leave_policy) policy
+- What about [leaves](policy_type:leave_policy)
 - Does the company have a leave policy?
 - What is leave policy?
 - What is company leave policy?
 - Please tell me about leave policy?
 - And what about leave policy?
-- And leave policy?
 - May i know about leave policy?
 - Please tell me about [sick](leave_type:sick) leaves
 - Please tell me more about [casual](leave_type:casual) leaves
@@ -1234,6 +1905,7 @@
 - Please tell me more about [earned](leave_type:privilege) leaves
 - Explain about leave
 - leave policy
+- And [leave](ploicy_type:leave_policy)
 - leave
 - Can you tell me about [leave without pay](leave_type:unpaid)
 - And what about [LWP](leave_type:unpaid)
@@ -1386,10 +2058,6 @@
 - can i take [leave](policy_type:leave_policy) for [medical](leave_type:sick) reasons
 
 ## intent: about_policy
-- Is there a [leave](policy_type:leave_policy) policy
-- Tell me about the [leave](policy_type:leave_policy) policy
-- What about [leaves](policy_type:leave_policy)
-- And [leave](policy_type:leave_policy) policy?
 - Is there a [paternity](policy_type:paternity_leave_policy) policy?
 - May i know about the [pat](policy_type:paternity_leave_policy) leave policy?
 - Tell me more about the [paternity](policy_type:paternity_leave_policy) plocy?
