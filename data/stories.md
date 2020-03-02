@@ -978,12 +978,12 @@
 - utter_meal_card_tax
 
 ## LTA benefits
-* about_tax_benefits OR about_benefits{"family":"wife}
+* about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
 
 ## LTA family coverage
-* about_tax_benefits OR about_benefits{"family":"wife}
+* about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
 
