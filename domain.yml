@@ -132,6 +132,7 @@ slots:
     values:
     - corporate
     - retail
+    - new
   leave_type:
     type: categorical
     values:
@@ -245,7 +246,7 @@ actions:
 - utter_employee_car_office_use
 - utter_employee_owned_car_fuel_tax
 
-templates:
+responses:
   utter_default:
   - text: Sorry, I didn't get that 🤷. Could you please rephrase?
   - text: I didn't understand, could you rephrase that?
