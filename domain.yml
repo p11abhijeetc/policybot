@@ -3,6 +3,7 @@ session_config:
   carry_over_slots_to_new_session: false  # set to false to forget slots between sessions
 
 intents:
+  - canthelp
   - ask_builder
   - ask_howdoing
   - ask_whatspossible
@@ -65,6 +66,9 @@ intents:
   - approval_process_paternity
   - paternity_duration
   - about_policy
+  - enter_data:
+    use_entities: []
+  - feedback 
   - about_timing
   - about_payment
   - about_visitors
@@ -175,6 +179,11 @@ slots:
     - bus
     - train
     - flight
+  feedback_value:
+    type: categorical
+    values:
+    - positive
+    - negative
 
 actions:
 - action_set_policy_type
@@ -648,4 +657,30 @@ responses:
     - text: I am iona. 
     - text: I am iona. Here to help you with your queries about Bentton policies.
   utter_contact_email:
-  - text: Please email us at hr@benetton.com.
+    - text: Please email us at [hr@benetton.com](mailto:hr@benetton.com).
+  utter_canthelp:
+    - text: I'm sorry I couldn't help you. If you have general questions about policies, please head to our [forum](link to be provided), otherwise contact us at [hr@benetton.com](mailto:hr@benetton.com) for anything else.
+  utter_nohelp:
+    - text: For now that's all I can do, so feel free to try it out. If you have any suggestions for what I should learn, let me know!
+  utter_thumbsup:
+    - text: 👍
+    - text: Okay.
+    - text: Got it.
+  utter_anything_else:
+    - text: Is there anything else I can help you with?
+  utter_great:
+    - text: Great! 👍
+    - text: That's great! 🙌
+    - text: Awesome! 🎉
+    - text: Cool, let's do it 🚀
+  utter_ask_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positive"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negative"}
+      title: 👎
+    text: How is this conversation going?
+  utter_noworries:
+    - text: No worries!
+    - text: You're welcome!
+    - text: I'm happy to help.
