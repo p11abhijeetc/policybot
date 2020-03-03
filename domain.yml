@@ -129,6 +129,7 @@ entities:
 - office_use
 - computation
 
+
 slots:
   leave_benefit:
     type: categorical
