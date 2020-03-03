@@ -2,13 +2,13 @@
 * greet
     - utter_greet
 * out_of_scope
-    - respond_out_of_scope
+    - utter_out_of_scope
 
 ## story number 5
 * greet
     - utter_greet
 * out_of_scope
-    - respond_out_of_scope
+    - utter_out_of_scope
     - utter_ask_whatspossible
 
 ## story number 6
@@ -41,7 +41,7 @@
 * deny
     - utter_nohelp
 * out_of_scope
-    - respond_out_of_scope
+    - utter_out_of_scope
     - utter_ask_whatspossible
 * ask_whoisit
     - action_chitchat

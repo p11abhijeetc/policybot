@@ -66,8 +66,6 @@ intents:
   - approval_process_paternity
   - paternity_duration
   - about_policy
-  - enter_data:
-    use_entities: []
   - feedback 
   - about_timing
   - about_payment
@@ -186,6 +184,9 @@ slots:
     - negative
 
 actions:
+- action_default_ask_affirmation
+- action_chitchat
+- action_default_fallback
 - action_set_policy_type
 - action_reset_LWP_slot
 - utter_sick
@@ -684,3 +685,5 @@ responses:
     - text: No worries!
     - text: You're welcome!
     - text: I'm happy to help.
+  utter_out_of_scope:
+    - text: Currently i dont have an answer for your query. I have noted your query. I suggest kindly reach out to the HR team for details.

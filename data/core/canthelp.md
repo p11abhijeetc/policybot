@@ -4,6 +4,6 @@
 
 ## greet + canthelp
 * greet
-    - action_greet_user
+    - utter_greet
 * canthelp
     - utter_canthelp

@@ -4,12 +4,6 @@
     - utter_thumbsup
     - utter_anything_else
 
-## feedback2
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
-
 ## feedback3
     - utter_ask_feedback
 * affirm
