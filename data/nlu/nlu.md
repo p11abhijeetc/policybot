@@ -1450,6 +1450,7 @@
 - nice to meet you
 
 ## intent:out_of_scope
+- I am asking you an out of scope question
 - 4 + 2 = ?
 - After registration I see that I have an available balance of 0.00000000. What does this balance represent?
 - Are you ready?
@@ -2001,6 +2002,7 @@
 - Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed 
 - Can i [club](leave_benefit:club) my leaves?
 - Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
+- Can i take [CL](leave_type:casual) and [PL](leave_type:privilege) [together](leave_benefit:club)?
 - Is [clubbing](leave_benefit:club) allowed?
 - Can i [combine](leave_benefit:club) two types of leaves?
 - Is [combining](leave_benefit:club) leave types allowed?
@@ -2036,6 +2038,7 @@
 - are off days counted in leaves?
 - If i am on leave on a holiday, will that be counted as a leave?
 - If i am on leave on an off day, will that be counted as a leave?
+- Will the weekend be counted if i am on leave on friday and on monday
 
 ## intent: about_leave_types
 - What are the types of [leaves](policy_type:leave_policy)
@@ -2195,6 +2198,11 @@
 - I am from Chandigarh office. I have use the [cafeteria](policy_type:cafeteria_policy)
 - I am from bangalore. Can i have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)
 - I am from another office. Can i get [lunch](meal)?
+- Can [guests](guest) also have lunch?
+- What about [guests](guest)?
+- What about [visitors](guest)?
+- What about taking a [friend](guest)?
+- What about biringing a [guest](guest)?
 
 ## intent: about_coupons
 - How can i get [coupons](voucher)?

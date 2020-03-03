@@ -409,56 +409,56 @@
 <!--      -------------------------------------------------------------------maternity leave stories-----------------------------------  -->
 
 ## about policy maternity - apply
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * apply_maternity
 - utter_maternity_apply
 
 ## about policy maternity - approve
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * approval_process_maternity
 - utter_maternity_approve
 
 ## about policy maternity - Number of Children
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * number_of_children
 - utter_number_of_children
 
 ## about policy maternity - Duration
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * maternity_duration
 - utter_maternity_duration
 
 ## about policy maternity - Child adoption
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * child_adoption
 - utter_child_adoption
 
 ## about policy maternity - Work from home
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * from_home_working_maternity
 - utter_from_home_working_maternity
 
 ## about policy maternity - Club
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * club_maternity
 - utter_club_maternity
 
 ## about policy maternity - Payment
-* about_policy{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_about_maternity
 * maternity_payment
@@ -475,31 +475,31 @@
 - utter_maternity_approve
 
 ## about policy maternity - Number of Children
-* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"child_number"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"child_number"}
 - slot{"policy_type":"maternity_leave_policy"}
 - slot{"maternity_benefit":"child_number"}
 - utter_number_of_children
 
 ## about policy maternity - Duration
-* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"duration"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"duration"}
 - slot{"policy_type":"maternity_leave_policy"}
 - slot{"maternity_benefit":"duration"}
 - utter_maternity_duration
 
 ## about policy maternity - Child adoption
-* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"adoption"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"adoption"}
 - slot{"policy_type":"maternity_leave_policy"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption
 
 ## about policy maternity - Work from home
-* about_policy{"policy_type":"maternity_leave_policy", "maternity_benefit":"work_from_home"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"work_from_home"}
 - slot{"policy_type":"maternity_leave_policy"}
 - slot{"maternity_benefit":"work_from_home"}
 - utter_from_home_working_maternity
 
 ## about policy maternity - Club
-* about_policy{"policy_type":"maternity_leave_policy", "leave_benefit":"club"}
+* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "leave_benefit":"club"}
 - slot{"policy_type":"maternity_leave_policy"}
 - slot{"leave_benefit":"club"}
 - utter_club_maternity
@@ -608,35 +608,35 @@
 - utter_counted_paternity
 
 ## about policy paternity - apply
-* about_policy{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
 - slot{"policy_type":"paternity_leave_policy"}
 - utter_about_paternity
 * apply_paternity
 - utter_apply_paternity
 
 ## about policy paternity - approve
-* about_policy{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
 - slot{"policy_type":"paternity_leave_policy"}
 - utter_about_paternity
 * approval_process_paternity
 - utter_approval_process_paternity
 
 ## about policy paternity - Number of Children
-* about_policy{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
 - slot{"policy_type":"paternity_leave_policy"}
 - utter_about_paternity
 * number_of_children
 - utter_number_of_children_paternity
 
 ## about policy paternity - Duration
-* about_policy{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
 - slot{"policy_type":"paternity_leave_policy"}
 - utter_about_paternity
 * paternity_duration
 - utter_paternity_duration
 
 ## about policy paternity - adoption
-* about_policy{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
 - slot{"policy_type":"paternity_leave_policy"}
 - utter_about_paternity
 * child_adoption
@@ -653,19 +653,19 @@
 - utter_approval_process_paternity
 
 ## about policy paternity - Number of Children
-* about_policy{"policy_type":"paternity_leave_policy", "maternity_benefit":"child_number"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy", "maternity_benefit":"child_number"}
 - slot{"policy_type":"paternity_leave_policy"}
 - slot{"maternity_benefit":"child_number"}
 - utter_number_of_children_paternity
 
 ## about policy paternity - Duration
-* about_policy{"policy_type":"paternity_leave_policy", "maternity_benefit":"duration"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy", "maternity_benefit":"duration"}
 - slot{"policy_type":"paternity_leave_policy"}
 - slot{"maternity_benefit":"duration"}
 - utter_paternity_duration
 
 ## about policy paternity - adoption
-* about_policy{"policy_type":"paternity_leave_policy", "maternity_benefit":"adoption"}
+* about_policy OR about_leave{"policy_type":"paternity_leave_policy", "maternity_benefit":"adoption"}
 - slot{"policy_type":"paternity_leave_policy"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption_paternity

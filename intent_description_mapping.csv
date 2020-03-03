@@ -70,12 +70,13 @@ nlu_info,I want info on {nlu_part}.,nlu_part
 pipeline_recommendation,I want a pipeline recommendation.,
 react_negative,I'm sad!,
 react_positive,I'm happy!,
-signup_newsletter,Signup for the newsletter,
-signup_newsletter,Signup for the newsletter with {email},email
-source_code,Where can I see your source code.,
-suggestion,A suggestion of how I can improve.,
-switch,I want to migrate.,
-switch,I want to migrate from {current_api}.,current_api
-technical_question,A technical question.,
+about_timing,Do you want to know about timings {policy_type},policy_type
+about_policy,Would you like to know about {policy_type},policy_type
+about_leave,Are you taking about {policy_type},policy_type
+about_leave,Are you taking about {leave_type} leave,leave_type
 telljoke,Tell me a joke!,
 thank,Thanks!,
+leave_benefits,Are you interested to know about leave - {leave_benefit},leave_benefit
+leave_benefits,Are you intetested to know about leave benefits?,
+leave_entitlement,Do you wish to know leave entitlement?,
+leave_entitlement,Do you wish to know {leave_type} leave entitlement?,leave_type
