@@ -275,8 +275,11 @@ responses:
   - text: I'm afraid I didn't get what you just said. Could you rephrase that?
   - text: I didn't quite get that, could you rephrase your message?
   - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  - text: I'm sorry I didn't get you, could you rephrase that please.
+  - text: Please rephrase your query. I'm sorry I didn't get you.
   utter_maternity_payment:
   - text: During the maternity leave period the employee shall be paid leave salary equal to the pay drawn immediately before proceeding on maternity leave.
+  - text: Payments will be same as your last drawn salary immediately before proceeding on maternity leave. 
   utter_about_maternity_benefits:
   - buttons:
     - payload: /apply_maternity
@@ -295,23 +298,27 @@ responses:
       title: Clubbing of leaves
     - payload: /maternity_payment
       title: Salary during maternity
-    text: Looks like you want to know about maternity benefits. Could you please tell me which benefit would you like to know about?
+    text: Looks like you want to know about maternity related benefits. Could you please tell me which benefit would you like to know about?
   utter_club_maternity:
   - text: As per company policy, maternity leave may be clubbed with both sick leave and privilege leaves.
+  - text: Maternity leaves may be clubbed with both sick leave and privilege leaves.
+  - text: You can club sick and privilege leaves with maternity leaves.
+  - text: Sick and privilege leaves can be clubbed with maternity leaves.
   utter_from_home_working_maternity:
-  - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HOD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HOD and the woman mutually agree in written.
+  - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HoD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HoD and the woman mutually agree in written. For discussing personal situations, suggest you to please get in touch with HR.
   utter_child_adoption:
-  - text: As per the maternity policy, for adopting / commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth /age proof of the child to be given by the adopting/commissioning mother.
+  - text: As per the maternity policy, for adopting / commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth / age proof of the child to be given by the adopting / commissioning mother. For more details on child adoption, please get in touch with HR.
   utter_maternity_duration:
   - text: A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only. For more than two surviving children a woman shall be entitled twelve weeks of which not more than six weeks shall precede the date of her expected delivery.
   utter_number_of_children:
-  - text: The maximum period for which any woman shall be entitled to maternity benefit shall now be 26/182 days weeks of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall proceed with the date of expected delivery.
+  - text: Upto 2 children, the maternity leave entitlement is for 26 weeks (182 days) of which not more than 8 weeks shall precede the expected date of delivery. For more than 2 surviving children, the maternity leave benefit is for 12 weeks of which not more than 6 weeks shall precede the expected date of delivery.
+  - text: For upto 2 children, expecting mothers can avail 26 weeks (182 days) of maternity leaves which must not start more than 8 weeks of expected delivery date. For more than 2 surviving children, the maternity leave benefit is for 12 weeks of which not more than 6 weeks shall precede the expected date of delivery.
   utter_maternity_approve:
   - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
   utter_maternity_apply:
   - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
   utter_maternity_not_counted:
-  - text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types.
+  - text: Maternity leave is not counted against any other leave type.
   utter_about_maternity:
   - buttons:
     - payload: /apply_maternity
@@ -330,9 +337,9 @@ responses:
       title: Clubbing of leaves
     - payload: /maternity_payment
       title: Salary during maternity
-    text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
+    text: Upto 2 children, the maternity leave entitlement is for 26 weeks (182 days) of which not more than 8 weeks shall precede the expected date of delivery. Would you like to know more about maternity leaves?
   utter_privilege_leave_corporate:
-  - text: Corporate employees have previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: Corporate employees have 30 previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
   - text: Corporate employees get 30 previlege leaves. Minimum of 4 privilege leaves must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
   - text: 30 previlege leaves (PL) are there for corporate employees. You must take a minimum of 4 PLs at a time. PLs can be taken upto 3 times in a year. You must apply at least 10 days in advance for approvals processing.
   utter_privilege_leave_retail:
@@ -448,9 +455,9 @@ responses:
   utter_privilege_retail:
   - text: Retail employees have 21 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward.
   utter_maternity:
-  - text: As per the maternity leave policy, an expecting mother can get a maximum of 26 weeks/182 days leaves. The employee has the discretion to split these 182 days between pre natal and post natal leaves.
+  - text: As per the maternity leave policy, an expecting mother can get a maximum of 26 weeks / 182 days leaves. She has the discretion to split these 182 days between pre natal and post natal leaves.
   - text: Expecting mothers can get a maximum of 26 weeks/182 days leaves as per the maternity policy. There is an option for splitting these 182 days between pre natal and post natal leaves.
-  - text: A maximum of 26 weeks/182 days of maternity leaves are available for expecting mothers. There is an option for splitting these 182 days between pre natal and post natal leaves.
+  - text: A maximum of 26 weeks / 182 days of maternity leaves are available for expecting mothers. There is an option for splitting these 182 days between pre natal and post natal leaves.
   utter_paternity:
   - text: The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable.
   utter_without_pay:
@@ -546,13 +553,15 @@ responses:
       title: Leave travel allowance
     text: The company has a policy for employees to avail reimbursement benefits that help them to make their compensation tax-efficient; within the provisions of Income Tax Act of India. Please let me know if you are referring to any specific sax saving measure.
   utter_employee_owned_car_tax:
-    - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
+    - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 CC, the employee may claim upto INR 2,400/- per month for running and maintenance charges and in addition INR 900/- per month for chauffeur. If however the engine capacity is lower than 1.6 CC, the employee can claim  upto INR 1,800/- per month for running and maintenance charges and in addition upto INR 900/- per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
   utter_landline_internet_tax:
     - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The boradband connection should be in the name of the employee or an immediate family member (spouse,parent). Submitting original bills. Please get in touch with HR for knowing exact limits of reimbursement.
+    - text: Subject to entitlement limits, one landline telephone and broadband internet connection with original receipts can be reimbursed. The connection should either be in the name of the employee or an immediate family member (spouse, parents). For knowing limits, please contact HR.
   utter_health_center_tax:
     - text: The employees are free to avail gym facilities at a club of their choice. Exact amounts depend on the employee's band. Please get in touch with HR for exact amounts. Also, this facility is only for the employee. Employee's family is not covered under health club benefits.
+    - text: You can join a club of your choice. Monthly, quarterly and annual membership expenses incurred on health clubs (only by the employee) can be reimbursed by employees subject to limits applicable to their grade by submitting receipts. Please contact HR for more details regarding limits etc.
   utter_meal_card_tax:
-    - text: Employees are entitled to meal vouchers of INR 1000 per month as part of his or her salary. Such meal vouchers are usable only at eating joints and are non-transferrable and usable only by employees. The employees are not required to submit bills with the company for claiming exemption from tax in relation to such meal vouchers.
+    - text: Employees are entitled to meal vouchers of Rs 1000/- per month as part of his or her salary. Such meal vouchers are usable only at eating joints and are non-transferrable and usable only by employees. The employees are not required to submit bills with the company for claiming exemption from tax in relation to such meal vouchers.
   utter_illness_expenses_tax:
     - text: Employees can avail the benefit of tax free medical reimbursement amounting to Rs 15,000/- for the year. This reimbursement would be made against original bills only. In case an employee fails to produce these bills, this component is treated taxable and the tax due is deducted. Medical bills can be for the employee himself or for his family that includes spouse, children, dependent parents and dependent siblings.
   utter_travel_leave_allowance:
@@ -608,6 +617,8 @@ responses:
     - text: Yes, I'm a bot.
     - text: Yep, you guessed it, I'm a bot!
     - text: I am indeed a bot 🤖
+    - text: You are right! I am a indeed a bot.
+    - text: Indeed! I am a chatbot.
   utter_ask_howold:
     - text: Old enough to be a bot!
     - text: '22'
@@ -628,6 +639,7 @@ responses:
     - text: Unfortunately I haven't been programmed with the amount of necessary philosophy knowledge to answer that.
   utter_handleinsult:
     - text: That's not very nice 😢
+    - text: Not nice 😢
     - text: That wasn't very nice.
     - text: I'll pretend I didn't process that mean comment.
   utter_nicetomeeyou:
@@ -658,6 +670,7 @@ responses:
   utter_ask_whoisit:
     - text: I am iona. 
     - text: I am iona. Here to help you with your queries about Bentton policies.
+    - text: I'm iona. I can help with your Benetton employee policies related queries.
   utter_contact_email:
     - text: Please email us at [hr@benetton.com](mailto:hr@benetton.com).
   utter_canthelp:
@@ -668,6 +681,8 @@ responses:
     - text: 👍
     - text: Okay.
     - text: Got it.
+    - text: Agree
+    - text: Wow!
   utter_anything_else:
     - text: Is there anything else I can help you with?
   utter_great:
@@ -687,4 +702,4 @@ responses:
     - text: You're welcome!
     - text: I'm happy to help.
   utter_out_of_scope:
-    - text: Currently i dont have an answer for your query. I have noted your query. I suggest kindly reach out to the HR team for details.
+    - text: Currently I dont have an answer for your query. I have noted your query. I suggest kindly reach out to the HR team for details.
