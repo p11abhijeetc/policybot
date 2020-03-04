@@ -1932,7 +1932,7 @@
 - Please tell me more about [earned](leave_type:privilege) leaves
 - Explain about leave
 - leave policy
-- And [leave](ploicy_type:leave_policy)
+- And [leave](policy_type:leave_policy)
 - leave
 - Can you tell me about [leave without pay](leave_type:unpaid)
 - And what about [LWP](leave_type:unpaid)
@@ -2155,7 +2155,7 @@
 - Will there be any salary deduction for using [cafeteria](policy_type:cafeteria_policy)?
 - Will i salary be deducted if i apply for leave?
 - Will the company deduct my salary for
-- Is [maternity] leave a paid benefit?
+- Is [maternity](policy_type:maternity_leave_policy) leave a paid benefit?
 - Will i be paid during [maternity](policy_type:maternity_leave_policy)?
 - will i get my salary during [maternity](policy_type:maternity_leave_policy)?
 - will my salary deducted during [maternity](policy_type:maternity_leave_policy)?
@@ -2248,6 +2248,8 @@
 - Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
 
 ## intent: patental_leave_benefits
+- For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
+- [How many](maternity_benefit:duration) [pat](policy_type:paternity_leave_policy) leaves do i have?
 - Can i get [paternity](policy_type:paternity_leave_policy) leave?
 - Am i eligible for [maternity](policy_type:maternity_leave_policy) leave?
 - Who is eligible for [paternity](policy_type:paternity_leave_policy) leave benefit?
@@ -2461,7 +2463,7 @@
 - I have resigned
 - I want to exit the company
 - I have left my job
-- I an leaving the company. Will i have to repay my [LTA] claims?
+- I an leaving the company. Will i have to repay my [LTA](policy_type:leave_travel_policy) claims?
 - What about seperation case?
 - What happens in case of seperation from the company?
 - How will the exit cases be handled?
