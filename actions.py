@@ -112,7 +112,7 @@ class ActionDefaultAskAffirmation(Action):
         buttons.append(
             {
                 "title": "Something else",
-                "payload": "I am asking you an out of scope question",
+                "payload": "/something_else",
             }
         )
 

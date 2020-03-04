@@ -64,3 +64,5 @@ about_travel_benefits,Would you like to know about travel reimbursement?,
 about_travel_benefits,Should I be telling you about {travel_mode} travel?,travel_mode
 about_travel_benefits,Do you want to know if your family can also travel?,family
 about_exit,Are you looking for exit related formalities?,
+patental_leave_benefits,Are you looking for Paternity or Maternity benefits?,
+patental_leave_benefits,are you looking for benefits with respect to {policy_type},{policy_type}
