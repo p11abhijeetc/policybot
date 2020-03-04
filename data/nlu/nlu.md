@@ -2171,6 +2171,7 @@
 - Can i get claim [LTA](policy_type:leave_travel_policy) before going on leave?
 
 ## intent: about_visitors
+- Are [guests] allowed in the oov?
 - Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
 - Can i take [my friends](guest) to [cafeteria](policy_type:cafeteria_policy)?
 - Can i bring [guests](guest) along to the [cafeteria](policy_type:cafeteria_policy)?
@@ -2205,6 +2206,8 @@
 - What about biringing a [guest](guest)?
 
 ## intent: about_coupons
+- How can i get meal oov
+- How can i get oov for [lunch](meal) at the cafeteria(policy_type:cafeteria_policy)
 - How can i get [coupons](voucher)?
 - How to purchase [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
 - Will my [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
@@ -2224,6 +2227,7 @@
 - Can i get [meal](meal) [vouchers](voucher) for [tax saving](policy_type:reimbursement_policy)
 
 ## intent: about_food_options
+- what food options are there in the oov?
 - Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
 - Does the [cafeteria](policy_type:cafeteria_policy) have snacks counters?
 - Can i purchase additional foods in the [cafeteria](policy_type:cafeteria_policy)?
