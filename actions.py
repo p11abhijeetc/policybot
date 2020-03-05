@@ -27,7 +27,7 @@ class SetSlot(Action):
     
     def run(self, dispatcher, tracker, domain):    
         current_intent = tracker.latest_message['intent'].get('name')
-#        current_entity = tracker.latest_message['entities'].get('name')
+        #current_entity = tracker.latest_message['entities'].get('name')
         if current_intent == "about_leave" or current_intent == "about_leave_types" or current_intent == "leave_entitement" or current_intent == "leave_benefits" or current_intent == "weekend_counted":
             policy_type ="leave_policy"
         elif current_intent == "about_maternity_benefits" or current_intent == "maternity_counted" or current_intent == "maternity":
@@ -51,7 +51,7 @@ class ResetSlot(Action):
 
 class ActionDefaultAskAffirmation(Action):
     """Asks for an affirmation of the intent if NLU threshold is not met."""
-    
+
     def name(self) -> Text:
         return "action_default_ask_affirmation"
 
@@ -112,13 +112,14 @@ class ActionDefaultAskAffirmation(Action):
         buttons.append(
             {
                 "title": "Something else",
-                "payload": "/something_else",
+                "payload": "I am asking you an out of scope question",
             }
         )
 
         dispatcher.utter_message(text=message_title, buttons=buttons)
 
         return []
+
     def get_button_title(self, intent: Text, entities: Dict[Text, Text]) -> Text:
         default_utterance_query = self.intent_mappings.intent == intent
         utterance_query = (self.intent_mappings.entities == entities.keys()) & (
@@ -133,7 +134,7 @@ class ActionDefaultAskAffirmation(Action):
             utterances = self.intent_mappings[default_utterance_query].button.tolist()
             button_title = utterances[0] if len(utterances) > 0 else intent
 
-        return button_title.format(**entities)    
+        return button_title.format(**entities)
 
 class ActionChitchat(Action):
     """Returns the chitchat utterance dependent on the intent"""
@@ -188,5 +189,4 @@ class ActionDefaultFallback(Action):
         else:
             dispatcher.utter_message(template="utter_default")
             return [UserUtteranceReverted()]
-
 
