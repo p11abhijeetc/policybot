@@ -6,7 +6,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text, Union, Optional
 import json
 from rasa_sdk.events import SlotSet
-import requests
+# -*- import requests -*-
 
 from rasa_sdk.events import (
     SlotSet,
