@@ -2140,6 +2140,10 @@
 - May i know [cafeteria](policy_type:cafeteria_policy) timings.
 
 ## intent: about_payment
+- How to pay?
+- What about payments?
+- And payments?
+- How can i pay for food in [cafeteria](policy_type:cafeteria_policy)
 - Do i have to pay for that?
 - Will i be charged for [food](meal) in the [cafeteria](policy_type:cafeteria_policy)
 - Do i have to pay for the [food](meal) in cafeteria?
@@ -2316,8 +2320,8 @@
 - can i take [maternity](policy_type:maternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
 - can i [club](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
 - can i [combine](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
-- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
-- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)? 
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick](leave_type:sick) [leave](policy_type:leave_policy)?
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual](leave_type:casual) [leave](policy_type:leave_policy)?
 
 ## intent: about_tax_saving
 - Does the company provide measures to get salary [without tax](policy_type:reimbursement_policy)?
