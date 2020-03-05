@@ -29,7 +29,6 @@
 - Hi Iona!
 - Hi bot
 - Hi man
-- Hi iona
 - Hi Iona
 - Hi iona..
 - Hi there
@@ -525,7 +524,6 @@
 - What exactly is iona?
 - What is iona?
 - What is iona doing exactly?
-- What is iona?
 - What is the iona Stack?
 - What's iona?
 - can you explain iona?
@@ -535,7 +533,6 @@
 - explain me what iona is
 - how does iona work?
 - how does iona work
-- how does iona work?
 - how iona works ?
 - how works iona
 - i dont get what iona is
@@ -980,7 +977,6 @@
 - Bye bye
 - adios
 - adios?
-- bye
 - bye .
 - bye :P
 - bye bot
@@ -998,7 +994,6 @@
 - good bye
 - good bye iona bot!
 - good night
-- goodbye
 - goodbye.
 - goodnight
 - gotta go
@@ -1127,7 +1122,6 @@
 - lets do this
 - nice
 - not bad
-- of course
 - ofcoure i do
 - ofcourse
 - oh awesome!
@@ -1202,7 +1196,6 @@
 - yep thats cool
 - yep, will do thank you
 - yep. :/
-- yes
 - yes ...
 - yes I do
 - yes accept please
@@ -1304,9 +1297,7 @@
 - nehi
 - nein
 - neither
-- never
 - never mind
-- no
 - no :(
 - no I dont want
 - no I haven't decided yet if I want to sign up
@@ -1324,7 +1315,6 @@
 - no thank s
 - no thank you
 - no thanks
-- no way
 - no you did it wrong
 - no!!!!
 - no, i hate it
@@ -1341,7 +1331,6 @@
 - nope!
 - nope. i am good
 - not going well at all
-- not really
 - not right now
 - not yet
 - nö
@@ -1912,10 +1901,7 @@
 - thx
 - yes thanks
 
-## intent: about_leave
-- Is [merging](leave_benefit:club) leaves allowed?
-- Tell me about [merging](leave_benefit:club) of [leaves](policy_type:leave_policy)?
-- Please explain [leave](policy_type:leave_policy) [merge](leave_benefit:club)
+## intent:about_leave
 - Is there a [leave](policy_type:leave_policy) policy
 - Tell me about the [leave](policy_type:leave_policy) policy
 - What about [leaves](policy_type:leave_policy)
@@ -1925,10 +1911,10 @@
 - Please tell me about leave policy?
 - And what about leave policy?
 - May i know about leave policy?
-- Please tell me about [sick](leave_type:sick) leaves
-- Please tell me more about [casual](leave_type:casual) leaves
-- And [privilege](leave_type:privilege) leaves?
-- What about [sick](leave_type:sick) leave?
+- Please tell me about [sick](leave_type) leaves
+- Please tell me more about [casual](leave_type) leaves
+- And [privilege](leave_type) leaves?
+- What about [sick](leave_type) leave?
 - May i know about [SL](leave_type:sick) leave?
 - Please tell me about [CL](leave_type:casual)
 - May i know about [PL](leave_type:privilege)
@@ -1941,7 +1927,7 @@
 - And what about [LWP](leave_type:unpaid)
 - Please tell me about [lwp](leave_type:unpaid)
 
-## intent: apply_for_benefit
+## intent:apply_for_benefit
 - I want to apply for leave
 - How to apply
 - How can i apply
@@ -1952,8 +1938,8 @@
 - How to apply leave
 - Apply leave
 - how can i get leaves?
-- I want apply for [sick](leave_type:sick) leave
-- I want to apply [casual](leave_type:casual) leave
+- I want apply for [sick](leave_type) leave
+- I want to apply [casual](leave_type) leave
 - I want to apply for [earned](leave_type:privilege) leave
 - How can i apply for [maternity](policy_type:maternity_leave_policy)?
 - How to apply for [maternity](policy_type:maternity_leave_policy)?
@@ -1965,8 +1951,7 @@
 - I want to apply for [mat](policy_type:maternity_leave_policy) leave
 - how to apply for [paternity](policy_type:paternity_leave_policy) leave?
 - how can i apply [pat](policy_type:paternity_leave_policy) leave?
-- how can i apply for [sick](leave_type:sick) leave?
-- how to apply for [paternity](policy_type:paternity_leave_policy) leave?
+- how can i apply for [sick](leave_type) leave?
 - How can i apply for [patternity](policy_type:paternity_leave_policy) leave?
 - can i get [paternity](policy_type:paternity_leave_policy) leave?
 - What is the process for applying for [pat](policy_type:paternity_leave_policy) leave?
@@ -1975,15 +1960,15 @@
 - How can i apply for [LTA](policy_type:leave_travel_policy)?
 - What is the prcess for applying for [lta](policy_type:leave_travel_policy)?
 
-## intent: seek_approval
+## intent:seek_approval
 - who will [approve](leave_benefit:approval) my [maternity](policy_type:maternity_leave_policy) leave?
 - How will my [maternity](policy_type:maternity_leave_policy) leave be [approved](leave_benefit:approval)?
-- What is the [approval](leave_benefit:approval) process for [maternity](policy_type:maternity_leave_policy) leave?
-- I have an urgent requirement of leaves. Do i need [approval](leave_benefit:approval)?
-- I have an emergency. Can i go on leave without [approval](leave_benefit:approval)?
-- Is [approval](leave_benefit:approval) needed for going on leave?
-- Do i need manager [approval](leave_benefit:approval) before going on leave?
-- Is manager [approval](leave_benefit:approval) required?
+- What is the [approval](leave_benefit) process for [maternity](policy_type:maternity_leave_policy) leave?
+- I have an urgent requirement of leaves. Do i need [approval](leave_benefit)?
+- I have an emergency. Can i go on leave without [approval](leave_benefit)?
+- Is [approval](leave_benefit) needed for going on leave?
+- Do i need manager [approval](leave_benefit) before going on leave?
+- Is manager [approval](leave_benefit) required?
 - Does my manager need to [approve](leave_benefit:approval) my leaves?
 - Is approval needed for [LWP](leave_type:unpaid)
 - Who will approve if i want to go on a long [unpaid leave](leave_type:witout_pay)
@@ -1998,24 +1983,20 @@
 - Is prior approval needed?
 - Can i go on leave and get it approved later?
 
-## intent: leave_benefits
+## intent:leave_benefits
 - I want to know about my leave benefits?
 - What leave benefits do i have?
-- I want to [merge](leave_benefit:club) [leaves](policy_type:leave_policy)
-- Can i [club](leave_benefit:club) [sick](leave_type:sick) leave with [PL](leave_type:privilege)
-- Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed 
-- Can i [club](leave_benefit:club) my leaves?
-- Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
+- Can i [club](leave_benefit) [sick](leave_type) leave with [PL](leave_type:privilege)
+- Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed
+- Can i [club](leave_benefit) my leaves?
+- Can i [club](leave_benefit) [casual](leave_type) leaves?
 - Can i take [CL](leave_type:casual) and [PL](leave_type:privilege) [together](leave_benefit:club)?
-- Can i take [PL](leave_type:privilege) and [sick](leave_type:sick) [together](leave_benefit:club)?
-- Which [leaves](policy_type:leave_policy) can be taken [together](leave_benefit:club)
 - Is [clubbing](leave_benefit:club) allowed?
 - Can i [combine](leave_benefit:club) two types of leaves?
 - Is [combining](leave_benefit:club) leave types allowed?
-- Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
-- Is [clubbing](leave_benefit:club) of [sick](leave_type:sick) leaves allowed?
+- Is [clubbing](leave_benefit:club) of [sick](leave_type) leaves allowed?
 - Can leaves be [clubbed](leave_benefit:club)
-- Can i [club](leave_benefit:club) [sick](leave_type:sick) leaves with [casual](leave_type:casual) leaves? 
+- Can i [club](leave_benefit) [sick](leave_type) leaves with [casual](leave_type) leaves?
 - Can i [mix and match](leave_benefit:club) leave types?
 - Are the [leaves](policy_type:leave_policy) [carried forward](leave_benefit:carry_forward)
 - Will my leaves get [lapsed](leave_benefit:carry_forward)
@@ -2023,17 +2004,17 @@
 - Will my leaves get [lapsed](leave_benefit:carry_forward) if i don't use them?
 - Will my leaves get [lapse](leave_benefit:carry_forward)
 - Will leaves be [prorated](leave_benefit:proration)?
-- Is there any kind of [proration](leave_benefit:proration)?
-- Is there leave [proration](leave_benefit:proration)?
+- Is there any kind of [proration](leave_benefit)?
+- Is there leave [proration](leave_benefit)?
 - Will my leaves be on [pro rata basis](leave_benefit:proration)
-- Can i [encash](leave_benefit:encash) my leaves?
+- Can i [encash](leave_benefit) my leaves?
 - Are leaves [encashable](leave_benefit:encash)?
-- Is there an option to [encash](leave_benefit:encash) my leaves?
+- Is there an option to [encash](leave_benefit) my leaves?
 - Is leave [encashment](leave_benefit:encash) possible?
 - How are leave [encashment](leave_benefit:encash) calculated?
 - what is leave [encashment](leave_benefit:encash) policy?
 
-## intent: weekend_counted
+## intent:weekend_counted
 - Will the weekends falling during my holiday counted?
 - Holiday during my leave will be consideres as leave?
 - Will the weekends also be counted?
@@ -2046,7 +2027,7 @@
 - If i am on leave on an off day, will that be counted as a leave?
 - Will the weekend be counted if i am on leave on friday and on monday
 
-## intent: about_leave_types
+## intent:about_leave_types
 - What are the types of [leaves](policy_type:leave_policy)
 - How many differnt kinds of [leaves](policy_type:leave_policy)
 - What all [leaves](policy_type:leave_policy) are there?
@@ -2057,43 +2038,42 @@
 - Tell me about the types of [leaves](policy_type:leave_policy)?
 - Can i know different [leave](policy_type:leave_policy) types?
 
-## intent: leave_entitlement
-- I want to take [leave](policy_type:leave_policy)
+## intent:leave_entitement
 - Can i get [leave](policy_type:leave_policy)
-- Can i get [sick](leave_type:sick) [leave](policy_type:leave_policy)?
+- Can i get [sick](leave_type) [leave](policy_type:leave_policy)?
 - I am [not well](leave_type:sick). can i take the day off?
 - I have [fever](leave_type:sick). May i take leave?
 - I am [not feeling well](leave_type:sick) and wanted to take leave today?
-- How many [sick](leave_type:sick) leaves can i take?
+- How many [sick](leave_type) leaves can i take?
 - Is there any limit on the number of [sick] leave
 - How many leaves do you have?
 - What is my total [leaves](policy_type:leave_policy)?
 - What is the total number [leaves](policy_type:leave_policy)?
 - What is my leave [entitlement](policy_type:leave_policy)?
-- Will i need [medical certificate](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves
+- Will i need [medical certificate](leave_benefit:medical_certificate) for [sick](leave_type) leaves
 - Do i have to show any [doctor certificate](leave_benefit:medical_certificate) for going on leave?
-- I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves 
-- What is my [sick](leave_type:sick) [leave](policy_type:leave_policy) entitlement?
-- How many [sick](leave_type:sick) [leaves](policy_type:leave_policy) do i have?
-- How many [casual](leave_type:casual) leaves can i get?
+- I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick](leave_type) leaves
+- What is my [sick](leave_type) [leave](policy_type:leave_policy) entitlement?
+- How many [sick](leave_type) [leaves](policy_type:leave_policy) do i have?
+- How many [casual](leave_type) leaves can i get?
 - Can i take [leave](policy_type:leave_policy) for more than 5 days?
-- Can i get [sick](leave_type:sick) leave?
+- Can i get [sick](leave_type) leave?
 - How many [leaves](policy_type:leave_policy) can i take in one go?
-- How many [privilege](leave_type:privilege) leaves can i take?
-- And [casual](leave_type:casual) leaves
-- what about [sick](leave_type:sick) leaves
-- I am [retail](employee_type:retail) employee. How many [privilege](leave_type:privilege) leaves can i take?
-- I am [corporate](employee_type:corporate) employee. How many [privilege](leave_type:privilege) leaves can i take?
-- I work in the [store](employee_type:retail). How many [privilege](leave_type:privilege) leaves can i take?
-- I work in the [corporate](employee_type:corporate) office. How many [privilege](leave_type:privilege) leaves can i take?
+- How many [privilege](leave_type) leaves can i take?
+- And [casual](leave_type) leaves
+- what about [sick](leave_type) leaves
+- I am [retail](employee_type) employee. How many [privilege](leave_type) leaves can i take?
+- I am [corporate](employee_type) employee. How many [privilege](leave_type) leaves can i take?
+- I work in the [store](employee_type:retail). How many [privilege](leave_type) leaves can i take?
+- I work in the [corporate](employee_type) office. How many [privilege](leave_type) leaves can i take?
 - How many [leaves](policy_type:leave_policy) are there?
 - Total number of [leaves](policy_type:leave_policy)
-- How many [sick](leave_type:sick) leaves are there for [retail](employee_type:retail) employees
-- How many [casual](leave_type:casual) leaves are there for [corporate](employee_type:corporate) employees
-- I am [store](employee_type:retail) staff. How many [privilege](leave_type:privilege) leaves can i take?
+- How many [sick](leave_type) leaves are there for [retail](employee_type) employees
+- How many [casual](leave_type) leaves are there for [corporate](employee_type) employees
+- I am [store](employee_type:retail) staff. How many [privilege](leave_type) leaves can i take?
 - can i take [leave](policy_type:leave_policy) for [medical](leave_type:sick) reasons
 
-## intent: about_policy
+## intent:about_policy
 - Is there a [paternity](policy_type:paternity_leave_policy) policy?
 - May i know about the [pat](policy_type:paternity_leave_policy) leave policy?
 - Tell me more about the [paternity](policy_type:paternity_leave_policy) plocy?
@@ -2115,7 +2095,7 @@
 - Can i get [lunch] in office?
 - What is [cafeteria](policy_type:cafeteria_policy) policy?
 
-## intent: about_timing
+## intent:about_timing
 - What are the [cafeteria](policy_type:cafeteria_policy) timing?
 - Is the [cafeteria](policy_type:cafeteria_policy) open through out the day?
 - What are the [cafeteria](policy_type:cafeteria_policy) timings?
@@ -2139,7 +2119,7 @@
 - Tell me [cafeteria](policy_type:cafeteria_policy) timings.
 - May i know [cafeteria](policy_type:cafeteria_policy) timings.
 
-## intent: about_payment
+## intent:about_payment
 - Do i have to pay for that?
 - Will i be charged for [food](meal) in the [cafeteria](policy_type:cafeteria_policy)
 - Do i have to pay for the [food](meal) in cafeteria?
@@ -2177,7 +2157,7 @@
 - Can i get the payment in advance?
 - Can i get claim [LTA](policy_type:leave_travel_policy) before going on leave?
 
-## intent: about_visitors
+## intent:about_visitors
 - Are [guests] allowed in the oov?
 - Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
 - Can i take [my friends](guest) to [cafeteria](policy_type:cafeteria_policy)?
@@ -2212,14 +2192,14 @@
 - What about taking a [friend](guest)?
 - What about biringing a [guest](guest)?
 
-## intent: about_coupons
+## intent:about_coupons
 - How can i get meal oov
 - How can i get oov for [lunch](meal) at the cafeteria(policy_type:cafeteria_policy)
 - How can i get [coupons](voucher)?
 - How to purchase [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
 - Will my [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
-- How to get [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
-- Can i get [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
+- How to get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
+- Can i get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
 - How to get [vouchers](voucher) for [lunch](meal)
 - Can i get [lunch](meal) [vouchers](voucher)
 - Can i [carry forward](leave_benefit:carry_forward) meal [vouchers] bought this month to the next month?
@@ -2233,7 +2213,7 @@
 - Where can i get [coupons](voucher)
 - Can i get [meal](meal) [vouchers](voucher) for [tax saving](policy_type:reimbursement_policy)
 
-## intent: about_food_options
+## intent:about_food_options
 - what food options are there in the oov?
 - Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
 - Does the [cafeteria](policy_type:cafeteria_policy) have snacks counters?
@@ -2244,9 +2224,9 @@
 - Are there independent shops in the [cafeteria](policy_type:cafeteria_policy)?
 - Are there alternate food options in the [cafeteria](policy_type:cafeteria_policy)?
 - What other food options are there in the [canteen](policy_type:cafeteria_policy)?
-- Does the [canteen](policy_type:cafeteria_policy) have food stalls? 
+- Does the [canteen](policy_type:cafeteria_policy) have food stalls?
 
-## intent: parental_leave_counted
+## intent:parental_leave_counted
 - Will my [maternity](policy_type:maternity_leave_policy) leave result in deduction of leave balance?
 - will [maternity](policy_type:maternity_leave_policy) leave be counted as regular leave?
 - Is [maternity](policy_type:maternity_leave_policy) counted as leave?
@@ -2258,7 +2238,7 @@
 - will [paternity](policy_type:paternity_leave_policy) be counted as leave?
 - Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
 
-## intent: parental_leave_benefits
+## intent:patental_leave_benefits
 - For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
 - [How many](maternity_benefit:duration) [pat](policy_type:paternity_leave_policy) leaves do i have?
 - Can i get [paternity](policy_type:paternity_leave_policy) leave?
@@ -2266,7 +2246,7 @@
 - Who is eligible for [paternity](policy_type:paternity_leave_policy) leave benefit?
 - How [long](maternity_benefit:duration) can be the [maternity](policy_type:maternity_leave_policy) leave?
 - What is the [length](maternity_benefit:duration) of [pat](policy_type:paternity_leave_policy) leave?
-- What is the [duration](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- What is the [duration](maternity_benefit) of [paternity](policy_type:paternity_leave_policy) leave?
 - What is the [longest](maternity_benefit:duration) [maternity](policy_type:maternity_leave_policy) leave i can take
 - What is the [maximum length](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
 - How [many days](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy)
@@ -2274,9 +2254,9 @@
 - Can [paternity](policy_type:paternity_leave_policy) leave be [extended](maternity_benefit:duration)?
 - what is the [period](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
 - what is the [total length](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
-- will i get [paternity](policy_type:paternity_leave_policy) leave for child [adoption](maternity_benefit:adoption)
+- will i get [paternity](policy_type:paternity_leave_policy) leave for child [adoption](maternity_benefit)
 - will i get [paternity](policy_type:paternity_leave_policy) leave for [adopting](maternity_benefit:adoption) a child?
-- Is [paternity](policy_type:paternity_leave_policy) leave allwoed in case of [adoption](maternity_benefit:adoption)
+- Is [paternity](policy_type:paternity_leave_policy) leave allwoed in case of [adoption](maternity_benefit)
 - Can i get [paternity](policy_type:paternity_leave_policy) leave if i [adopt](maternity_benefit:adoption)
 - For how [many kids](maternity_benefit:child_number) can i take [paternity](policy_type:paternity_leave_policy) leave?
 - For how [many kids](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) policy applicable?
@@ -2293,33 +2273,32 @@
 - will i get a leave for my [first child](maternity_benefit:child_number)
 - Will i get leave for any [number of childbirths](maternity_benefit:child_number)
 - Is [paternity](policy_type:paternity_leave_policy) bennefit applicable to a limited [number of children](maternity_benefit:child_number)
-- This is my [second kid](maternity_benefit:child_number). Will i get [paternity](policy_type:paternity_leave_policy) leave? 
+- This is my [second kid](maternity_benefit:child_number). Will i get [paternity](policy_type:paternity_leave_policy) leave?
 - can i take my [paternity](policy_type:paternity_leave_policy) leave in [multiple chunks](maternity_benefit:leave_split)
 - How much of my [paternity](policy_type:paternity_leave_policy) leave can i take before childbirth?
 - can i [split](maternity_benefit:leave_split) my [paternity](policy_type:paternity_leave_policy) leave?
 - can i take [pat](policy_type:paternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
-- can i [club](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
+- can i [club](leave_benefit) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
 - can i [combine](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
 - Can i take [paternity](policy_type:paternity_leave_policy) leave in [multiple blocks](maternity_benefit:leave_split)
 - Will i get a [longer](maternity_benefit:duration) maternity leave for my [first delivery](maternity_benefit:child_number)?
 - will i get a leave for my [second delivery](maternity_benefit:child_number)
 - will i get a leave for my [first pregnancy](maternity_benefit:child_number)
-- Will i get leave for any [number of childbirths](maternity_benefit:child_number)
 - Is [maternity](policy_type:maternity_leave_policy) bennefit applicable to a limited [number of deleveries](maternity_benefit:child_number)
 - This is my [second delivery](maternity_benefit:child_number). Will i get [maternity](policy_type:maternity_leave_policy) leave?
 - can i [work from home](maternity_benefit:work_from_home) during [pregnancy](policy_type:maternity_leave_policy)?
-- Am i allowed to [login from home](maternity_benefit:work_from_home) during or after [pregnancy](policy_type:maternity_leave_policy)? 
+- Am i allowed to [login from home](maternity_benefit:work_from_home) during or after [pregnancy](policy_type:maternity_leave_policy)?
 - Is [maternity](policy_type:maternity_leave_policy) considered leave without pay?
 - can i take my [maternity](policy_type:maternity_leave_policy) leave in [multiple chunks](maternity_benefit:leave_split)
 - How much of my [maternity](policy_type:maternity_leave_policy) leave can i take before childbirth?
 - can i [split](maternity_benefit:leave_split) my [maternity](policy_type:maternity_leave_policy) leave?
 - can i take [maternity](policy_type:maternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
-- can i [club](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
+- can i [club](leave_benefit) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
 - can i [combine](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
-- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
-- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)? 
+- can i [club](leave_benefit) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
+- can i [club](leave_benefit) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)?
 
-## intent: about_tax_saving
+## intent:about_tax_saving
 - Does the company provide measures to get salary [without tax](policy_type:reimbursement_policy)?
 - Can i get some part of my salary [free of tax](policy_type:reimbursement_policy)
 - Is i claim [tax reimbursements](policy_type:reimbursement_policy)?
@@ -2351,9 +2330,9 @@
 - Explain [tax benefits](policy_type:reimbursement_policy)
 - More about [tax related benefits](policy_type:reimbursement_policy)
 - What [tax saving](policy_type:reimbursement_policy) benefits does the company provide to employees
-- Does the company have any [tax saving](policy_type:reimbursement_policy) reimbursements 
+- Does the company have any [tax saving](policy_type:reimbursement_policy) reimbursements
 
-## intent: about_benefits
+## intent:about_benefits
 - And what are the benefits?
 - And what will i get?
 - Whats the benefit?
@@ -2370,29 +2349,29 @@
 - Can [my children](family) come with me?
 - What about [my kids](family)?
 
-## intent: about_tax_benefits
+## intent:about_tax_benefits
 - What [tax benefits](policy_type:reimbursement_policy) can i get?
 - What are my [tax benefits](policy_type:reimbursement_policy) eligibility
 - Am i eligible for company [tax saving](policy_type:reimbursement_policy) plans
 - Who is eligible to [save tax](policy_type:reimbursement_policy)
-- I have a [car](travel_mode:car). What reimbursements can i claim?
-- Are there any [tax benefits](policy_type:reimbursement_policy) for my [car](travel_mode:car)
-- What [tax benefits](policy_type:reimbursement_policy) can i claim for my [car](travel_mode:car)
-- What benefits can i get for my [car](travel_mode:car)
+- I have a [car](travel_mode). What reimbursements can i claim?
+- Are there any [tax benefits](policy_type:reimbursement_policy) for my [car](travel_mode)
+- What [tax benefits](policy_type:reimbursement_policy) can i claim for my [car](travel_mode)
+- What benefits can i get for my [car](travel_mode)
 - Can i claim [fuel](fuel) expenses?
-- Can i calim [car](travel_mode:car) [fuel](fuel) expenses?
+- Can i calim [car](travel_mode) [fuel](fuel) expenses?
 - What can i claim for my [four wheeler](travel_mode:car)?
-- What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](travel_mode:car)
-- I use my [car](travel_mode:car) for [official use](office_use) only. What benefits can i claim?
-- I use my [car](travel_mode:car) only for [work](office_use). Can i claim 
+- What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](travel_mode)
+- I use my [car](travel_mode) for [official use](office_use) only. What benefits can i claim?
+- I use my [car](travel_mode) only for [work](office_use). Can i claim
 - How much [driver salary](chauffeur) can i claim?
-- How much [car](travel_mode:car) [fuel](fuel) can i claim?
+- How much [car](travel_mode) [fuel](fuel) can i claim?
 - Can i claim [driver expenses](chauffeur)?
 - Can i claim [chauffeur](chauffeur) expenses?
 - Can i claim [chauffeur's](chauffeur) salary?
 - Is [driver's salary](chauffeur) reimbursible?
-- I user my [car](travel_mode:car) for [official](office_use) only.
-- My [car](travel_mode:car) is used for [company purposes](office_use) only.
+- I user my [car](travel_mode) for [official](office_use) only.
+- My [car](travel_mode) is used for [company purposes](office_use) only.
 - Can i claim my [telephone](landline) bill?
 - Can i claim by [internet](internet) bill?
 - Claiming [broadband](landline) bills is allowed?
@@ -2426,7 +2405,7 @@
 - I [just joined](employee_type:new) the company. Wanted to know more about [tax plannig](policy_type:reimbursement_policy)
 - I am [new employee](employee_type:new). What [tax benefits](policy_type:reimbursement_policy) can i get?
 - I have [just started](employee_type:new). Can i claim [LTA](policy_type:leave_travel_policy)
-- How many days of [privilege](leave_type:privilege) leaves are necessary for [LTA](policy_type:leave_travel_policy)
+- How many days of [privilege](leave_type) leaves are necessary for [LTA](policy_type:leave_travel_policy)
 - How many times can i take [LTA](policy_type:leave_travel_policy) in a [year](year)
 - In how many [years](year) can i claim [LTA](policy_type:leave_travel_policy)
 - Can i claim [LTA](policy_type:leave_travel_policy) twice in a [year](year)?
@@ -2439,19 +2418,16 @@
 - What is the [calculation](computation) logic of [LTA](policy_type:leave_travel_policy)
 
 ## intent:about_accomodation_benefits
-- Can i claim my [hotel](accomodation_type:hotel) expenses?
-- Can i claim my [hotel](accomodation_type:hotel) expenses?
-- Are [hotel](accomodation_type:hotel) expenses covered?
-- Are [hotel](accomodation_type:hotel) expenses included in [lta](policy_type:leave_travel_policy)
-- I want to know about the [hotel](accomodation_type:hotel) entitlement?
+- Can i claim my [hotel](accomodation_type) expenses?
+- Are [hotel](accomodation_type) expenses covered?
+- Are [hotel](accomodation_type) expenses included in [lta](policy_type:leave_travel_policy)
+- I want to know about the [hotel](accomodation_type) entitlement?
 - Is [accomodation](accomodation_type:hotel) included in [lta](policy_type:leave_travel_policy)?
 - Can i claim for [accomodation](accomodation_type:hotel) as well?
 - Can i claim for [b&b](accomodation_type:hotel) as well?
 - Does the company reimbursement for my [stay](accomodation_type:hotel)?
 - Is [lodging](accomodation_type:hotel) reimbursible in [Leave travel](policy_type:leave_travel_policy)
-- Can [acco](accomodation_type:hotel) be claimed in [LTA]? 
-
-## about_travel_benefits
+- Can [acco](accomodation_type:hotel) be claimed in [LTA]?
 - Can i travel with [family](family)
 - Is travelling with [wife](family) allowed?
 - Can i claim for my [family's] travel as well?
@@ -2465,10 +2441,10 @@
 - What is my travel entitlement?
 - Tell me about my travel entitlement?
 - Do i have to sumbit tickets for claiming [LTA]?
-- Can i submit [bus](travel_mode:bus) tickets as well?
+- Can i submit [bus](travel_mode) tickets as well?
 - Can i submit [flight](travel_mode:bus) tickets as well?
 
-## intent: about_exit
+## intent:about_exit
 - I am serving my notice period in the company
 - I have put my papers
 - I have resigned
@@ -2488,80 +2464,226 @@
 - I have decided to quit from the company
 - Do i have to pay back if i have left my job?
 
-## synonym:office_use
-- official use
-- office use
-- company purpose
-- Company use
-- Company use
-- official purpose
-- Official purpose
-
-## synonym:unclaimed
-- did not claim
-- do not avail
-- do not claim
-- do not use
-- do not utilize
-- do not comsume
-- did not avail
-- could not claim
-- remains unclaimed
-- could not avail
-- unavailed
-- unclaimed
-- untiilzed
-- could not utilize
-- did not utilize
-- could not be utilized
-- could not be claimed
-- could not be availed
-- did not utilize
-- dit not avail
-- did not use
-- could not use
-- could not consume
-- could not be fully utilized
-- could not be fully consumed
-- could not be fully used
-- could not be fully claimed
-- did not consume
-
-## synonym:computation
-- calculated
-- calculation
-- estimation
+## synonym: computation
 - estimated
 - computed
+- calculated
+- estimation
 - computation
+- calculation
 
-## synonym:privilege
-- pls
-- pl
-- Pl
-- PL
-- P.L.
-- P.L
-- Pls
-- PLs
-- P.Ls
-- els
-- el
-- El
-- EL
-- E.L.
-- E.L
-- Els
-- ELs
-- E.Ls
+## synonym: office_use
+- Company use
+- office use
+- official use
+- official purpose
+- Official purpose
+- company purpose
+
+## synonym: unclaimed
+- could not be utilized
+- do not claim
+- untiilzed
+- could not be availed
+- did not use
+- do not utilize
+- could not utilize
+- do not comsume
+- do not use
+- dit not avail
+- did not avail
+- remains unclaimed
+- could not be fully claimed
+- could not be fully consumed
+- could not use
+- do not avail
+- unavailed
+- could not be claimed
+- did not utilize
+- could not avail
+- could not consume
+- could not be fully utilized
+- did not consume
+- could not claim
+- could not be fully used
+- did not claim
+
+## synonym:adoption
+- adopting
+- adopt
+
+## synonym:approval
+- approved
+- approve
+
+## synonym:bus
+- flight
+
+## synonym:cafeteria_policy
+- cafeteria
+- canteen
+
+## synonym:car
+- four wheeler
+
+## synonym:carry_forward
+- validity
+- valid
+- lapse
+- carry forward
+- carried forward
+- lapsed
+- expiry date
 
 ## synonym:casual
-- cls
-- cl
-- Cl
+- casual leave
 - CL
-- C.L.
-- C.L
-- Cls
-- CLs
-- C.Ls
+
+## synonym:child_number
+- first child
+- second kid
+- many children
+- many deliveries
+- second delivery
+- number of deleveries
+- second child
+- many kids
+- many child births
+- third child
+- number of children
+- many childbirths
+- first delivery
+- first pregnancy
+- number of childbirths
+
+## synonym:club
+- clubbing
+- clubbed
+- mix and match
+- combine
+- together
+- combining
+
+## synonym:duration
+- maximum length
+- extended
+- period
+- many days
+- longest
+- How many
+- longer
+- long
+- extend
+- total length
+- length
+
+## synonym:encash
+- encashment
+- encashable
+
+## synonym:hotel
+- accomodation
+- lodging
+- b&b
+- stay
+- acco
+
+## synonym:leave_policy
+- entitlement
+- leave
+- leaves
+
+## synonym:leave_split
+- multiple chunks
+- multiple tranches
+- split
+- multiple blocks
+
+## synonym:leave_travel
+- Leave allowance
+
+## synonym:leave_travel_policy
+- lta
+- Leave travel
+- LTA
+- leave travel
+
+## synonym:maternity_leave_policy
+- mat
+- pregnancy
+- maternity
+
+## synonym:medical_certificate
+- doctor certificate
+- certificate from a doctor
+- medical certificate
+
+## synonym:new
+- just started
+- new joinee
+- new employee
+- joined recently
+- just joined
+
+## synonym:paternity_leave_policy
+- paternity
+- pat
+- patternity
+
+## synonym:privilege
+- el
+- PL
+- earned
+
+## synonym:proration
+- pro rata basis
+- prorated
+
+## synonym:reimbur
+- tax reimbursement
+
+## synonym:reimbursement_policy
+- reimbursement benefits
+- without tax
+- tax reimbursements
+- save taxes
+- Tax benefits
+- tax plannig
+- planning tax
+- tax planning
+- tax related benefits
+- save tax
+- tax benefit
+- save income tax
+- tax saving
+- tax benefits
+- saving tax
+- tax efficient
+- plan my tax
+- free of tax
+- income tax
+- tax free
+- Reimbursement benefits
+
+## synonym:retail
+- store
+
+## synonym:sick
+- SL
+- fever
+- sick leave
+- medical
+- not well
+- not feeling well
+
+## synonym:unpaid
+- LWP
+- leave without pay
+- lwp
+
+## synonym:witout_pay
+- unpaid leave
+
+## synonym:work_from_home
+- login from home
+- work from home
