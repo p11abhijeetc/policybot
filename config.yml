@@ -1,11 +1,7 @@
 language: en
 pipeline:
-- name: "SpacyNLP"
-- name: "SpacyTokenizer"
-- name: "SpacyFeaturizer"
-- name: "RegexFeaturizer"
-- name: "CRFEntityExtractor"
-- name: "EntitySynonymMapper"
+- name: WhitespaceTokenizer
+- name: CRFEntityExtractor
 - name: CountVectorsFeaturizer
   OOV_token: oov
   token_pattern: (?u)\b\w+\b
@@ -13,29 +9,29 @@ pipeline:
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
-- name: "DIETClassifier"
-#  epochs: 50
-#  ranking_length: 5
-##- name: DucklingHTTPExtractor
- ## url: http://localhost:8000
- ## dimensions:
- ## - email
- ## - number
- ## - amount-of-money
+- name: EmbeddingIntentClassifier
+  epochs: 50
+  ranking_length: 5
+- name: DucklingHTTPExtractor
+  url: http://localhost:8000
+  dimensions:
+  - email
+  - number
+  - amount-of-money
 - name: EntitySynonymMapper
 - name: ResponseSelector
   retrieval_intent: out_of_scope
 policies:
-- name: TEDPolicy
-  max_history: 5
+- name: EmbeddingPolicy
+  max_history: 10
   epochs: 20
   batch_size:
   - 32
   - 64
-- max_history: 5
+- max_history: 6
   name: AugmentedMemoizationPolicy
 - core_threshold: 0.3
   name: TwoStageFallbackPolicy
-  nlu_threshold: 0.6
+  nlu_threshold: 0.8
 - name: FormPolicy
 - name: MappingPolicy
