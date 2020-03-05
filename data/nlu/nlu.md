@@ -1913,6 +1913,9 @@
 - yes thanks
 
 ## intent: about_leave
+- Is [merging](leave_benefit:club) leaves allowed?
+- Tell me about [merging](leave_benefit:club) of [leaves](policy_type:leave_policy)?
+- Please explain [leave](policy_type:leave_policy) [merge](leave_benefit:club)
 - Is there a [leave](policy_type:leave_policy) policy
 - Tell me about the [leave](policy_type:leave_policy) policy
 - What about [leaves](policy_type:leave_policy)
@@ -1998,11 +2001,14 @@
 ## intent: leave_benefits
 - I want to know about my leave benefits?
 - What leave benefits do i have?
+- I want to [merge](leave_benefit:club) [leaves](policy_type:leave_policy)
 - Can i [club](leave_benefit:club) [sick](leave_type:sick) leave with [PL](leave_type:privilege)
 - Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed 
 - Can i [club](leave_benefit:club) my leaves?
 - Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
 - Can i take [CL](leave_type:casual) and [PL](leave_type:privilege) [together](leave_benefit:club)?
+- Can i take [PL](leave_type:privilege) and [sick](leave_type:sick) [together](leave_benefit:club)?
+- Which [leaves](policy_type:leave_policy) can be taken [together](leave_benefit:club)
 - Is [clubbing](leave_benefit:club) allowed?
 - Can i [combine](leave_benefit:club) two types of leaves?
 - Is [combining](leave_benefit:club) leave types allowed?
@@ -2051,7 +2057,8 @@
 - Tell me about the types of [leaves](policy_type:leave_policy)?
 - Can i know different [leave](policy_type:leave_policy) types?
 
-## intent: leave_entitement
+## intent: leave_entitlement
+- I want to take [leave](policy_type:leave_policy)
 - Can i get [leave](policy_type:leave_policy)
 - Can i get [sick](leave_type:sick) [leave](policy_type:leave_policy)?
 - I am [not well](leave_type:sick). can i take the day off?
@@ -2211,8 +2218,8 @@
 - How can i get [coupons](voucher)?
 - How to purchase [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
 - Will my [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
-- How to get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
-- Can i get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
+- How to get [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
+- Can i get [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
 - How to get [vouchers](voucher) for [lunch](meal)
 - Can i get [lunch](meal) [vouchers](voucher)
 - Can i [carry forward](leave_benefit:carry_forward) meal [vouchers] bought this month to the next month?
@@ -2251,7 +2258,7 @@
 - will [paternity](policy_type:paternity_leave_policy) be counted as leave?
 - Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
 
-## intent: patental_leave_benefits
+## intent: parental_leave_benefits
 - For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
 - [How many](maternity_benefit:duration) [pat](policy_type:paternity_leave_policy) leaves do i have?
 - Can i get [paternity](policy_type:paternity_leave_policy) leave?
@@ -2481,7 +2488,7 @@
 - I have decided to quit from the company
 - Do i have to pay back if i have left my job?
 
-## synonym: office_use
+## synonym:office_use
 - official use
 - office use
 - company purpose
@@ -2490,7 +2497,7 @@
 - official purpose
 - Official purpose
 
-## synonym: unclaimed
+## synonym:unclaimed
 - did not claim
 - do not avail
 - do not claim
@@ -2520,10 +2527,41 @@
 - could not be fully claimed
 - did not consume
 
-## synonym: computation
+## synonym:computation
 - calculated
 - calculation
 - estimation
 - estimated
 - computed
 - computation
+
+## synonym:privilege
+- pls
+- pl
+- Pl
+- PL
+- P.L.
+- P.L
+- Pls
+- PLs
+- P.Ls
+- els
+- el
+- El
+- EL
+- E.L.
+- E.L
+- Els
+- ELs
+- E.Ls
+
+## synonym:casual
+- cls
+- cl
+- Cl
+- CL
+- C.L.
+- C.L
+- Cls
+- CLs
+- C.Ls

@@ -6,7 +6,7 @@ ask_howdoing,How do you feel?,
 ask_howold,How old are you?,
 ask_isbot,Are you my bot?,
 ask_whatismyname,What is your name?,
-ask_whatisiona,What is Rasa?,
+ask_whatisiona,What is iona?,
 ask_whatspossible,What can you do for me?,
 ask_wherefrom,Where are you from?,
 ask_whoami,Who are you?,
@@ -29,8 +29,6 @@ about_leave,Are you taking about {policy_type},policy_type
 about_leave,Are you taking about {leave_type} leave,leave_type
 telljoke,Tell me a joke!,
 thank,Thanks!,
-leave_benefits,Are you interested to know about leave - {leave_benefit},leave_benefit
-leave_benefits,Are you intetested to know about leave benefits?,
 leave_entitlement,Do you wish to know leave entitlement?,
 leave_entitlement,Do you wish to know {leave_type} leave entitlement?,leave_type
 about_leave,Do you wish to know about leavel policy?,
@@ -64,5 +62,5 @@ about_travel_benefits,Would you like to know about travel reimbursement?,
 about_travel_benefits,Should I be telling you about {travel_mode} travel?,travel_mode
 about_travel_benefits,Do you want to know if your family can also travel?,family
 about_exit,Are you looking for exit related formalities?,
-patental_leave_benefits,Are you looking for Paternity or Maternity benefits?,
-patental_leave_benefits,are you looking for benefits with respect to {policy_type},{policy_type}
+parental_leave_benefits,Are you looking for Paternity or Maternity benefits?,
+parental_leave_benefits,are you looking for benefits with respect to {policy_type},{policy_type}

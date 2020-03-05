@@ -32,7 +32,7 @@ intents:
   - deny
   - about_leave
   - apply_leave
-  - leave_entitement
+  - leave_entitlement
   - retail
   - corporate
   - sick
@@ -80,7 +80,7 @@ intents:
   - cafeteria_coupons
   - cafeteria_temp_employees
   - employee_cafeteria_policy
-  - patental_leave_benefits
+  - parental_leave_benefits
   - about_tax_saving
   - about_benefits
   - about_tax_benefits
@@ -269,6 +269,13 @@ actions:
 - utter_employee_owned_car_fuel_tax
 
 responses:
+  utter_which_parental:
+  - buttons:
+    - payload: /maternity
+      title: Maternity leave policy
+    - payload: /paternity
+      title: Paternity leave policy
+    text: Which parental benefit are you referring to?
   utter_default:
   - text: Sorry, I didn't get that 🤷. Could you please rephrase?
   - text: I didn't understand, could you rephrase that?
