@@ -600,6 +600,11 @@
 - slot{"policy_type":"maternity_leave_policy"}
 - utter_maternity_not_counted
 
+## weekend counted in maternity
+* weekend_counted{"policy_type":"maternity_leave_policy"}
+- slot{"policy_type":"maternity_leave_policy"}
+- utter_maternity_weekend_counted
+
 <!-- -------------------------------------------------------------------------Paternity policy stories-----------------------------------------------------  -->
 
 ## paternity counted as leave
@@ -722,6 +727,7 @@
 - slot{"policy_type":"paternity_leave_policy"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption_paternity
+
 
 ## about parental leave with leave policy
 * parental_leave_benefits{"policy_type": "leave_policy"}

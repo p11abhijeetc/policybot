@@ -1919,6 +1919,8 @@
 - Please tell me about [CL](leave_type:casual)
 - May i know about [PL](leave_type:privilege)
 - Please tell me more about [earned](leave_type:privilege) leaves
+- What are [privilege](leave_type:privilege) leaves?
+- What about [casual](leave_type:privilege)
 - Explain about leave
 - leave policy
 - And [leave](policy_type:leave_policy)
@@ -1987,7 +1989,6 @@
 - Can i go on leave and get it approved later?
 
 ## intent:leave_benefits
-- I want to know about my leave benefits?
 - What leave benefits do i have?
 - Can i [club](leave_benefit) [sick](leave_type) leave with [PL](leave_type:privilege)
 - Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed
@@ -2042,6 +2043,9 @@
 - Can i know different [leave](policy_type:leave_policy) types?
 
 ## intent:leave_entitement
+- Am i eligible for [leaves](policy_type:leave_policy)
+- Who is eligible for [leaves](policy_type:leave_policy)?
+- I want to know about my leave benefits?
 - Can i get [leave](policy_type:leave_policy)
 - Can i get [sick](leave_type) [leave](policy_type:leave_policy)?
 - I am [not well](leave_type:sick). can i take the day off?
@@ -2049,7 +2053,10 @@
 - I am [not feeling well](leave_type:sick) and wanted to take leave today?
 - How many [sick](leave_type) leaves can i take?
 - Is there any limit on the number of [sick] leave
-- How many leaves do you have?
+- How many [leaves](policy_type:leave_policy) do i have?
+- How many [leaves](policy_type:leave_policy) can i take in one go?
+- How many [leaves](policy_type:leave_policy) can i take at a time?
+- Is there a limit on number of [leaves](policy_type:leave_policy) that can be taken?
 - What is my total [leaves](policy_type:leave_policy)?
 - What is the total number [leaves](policy_type:leave_policy)?
 - What is my leave [entitlement](policy_type:leave_policy)?
@@ -2122,7 +2129,11 @@
 - Tell me [cafeteria](policy_type:cafeteria_policy) timings.
 - May i know [cafeteria](policy_type:cafeteria_policy) timings.
 
-## intent:about_payment
+## intent: about_payment
+- How to pay?
+- What about payments?
+- And payments?
+- How can i pay for food in [cafeteria](policy_type:cafeteria_policy)
 - Do i have to pay for that?
 - Will i be charged for [food](meal) in the [cafeteria](policy_type:cafeteria_policy)
 - Do i have to pay for the [food](meal) in cafeteria?
@@ -2242,6 +2253,8 @@
 - Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
 
 ## intent:patental_leave_benefits
+- How [many days](maternity_benefit:duration) of [maternity](policy_type:maternity_leave_policy) leave can i get?
+- How [many days](maternity_benefit:duration) of [paternity](policy_type:maternity_leave_policy) leave can i take?
 - For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
 - [How many](maternity_benefit:duration) [pat](policy_type:paternity_leave_policy) leaves do i have?
 - Can i get [paternity](policy_type:paternity_leave_policy) leave?
