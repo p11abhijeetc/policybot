@@ -29,3 +29,7 @@
     - action_chitchat
 * ask_whatspossible
     - action_chitchat
+
+## New Story
+
+* greet
