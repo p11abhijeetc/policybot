@@ -111,8 +111,8 @@ class ActionDefaultAskAffirmation(Action):
         # instead, you can send one of the sentences that it will map onto the response
         buttons.append(
             {
-                "title": "Something else",
-                "payload": "I am asking you an out of scope question",
+                "title": "I am learning. Here is what I can do for now",
+                "payload": "/ask_whatspossible",
             }
         )
 

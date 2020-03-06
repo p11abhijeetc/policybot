@@ -24,7 +24,6 @@ nicetomeeyou,Nice to meet you.,
 react_negative,I'm sad!,
 react_positive,I'm happy!,
 about_timing,Do you want to know about timings {policy_type},policy_type
-about_policy,Would you like to know about {policy_type},policy_type
 about_leave,Do you wish to know about leavel policy?,
 about_leave,Are you taking about {policy_type},policy_type
 about_leave,Are you taking about {leave_type} leave,leave_type
@@ -40,6 +39,7 @@ seek_approval,Are you looking for approval process with respect to {policy_type}
 weekend_counted,Do you want to know if weekends/off days are counted as leave in case you are on leave on either side of the weeked/off days?,
 about_leave_types,Do you want to information about the different leave types in the company?,
 about_policy,You seem to be asking about a Benetton policy. Could you please make sure that you please mention the policy about which you are asking?,
+about_policy,Are you looking to know about leave benefit - {leave_benefit},leave_benefit
 about_policy,Will it help if I give you information about {policy_type},policy_type
 about_timing,Would you like to know about cafeteria timings?,
 about_payment,Looks like you want to know details regarding payments?,
@@ -65,6 +65,6 @@ about_travel_benefits,Should I be telling you about {travel_mode} travel?,travel
 about_travel_benefits,Do you want to know if your family can also travel?,family
 about_exit,Are you looking for exit related formalities?,
 parental_leave_benefits,Are you looking for Paternity or Maternity benefits?,
-parental_leave_benefits,are you looking for benefits with respect to {policy_type},{policy_type}
+parental_leave_benefits,are you looking for benefits with respect to {policy_type},policy_type
 leave_benefits,Are you intetested to know about leave benefits?,
 leave_benefits,Are you interested to know about leave - {leave_benefit},leave_benefit

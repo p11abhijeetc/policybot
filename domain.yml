@@ -162,6 +162,7 @@ slots:
     - child_number
     - work_from_home
     - payment
+    - leave_split
   policy_type:
     type: categorical
     values:
@@ -321,7 +322,7 @@ responses:
   utter_maternity_apply:
   - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
   utter_maternity_not_counted:
-  - text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types.
+  - text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types. Weekends are counted in maternity leave.
   utter_about_maternity:
   - buttons:
     - payload: /apply_maternity
@@ -445,9 +446,9 @@ responses:
       title: Paternity
     text: Would you like to know more about -
   utter_corporate_number_of_leaves:
-  - text: Corporate employees have 7 casual leaves, 7 sick leaves and 30 privilege leaves.
+  - text: Corporate employees have 7 casual leaves, 7 sick leaves and 30 privilege leaves.  For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days.
   utter_retail_number_of_leaves:
-  - text: Retail or store employees have 7 casual leaves, 7 sick leaves and 21 privilege leaves.
+  - text: Retail or store employees have 7 casual leaves, 7 sick leaves and 21 privilege leaves. For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days. 
   utter_sick:
   - text: Employees can get 7 sick leaves. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
   - text: You can get 7 sick leaves which are prorated. A medical certificate is required for availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.

@@ -1920,7 +1920,7 @@
 - May i know about [PL](leave_type:privilege)
 - Please tell me more about [earned](leave_type:privilege) leaves
 - What are [privilege](leave_type:privilege) leaves?
-- What about [casual](leave_type:privilege)
+- What about [casual](leave_type:casual)
 - Explain about leave
 - leave policy
 - And [leave](policy_type:leave_policy)
@@ -2042,18 +2042,23 @@
 - Tell me about the types of [leaves](policy_type:leave_policy)?
 - Can i know different [leave](policy_type:leave_policy) types?
 
-## intent:leave_entitement
+## intent:leave_entitlement
 - Am i eligible for [leaves](policy_type:leave_policy)
 - Who is eligible for [leaves](policy_type:leave_policy)?
 - I want to know about my leave benefits?
+- Which employees are entitled for [leaves](policy_type:leave_policy)?
+- Which employees are eligible for [leaves](policy_type:leave_policy)?
 - Can i get [leave](policy_type:leave_policy)
 - Can i get [sick](leave_type) [leave](policy_type:leave_policy)?
 - I am [not well](leave_type:sick). can i take the day off?
 - I have [fever](leave_type:sick). May i take leave?
 - I am [not feeling well](leave_type:sick) and wanted to take leave today?
 - How many [sick](leave_type) leaves can i take?
+- Can i take [leave](policy_type:leave_policy) for more than 5 days?
+- Can i take [leave](policy_type:leave_policy) for more than five days?
 - Is there any limit on the number of [sick] leave
 - How many [leaves](policy_type:leave_policy) do i have?
+- How many [leaves](policy_type:leave_policy) can i take?
 - How many [leaves](policy_type:leave_policy) can i take in one go?
 - How many [leaves](policy_type:leave_policy) can i take at a time?
 - Is there a limit on number of [leaves](policy_type:leave_policy) that can be taken?
@@ -2130,6 +2135,9 @@
 - May i know [cafeteria](policy_type:cafeteria_policy) timings.
 
 ## intent: about_payment
+- Am i going to get my salary
+- Will i be paid my salary?
+- Will i get my salary?
 - How to pay?
 - What about payments?
 - And payments?
@@ -2254,7 +2262,7 @@
 
 ## intent:parental_leave_benefits
 - How [many days](maternity_benefit:duration) of [maternity](policy_type:maternity_leave_policy) leave can i get?
-- How [many days](maternity_benefit:duration) of [paternity](policy_type:maternity_leave_policy) leave can i take?
+- How [many days](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave can i take?
 - For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
 - [How many](maternity_benefit:duration) [pat](policy_type:paternity_leave_policy) leaves do i have?
 - Can i get [paternity](policy_type:paternity_leave_policy) leave?
@@ -2285,6 +2293,7 @@
 - This is my [third child](maternity_benefit:child_number). Will i get leave?
 - For how [many childbirths](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) leave applicable?
 - Will i get a [longer](maternity_benefit:duration) [paternity](policy_type:paternity_leave_policy) leave for my [first delivery](maternity_benefit:child_number)?
+- For how [many baby](maternity_benefit:child_number) can i get [paternity](policy_type:paternity_leave_policy) leave?
 - will i get a leave for my [second child](maternity_benefit:child_number)
 - will i get a leave for my [first child](maternity_benefit:child_number)
 - Will i get leave for any [number of childbirths](maternity_benefit:child_number)
