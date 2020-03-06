@@ -2252,7 +2252,7 @@
 - will [paternity](policy_type:paternity_leave_policy) be counted as leave?
 - Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
 
-## intent:patental_leave_benefits
+## intent:parental_leave_benefits
 - How [many days](maternity_benefit:duration) of [maternity](policy_type:maternity_leave_policy) leave can i get?
 - How [many days](maternity_benefit:duration) of [paternity](policy_type:maternity_leave_policy) leave can i take?
 - For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
@@ -2508,7 +2508,6 @@
 - do not use
 - dit not avail
 - did not avail
-- remains unclaimed
 - could not be fully claimed
 - could not be fully consumed
 - could not use
