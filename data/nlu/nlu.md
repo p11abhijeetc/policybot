@@ -2129,15 +2129,11 @@
 - Tell me [cafeteria](policy_type:cafeteria_policy) timings.
 - May i know [cafeteria](policy_type:cafeteria_policy) timings.
 
-<<<<<<< HEAD
 ## intent: about_payment
 - How to pay?
 - What about payments?
 - And payments?
 - How can i pay for food in [cafeteria](policy_type:cafeteria_policy)
-=======
-## intent:about_payment
->>>>>>> 2cced174cd105585997811e8d92b770bda14e217
 - Do i have to pay for that?
 - Will i be charged for [food](meal) in the [cafeteria](policy_type:cafeteria_policy)
 - Do i have to pay for the [food](meal) in cafeteria?
@@ -2315,13 +2311,8 @@
 - can i take [maternity](policy_type:maternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
 - can i [club](leave_benefit) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
 - can i [combine](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
-<<<<<<< HEAD
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick](leave_type:sick) [leave](policy_type:leave_policy)?
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual](leave_type:casual) [leave](policy_type:leave_policy)?
-=======
-- can i [club](leave_benefit) [maternity](policy_type:maternity_leave_policy) with [sick leave](leave_type:sick)?
-- can i [club](leave_benefit) [maternity](policy_type:maternity_leave_policy) with [casual leave](leave_type:casual)?
->>>>>>> 2cced174cd105585997811e8d92b770bda14e217
 
 ## intent:about_tax_saving
 - Does the company provide measures to get salary [without tax](policy_type:reimbursement_policy)?
