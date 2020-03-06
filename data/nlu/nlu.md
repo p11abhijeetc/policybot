@@ -1974,6 +1974,9 @@
 - Is there a separate process to apply for [LWP](leave_type:unpaid)
 - How can i apply for [LTA](policy_type:leave_travel_policy)?
 - What is the prcess for applying for [lta](policy_type:leave_travel_policy)?
+- In case of emergency or sickness, can I take a [leave](policy_type:leave_policy) without informing?
+- For emergencies, can I get [leave](policy_type:leave_policy) without informing my manager?
+- If you are ill, may I get [leave](policy_type:leave_policy) without prior approvals?
 
 ## intent: seek_approval
 - who will [approve](leave_benefit:approval) my [maternity](policy_type:maternity_leave_policy) leave?

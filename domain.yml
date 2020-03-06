@@ -409,8 +409,8 @@ responses:
   utter_iamabot:
   - text: "I am a chatbot, powered by iona."
   utter_leave_apply:
-  - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance.
-  - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance.
+  - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance. Advance approvals are not required in case of emergency / sickness.
+  - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance. Advance approvals are not required in case of emergency / sickness.
   utter_about_leave_policy:
   - text: The company has a generous leave policy for all corporate employees – regular rolls of the company / third party payroll.
   utter_ask_employee_type:
