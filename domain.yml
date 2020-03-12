@@ -422,14 +422,14 @@ responses:
       title: Retail employee
     - payload: /corporate
       title: Corporate employee
-    text: Did you mean?
+    text: Could you please tell me your employee type?
   utter_ask_employee_types:
   - buttons:
     - payload: /retail
       title: Retail employee
     - payload: /corporate
       title: Corporate employee
-    text: Did you mean?
+    text: Could you please tell me your employee type?
   utter_different_leaves:
   - buttons:
     - payload: /sick
@@ -540,7 +540,7 @@ responses:
   - buttons:
     - payload: /employee_cafeteria_policy
       title: Cafeteria policy
-    text: Are you referring to cafeteria policy?.
+    text: Are you referring to cafeteria policy?
   utter_about_tax_reimbursements:
   - buttons:
     - payload: /employee_owned_car
