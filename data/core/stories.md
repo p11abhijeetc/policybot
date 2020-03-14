@@ -36,7 +36,7 @@
   - utter_privilege_corporate
 
 ## number of leaves - retial
-* leave_entitlement
+* leave_entitlement{"policy_type":"leave_policy"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_ask_employee_type
@@ -44,7 +44,7 @@
   - utter_retail_number_of_leaves
 
 ## number of leaves - corporate
-* leave_entitlement
+* leave_entitlement{"policy_type":"leave_policy"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_ask_employee_type
@@ -377,34 +377,6 @@
 ## about food options
 * about_food_options
 - utter_food_options
-
-## about coupons sad day
-* about_coupons
-- utter_ask_which_policy
-* employee_cafeteria_policy
-- action_set_policy_type
-- utter_cafeteria_coupons
-
-## about visitors sad day
-* about_visitors
-- utter_ask_which_policy
-* employee_cafeteria_policy
-- action_set_policy_type
-- utter_which_cafeteria_visitors
-
-## about payment sad day
-* about_payment
-- utter_ask_which_policy
-* employee_cafeteria_policy
-- action_set_policy_type
-- utter_cafeteria_payments
-
-## about timing sad day
-* about_timing
-- utter_ask_which_policy
-* employee_cafeteria_policy
-- action_set_policy_type
-- utter_cafeteria_timing
 
 <!--      -------------------------------------------------------------------maternity leave stories-----------------------------------  -->
 
@@ -741,7 +713,7 @@
 - utter_about_maternity_benefits
 
 ## about parental leave with leave policy
-* parental_leave_benefits{"policy_type": "leave_policy"}
+* parental_leave_benefits
 - utter_which_parental
 * paternity
 - utter_about_paternity

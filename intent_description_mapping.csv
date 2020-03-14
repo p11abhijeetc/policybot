@@ -59,6 +59,7 @@ about_tax_benefits,Do you want to know about landline bill reimbursements?,mobil
 about_tax_benefits,Are you looking for health club related benefits?,health_club
 about_tax_benefits,Will it help if I tell you about medical reimbursement benefits?,medical_reimbursement
 about_tax_benefits,are you looking for benefits with respect to {policy_type},policy_type
+about_accomodation_benefits,Is your query pertaining to accomodation?,
 about_accomodation_benefits,Your question seems to be about {accomodation_type} accomodation?,accomodation_type
 about_travel_benefits,Would you like to know about travel reimbursement?,
 about_travel_benefits,Should I be telling you about {travel_mode} travel?,travel_mode
