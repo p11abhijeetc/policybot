@@ -51,6 +51,18 @@
 * corporate
   - utter_corporate_number_of_leaves
 
+## number of leaves - corporate
+* leave_entitlement{"policy_type":"leave_policy","employee_type": "corporate" }
+  - action_set_policy_type
+  - slot{"policy_type": "leave_policy"}
+  - utter_corporate_number_of_leaves
+
+## number of leaves - retail
+* leave_entitlement{"policy_type":"leave_policy","employee_type": "retail" }
+  - action_set_policy_type
+  - slot{"policy_type": "leave_policy"}
+  - utter_retail_number_of_leaves
+
 ## leave entitlement - sick leave
 * leave_entitlement{"leave_type": "sick"}
   - slot{"leave_type": "sick"}

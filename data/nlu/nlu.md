@@ -2096,6 +2096,8 @@
 - can i take [leave](policy_type:leave_policy) for [medical](leave_type:sick) reasons
 
 ## intent:about_policy
+- What about [mat](policy_type:maternity_leave_policy) leave?
+- What about [pat](policy_type:paternity_leave_policy) leave?
 - Is there a [paternity](policy_type:paternity_leave_policy) policy?
 - May i know about the [pat](policy_type:paternity_leave_policy) leave policy?
 - Tell me more about the [paternity](policy_type:paternity_leave_policy) plocy?
@@ -2295,10 +2297,12 @@
 - For how [many children](maternity_benefit:child_number) can i get [paternity](policy_type:paternity_leave_policy) leave?
 - For how [many deliveries](maternity_benefit:child_number)
 - For how [many child births](maternity_benefit:child_number)?
+- I want to know for how [many children](maternity_benefit:child_number) [mat]((policy_type:maternity_leave_policy)) leave is applicable? 
 - For how [many kids](maternity_benefit:child_number)
 - Is [paternity](policy_type:paternity_leave_policy) leave applicable only for [first child](maternity_benefit:child_number)?
 - Is [paternity](policy_type:paternity_leave_policy) leave applicable only for [second child](maternity_benefit:child_number)?
 - This is my [third child](maternity_benefit:child_number). Will i get leave?
+- For how [many children](maternity_benefit:child_number)?
 - For how [many childbirths](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) leave applicable?
 - Will i get a [longer](maternity_benefit:duration) [paternity](policy_type:paternity_leave_policy) leave for my [first delivery](maternity_benefit:child_number)?
 - For how [many baby](maternity_benefit:child_number) can i get [paternity](policy_type:paternity_leave_policy) leave?
@@ -2460,7 +2464,7 @@
 - Can i claim for [b&b](accomodation_type:hotel) as well?
 - Does the company reimbursement for my [stay](accomodation_type:hotel)?
 - Is [lodging](accomodation_type:hotel) reimbursible in [Leave travel](policy_type:leave_travel_policy)
-- Can [acco](accomodation_type:hotel) be claimed in [LTA]?
+- Can [acco](accomodation_type:hotel) be claimed in [LTA]((policy_type:leave_travel_policy)?
 - Can i travel with [family](family)
 - Is travelling with [wife](family) allowed?
 - Can i claim for my [family's](family) travel as well?

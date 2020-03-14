@@ -343,7 +343,7 @@ responses:
       title: Salary during maternity
     text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
   utter_privilege_leave_corporate:
-  - text: Corporate employees have previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: Corporate employees have 30 previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
   - text: Corporate employees get 30 previlege leaves. Minimum of 4 privilege leaves must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
   - text: 30 previlege leaves (PL) are there for corporate employees. You must take a minimum of 4 PLs at a time. PLs can be taken upto 3 times in a year. You must apply at least 10 days in advance for approvals processing.
   utter_privilege_leave_retail:
@@ -415,7 +415,20 @@ responses:
   - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance. Advance approvals are not required in case of emergency / sickness.
   - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance. Advance approvals are not required in case of emergency / sickness.
   utter_about_leave_policy:
-  - text: The company has a generous leave policy for all corporate employees – regular rolls of the company / third party payroll. The objective of the policy is to lay down the guidelines for Leave Rules.
+  - buttons:
+    - payload: /sick
+      title: Sick leave
+    - payload: /privilege
+      title: Privilege leave
+    - payload: /casual
+      title: Casual leave
+    - payload: /without_pay
+      title: Without pay
+    - payload: /maternity
+      title: Maternity
+    - payload: /paternity
+      title: Paternity
+    text: The company has a generous leave policy for all corporate employees – regular rolls of the company / third party payroll. The objective of the policy is to lay down the guidelines for Leave Rules. Please click on the relevant leave types to know more.
   utter_ask_employee_type:
   - buttons:
     - payload: /retail
