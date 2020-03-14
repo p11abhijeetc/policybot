@@ -3,101 +3,101 @@ session_config:
   carry_over_slots_to_new_session: false  # set to false to forget slots between sessions
 
 intents:
-  - something_else
-  - canthelp
-  - ask_builder
-  - ask_howdoing
-  - ask_whatspossible
-  - ask_whatisiona
-  - ask_isbot
-  - ask_howold
-  - ask_wherefrom
-  - ask_whoami
-  - handleinsult
-  - nicetomeeyou
-  - telljoke
-  - ask_whatismyname
-  - ask_howbuilt
-  - ask_whoisit
-  - react_positive
-  - out_of_scope
-  - human_handoff
-  - about_accomodation_benefits
-  - about_exit
-  - react_negative
-  - thank
-  - bye
-  - greet
-  - affirm
-  - deny
-  - about_leave
-  - apply_leave
-  - leave_entitlement
-  - retail
-  - corporate
-  - sick
-  - casual
-  - privilege
-  - maternity
-  - paternity
-  - without_pay
-  - about_leave_types
-  - leave_benefits
-  - approve_leave
-  - club_leave
-  - encash_leave
-  - leave_carry_forward
-  - leave_proration
-  - weekend_counted
-  - about_maternity
-  - about_maternity_benefits
-  - apply_maternity
-  - club_maternity
-  - from_home_working_maternity
-  - child_adoption
-  - maternity_duration
-  - number_of_children
-  - approval_process_maternity
-  - maternity_payment
-  - apply_for_benefit
-  - seek_approval
-  - paternity_benefit
-  - parental_leave_counted
-  - apply_paternity
-  - approval_process_paternity
-  - paternity_duration
-  - about_policy
-  - feedback 
-  - about_timing
-  - about_payment
-  - about_visitors
-  - about_coupons
-  - about_food_options
-  - cafeteria_timing
-  - cafeteria_payments
-  - cafeteria_guest
-  - cafeteria_visiting_employee
-  - cafeteria_coupons
-  - cafeteria_temp_employees
-  - employee_cafeteria_policy
-  - parental_leave_benefits
-  - about_tax_saving
-  - about_benefits
-  - about_tax_benefits
-  - employee_owned_car
-  - landline_internet
-  - healt_center
-  - meal_card
-  - illness_expenses
-  - travel_leave_allowance
-  - expenses_covered_under_LTA
-  - new_employee_LTA
-  - year_blocks_LTA
-  - unclaimed_LTA
-  - calculation_of_LTA
-  - apply_process_LTA
-  - disburse_process_LTA
-  - about_travel_benefits
+- something_else
+- canthelp
+- ask_builder
+- ask_howdoing
+- ask_whatspossible
+- ask_whatisiona
+- ask_isbot
+- ask_howold
+- ask_wherefrom
+- ask_whoami
+- handleinsult
+- nicetomeeyou
+- telljoke
+- ask_whatismyname
+- ask_howbuilt
+- ask_whoisit
+- react_positive
+- out_of_scope
+- human_handoff
+- about_accomodation_benefits
+- about_exit
+- react_negative
+- thank
+- bye
+- greet
+- affirm
+- deny
+- about_leave
+- apply_leave
+- leave_entitlement
+- retail
+- corporate
+- sick
+- casual
+- privilege
+- maternity
+- paternity
+- without_pay
+- about_leave_types
+- leave_benefits
+- approve_leave
+- club_leave
+- encash_leave
+- leave_carry_forward
+- leave_proration
+- weekend_counted
+- about_maternity
+- about_maternity_benefits
+- apply_maternity
+- club_maternity
+- from_home_working_maternity
+- child_adoption
+- maternity_duration
+- number_of_children
+- approval_process_maternity
+- maternity_payment
+- apply_for_benefit
+- seek_approval
+- paternity_benefit
+- parental_leave_counted
+- apply_paternity
+- approval_process_paternity
+- paternity_duration
+- about_policy
+- feedback 
+- about_timing
+- about_payment
+- about_visitors
+- about_coupons
+- about_food_options
+- cafeteria_timing
+- cafeteria_payments
+- cafeteria_guest
+- cafeteria_visiting_employee
+- cafeteria_coupons
+- cafeteria_temp_employees
+- employee_cafeteria_policy
+- parental_leave_benefits
+- about_tax_saving
+- about_benefits
+- about_tax_benefits
+- employee_owned_car
+- landline_internet
+- healt_center
+- meal_card
+- illness_expenses
+- travel_leave_allowance
+- expenses_covered_under_LTA
+- new_employee_LTA
+- year_blocks_LTA
+- unclaimed_LTA
+- calculation_of_LTA
+- apply_process_LTA
+- disburse_process_LTA
+- about_travel_benefits
 
 entities:
 - leave_type

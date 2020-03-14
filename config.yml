@@ -15,7 +15,6 @@ pipeline:
 - name: EntitySynonymMapper
 - name: ResponseSelector
   retrieval_intent: out_of_scope
-
 policies:
 - name: MemoizationPolicy
 - name: TEDPolicy
