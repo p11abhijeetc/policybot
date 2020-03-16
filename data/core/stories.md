@@ -902,6 +902,15 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_employee_owned_car_tax
 
+## Car tax reimbursement
+* about_tax_benefits OR about_benefits{"travel_mode":"car"}
+- utter_employee_owned_car_tax
+
+## car fully used for official work
+* about_tax_benefits OR about_benefits{"office_use":"official use"}
+- slot{"travel_mode":"car"}
+- utter_employee_car_office_use
+
 ## car fully used for official work
 * about_tax_benefits OR about_benefits{"office_use":"official use"}
 - slot{"policy_type":"reimbursement_policy"}
@@ -943,9 +952,17 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_health_center_tax
 
+## Landline Health club
+* about_tax_benefits OR about_benefits{"health_club":"gym"}
+- utter_health_center_tax
+
 ## Landline health club with family
 * about_tax_benefits OR about_benefits{"health_club":"gym", "family":"wife"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_health_center_tax
+
+## Landline health club with family
+* about_tax_benefits OR about_benefits{"health_club":"gym", "family":"wife"}
 - utter_health_center_tax
 
 ## Medical reimbursement
@@ -953,9 +970,17 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_illness_expenses_tax
 
+## Medical reimbursement
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses"}
+- utter_illness_expenses_tax
+
 ## Medical reimbursement with family
 * about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_illness_expenses_tax
+
+## Medical reimbursement with family
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
 - utter_illness_expenses_tax
 
 ## Medical reimbursement with family
@@ -973,6 +998,11 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_meal_card_tax
 
+## Meal Voucher
+* about_tax_benefits OR about_benefits{"meal":"meal"}
+- slot{"policy_type":"reimbursement_policy"}
+- utter_meal_card_tax
+
 ## Meal Voucher - Cafeteria
 * about_coupons{"voucher":"coupons"}
 - utter_cafeteriaor_reimbursement
@@ -981,6 +1011,18 @@
 
 ## Meal Voucher - Cafeteria
 * about_coupons{"voucher":"coupons"}
+- utter_cafeteriaor_reimbursement
+* meal_card
+- utter_meal_card_tax
+
+## Meal Voucher - Cafeteria
+* about_coupons{"meal":"meal"}
+- utter_cafeteriaor_reimbursement
+* cafeteria_coupons
+- utter_cafeteria_coupons
+
+## Meal Voucher - Cafeteria
+* about_coupons{"meal":"meal"}
 - utter_cafeteriaor_reimbursement
 * meal_card
 - utter_meal_card_tax

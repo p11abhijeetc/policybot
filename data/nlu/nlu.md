@@ -2019,6 +2019,8 @@
 - can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual](leave_type:casual) [leave](policy_type:leave_policy)?
 
 ## intent:about_tax_saving
+- What are the [tax benefits](policy_type:reimbursement_policy) the company offers?
+- What are the [tax benefits](policy_type:reimbursement_policy) that I can avail?
 - Does the company provide measures to get salary [without tax](policy_type:reimbursement_policy)?
 - Can i get some part of my salary [free of tax](policy_type:reimbursement_policy)
 - Is i claim [tax reimbursements](policy_type:reimbursement_policy)?
@@ -2039,6 +2041,8 @@
 - What is [tax benefit](policy_type:reimbursement_policy) policy?
 - [Tax benefits](policy_type:reimbursement_policy) reimbursement policy
 - [tax benefits](policy_type:reimbursement_policy)
+- Please tell me about the [reimbursement policy](policy_type:reimbursement_policy)
+- May i know about the company [reimbursement policy](policy_type:reimbursement_policy)
 - [Reimbursement benefits](policy_type:reimbursement_policy)
 - [Reimbursement policy](policy_type:reimbursement_policy)
 - Is there [reimbursement policy](policy_type:reimbursement_policy)?
@@ -2069,6 +2073,7 @@
 - Can [my children](family) come with me?
 - What about [my kids](family)?
 - What about [healt clubs](health_club)
+- - Can i claim [meal](meal) allowance?
 
 ## intent:about_tax_benefits
 - What [tax benefits](policy_type:reimbursement_policy) can i get?
@@ -2106,12 +2111,15 @@
 - Does the company provide any [health club](health_club) benefit?
 - Can i join a [health club](health_club)?
 - Is a [gym](health_club) membership allowed?
+- Can i claim [gym](health_club) 
 - can i join [health clubs](health_club)?
 - Will the company reimburse my [fitness center](health_club) expenses
 - Can i get my [wellness center](health_club) cost reimbursed?
 - Can i get reimbursement for [medical expenses](medical_reimbursement)
+- Can i claim [medical reimbursement](medical_reimbursement)?
+- Can i claim [medical reimbursement](medical_reimbursement) under [reimbursement policy](policy_type:reimbursement_policy)
 - Can i get reimbursement for expenses for [treatment](medical_reimbursement)?
-- Can i get my [hospital](medical_reimbursement) expenses reimbursed?
+- Can i get my [hospital expenses](medical_reimbursement) reimbursed?
 - Will the company reimburse my [healthcare](medical_reimbursement) bills
 - Are [medical bills](medical_reimbursement) reimbursible?
 - Will my [medical expense](medical_reimbursement) be reimbursed?
