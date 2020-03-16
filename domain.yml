@@ -276,14 +276,14 @@ responses:
       title: Maternity leave policy
     - payload: /paternity
       title: Paternity leave policy
-    text: Which parental benefit are you referring to?
+    text: Which of the following are you referring to?
   utter_default:
-  - text: Sorry, I didn't get that 🤷. Could you please rephrase?
-  - text: I didn't understand, could you rephrase that?
-  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you just said?
-  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
-  - text: I didn't quite get that, could you rephrase your message?
-  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase? For example, how to apply for leaves?, what are the tax saving benefits? or similar.
+  - text: I didn't understand, could you rephrase that? For example, what are the tax saving benefits?, how to apply for leaves? or similar.
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you just said? For example, can I club casual with sick leaves?, tax benefits on using own car for company purposes or similar.    
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that? For example, can I take guests to cafeteria? or similar.
+  - text: I didn't quite get that, could you rephrase your message? Does the company provide meal vouchers?, Are new joinees eligible for paternity leaves? or similar.
+  - text: Could you rephrase your message? I didn't get it, I'm sorry. For example, how can I get lunch coupons?, Are weekend counted in leaves? or similar.
   utter_maternity_payment:
   - text: During the maternity leave period the employee shall be paid leave salary equal to the pay drawn immediately before proceeding on maternity leave.
   utter_about_maternity_benefits:
@@ -304,19 +304,19 @@ responses:
       title: Clubbing of leaves
     - payload: /maternity_payment
       title: Salary during maternity
-    text: Looks like you want to know about maternity benefits. Could you please tell me which benefit would you like to know about?
+    text: Looks like you want to know about maternity leave. Could you please tell me what exactly would you like to know about?
   utter_maternity_weekend_counted:
-  - text: Weekends and off days will be counted in your maternity leaves.
+  - text: Weekends and off days will be counted in your maternity leave.
   utter_club_maternity:
-  - text: As per company policy, maternity leave may be clubbed with both sick leave and privilege leaves.
+  - text: As per company policy, maternity leave may be clubbed with both sick leave and privilege leave.
   utter_from_home_working_maternity:
-  - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HOD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HOD and the woman mutually agree in written.
+  - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HoD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HoD and the woman mutually agree in written.
   utter_child_adoption:
-  - text: As per the maternity policy, for adopting / commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth /age proof of the child to be given by the adopting/commissioning mother.
+  - text: As per the maternity policy, for adopting / commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth / age proof of the child to be given by the adopting / commissioning mother.
   utter_maternity_duration:
-  - text: A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only. For more than two surviving children a woman shall be entitled twelve weeks of which not more than six weeks shall precede the date of her expected delivery.
+  - text: A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only of which not more than 8 weeks shall precede the date of her expected delivery. For more than two surviving children a woman shall be entitled 12 weeks of which not more than 6 weeks shall precede the date of her expected delivery.
   utter_number_of_children:
-  - text: The maximum period for which any woman shall be entitled to maternity benefit shall now be 26/182 days weeks of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall proceed with the date of expected delivery.
+  - text: The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks /182 days of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall precede the date of her expected delivery.
   utter_maternity_approve:
   - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
   utter_maternity_apply:
@@ -341,44 +341,44 @@ responses:
       title: Clubbing of leaves
     - payload: /maternity_payment
       title: Salary during maternity
-    text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
+    text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, the maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
   utter_privilege_leave_corporate:
-  - text: Corporate employees have 30 previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
-  - text: Corporate employees get 30 previlege leaves. Minimum of 4 privilege leaves must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
-  - text: 30 previlege leaves (PL) are there for corporate employees. You must take a minimum of 4 PLs at a time. PLs can be taken upto 3 times in a year. You must apply at least 10 days in advance for approvals processing.
+  - text: Corporate employees have 30 days of privilege leave. They can take a minimum of 4 days of privilege leave in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: Corporate employees get 30 days of privilege leave. A minimum of 4 days of privilege leave can be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required to avail privilege leave.
+  - text: 30 days of privilege leaves (PL) are there for corporate employees.A minimum of 4 days of PL can be taken at a time. PLs can be taken upto 3 times in a year. Prior approval of at least 10 days in advance is required to avail privilege leave.
   utter_privilege_leave_retail:
-  - text: Retail employees have 21 previlege leaves. They can take a minimum of 4 privilege leaves in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
-  - text: 21 previlege leaves (PL) are there for retail employees. You must take a minimum of 4 PLs at a time. PLs can be taken upto 3 times in a year. You must apply at least 10 days in advance for approvals processing.
-  - text: Retail employees get 21 previlege leaves (PL). Minimum of 4 privilege leaves must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
+  - text: Retail employees have 21 days of privilege leave. They can take a minimum of 4 days of privilege leave in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: 21 days of privilege leaves (PL) are there for retail employees. A minimum of 4 days PL can be taken at a time. PLs can be taken upto 3 times in a year. Prior approval of at least 10 days in advance is required to avail privilege leave.
+  - text: Retail employees get 21 privilege leaves (PL). A minimum of 4 days of privilege leave must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
   utter_casual_leave:
-  - text: Employees have 7 casual leaves. One can take upto 3 casual leaves in one go. Prior approval is needed is case of casual leaves.
-  - text: 7 casual leaves are available. You can take upto 3 casual leaves at a time. Prior approval is a must for casual leaves.
-  - text: You have 7 casual leaves. Upto 3 casual leaves can be taken at a time. You must take prior approvals for availing casual leaves.
+  - text: Employees have 7 days of casual leaves. One can take upto 3 casual leaves in one go. Prior approval is needed is case of casual leaves.
+  - text: 7 days of casual leaves are available. You can take upto 3 casual leaves at a time. Prior approval is a must for casual leaves.
+  - text: You can avail 7 days of casual leaves. Upto 3 casual leaves can be taken at a time. You must take prior approvals for availing casual leaves.
   utter_sick_leave:
-  - text: Employees have 7 sick leaves in a year. For more than 2 days of sick leaves the employee needs to show a medical certificate.
-  - text: In case of illness, you can take upto 7 sick leaves in a year. A medical certificate is required for more than 2 days of sick leaves.
-  - text: 7 sick leaves are there in a year. You must produce a medical certificate for applying more than 2 days of sick leaves.
+  - text: Employees can take 7 days of sick leave in a year. For more than 2 days of sick leave the employee needs to show a medical certificate.
+  - text: In case of illness, you can take upto 7 sick leaves in a year. A medical certificate is required for more than 2 days of sick leave.
+  - text: 7 days of sick leaves can be availed in a year,in case of illness. You must produce a medical certificate for applying more than 2 days of sick leave.
   utter_approve:
-  - text: Prior approval is needed for all leaves except sick leaves. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  - text: Prior approval is needed for all leaves except sick leave. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
   - text: All leaves except sick leaves require appropriate prior approvals. For emergencies/sickenss, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
   - text: Prior approvals must be taken for all leaves except sick leave. For emergencies/sickenss, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
   utter_club:
-  - text: Only sick leaves and privilege leaves can be clubbed. Maternity leave can be clubbed with both sick and privilege leaves.
-  - text: You can only club sick leaves with privilege leaves. However, maternity leave can be merged with both sick and privilege leaves.
-  - text: Only sick and privilege leaves can be combined. However, maternity leave can be merged with both sick and privilege leaves.
+  - text: Only sick leave and privilege leave can be clubbed. Maternity leave can be clubbed with both sick and privilege leave.
+  - text: You can club only sick leave and privilege leave. However, maternity leave can be combined with both sick and privilege leave.
+  - text: Only sick and privilege leaves can be combined. However, maternity leave can be clubbed with both sick and privilege leave.
   utter_encash:
-  - text: Only privilege leave can be encashed. 30 privilege leaves can be encashed once the balance in more than 90 days. Please get in touch with HR for the exact computation of encashable amounts.
-  - text: You can only encash privilege leaves. 30 privilege leaves can be encashed if the balance is more than 90. Please get in touch with HR for the exact calculations.
-  - text: Only privilege leaves are encashable. You can encash 30 privilege leaves if your balance is more than 90. Please get in touch with HR for the exact calculations.
+  - text: Only privilege leave can be encashed. 30 days of privilege leave can be encashed once the balance is more than 90 days. Please get in touch with HR for the exact computation of encashable amounts.
+  - text: You can only encash privilege leaves. 30 days of privilege leave can be encashed if the balance is more than 90 days. Please get in touch with HR for the exact calculations.
+  - text: Only privilege leaves are encashable. You can encash 30 days of privilege leave if your balance is more than 90 days. Please get in touch with HR for the exact calculations.
   utter_carry_forward:
-  - text: Upto a maximum of 45 sick leaves and 210 privilege leaves can be carried forward.
-  - text: You can carry forward upto 45 sick leaves and 210 privilege leaves.
-  - text: You can carry forward a maximum of 45 sick leaves and 210 privilege leaves.
+  - text: Upto a maximum of 45 days of sick leave and 210 days of privilege leave can be carried forward.
+  - text: You can carry forward upto a maximum of 45 days of sick leave and 210 days of privilege leave.
+  - text: You can carry forward a maximum of 45 days of sick leave and 210 days of privilege leave.
   utter_proration:
   - text: As per company policy, casual leaves, sick leaves and privilege leaves are prorated.
   - text: Casual leaves, sick leaves and privilege leaves are prorated.
   utter_weekends_counted:
-  - text: Only in case of casual leaves, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
+  - text: Only in case of casual leave, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
   - text: Weekends and holidays are counted for all leave types except casual leaves.
   - text: For casual leaves, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
   utter_which_benefit:
@@ -397,7 +397,7 @@ responses:
       title: Counting weekends
     - payload: /apply_leave
       title: Leave Apply
-    text: All the corporate Benetton employees on Regular rolls of the company or third party payroll are eligible for leaves. The leave policy offers many benefits. Please choose whichever you want to know about.  
+    text: All the corporate Benetton employees on regular rolls of the company or third party payroll are eligible for leave. Please select as relevant to know more  
   utter_greet:
   - text: Hey! How are you?
   - text: Hey there, my name is iona.
@@ -412,8 +412,8 @@ responses:
   utter_iamabot:
   - text: "I am a chatbot, powered by iona."
   utter_leave_apply:
-  - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance. Advance approvals are not required in case of emergency / sickness.
-  - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance. Advance approvals are not required in case of emergency / sickness.
+  - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
   utter_about_leave_policy:
   - buttons:
     - payload: /sick
@@ -428,7 +428,7 @@ responses:
       title: Maternity
     - payload: /paternity
       title: Paternity
-    text: The company has a generous leave policy for all corporate employees – regular rolls of the company / third party payroll. The objective of the policy is to lay down the guidelines for Leave Rules. Please click on the relevant leave types to know more.
+    text: The company has a leave policy for all corporate employees – regular rolls of the company / third party payroll. The objective of the policy is to lay down the guidelines for Leave Rules. Please click on the relevant leave types to know more.
   utter_ask_employee_type:
   - buttons:
     - payload: /retail
@@ -457,24 +457,22 @@ responses:
       title: Maternity
     - payload: /paternity
       title: Paternity
-    text: Would you like to know more about -
+    text: Which leave would you like to know more about?
   utter_corporate_number_of_leaves:
-  - text: Corporate employees have 7 casual leaves, 7 sick leaves and 30 privilege leaves.  For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days. Only in case of sickness or emergency employees are allowed to go on leave without informing.
+  - text: Corporate employees have 7 days of casual leave, 7 days of sick leave and 30 days of privilege leave.  For more than 2 days of sick leave, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken at a time. On the other hand, privilege leave may be taken for a minimum of 4 days upto 3 times in a year. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
   utter_retail_number_of_leaves:
-  - text: Retail or store employees have 7 casual leaves, 7 sick leaves and 21 privilege leaves. For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days. Only in case of sickness or emergency employees are allowed to go on leave without informing. 
+  - text: Retail or store employees have 7 days of casual leave, 7 days of sick leave and 21 days of privilege leave. For more than 2 days of sick leave, one needs to give a medical certificate. A maximum of 3 days of casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days upto 3 times in a year. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
   utter_sick:
-  - text: Employees can get 7 sick leaves. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
-  - text: You can get 7 sick leaves which are prorated. A medical certificate is required for availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
+  - text: Employees can get 7 days of sick leave. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 days of sick leave. Sick leaves can be clubbed with privilege leaves. A maximum of upto 45 days of unused sick leaves can be carried forward.
+  - text: You can get 7 days of sick leave which are prorated. A medical certificate is required for availing more than 2 days of sick leave. Sick leaves can be clubbed with privilege leaves. Upto 45 days of unused sick leave can be carried forward.
   utter_casual:
-  - text: Employees have 7 casual leaves. These leaves are prorated. One can take a maximum of 3 casual leave in one go. Casual leaves are not  encashable and cannot be clubbed or carried forward.
+  - text: Employees have 7 days of casual leave. These leaves are prorated. One can take a maximum of 3 days of casual leave in one go. Casual leaves are not encashable and cannot be clubbed or carried forward.
   utter_privilege_corporate:
-  - text: Corporate employees have 30 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward.
+  - text: Corporate employees have 30 days of privilege leave. These leaves are prorated. One can take a minimum of 4 days of privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90 days. Up to a maximum of 210 privilege leaves can be carried forward.
   utter_privilege_retail:
-  - text: Retail employees have 21 privilege leaves. These leaves are prorated. One can take a minimum of 4 privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90. Up to a maximum of 210 privilege leaves can be carried forward.
+  - text: Retail employees have 21 days of privilege leave. These leaves are prorated. One can take a minimum of 4 days of privilege leave up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90 days. Up to a maximum of 210 days of privilege leaves can be carried forward.
   utter_maternity:
-  - text: As per the maternity leave policy, an expecting mother can get a maximum of 26 weeks/182 days leaves. The employee has the discretion to split these 182 days between pre natal and post natal leaves.
-  - text: Expecting mothers can get a maximum of 26 weeks/182 days leaves as per the maternity policy. There is an option for splitting these 182 days between pre natal and post natal leaves.
-  - text: A maximum of 26 weeks/182 days of maternity leaves are available for expecting mothers. There is an option for splitting these 182 days between pre natal and post natal leaves.
+  - text: As per the maternity leave policy, an expecting mother can get a maximum of 26 weeks / 182 days of leave. The women employee has the discretion to split these 182 days between pre natal and post natal leaves out of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall precede the date of her expected delivery.
   utter_paternity:
   - text: The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable.
   utter_without_pay:
@@ -503,11 +501,10 @@ responses:
   utter_child_adoption_paternity:
     - text: Paternity leave policy is applicable for both childbirth and for adoption.
     - text: Both childbirth and adoption are eligible for paternity leaves.
-    - text: Childbirth and adoption both are applicable for paternity leaves.
   utter_paternity_duration:
     - text: A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption.
   utter_counted_paternity:
-    - text: Paternity leave is granted in addition to an employee's normal annual holiday entitlement and shall not be debited against the leave account.
+    - text: Paternity leave is granted in addition to an employee's normal annual leave entitlement and shall not be debited against the leave account.
     - text: Paternity leaves are in addition to your normal annual leaves entitlement. No other leaves are used against the leave account.
     - text: Paternity leaves are on top of your normal annual holiday entitlement and shall not be debited against the leave account.
   utter_cafeteria_policy:
@@ -519,7 +516,7 @@ responses:
     - payload: /cafeteria_guest
       title: Guests
     - payload: /cafeteria_visiting_employee
-      title: Employee from other UCB locations
+      title: Employee from other locations
     - payload: /cafeteria_coupons
       title: Cafeteria coupon distribution
     - payload: /cafeteria_temp_employees
@@ -531,7 +528,7 @@ responses:
   utter_cafeteria_payments:
     - text: Cafeteria charges of Rs.35/- per day (upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free. You can collect your cafeteria coupons from the admin on 20th of every month.
   utter_cafeteria_guests:
-    - text: Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be debited to the respective Departmental Budget. Please try to inform of guests to admin by 10:30 am in the morning.
+    - text: Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be debited to the respective Departmental Budget. Please try to inform the admin by 10:30 am in the morning about guests lunch.
   utter_cafeteria_visiting_employee:
     - text: As per the cafeteria policy, visiting employees of other locations shall be charged Rs.35/- per lunch which shall be recovered from their salary as applicable.
   utter_cafeteria_coupons:
@@ -546,7 +543,7 @@ responses:
       title: Cafeteria services for Guests
     - payload: /cafeteria_visiting_employee
       title: Services employee from other UCB locations
-    text: The cafeteria policy is applicable for UCB employees, temp staff and even for guests in extraordinary circumstances. You may like to know more about -
+    text: The cafeteria policy is applicable for all employees, temp staff and even for guests in extraordinary circumstances. You may like to know more about -
   utter_food_options:
     - text: Tuck Shop & a Juice Counter is also be available in the cafeteria from 9.30 am to 7.30 pm from Monday to Friday. Employees would have to pay directly to the Tuck Shop and Juice Counter towards the purchase made.
   utter_ask_which_policy:
@@ -577,9 +574,9 @@ responses:
       title: Coupons for meal in cafeteria
     text: Could you please tell me in which context are your referring vouchers?
     utter_employee_owned_car_tax:
-    - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
+    - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto Rs 2,400/- per month for running and maintenance charges and in addition Rs 900/- per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto Rs 1,800/- per month for running and maintenance charges and in addition upto Rs 900/- per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
   utter_landline_internet_tax:
-    - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The boradband connection should be in the name of the employee or an immediate family member (spouse,parent). Submitting original bills. Please get in touch with HR for knowing exact limits of reimbursement.
+    - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The broadband connection should be in the name of the employee or an immediate family member (spouse,parent).Original bills have to be submitted. Please get in touch with HR for knowing exact limits of reimbursement
   utter_health_center_tax:
     - text: The employees are free to avail gym facilities at a club of their choice. Exact amounts depend on the employee's band. Please get in touch with HR for exact amounts. Also, this facility is only for the employee. Employee's family is not covered under health club benefits.
   utter_meal_card_tax:
@@ -602,7 +599,7 @@ responses:
         title: Applying for LTA
       - payload: /disburse_process_LTA
         title: Disbirsement of LTA
-      text: Under LTA benefit, expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets and boarding passes in case of Air Travel and original tickets in case of train travel as per the entitlement. Please select if which specific information you need regarding LTA benefit.
+      text: Under LTA benefit, expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets and boarding passes in case of Air Travel and original tickets in case of train travel as per the entitlement. Please select which specific information you need regarding LTA benefit.
   utter_expenses_covered_under_LTA:
     - text: The LTA benefit covers expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets in case of train or bus travel and boarding passes in case of Air Travel. Hotel stay is not included.
   utter_new_employee_LTA:
@@ -622,7 +619,7 @@ responses:
   utter_employee_car_office_use:
     - text: If employee is using car only for official purpose, full expenses on the car shall be reimbursible and nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
   utter_employee_owned_car_fuel_tax:
-    - text: There is not separate fuel reimbursement, however expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur.
+    - text: There is no separate fuel reimbursement, however expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur.
   utter_ask_builder:
     - text: The engineers at iona.ai 🛠
   utter_ask_howdoing:
