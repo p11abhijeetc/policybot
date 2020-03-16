@@ -1926,6 +1926,8 @@
 - Can i get [coupons](voucher)?
 
 ## intent:about_food_options
+- Can i buy snacks in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i order food from [cafetaria](policy_type:cafeteria_policy)?
 - what food options are there in the oov?
 - Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
 - Does the [cafeteria](policy_type:cafeteria_policy) have snacks counters?
