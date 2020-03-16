@@ -772,52 +772,61 @@
 - utter_travel_leave_allowance
 * expenses_covered_under_LTA
 - utter_expenses_covered_under_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - New Employee
 * about_tax_saving{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * new_employee_LTA
 - utter_new_employee_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - Year Blocks
 * about_tax_saving{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * year_blocks_LTA
 - utter_year_blocks_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - Unclaimed LTA
 * about_tax_saving{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * unclaimed_LTA
 - utter_unclaimed_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - LTA Calculation
 * about_tax_saving{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * calculation_of_LTA
 - utter_calculation_of_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - LTA Apply
 * about_tax_saving{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * apply_process_LTA
 - utter_apply_process_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - LTA disbursement
 * about_tax_saving{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * disburse_process_LTA
 - utter_disburse_process_LTA
+- action_reset_LTA_slot
 
 ## Exit case LTA
 * about_exit{"policy_type":"leave_travel_policy"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_exist_case_LTA
+- action_reset_LTA_slot
 
 ## Apply for LTA
 * apply_for_benefit OR seek_approval{"policy_type":"leave_travel_policy"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LTA_slot
 
 ## kenow about tax reimbursements - Owned car
 * about_tax_benefits OR about_benefits{"policy_type":"reimbursement_policy"}
@@ -860,44 +869,35 @@
 - utter_travel_leave_allowance
 * expenses_covered_under_LTA
 - utter_expenses_covered_under_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - New Employee
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * new_employee_LTA
 - utter_new_employee_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - Year Blocks
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * year_blocks_LTA
 - utter_year_blocks_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - Unclaimed LTA
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * unclaimed_LTA
 - utter_unclaimed_LTA
+- action_reset_LTA_slot
 
 ## know about LTA - LTA Calculation
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
 * calculation_of_LTA
 - utter_calculation_of_LTA
-
-## know about LTA - LTA Apply
-* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
-- utter_travel_leave_allowance
-* apply_process_LTA
-- utter_apply_process_LTA
-
-## know about LTA - LTA disbursement
-* about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
-- utter_travel_leave_allowance
-* disburse_process_LTA
-- utter_disburse_process_LTA
-
-## Car tax reimbursement
+- action_reset_LTA_slot
 * about_tax_benefits OR about_benefits{"travel_mode":"car"}
 - slot{"policy_type":"reimbursement_policy"}
 - utter_employee_owned_car_tax
@@ -1031,58 +1031,70 @@
 * about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LTA_slot
 
 ## LTA family coverage
 * about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LTA_slot
 
 ## LTA disbursement
 * about_payment
 - slot{"policy_type":"leave_travel_policy"}
 - utter_disburse_process_LTA
+- action_reset_LTA_slot
 
 ## LTA New employee
 * about_tax_benefits OR about_benefits{"employee_type":"new"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_new_employee_LTA
+- action_reset_LTA_slot
 
 ## LTA leave type - sick
 * about_tax_benefits OR about_benefits{"leave_type":"sick"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LTA_slot
 
 ## LTA leave type - casual
 * about_tax_benefits OR about_benefits{"leave_type":"casual"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LTA_slot
 
 ## LTA leave type - privilege
 * about_tax_benefits OR about_benefits{"leave_type":"privilege"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LTA_slot
 
 ## LTA leave type - LTA window period
 * about_tax_benefits OR about_benefits{"year":"window period"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_year_blocks_LTA
+- action_reset_LTA_slot
 
 ## LTA  - calculation
 * about_tax_benefits OR about_benefits{"computation":"calculated"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_calculation_of_LTA
+- action_reset_LTA_slot
 
 ## LTA - unclaimed
 * about_tax_benefits OR about_benefits{"unclaimed":"did not avail"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_unclaimed_LTA
+- action_reset_LTA_slot
 
 ## LTA - hotel included
 * about_accomodation_benefits
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LTA_slot
 
 ## LTA Travel benefits
 * about_travel_benefits
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LTA_slot
