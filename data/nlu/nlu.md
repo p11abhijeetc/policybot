@@ -1726,6 +1726,8 @@
 - Can i know different [leave](policy_type:leave_policy) types?
 
 ## intent:leave_entitlement
+- Can i get [leaves](policy_type:leave_policy)
+- Can i take [leave](policy_type:leave_policy)
 - Can i get [leave](policy_type:leave_policy)
 - Am i eligible for [leaves](policy_type:leave_policy)
 - Who is eligible for [leaves](policy_type:leave_policy)?
@@ -1920,6 +1922,8 @@
 - How can i get the [vouchers](voucher) for the company [cafeteria](policy_type:cafeteria_policy)
 - Where can i get [coupons](voucher)
 - Can i get [meal](meal) [vouchers](voucher) for [tax saving](policy_type:reimbursement_policy)
+- Can i get [meal](meal)[vouchers](voucher)?
+- Can i get [coupons](voucher)?
 
 ## intent:about_food_options
 - what food options are there in the oov?
@@ -2062,6 +2066,7 @@
 - Can i take my [wife](family) along?
 - Can [my children](family) come with me?
 - What about [my kids](family)?
+- What about [healt clubs](health_club)
 
 ## intent:about_tax_benefits
 - What [tax benefits](policy_type:reimbursement_policy) can i get?
@@ -2099,6 +2104,7 @@
 - Does the company provide any [health club](health_club) benefit?
 - Can i join a [health club](health_club)?
 - Is a [gym](health_club) membership allowed?
+- can i join [health clubs](health_club)?
 - Will the company reimburse my [fitness center](health_club) expenses
 - Can i get my [wellness center](health_club) cost reimbursed?
 - Can i get reimbursement for [medical expenses](medical_reimbursement)

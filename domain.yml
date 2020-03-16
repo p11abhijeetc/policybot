@@ -459,9 +459,9 @@ responses:
       title: Paternity
     text: Would you like to know more about -
   utter_corporate_number_of_leaves:
-  - text: Corporate employees have 7 casual leaves, 7 sick leaves and 30 privilege leaves.  For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days.
+  - text: Corporate employees have 7 casual leaves, 7 sick leaves and 30 privilege leaves.  For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days. Only in case of sickness or emergency employees are allowed to go on leave without informing.
   utter_retail_number_of_leaves:
-  - text: Retail or store employees have 7 casual leaves, 7 sick leaves and 21 privilege leaves. For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days. 
+  - text: Retail or store employees have 7 casual leaves, 7 sick leaves and 21 privilege leaves. For more than 2 sick leaves, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days. Only in case of sickness or emergency employees are allowed to go on leave without informing. 
   utter_sick:
   - text: Employees can get 7 sick leaves. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
   - text: You can get 7 sick leaves which are prorated. A medical certificate is required for availing more than 2 sick leaves. Sick leaves can be clubbed with privilege leaves. Upto 45 unused sick leaves can be carried forward.
@@ -569,7 +569,14 @@ responses:
     - payload: /travel_leave_allowance
       title: Leave travel allowance
     text: The company has a policy for employees to avail reimbursement benefits that help them to make their compensation tax-efficient; within the provisions of Income Tax Act of India. Please let me know if you are referring to any specific sax saving measure.
-  utter_employee_owned_car_tax:
+  utter_cafeteriaor_reimbursement:
+  - buttons:
+    - payload: /meal_card
+      title: Meal vouchers reimbursements
+    - payload: /cafeteria_coupons
+      title: Coupons for meal in cafeteria
+    text: Could you please tell me in which context are your referring vouchers?
+    utter_employee_owned_car_tax:
     - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity of exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
   utter_landline_internet_tax:
     - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The boradband connection should be in the name of the employee or an immediate family member (spouse,parent). Submitting original bills. Please get in touch with HR for knowing exact limits of reimbursement.

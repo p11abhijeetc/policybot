@@ -973,6 +973,18 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_meal_card_tax
 
+## Meal Voucher - Cafeteria
+* about_coupons{"voucher":"coupons"}
+- utter_cafeteriaor_reimbursement
+* cafeteria_coupons
+- utter_cafeteria_coupons
+
+## Meal Voucher - Cafeteria
+* about_coupons{"voucher":"coupons"}
+- utter_cafeteriaor_reimbursement
+* meal_card
+- utter_meal_card_tax
+
 ## LTA benefits
 * about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
