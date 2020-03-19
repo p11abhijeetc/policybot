@@ -47,7 +47,9 @@ class ResetSlot(Action):
         return "action_reset_LWP_slot"
 
     def run(self, dispatcher, tracker, domain):  
-        return [SlotSet("leave_type", None)]
+        return [SlotSet("policy_type", None)]
+
+
 
 # class ActionDefaultAskAffirmation(Action):
 #     """Asks for an affirmation of the intent if NLU threshold is not met."""

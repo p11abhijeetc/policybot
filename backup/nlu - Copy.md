@@ -1,0 +1,2456 @@
+## intent:greet
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HELLO
+- HEY
+- HEllo
+- HI
+- HI iona
+- Hallo
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello IONA
+- Hello iona
+- Hello Iona
+- Hello!
+- Hey
+- Hey iona
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi iona
+- Hi Iona!
+- Hi bot
+- Hi man
+- Hi Iona
+- Hi iona..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hi chatbot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
+- good evening
+- good moring
+- good morning
+- greet
+- greetings
+- hai
+- hallo
+- hallo iona
+- halloo
+- halloooo
+- halo
+- halo iona
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello Iona
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello iona
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey sweetie
+- hey ther
+- hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, iona!
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi mrs iona
+- hi pal!
+- hi iona
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola iona
+- iona hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
+
+## intent:canthelp
+- I think you cant help me
+- and that's it?
+- and you call yourself bot company? pff
+- do you get anything?
+- exit
+- exit now
+- hm i don't think you can do what i want
+- i guess you can't help me then
+- nothing else?
+- ok i guess you can't help me
+- ok then you cant help me
+- ok, but that doesnt help me
+- stop
+- stop go back
+- stop this conversation
+- that was shit, you're not helping
+- that's not what i want
+- this conversation is not really helpful
+- this is leading to nothing
+- you can't help me
+- you can't help me with what i need
+- you cannot help me with what I want
+- you cant help me
+
+## intent:ask_whoisit
+- HI, what's your name?
+- Hello. What's your name?
+- I want to know who you are
+- So who are you ?
+- Tell me more about you
+- WHat's your name ?
+- WHo are you ?
+- What are you ?
+- What is your name
+- What is your name?
+- What's your name
+- What's your name?
+- Whats your name?
+- Who are yopu?
+- Who are you
+- Who are you?
+- You are Human ?
+- hey what is your name
+- hi! what's your name?
+- ok who are you ?
+- u are?
+- what are you called?
+- who is iona?
+- what is your job?
+- what is your nam
+- what is your name
+- what is your name?
+- what is your nme?
+- what your name?
+- what's your name
+- what's your name ?
+- what's your name bot
+- what's your name?
+- whats ur name
+- whats your name
+- whats your name'
+- whats your name?
+- who ARE YO
+- who am i speaking with
+- who am i talking to
+- who ar eyou
+- who are u?
+- who are y
+- who are you
+- who are you ?
+- who are you?
+- who are you??
+- who is it?
+- who is talking?
+- who is this
+- who is this bot
+- who is this?
+- who r u
+- who r you
+- who speaks?
+- who talks?
+- whom i talking to
+- may i know your name
+
+## intent:ask_howbuilt
+- How did they build you?
+- How did they create you?
+- How did they make you?
+- How did you come into being?
+- How did you come to be?
+- How exactly were you made?
+- How were you built?
+- How were you constructed?
+- How were you devised?
+- How were you formed?
+- How were you made?
+- How were you set up?
+- I'd like to know how you were created
+- In what manner were you built?
+- In what way were you created?
+- In what way were you formed?
+- In what way were you made?
+- Tell me how you were made?
+- how have you been built?
+- how were you made?
+- in what way were you made?
+- so how were you made?
+- what are you made of
+
+## intent:ask_whatismyname
+- Can you tell me my name?
+- Can you tell me what I am called?
+- Do I have a name?
+- Do I have a name? What is it?
+- Do you know my name?
+- Do you know what my name is?
+- Explain my name to me.
+- I have a name, what is it?
+- I'd like to know my name
+- I'd like to know what my name is
+- Inform me what my name is
+- May i know my name?
+- Please let me know what my name is
+- Say my name.
+- Tell me my name
+- Tell me my name.
+- What am I called?
+- What could be my name?
+- What did my parents name me?
+- What do I call myself?
+- What do my colleagues call me?
+- What do people call me?
+- What does everyone call me?
+- What else do people call me?
+- What exactly is my name?
+- What is my first name?
+- What is my full name?
+- What is my name?
+- What is the name I was given?
+- What name do I go by?
+- What name should I recognize for myself?
+- What was I named?
+- What would be the name on my tombstone?
+- can you tell me my name?
+- what is my name
+- what is my name?
+- what's my name?
+
+## intent:ask_whoami
+- Can you tell me who I am?
+- Can you tell me who am I?
+- Do you know who I am?
+- Do you know who am I?
+- How can I determine who I am?
+- How can I determine who am I?
+- How do I discover who I am?
+- How do I discover who am I?
+- How do I identify myself?
+- Okay who am I?
+- Shall i know who am i?
+- Tell me who I am.
+- Tell me who I am?
+- Tell me who am I?
+- WHo am I
+- Who am I?
+- Who could I be?
+- can you tell me what I am?
+- can you tell me who I am?
+- tell me who I am?
+- who am i
+- who are I ?
+- who may i ?
+
+## intent:ask_wherefrom
+- Are you from around here?
+- Around where are you from?
+- Do you know where you come from?
+- From where did you come?
+- So where are you from
+- What area are you from?
+- What is your heritage?
+- What is your origin?
+- What is your root?
+- What's the name of the place you came from?
+- Where are you?
+- Where did you come from?
+- Where did you grow up?
+- Where do you come from?
+- Where do you consider home?
+- Where do you live?
+- Where from?
+- Where might you be from?
+- Where were you at before you were here?
+- You live around here?
+- where are from
+- where are you from
+- where are you from?
+- where did you come from?
+- where did you grow up?
+- where do you come from?
+- where do you live
+- where do you live?
+
+## intent:ask_howold
+- How long have you been alive?
+- How long have you been around?
+- How long have you occupied the earth?
+- How many years have you been alive?
+- How many years have you lived?
+- How old are you?
+- What is your age?
+- What year were you born?
+- Whats your age?
+- and you are how many years old?
+- can you tell me exactly how old you are?
+- can you tell me what number represents your age?
+- can you tell me your age?
+- do you know how old you are?
+- give me your age?
+- how about your age
+- how aold are you
+- how many ages?
+- how many years old are you?
+- how old are u
+- how old are you
+- how old are you?
+- how old will you be this year?
+- how old?
+- what age are you
+- what is your age?
+- what is your exact age?
+- what number represents your age?
+- what's your age?
+- whats your age?
+- when were you born?
+- when you were bon
+
+## intent:ask_isbot
+- Ar you a bot ?
+- Are you a bot
+- Are you a chat bot?
+- Are you the bot?
+- Hi there, are you the bot?
+- are you a BOT
+- are you a bot
+- are you a bot ?
+- are you a bot?
+- are you a chatbot
+- are you a real bot?
+- are you a robot
+- are you ai
+- are you artificial
+- are you artificial intelligence
+- are you bot
+- are you bot?
+- are you human?
+- are you real
+- are you real lol
+- are you really a bot
+- are you robot
+- are you sure that you're a bot?
+- bot?
+- cuz you are a bot
+- i guess you are a chatbot
+- oh are you chatbot?
+- tell me, are you a bot?
+- what are you, a bot?
+- you are a robot
+- you are ai
+- you are chatbot
+- you're a bot
+
+## intent:ask_whatisiona
+- iona?
+- iona Is?
+- WHAT IS iona
+- What Is iona?
+- What can iona do?
+- What do you do at iona?
+- What does iona build?
+- What does iona do?
+- What does iona make?
+- What does iona do exactly?
+- What exactly is iona?
+- What is iona?
+- What is iona doing exactly?
+- What's iona?
+- how does iona work?
+- how does iona work
+- how iona works ?
+- how works iona
+- i dont get what iona is
+- i want to about iona
+- i want to know about iona
+- what does iona do
+- what does iona do ?
+- what does iona do?
+- what does iona mean
+- what is in iona
+- what is iona
+- what is iona actually
+- what is iona?
+- whats iona
+
+## intent:ask_whatspossible
+- How can you help me
+- How you help me?
+- I need help
+- I need some help
+- What can I do?
+- What can you do
+- What can you do?
+- What do you do
+- help
+- help me
+- help please
+- help pls
+- help?
+- hi. iona what do you do?
+- how can you help?
+- how u can help me
+- how you help me
+- i need help
+- show me the menu
+- show me what's possible
+- so now what
+- so what can you do
+- so what can you do?
+- so what next?
+- um what now
+- what are you ding
+- what are you doing
+- what are you good at?
+- what can I ask ?
+- what can I ask you?
+- what can I do here
+- what can I do with iona?
+- what can i do here
+- what can i do now
+- what can u do
+- what can you answer
+- what can you do
+- what can you do for me
+- what can you do, iona?
+- what can you do?
+- what can you?
+- what cn u do for me ?
+- what do you do
+- what do you do?
+- what i have to do
+- what is this bot for
+- what u can do
+- what u can do?
+- what you can do
+- what you can do for me?
+- what you can do?
+- what you do
+- what you doing?
+
+## intent:ask_howdoing
+- Are you ok?
+- Do you feel good?
+- HI iona, what are you up to?
+- Hi iona! How are you?
+- How are You?
+- How are things?
+- How are you
+- How are you men?
+- How are you today?
+- How are you?
+- How was your day?
+- How you doing?
+- How's it going
+- How've you been?
+- Hows it going
+- I'm fine and you
+- What's going on?
+- What's new?
+- What's up
+- What's up man
+- and you
+- are you alright
+- are you happy
+- are you ok
+- are you okay
+- h r u ?
+- hello, how are you?
+- hey how are you?
+- hi how are you?
+- hi how u doing
+- hi iona, how are you?
+- how ?
+- how are things going
+- how are u
+- how are u?
+- how are xou
+- how are you
+- how are you ?
+- how are you doing
+- how are you doing?
+- how are you feeling
+- how are you today
+- how are you'
+- how are you?
+- how are you????
+- how are yuo
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- how r u
+- how r u ?
+- how r u>
+- how you doing
+- how you doing?
+- how's it going?
+- how's your day going
+- howareyou
+- hw r u?
+- okay hi how are you?
+- what about your day
+- what are you up to?
+- what's good
+- what's up
+- what's up iona
+- what's up?
+- whats goin on
+- whats new
+
+## intent:ask_builder
+- By whom were you built?
+- Do you know who built you?
+- Do you know who made you?
+- What person built you?
+- Who built you?
+- Who created and built you?
+- Who created you?
+- Who designed you?
+- Who developed you?
+- Who fabricated you?
+- Who generated you?
+- Who is it that built you?
+- Who is your creator?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who put you together?
+- Who thought to make you?
+- Who was the one who made you?
+- Who were you built by?
+- Who were you created by?
+- Who were you made by?
+- Who's your boss?
+- Who's your builder?
+- and who built u?
+- where were you made?
+- which company created you?
+- which company invented you?
+- who are created you
+- who are your author?
+- who are your parents
+- who build yoi
+- who built u?
+- who built you
+- who built you?
+- who create you ?
+- who created you
+- who created you?
+- who developed
+- who developed you
+- who do you work for?
+- who invent you
+- who is behind all this?
+- who is your author
+- who is your boss
+- who is your boss tell me
+- who is your boss?
+- who is your creator
+- who is your creator?
+- who is your father ?
+- who is your mom
+- who is your parent?
+- who made u
+- who made u?
+- who made you
+- who made you?
+- who your author are?
+- who's builder
+- why were you made?
+- you are made by who?
+
+## intent:handleinsult
+- FUCK
+- Fuck
+- Fuck Off
+- Fuck off
+- Fuck u
+- Fuck you
+- God you're a moron
+- I can't believe how dumb you are
+- I hate you
+- Loser
+- Stupid
+- You are a fool.
+- You are an idiot.
+- You are dumb.
+- You are shortsighted.
+- You are unintelligent.
+- You are unknowing.
+- You brain is dull.
+- You have no brains.
+- You have no intelligence.
+- You have no sense.
+- You know nothing.
+- You lack intelligence.
+- You lack understanding.
+- You're a dolt.
+- You're a dunce.
+- You're an idiot.
+- You're foolish.
+- Your intelligence is laughable.
+- Your mindset is naive.
+- a baby knows more than you
+- are u dump?
+- are you brain dead?
+- asshole
+- bitch
+- bloody dunce
+- but you are idiot
+- deal with my ass, you bitch
+- f*ck
+- fuck
+- fuck off
+- fuck iona
+- fuck u
+- fuck you
+- fuck you machine learning bot
+- fuck you iona
+- fuck you!
+- fucking stupid
+- fucking work
+- get lost
+- go away
+- go fuck yourself
+- go to hell
+- how can you be such an idiot?
+- i hate you
+- i hate your dumb face
+- i think that you're a bullshit
+- idiot
+- insult you
+- ok fuck you
+- ok shut up
+- iona you look like a burnt sparrow
+- shit
+- shit bot
+- shut up asshole
+- so dumb
+- so fucking dumb
+- sucker
+- that wasn't very funny
+- thta was a terrible fucking joke
+- u r a piece of junk
+- ur a pussy
+- what fuck
+- yep but you are idiot
+- you are a moron
+- you are a stupid bot
+- you are an idiot
+- you are dumb
+- you are fucking stupid
+- you are fucking stupid guy！
+- you are idiot
+- you are idiotic
+- you are so ignorant
+- you are stupid
+- you are unintelligent
+- you are useless bot
+- you asshole
+- you idiot
+- you idiot bot
+- you son of a bitch
+- you suck
+- you're a loser lmao
+- you're an idiot
+- you're dumb
+- you're not smart
+- you're so dumb
+- you're the most moronic person I know
+- your mom gay
+- you are annoying
+- bhak
+- sab bot bana dete hai
+- hatt saala
+
+## intent:bye
+- bye
+- goodbye
+- see you around
+- see you later
+- Bye
+- Bye bye
+- adios
+- adios?
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- good bye iona bot!
+- good night
+- goodbye.
+- goodnight
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
+- tschüssikowski
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- nice
+- not bad
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok iona
+- ok, I behave now
+- ok, I understood
+- ok, iona
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- yres
+- ys
+- yup
+- yyeeeh
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never mind
+- no :(
+- no I dont want
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- very bad
+- I do not need help installing
+- I don't wanna tell the name of my company
+- no stop
+- stop it, i do not care!!!
+
+## intent:human_handoff
+- Can I speak to anyone who can really help me?
+- Could I talk to HR?
+- I don't wanna talk to a bot
+- I dont like to talk to a machine
+- I want to talk to a human
+- I want to talk to the managers
+- can I speak to a person?
+- Could I talk to Humar Resources?
+- can i please speak to a human?
+- can you forward me to your team
+- can you please connect me to a real employee?
+- can you put me in touch with a human?
+- do you have human support ?
+- gimme a proper human
+- give me a human
+- give me a human now
+- human handoff
+- i dont wanna talk to a bot
+- i want to speak to a manager
+- i have to speak to the supervisor
+- i want to speak to a real person
+- i want to talk to a human
+- i want to talk to a person
+- i want to talk to human
+- i want to talk to someone else
+- i want to talk to someone who is smarter than you
+- i would like to speak to a person
+- i'd rather speak with a real employee
+- id like to talk to a real employee
+- let me speak with a real person please
+- let me talk to a human
+- let me talk to a real person
+- please give me a human
+- service agent
+- someone from hr contact
+- speak to a real person
+- talking to a bot is stupid
+- that's annoying I'd like to speak to someone real
+- thats not helping, can i talk to human?
+- wrong i want to speak to a human
+
+## intent:nicetomeeyou
+- Feels great to see you!
+- Glad to finally meet you!
+- Glad to meet you
+- Glad to meet you!
+- Glad to meet you.
+- Glad we've met.
+- Good to meet you!
+- Good to see you!
+- Great interacting with you
+- Great seeing you
+- Great to meet you!
+- Great to meet you.
+- Happy to get to see you.
+- Hi iona, just wanted to test you
+- Hi, glad to meet you.
+- Hi, nice to meet you!
+- I am glad I met you.
+- I am glad he introduced us.
+- I had a great meeting with you
+- I'm glad to have met you!
+- I'm glad to meet you!
+- I'm happy that we have met!
+- I'm pleased to meet you!
+- I'm so happy that I could meet you.
+- I'm thrilled to meet you!
+- It is indeed a pleasure to be able to meet you.
+- It was a pleasure to have your company.
+- It was nice to have met you
+- It's a pleasure to make your acquaintance!
+- It's a pleasure to meet you!
+- It's great to get to know you!
+- It's great to make your acquaintance!
+- It's nice to finally meet you.
+- It's wonderful to meet you!
+- It’s a pleasure to meet you
+- It’s great connecting with you.
+- Lovely to meet you.
+- Nice to have met you.
+- Pleased to make your acquaintance!
+- Pleased to meet you!
+- Pleased to meet you.
+- nice to meet you
+
+## intent:out_of_scope
+- I am asking you an out of scope question
+- 4 + 2 = ?
+- After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+- Are you ready?
+- But you're an english site :(
+- Can I ask you questions first?
+- Can I die
+- Can YouTube talk?
+- Can you call me back ?
+- Can you give me your datacenter's password
+- Can you give me your datacenter's password?
+- Can you please send me an uber
+- Do I have to accept?
+- Do you know Anil Choudhary
+- Have we met before?
+- HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+- How long does it take to set up a bot?
+- I already told you! I'm a shitmuncher
+- I am User
+- I am an opioid addic
+- I am an opioid addict
+- I am trying to build one, and did some research before, but I have not do hand-on work yet
+- I can barely see this white text on light gray background ...
+- I changed my mind
+- I have installed it
+- I ned a GP in 94301
+- I need a GP in 94301
+- I need a girl friend!
+- I want to buy a plane
+- I wanna marry you
+- I want to die
+- I want to use pipe
+- I will check
+- Is iona really smart?
+- Is this Goal-Oriented Chatbot?
+- Is today saturday?
+- Mail me the guide
+- NLW
+- Nice name
+- Now?
+- SEL ME SOMETHING
+- The Try it out is not working
+- The weather is good
+- Today
+- Try it out broken
+- What day is it today?
+- What did you eat yesterday?
+- What do you prefer?
+- What is todays date
+- What is your hobbies?
+- What makes you better than a human?
+- What's 1 + 1?
+- What's do YouTube do
+- What's your backend system?
+- Where am I right now?
+- Where am I?
+- Who ?
+- Who are your customers
+- Why don’t you answer?
+- Why is my TRUST score set to 50 after I completed the registration process?
+- Won't you ask me how I am?
+- You'r blue.
+- Ekta I want to marry you
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- aRE YOU SINGLE
+- again?
+- alexa, order 5 tons of natrium chloride
+- and make chicken noises into the phone
+- are the newsletter worth the subscription?
+- are u facebook
+- are u, facebook?
+- are you single?
+- are you dev?
+- are you human ?
+- are you russian?
+- better than you
+- but I just told you that :(
+- but if iona is open source why do you have a sales team
+- buy one please
+- call me father
+- can we keep chatting?
+- can you cheer me up
+- can you learn from our conversation?
+- can you speak about politic ?
+- can you understand ?
+- cannot see
+- chgfhgh
+- chinese ok?
+- colder
+- common, just try
+- connect to alexa
+- cr
+- de donde eres
+- de que lugar eres?
+- did i break you
+- dinner
+- do you believe in god?
+- do you have a phone number?
+- do you have your photo?
+- do you know me
+- do you know ras
+- do you like football
+- do you like movies
+- do you sell vacuum robots?
+- do you want to marry me?
+- docs
+- doctor
+- epdi iruka
+- eres humana
+- everything
+- example of a chatbot
+- genocide
+- get me a club mate
+- github link?
+- give me a girl friend
+- go back
+- google?
+- hang on let me find it
+- help with my life
+- how come you say ok ?
+- how come?
+- how do you learn
+- how good is iona
+- how it compares to alexa
+- how long have you been online?
+- how long will the next version will launch?
+- how many lines of codes
+- how much is 10 + 89 ?
+- how much is 10 + 89
+- how to extract relationship
+- how to get alexa studio
+- how to go to newyork ?
+- i am not a developer but need this for business
+- i am qq
+- i can't deal with request
+- i do not care how are you
+- i hope you will be better
+- i m looking for job
+- i told you already
+- i want good flycam
+- i want more of you in my life!
+- i want to buy a roomba for my grandson
+- i want to find new friends
+- i want to find out what you can build with iona
+- i want to fly
+- i want to know current situtation in pakistan
+- i want to see your happy customers
+- i will tame a mouse for you
+- is Neelam Pandey still married to you
+- is it a wasteland full of broken robot parts?
+- is it allow to
+- is iona a studio?
+- is iona any good
+- is that any of your business
+- it's a pity
+- ljljl
+- machine learning
+- mail me the steps
+- more
+- mountain
+- my name k
+- oh my god, not again!
+- ok one then
+- only that?
+- order good
+- personal or work?
+- please play music
+- que puedes hacer?
+- iona topics
+- really? you're so touchy?
+- refresh
+- region with no. of records
+- remember my name
+- search wikipedia
+- silly bot
+- sing me a song
+- so, I'm helping right now to training you?
+- some thing else
+- someone call the police i think the bot died
+- sorry, i cannot rephrase
+- tell me about yourself
+- tell me more about next best action
+- that doesn't sound like a joke
+- that link doesn't work!
+- the one that is better than you
+- tricked  ya
+- tu parles francais?
+- tudo bom
+- umm
+- wait a bit i am still reading
+- what about wheather
+- what are you doing now?
+- what are your uses for universities
+- what do oyu think about siri?
+- what do you think abou siri?
+- what do you think about Sumit Sharma
+- what do you think of alexa
+- what does your soul feel my friend
+- what films do you like
+- what i do after cd starter-pack-iona-stack?
+- what is a discourse?
+- what is adlingo
+- what is evolution ?
+- what is google rcs
+- what is machine learning
+- what is nice?
+- what is the real use case where we can use this one
+- what is your github link
+- what is your purpose
+- what lnu mean?
+- what the latest news ?
+- what's 5 + 5
+- what?
+- whats that
+- whats the sign
+- which file is created first while developing chat bot
+- who is the MD of samsung bangalore ?
+- who is the president of india ?
+- who is your favourite robot?
+- who let the dog out
+- who was hitler
+- who will anser my email?
+- who's Bill Gates?
+- whta you think about gdpr?
+- why do you need that?
+- why its called iona ?
+- will u kill me
+- will u kill me?
+- winter is already leaving
+- with you recommend me?
+- would you like some water
+- you already have that
+- you have children?
+- you have job opening
+- you lock sweety
+- you're a woman
+
+## intent:react_negative
+- I am feeling bad
+- I am sad
+- I am super sad
+- I'm sad
+- I'm super sad
+- Now I'm sad
+- This is bad
+- You are quite bad
+- bad
+- bad boy
+- crappy joke
+- i am angry over you
+- i am feel sad
+- i am sad
+- i am sad about that
+- i am very sad
+- i feel sad
+- i sad
+- i'm sad
+- iona is bad
+- sad
+- so sad
+- so sad :(
+- super sad
+- u broke my heart
+- very very sad
+- you are bad
+- you are bad bot
+- you make me sad
+- You are mad
+- You are rude
+- bots are bad
+- i don't care!!!!
+- i dont like bots
+- this is a really frustrating experience
+- you're rather dull
+
+## intent:react_positive
+- :)
+- :D
+- HAHA
+- I am happy
+- LOL
+- Lol
+- Lol thats funny
+- Looks nice
+- WOW
+- Wow
+- You are great
+- You're cute.
+- You're nice.
+- You're really cool
+- hAHAHA
+- ha ha
+- haha
+- hahah
+- hahaha
+- happy
+- i am feeling happy
+- i am happy
+- i am happy today
+- i am very happy with your response
+- i love you
+- it's pretty cool
+- lol
+- love you
+- okay iona bot, you're cool
+- iona is awesome
+- such a great demo
+- that is funny
+- that was a great interaction
+- thats funny
+- today was a nice day
+- wow
+- you are a badass bot!
+- you are awesome
+- you are cool
+- you are cool man
+- you are doin great
+- you are funny
+- you are great
+- you are my new bestfriend
+- you seem pretty cool :D
+- I like you
+- I love you
+- you are realy intelligent
+
+## intent:telljoke
+- Come up with a joke you think I'll find funny.
+- Could you please share a joke with me.
+- Could you tell me a joke.
+- Do you have any jokes?
+- Do you know any jokes?
+- Entertain me with a joke.
+- Give me a funny joke.
+- Give me a joke.
+- Give me some comic relief.
+- I need a good joke.
+- I want to hear something funny.
+- Know any jokes?
+- Let's hear a joke from you.
+- Make me laugh.
+- Please tell me a joke.
+- Say something funny.
+- Share a joke with me!
+- Tell joke.
+- What's a good joke?
+- Will you tell me a joke.
+- Would you share a joke with me.
+- Would you tell me a joke
+- give me a good joke
+- make me laugh with a bad joke
+- make me laugh with a joke
+- say a funny joke
+- say a joke
+- say a joke that's funny
+- say a joke that's so bad it's funny
+- you can say a jok
+
+## intent:thank
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you iona
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks iona
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for the help
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+
+## intent:about_leave
+- May I know about paid [leaves](policy_type:leave_policy)
+- Is there a [leave](policy_type:leave_policy) policy
+- Tell me about the [leave](policy_type:leave_policy) policy
+- What about [leaves](policy_type:leave_policy)
+- Does the company have a leave policy?
+- What is leave policy?
+- What is company leave policy?
+- Please tell me about leave policy?
+- And what about leave policy?
+- May i know about leave policy?
+- Please tell me about [sick](leave_type:sick) leaves
+- Please tell me more about [casual](leave_type:casual) leaves
+- And [privilege](leave_type:privilege) leaves?
+- What about [sick](leave_type:sick) leave?
+- May i know about [SL](leave_type:sick) leave?
+- Please tell me about [CL](leave_type:casual)
+- May i know about [PL](leave_type:privilege)
+- Please tell me more about [earned](leave_type:privilege) leaves
+- What are [privilege](leave_type:privilege) leaves?
+- What about [casual](leave_type:casual)
+- Explain about leave
+- leave policy
+- And [leave](policy_type:leave_policy)
+- leave
+- Can you tell me about [leave without pay](leave_type:unpaid)
+- And what about [LWP](leave_type:unpaid)
+- Please tell me about [lwp](leave_type:unpaid)
+
+## intent:apply_for_benefit
+- I want to apply for leave
+- How to apply
+- How can i apply
+- What is the process to apply
+- I want to apply
+- I need leave
+- How can i apply for leave
+- How to apply leave
+- Apply leave
+- how can i get leaves?
+- I want apply for [sick](leave_type:sick) leave
+- I want to apply [casual](leave_type:casual) leave
+- I want to apply for [earned](leave_type:privilege) leave
+- How can i apply for [maternity](policy_type:maternity_leave_policy)?
+- How to apply for [maternity](policy_type:maternity_leave_policy)?
+- How can i get [maternity](policy_type:maternity_leave_policy) leave?
+- How to apply for [maternity](policy_type:maternity_leave_policy) leave?
+- What is the process for applying for [maternity](policy_type:maternity_leave_policy) leave?
+- What is the procedure to apply for [maternity](policy_type:maternity_leave_policy) leave?
+- What is the notice period for my [maternity](policy_type:maternity_leave_policy) leave?
+- I want to apply for [mat](policy_type:maternity_leave_policy) leave
+- how to apply for [paternity](policy_type:paternity_leave_policy) leave?
+- how can i apply [pat](policy_type:paternity_leave_policy) leave?
+- how can i apply for [sick](leave_type:sick) leave?
+- How can i apply for [patternity](policy_type:paternity_leave_policy) leave?
+- can i get [paternity](policy_type:paternity_leave_policy) leave?
+- What is the process for applying for [pat](policy_type:paternity_leave_policy) leave?
+- What is the process for applying for [paternity](policy_type:paternity_leave_policy) leave?
+- Is there a separate process to apply for [LWP](leave_type:unpaid)
+- How can i apply for [LTA](policy_type:leave_travel_policy)?
+- What is the prcess for applying for [lta](policy_type:leave_travel_policy)?
+- In case of emergency or sickness, can I take a [leave](policy_type:leave_policy) without informing?
+- For emergencies, can I get [leave](policy_type:leave_policy) without informing my manager?
+- If you are ill, may I get [leave](policy_type:leave_policy) without prior approvals?
+
+## intent:seek_approval
+- who will [approve](leave_benefit:approval) my [maternity](policy_type:maternity_leave_policy) leave?
+- How will my [maternity](policy_type:maternity_leave_policy) leave be [approved](leave_benefit:approval)?
+- What is the [approval](leave_benefit:approval) process for [maternity](policy_type:maternity_leave_policy) leave?
+- I have an urgent requirement of leaves. Do i need [approval](leave_benefit:approval)?
+- I have an emergency. Can i go on leave without [approval](leave_benefit:approval)?
+- Is [approval](leave_benefit:approval) needed for going on leave?
+- Do i need manager [approval](leave_benefit:approval) before going on leave?
+- Is manager [approval](leave_benefit:approval) required?
+- Does my manager need to [approve](leave_benefit:approval) my leaves?
+- Is approval needed for [LWP](leave_type:unpaid)
+- Who will approve if i want to go on a long [unpaid leave](leave_type:unpaid)
+- Is approval needed?
+- How to get an approval?
+- What is the approval process?
+- Is approval mandatory?
+- How can i get an approval?
+- I want to go on maternity leave?
+- Who will approve my pat leave?
+- How can i get my pat leave approved?
+- Is prior approval needed?
+- Can i go on leave and get it approved later?
+- Can i take [leave](policy_type:leave) without informing my manager?
+- Can i take [leave](policy_type:leave) without approval?
+
+## intent:leave_benefits
+- What leave benefits do i have?
+- Can i [merge](leave_benefit:club) [sick](leave_type:sick) [leave](policy_type:leave_policy) with [cl](leave_type:casual)
+- Is [merging](leave_benefit:club) of [leaves](policy_type:leave_policy) allowed?  
+- Can i [club](leave_benefit:club) [sick](leave_type:sick) leave(policy_type:leave_policy) with [PL](leave_type:privilege)
+- Is [clubbing](leave_benefit:club) of [CL](leave_type:casual) with [el](leave_type:privilege) allowed
+- Can i [club](leave_benefit:club) my leaves?
+- Can i [club](leave_benefit:club) [casual](leave_type:casual) leaves?
+- Can i take [CL](leave_type:casual) and [PL](leave_type:privilege) [together](leave_benefit:club)?
+- Is [clubbing](leave_benefit:club) allowed?
+- Can i [combine](leave_benefit:club) two types of leaves?
+- Is [combining](leave_benefit:club) leave types allowed?
+- Is [clubbing](leave_benefit:club) of [sick](leave_type:sick) leaves allowed?
+- Can leaves be [clubbed](leave_benefit:club)
+- Can i [club](leave_benefit:club) [sick](leave_type:sick) leaves with [casual](leave_type:casual) leaves?
+- Can i [mix and match](leave_benefit:club) leave types?
+- Are the [leaves](policy_type:leave_policy) [carried forward](leave_benefit:carry_forward)
+- Will my leaves get [lapsed](leave_benefit:carry_forward)
+- Is is allowed to [carry forward](leave_benefit:carry_forward) leaves?
+- Will my leaves get [lapsed](leave_benefit:carry_forward) if i don't use them?
+- Will my leaves get [lapse](leave_benefit:carry_forward)
+- Will leaves be [prorated](leave_benefit:proration)?
+- Will [leaves](policy_type:leave_policy) be [pro rata](leave_benefit:proration)?
+- Is there any kind of [proration](leave_benefit:proration)?
+- Is there leave [proration](leave_benefit:proration)?
+- Will my leaves be on [pro rata basis](leave_benefit:proration)
+- Can i [encash](leave_benefit:encash) my leaves?
+- Are leaves [encashable](leave_benefit:encash)?
+- Is there an option to [encash](leave_benefit:encash) my leaves?
+- Is [encashing](leave_benefit:encash) of leaves allowed?
+- Is leave [encashment](leave_benefit:encash) possible?
+- How are leave [encashment](leave_benefit:encash) calculated?
+- what is leave [encashment](leave_benefit:encash) policy?
+- Can i get [cash](leave_benefit:encash) for my [leaves](policy_type:leave_policy)
+- Can i get [money](leave_benefit:encash) for my [leaves](policy_type:leave_policy)
+
+## intent:weekend_counted
+- Are weekends counted in casual leaves?
+- Under what condition will my weekend be counted as leave?
+- Under what curcumstances are weekends counted as leave?
+- Being on leave on either side of the weekend will result in leave deduction due to weekend
+- Will the weekends falling during my holiday counted?
+- Holiday during my leave will be consideres as leave?
+- Will the weekends also be counted?
+- If i combine a holiday with my [leaves](policy_type:leave_policy), will it be counted?
+- Are weekends considered as [leave](policy_type:leave_policy)?
+- Will the weekends be considered as [leave](policy_type:leave_policy)?
+- weekend_counted
+- are off days counted in leaves?
+- If i am on leave on a holiday, will that be counted as a leave?
+- If i am on leave on an off day, will that be counted as a leave?
+- Will the weekend be counted if i am on leave on friday and on monday
+
+## intent:about_leave_types
+- What are the types of [leaves](policy_type:leave_policy)
+- How many differnt kinds of [leaves](policy_type:leave_policy)
+- What all [leaves](policy_type:leave_policy) are there?
+- What the the different kinds of [leaves](policy_type:leave_policy)?
+- What are the different types of [leaves](policy_type:leave_policy)?
+- How many kinds of [leaves](policy_type:leave_policy) are there?
+- Are there different kinds of [leaves](policy_type:leave_policy)?
+- Tell me about the types of [leaves](policy_type:leave_policy)?
+- Can i know different [leave](policy_type:leave_policy) types?
+
+## intent:leave_entitlement
+- Can i get [leaves](policy_type:leave_policy)
+- Can i take [leave](policy_type:leave_policy)
+- Can i get [leave](policy_type:leave_policy)
+- Am i eligible for [leaves](policy_type:leave_policy)
+- Who is eligible for [leaves](policy_type:leave_policy)?
+- I want to know about my leave benefits?
+- Which employees are entitled for [leaves](policy_type:leave_policy)?
+- Which employees are eligible for [leaves](policy_type:leave_policy)?
+- Can i get [leave](policy_type:leave_policy)
+- Can i get [sick](leave_type:sick) [leave](policy_type:leave_policy)?
+- I am [not well](leave_type:sick). can i take the day off?
+- I have [fever](leave_type:sick). May i take leave?
+- I am [not feeling well](leave_type:sick) and wanted to take leave today?
+- How many [sick](leave_type:sick) leaves can i take?
+- Can i take [leave](policy_type:leave_policy) for more than 5 days?
+- Can i take [leave](policy_type:leave_policy) for more than five days?
+- Is there any limit on the number of [sick](leave_type:sick) leave
+- How many [leaves](policy_type:leave_policy) do i have?
+- How many [leaves](policy_type:leave_policy) can i take?
+- How many [leaves](policy_type:leave_policy) can i take in one go?
+- How many [leaves](policy_type:leave_policy) can i take at a time?
+- Is there a limit on number of [leaves](policy_type:leave_policy) that can be taken?
+- What is my total [leaves](policy_type:leave_policy)?
+- What is the total number [leaves](policy_type:leave_policy)?
+- What is my [leave](policy_type:leave_policy) entitlement?
+- Will i need [medical certificate](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves
+- Do i have to show any [doctor certificate](leave_benefit:medical_certificate) for going on leave?
+- I am required to produce any [certificate from a doctor](leave_benefit:medical_certificate) for [sick](leave_type:sick) leaves
+- What is my [sick](leave_type:sick) [leave](policy_type:leave_policy) entitlement?
+- How many [sick](leave_type:sick) [leaves](policy_type:leave_policy) do i have?
+- How many [casual](leave_type:casual) leaves can i get?
+- Can i take [leave](policy_type:leave_policy) for more than 5 days?
+- Can i get [sick](leave_type:sick) leave?
+- How many [leaves](policy_type:leave_policy) can i take in one go?
+- How many [privilege](leave_type:privilege) leaves can i take?
+- And [casual](leave_type:casual) leaves
+- what about [sick](leave_type:sick) leaves
+- I am [retail](employee_type) employee. How many [privilege](leave_type:privilege) leaves can i take?
+- I am [corporate](employee_type) employee. How many [privilege](leave_type:privilege) leaves can i take?
+- I work in the [store](employee_type:retail). How many [privilege](leave_type:privilege) leaves can i take?
+- I work in the [corporate](employee_type) office. How many [privilege](leave_type:privilege) leaves can i take?
+- How many [leaves](policy_type:leave_policy) are there?
+- Total number of [leaves](policy_type:leave_policy)
+- How many [sick](leave_type:sick) leaves are there for [retail](employee_type) employees
+- How many [casual](leave_type:casual) leaves are there for [corporate](employee_type) employees
+- I am [store](employee_type:retail) staff. How many [privilege](leave_type:privilege) leaves can i take?
+- can i take [leave](policy_type:leave_policy) for [medical](leave_type:sick) reasons
+
+## intent:about_policy
+- What about [mat](policy_type:maternity_leave_policy) leave?
+- What about [pat](policy_type:paternity_leave_policy) leave?
+- Is there a [paternity](policy_type:paternity_leave_policy) policy?
+- May i know about the [pat](policy_type:paternity_leave_policy) leave policy?
+- Tell me more about the [paternity](policy_type:paternity_leave_policy) plocy?
+- What is [maternity](policy_type:maternity_leave_policy) leave policy?
+- Does the company have a [mat](policy_type:maternity_leave_policy) leave policy?
+- Please tell me about [maternity](policy_type:maternity_leave_policy) leave policy?
+- Tell me about the [cafeteria](policy_type:cafeteria_policy) facility
+- Is there a [cafeteria](policy_type:cafeteria_policy) policy?
+- Is there a [cafeteria](policy_type:cafeteria_policy) in office?
+- May i know if there are arrangements for [lunch](meal) in office?
+- May i know if there are [meal](meal) arrangements in office?
+- Is there an option of having [lunch](meal) in office?
+- Can i have [lunch](meal) in office?
+- Can i have [lunch](meal) in the [cafeteria](policy_type:cafeteria_policy)
+- Are there [meal](meal) facilities in office?
+- Does the company provide for [cafeteria](policy_type:cafeteria_policy) facility?
+- Is there a facility for having [lunch](meal) in office?
+- Will employees get [lunch](meal) in office?
+- Can i get [lunch](meal) in office?
+- What is [cafeteria](policy_type:cafeteria_policy) policy?
+
+## intent:about_timing
+- What are the [cafeteria](policy_type:cafeteria_policy) timing?
+- Is the [cafeteria](policy_type:cafeteria_policy) open through out the day?
+- What are the [cafeteria](policy_type:cafeteria_policy) timings?
+- Is the [cafeteria](policy_type:cafeteria_policy) open for the full day?
+- Can i get [lunch](meal) in the [cafeteria](policy_type:cafeteria_policy) anytime?
+- Can i go for [lunch](meal) now?
+- When can i go for [lunch](meal)?
+- Can i have [lunch](meal) anytime?
+- Is [lunch](meal) served only duirng identified time slots?
+- Are there any [lunch](meal) timings?
+- When can i have [lunch](meal) at the cafeteria?
+- For how long is the [cafeteria](policy_type:cafeteria_policy) open?
+- For how long does the [cafeteria](policy_type:cafeteria_policy) remain open?
+- What time does the [cafeteria](policy_type:cafeteria_policy) open?
+- What time does the [cafeteria](policy_type:cafeteria_policy) close?
+- Is the [cafeteria](policy_type:cafeteria_policy) closed now?
+- Is the [cafeteria](policy_type:cafeteria_policy) open now?
+- Please tell me about the timings?
+- may i know about time slots for which the [cafeteria](policy_type:cafeteria_policy) will remain open?
+- Can i go to the [cafeteria](policy_type:cafeteria_policy) for food any time?
+- Tell me [cafeteria](policy_type:cafeteria_policy) timings.
+- May i know [cafeteria](policy_type:cafeteria_policy) timings.
+
+## intent: about_payment
+- Am i going to get my salary
+- Will i be paid my salary?
+- Will i get my salary?
+- How to pay?
+- What about payments?
+- And payments?
+- How can i pay for food in [cafeteria](policy_type:cafeteria_policy)
+- Do i have to pay for that?
+- Will i be charged for [food](meal) in the [cafeteria](policy_type:cafeteria_policy)
+- Do i have to pay for the [food](meal) in cafeteria?
+- What is the cost of using the [cafeteria](policy_type:cafeteria_policy)
+- What are the charges for having [lunch](meal) in the office?
+- What are the charges for the [cafeteria](policy_type:cafeteria_policy)?
+- What are the charges for having [lunch](meal) in office?
+- What are the charges for having [meal](meal) in office?
+- What will be the cost of having [lunch](meal)?
+- What is the cost of having [meal](meal)?
+- What is going to be the cost of having [meal](meal)?
+- What is the cost of having [meal](meal) at the [cafeteria](policy_type:cafeteria_policy)?
+- Are there any charges?
+- What is the cost?
+- What are the associated charges?
+- What are the associated costs?
+- Will i need to pay?
+- Will i be charged for this?
+- Will my salary be deducted for having lunch in the [cafeteria](policy_type:cafeteria_policy)?
+- Will there be any salary deduction for using [cafeteria](policy_type:cafeteria_policy)?
+- Will i salary be deducted if i apply for leave?
+- Will the company deduct my salary for
+- Is [maternity](policy_type:maternity_leave_policy) leave a paid benefit?
+- Will i be paid during [maternity](policy_type:maternity_leave_policy)?
+- will i get my salary during [maternity](policy_type:maternity_leave_policy)?
+- will my salary deducted during [maternity](policy_type:maternity_leave_policy)?
+- Am i going to be unpaid during [maternity](policy_type:maternity_leave_policy)?
+- Is [maternity](policy_type:maternity_leave_policy) a paidbenefit?
+- Will i get my full salary while on [maternity](policy_type:maternity_leave_policy) leave?
+- Will there is any salary deduction if i go on [maternity](policy_type:maternity_leave_policy) leave?
+- How will the amount be credited?
+- How will the [LTA](policy_type:leave_travel_policy) disbursement happen?
+- How will i get the amount?
+- How will the amount be credited in my account?
+- Can i get the payment in advance?
+- Can i get claim [LTA](policy_type:leave_travel_policy) before going on leave?
+
+## intent:about_visitors
+- Are [guests](guest) allowed in the oov?
+- Are [visitors](guest) allowed in [cafeteria](policy_type:cafeteria_policy)?
+- Can i take [my friends](guest) to [cafeteria](policy_type:cafeteria_policy)?
+- Can i bring [guests](guest) along to the [cafeteria](policy_type:cafeteria_policy)?
+- Can i bring a [guest](guest) along for [lunch](meal)?
+- Can i bring [guests](guest) to [cafeteria](policy_type:cafeteria_policy)?
+- Is bringing [guests](guest) allowed?
+- Is bringing [friends](guest) to [cafeteria](policy_type:cafeteria_policy) allowed?
+- Can my friend have [lunch](meal) at the company [cafeteria](policy_type:cafeteria_policy)
+- Can [visiting employees](visiting_employee) have lunch at office?
+- Are [visitors](guest) allowed?
+- Can [visitors](guest) have [lunch](meal) at the company [cafeteria](policy_type:cafeteria_policy)?
+- Can [staff from other locations](visiting_employee) have lunch at the [cafeteria](policy_type:cafeteria_policy)
+- Are [employees from other office](visiting_employee) locations allowed in the [cafeteria](policy_type:cafeteria_policy)
+- Can [employees visiting the corporate office](visiting_employee) have [lunch](meal)?
+- can i bring [employees from other benetton locations](visiting_employee) have lunch at the [cafeteria](policy_type:cafeteria_policy)
+- [Employees from regional offices](visiting_employee) are allowed to have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)
+- I dont have [food](meal) [regularly](frequency) in the [cafeteria](policy_type:cafeteria_policy). Is that allowed?
+- Can i have [occassionl](frequency) [meals](meal) in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i have [once in a while](frequency) [lunch](meal) in cafeteria?
+- Can i have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy) ocassionally?
+- I am a [temp](temporary_staff) employee. Can i use the [cafeteria](policy_type:cafeteria_policy)
+- I am an [intern](temporary_staff). Am i allowed to have [lunch](meal) in the [cafeteria](policy_type:cafeteria_policy)
+- Are [interns](temporary_staff) allowed to use the cafeteria facilities?
+- Can [temporary](temporary_staff) staff have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)
+- I am from Chandigarh office. I have use the [cafeteria](policy_type:cafeteria_policy)
+- I am from bangalore. Can i have [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)
+- I am from another office. Can i get [lunch](meal)?
+- Can [guests](guest) also have lunch?
+- What about [guests](guest)?
+- What about [visitors](guest)?
+- What about taking a [friend](guest)?
+- What about biringing a [guest](guest)?
+
+## intent:about_coupons
+- How can i get meal oov
+- How can i get oov for [lunch](meal) at the [cafeteria](policy_type:cafeteria_policy)
+- How can i get [coupons](voucher)?
+- How to purchase [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)?
+- Will my [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
+- How to get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
+- Can i get [cafeteria](policy_type:cafeteria_policy)[coupons](voucher)?
+- How to get [vouchers](voucher) for [lunch](meal)
+- Can i get [lunch](meal) [vouchers](voucher)
+- Can i [carry forward](leave_benefit:carry_forward) meal [vouchers](voucher) bought this month to the next month?
+- Will my meal [coupons](voucher) get [lapsed](leave_benefit:carry_forward)
+- Will [coupons](voucher) issued this month be [valid](leave_benefit:carry_forward) next month?
+- Is there an [expiry date](leave_benefit:carry_forward) for [cafeteria](policy_type:cafeteria_policy) [coupons](voucher)
+- Is there any [validity](leave_benefit:carry_forward) of [coupons](voucher)
+- Are [coupons](voucher) [valid](leave_benefit:carry_forward) only for a limited period?
+- Can i use [coupons](voucher) issued this month sometime later?
+- How can i get the [vouchers](voucher) for the company [cafeteria](policy_type:cafeteria_policy)
+- Where can i get [coupons](voucher)
+- Can i get [meal](meal) [vouchers](voucher) for [tax saving](policy_type:reimbursement_policy)
+- Can i get [meal](meal)[vouchers](voucher)?
+- Can i get [coupons](voucher)?
+
+## intent:about_food_options
+- Can i buy snacks in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i order food from [cafetaria](policy_type:cafeteria_policy)?
+- what food options are there in the oov?
+- Are there other food options in the [cafeteria](policy_type:cafeteria_policy)?
+- Does the [cafeteria](policy_type:cafeteria_policy) have snacks counters?
+- Can i purchase additional foods in the [cafeteria](policy_type:cafeteria_policy)?
+- Are there food joints in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i buy snack in the [cafeteria](policy_type:cafeteria_policy)?
+- Can i buy my own food in the [cafeteria](policy_type:cafeteria_policy)?
+- Are there independent shops in the [cafeteria](policy_type:cafeteria_policy)?
+- Are there alternate food options in the [cafeteria](policy_type:cafeteria_policy)?
+- What other food options are there in the [canteen](policy_type:cafeteria_policy)?
+- Does the [canteen](policy_type:cafeteria_policy) have food stalls?
+
+## intent:parental_leave_counted
+- Will my [maternity](policy_type:maternity_leave_policy) leave result in deduction of leave balance?
+- will [maternity](policy_type:maternity_leave_policy) leave be counted as regular leave?
+- Is [maternity](policy_type:maternity_leave_policy) counted as leave?
+- will [maternity](policy_type:maternity_leave_policy) be counted as leave?
+- Am i going to loose my leaves due to [maternity](policy_type:maternity_leave_policy)?
+- Will my [paternity](policy_type:paternity_leave_policy) leave result in deduction of leave balance?
+- will [paternity](policy_type:paternity_leave_policy) leave be counted as regular leave?
+- Is [paternity](policy_type:paternity_leave_policy) counted as leave?
+- will [paternity](policy_type:paternity_leave_policy) be counted as leave?
+- Am i going to loose my leaves due to [paternity](policy_type:paternity_leave_policy)?
+
+## intent:parental_leave_benefits
+- Can i get leave if I undergo [miscarriage](maternity_event:miscarriage)?
+- Can i get leave for [abortion](maternity_event:miscarriage)?
+- Can i get leave If I [abort](maternity_event:miscarriage) my child?
+- My pregnancy is [terminated](maternity_event:miscarriage). Can i get leave?
+- Will i get any leaves for [termination](maternity_event:miscarriage) of my pregnancy?
+- I an undergoing [tubectomy](maternity_event:tubectomy). Can i get leave?
+- I have had a [tubectomy](maternity_event:tubectomy) operation. Am i eligible for leave?
+- I had a [tubal](maternity_event:tubectomy) surgery. Am i eligible for [mat](policy_type:maternity_leave_policy) leave?
+- Can i get leave for [tubal](maternity_event:tubectomy) surgery?
+- How [many days](maternity_benefit:duration) of [maternity](policy_type:maternity_leave_policy) leave can i get?
+- How [many days](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave can i take?
+- For how [many days](maternity_benefit:duration) can i get [paternity](policy_type:paternity_leave_policy) leave?
+- [How many](maternity_benefit:duration) [pat](policy_type:paternity_leave_policy) leaves do i have?
+- Can i get [paternity](policy_type:paternity_leave_policy) leave?
+- Am i eligible for [maternity](policy_type:maternity_leave_policy) leave?
+- Who is eligible for [paternity](policy_type:paternity_leave_policy) leave benefit?
+- How [long](maternity_benefit:duration) can be the [maternity](policy_type:maternity_leave_policy) leave?
+- How [long](maternity_benefit:duration) can be my [mat](policy_type:maternity_leave_policy) leave?
+- For how [long](maternity_benefit:duration) can i be on [maternity](policy_type:maternity_leave_policy) leave?
+- What is the [length](maternity_benefit:duration) of [pat](policy_type:paternity_leave_policy) leave?
+- What is the [duration](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- What is the [longest](maternity_benefit:duration) [maternity](policy_type:maternity_leave_policy) leave i can take
+- What is the [maximum length](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- How [many days](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy)
+- Can i [extend](maternity_benefit:duration) my [maternity](policy_type:maternity_leave_policy) leave?
+- Can [paternity](policy_type:paternity_leave_policy) leave be [extended](maternity_benefit:duration)?
+- what is the [period](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- what is the [total length](maternity_benefit:duration) of [paternity](policy_type:paternity_leave_policy) leave?
+- will i get [paternity](policy_type:paternity_leave_policy) leave for child [adoption](maternity_benefit:adoption)
+- I wanted to know if i can get mat leave for [adopted](maternity_benefit:adoption) child  
+- will i get [paternity](policy_type:paternity_leave_policy) leave for [adopting](maternity_benefit:adoption) a child?
+- Is [paternity](policy_type:paternity_leave_policy) leave allwoed in case of [adoption](maternity_benefit:adoption)
+- Can i get [paternity](policy_type:paternity_leave_policy) leave if i [adopt](maternity_benefit:adoption)
+- For how [many kids](maternity_benefit:child_number) can i take [paternity](policy_type:paternity_leave_policy) leave?
+- For how [many kids](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) policy applicable?
+- For how [many children](maternity_benefit:child_number) can i get [paternity](policy_type:paternity_leave_policy) leave?
+- For how [many deliveries](maternity_benefit:child_number)
+- For how [many child births](maternity_benefit:child_number)?
+- I want to know for how [many children](maternity_benefit:child_number) [mat]((policy_type:maternity_leave_policy)) leave is applicable? 
+- For how [many kids](maternity_benefit:child_number)
+- Is [paternity](policy_type:paternity_leave_policy) leave applicable only for [first child](maternity_benefit:child_number)?
+- Is [paternity](policy_type:paternity_leave_policy) leave applicable only for [second child](maternity_benefit:child_number)?
+- This is my [third child](maternity_benefit:child_number). Will i get leave?
+- For how [many children](maternity_benefit:child_number)?
+- For how [many childbirths](maternity_benefit:child_number) is [paternity](policy_type:paternity_leave_policy) leave applicable?
+- Will i get a [longer](maternity_benefit:duration) [paternity](policy_type:paternity_leave_policy) leave for my [first delivery](maternity_benefit:child_number)?
+- For how [many baby](maternity_benefit:child_number) can i get [paternity](policy_type:paternity_leave_policy) leave?
+- will i get a leave for my [second child](maternity_benefit:child_number)
+- will i get a leave for my [first child](maternity_benefit:child_number)
+- Will i get leave for any [number of childbirths](maternity_benefit:child_number)
+- Is [paternity](policy_type:paternity_leave_policy) bennefit applicable to a limited [number of children](maternity_benefit:child_number)
+- This is my [second kid](maternity_benefit:child_number). Will i get [paternity](policy_type:paternity_leave_policy) leave?
+- can i take my [paternity](policy_type:paternity_leave_policy) leave in [multiple chunks](maternity_benefit:leave_split)
+- How much of my [paternity](policy_type:paternity_leave_policy) leave can i take before childbirth?
+- can i [split](maternity_benefit:leave_split) my [paternity](policy_type:paternity_leave_policy) leave?
+- can i take [pat](policy_type:paternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
+- can i [club](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
+- can i [combine](leave_benefit:club) my [pat](policy_type:paternity_leave_policy) leave with other leaves?
+- Can i take [paternity](policy_type:paternity_leave_policy) leave in [multiple blocks](maternity_benefit:leave_split)
+- Will i get a [longer](maternity_benefit:duration) maternity leave for my [first delivery](maternity_benefit:child_number)?
+- will i get a leave for my [second delivery](maternity_benefit:child_number)
+- will i get a leave for my [first pregnancy](maternity_benefit:child_number)
+- Is [maternity](policy_type:maternity_leave_policy) bennefit applicable to a limited [number of deleveries](maternity_benefit:child_number)
+- This is my [second delivery](maternity_benefit:child_number). Will i get [maternity](policy_type:maternity_leave_policy) leave?
+- can i [work from home](maternity_benefit:work_from_home) during [pregnancy](policy_type:maternity_leave_policy)?
+- Am i allowed to [login from home](maternity_benefit:work_from_home) during or after [pregnancy](policy_type:maternity_leave_policy)?
+- Is [maternity](policy_type:maternity_leave_policy) considered leave without pay?
+- can i take my [maternity](policy_type:maternity_leave_policy) leave in [multiple chunks](maternity_benefit:leave_split)
+- How much of my [maternity](policy_type:maternity_leave_policy) leave can i take before childbirth?
+- can i [split](maternity_benefit:leave_split) my [maternity](policy_type:maternity_leave_policy) leave?
+- can i take [maternity](policy_type:maternity_leave_policy) leave in [multiple tranches](maternity_benefit:leave_split)
+- can i [club](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
+- can i [combine](leave_benefit:club) my [maternity](policy_type:maternity_leave_policy) leave with other leaves?
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [sick](leave_type:sick) [leave](policy_type:leave_policy)?
+- can i [club](leave_benefit:club) [maternity](policy_type:maternity_leave_policy) with [casual](leave_type:casual) [leave](policy_type:leave_policy)?
+
+## intent:about_tax_saving
+- Does the company provide measures to get salary [without tax](policy_type:reimbursement_policy)?
+- Can i get some part of my salary [free of tax](policy_type:reimbursement_policy)
+- Is i claim [tax reimbursements](policy_type:reimbursement_policy)?
+- Can i get some part of my salary [tax free](policy_type:reimbursement_policy)?
+- Is there a policy related to [tax saving](policy_type:reimbursement_policy) measures?
+- Does the company have a policy to [save income tax](policy_type:reimbursement_policy)?
+- Are there any [tax efficient](policy_type:reimbursement_policy) measures?
+- Are there any measures to [save tax](policy_type:reimbursement_policy)
+- Does the company promote any measures for [saving tax](policy_type:reimbursement_policy)
+- Are there any facilities for [tax planning](policy_type:reimbursement_policy)?
+- Can i [plan my tax](policy_type:reimbursement_policy)?
+- How can i [save taxes](policy_type:reimbursement_policy)?
+- Tell me about income [tax planning](policy_type:reimbursement_policy) measures that the company provides
+- May i know about [income tax](policy_type:reimbursement_policy) measures provided to employees?
+- What is [tax benefits](policy_type:reimbursement_policy) does the company offer?
+- What benefits for [planning tax](policy_type:reimbursement_policy) are there?
+- And what about [tax planning](policy_type:reimbursement_policy) benefits?
+- What is [tax benefit](policy_type:reimbursement_policy) policy?
+- [Tax benefits](policy_type:reimbursement_policy) reimbursement policy
+- [tax benefits](policy_type:reimbursement_policy)
+- [Reimbursement benefits](policy_type:reimbursement_policy)
+- [Reimbursement policy](policy_type:reimbursement_policy)
+- Is there [reimbursement policy](policy_type:reimbursement_policy)?
+- Does the company has any [tax related benefits](policy_type:reimbursement_policy)?
+- What is [tax benefit](policy_type:reimbursement_policy)?
+- Will the company provide any [tax related benefits](policy_type:reimbursement_policy)?
+- About [tax benefits](policy_type:reimbursement_policy)
+- Tell me about [tax benefits](policy_type:reimbursement_policy)
+- Explain [tax benefits](policy_type:reimbursement_policy)
+- More about [tax related benefits](policy_type:reimbursement_policy)
+- What [tax saving](policy_type:reimbursement_policy) benefits does the company provide to employees
+- Does the company have any [tax saving](policy_type:reimbursement_policy) reimbursements
+- Tell me about the [LTA](policy_type:leave_travel_policy) benefits?
+- Please may i know about the [leave travel](policy_type:leave_travel_policy) benefits?
+- Can you tell me about [LTA](policy_type:leave_travel_policy)?
+
+## intent:about_benefits
+- And what are the benefits?
+- And what will i get?
+- Whats the benefit?
+- What can i claim?
+- What benefits can i get?
+- Can i get any benefit?
+- What claims can i make?
+- How much can i claim
+- How is reimbursible?
+- What is the limit of reimbursement?
+- Is [family](family) allowed?
+- Will my [wife](family) be allowed?
+- Can i take my [wife](family) along?
+- Can [my children](family) come with me?
+- What about [my kids](family)?
+- What about [healt clubs](health_club)
+- Can i have [lunch](meal)
+- Can i get [lunch](meal)
+
+## intent:about_tax_benefits
+- Can i claim [lunch](meal) allowance?
+- I want to claim [lunch](meal) allowance?
+- Am i eligible for [lunch](meal) reimbursement?
+- Are [meal](meal) reimbursements allowed?
+- What [tax benefits](policy_type:reimbursement_policy) can i get?
+- What are my [tax benefits](policy_type:reimbursement_policy) eligibility
+- Am i eligible for company [tax saving](policy_type:reimbursement_policy) plans
+- Who is eligible to [save tax](policy_type:reimbursement_policy)
+- I have a [car](travel_mode:car). What reimbursements can i claim?
+- Are there any [tax benefits](policy_type:reimbursement_policy) for my [car](travel_mode:car)
+- What [tax benefits](policy_type:reimbursement_policy) can i claim for my [car](travel_mode:car)
+- What benefits can i get for my [car](travel_mode:car)
+- Can i claim [fuel](fuel) expenses?
+- Can i calim [car](travel_mode:car) [fuel](fuel) expenses?
+- What can i claim for my [four wheeler](travel_mode:car)?
+- What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](travel_mode:car)
+- I use my [car](travel_mode:car) for [official use](office_use) only. What benefits can i claim?
+- I use my [car](travel_mode:car) only for [work](office_use). Can i claim
+- How much [driver salary](chauffeur) can i claim?
+- How much [car](travel_mode:car) [fuel](fuel) can i claim?
+- Can i claim [driver expenses](chauffeur)?
+- Can i claim [chauffeur](chauffeur) expenses?
+- Can i claim [chauffeur's](chauffeur) salary?
+- Is [driver's salary](chauffeur) reimbursible?
+- I user my [car](travel_mode) for [official](office_use) only.
+- My [car](travel_mode) is used for [company purposes](office_use) only.
+- Can i claim my [telephone](landline) bill?
+- Can i claim by [internet](internet) bill?
+- Claiming [broadband](landline) bills is allowed?
+- Can i get [tax reimbursement](policy_type:reimbursement_policy)
+- Can i claim reimbursement for [telephone](landline) expenses?
+- Is [telephone](landline) expenses covered?
+- Can i get my [mobile](mobile) bills reimbursed?
+- Will the company reimburse my [mobile](mobile) bills?
+- Can i get reimbursement for my [internet](internet) connection
+- can i claim reimbursement for my [wifi](internet) connection at home
+- Does the company provide any [health club](health_club) benefit?
+- Can i join a [health club](health_club)?
+- Is a [gym](health_club) membership allowed?
+- can i join [health clubs](health_club)?
+- Will the company reimburse my [fitness center](health_club) expenses
+- Can i get my [wellness center](health_club) cost reimbursed?
+- Can i get reimbursement for [medical expenses](medical_reimbursement)
+- Can i get reimbursement for expenses for [treatment](medical_reimbursement)?
+- Can i get my [hospital](medical_reimbursement) expenses reimbursed?
+- Will the company reimburse my [healthcare](medical_reimbursement) bills
+- Are [medical bills](medical_reimbursement) reimbursible?
+- Will my [medical expense](medical_reimbursement) be reimbursed?
+- Can i reimburse my [medical cost](medical_reimbursement)?
+- What is my [leave travel](policy_type:leave_travel_policy) entitlement?
+- What can i calim under [LTA](policy_type:leave_travel_policy)?
+- Is [family](family) covered under [LTA](policy_type:leave_travel_policy)?
+- Can i claim [LTA](policy_type:leave_travel_policy)?
+- What can i claim under [LTA](policy_type:leave_travel_policy)?
+- I am a [new joinee](employee_type:new). Can i calim LTA?
+- I have [joined recently](employee_type:new). What [tax benefits](policy_type:reimbursement_policy) can i claim?
+- I [just joined](employee_type:new) the company. Wanted to know more about [tax plannig](policy_type:reimbursement_policy)
+- I am [new employee](employee_type:new). What [tax benefits](policy_type:reimbursement_policy) can i get?
+- I have [just started](employee_type:new). Can i claim [LTA](policy_type:leave_travel_policy)
+- How many days of [privilege](leave_type:privilege) leaves are necessary for [LTA](policy_type:leave_travel_policy)
+- How many times can i take [LTA](policy_type:leave_travel_policy) in a [year](year)
+- In how many [years](year) can i claim [LTA](policy_type:leave_travel_policy)
+- Can i claim [LTA](policy_type:leave_travel_policy) twice in a [year](year)?
+- What is the current [window period](year) for [LTA](policy_type:leave_travel_policy)
+- What is the current 4 [years](year) for claiming [LTA](policy_type:leave_travel_policy)
+- What if i [did not avail](unclaimed) the [LTA](policy_type:leave_travel_policy) benefit?
+- What if i [did not avail](unclaimed) the [LTA](policy_type:leave_travel_policy) benefits?
+- In case my [LTA](policy_type:leave_travel_policy) remains [unavailed](unclaimed)
+- How is [LTA](policy_type:leave_travel_policy) [calculated](computation)
+- What is the [calculation](computation) logic of [LTA](policy_type:leave_travel_policy)
+
+## intent:about_accomodation_benefits
+- Can i claim my [hotel](accomodation_type) expenses?
+- Are [hotel](accomodation_type) expenses covered?
+- Are [hotel](accomodation_type) expenses included in [lta](policy_type:leave_travel_policy)
+- I want to know about the [hotel](accomodation_type) entitlement?
+- Is [accomodation](accomodation_type:hotel) included in [lta](policy_type:leave_travel_policy)?
+- Can i claim for [accomodation](accomodation_type:hotel) as well?
+- Can i claim for [b&b](accomodation_type:hotel) as well?
+- Does the company reimbursement for my [stay](accomodation_type:hotel)?
+- Is [lodging](accomodation_type:hotel) reimbursible in [Leave travel](policy_type:leave_travel_policy)
+- Can [acco](accomodation_type:hotel) be claimed in [LTA]((policy_type:leave_travel_policy)?
+- Can i travel with [family](family)
+- Is travelling with [wife](family) allowed?
+- Can i claim for my [family's](family) travel as well?
+- Who can travel?
+- Can my [wife](family) also trave with me?
+- Can i claim [LTA](policy_type:leave_travel_policy) for the travel of [my kids](family)
+- Can i cali [Leave allowance](policy_type:leave_travel_policy) for my [wife's](family) travel?
+- Will i get reimbursement for [my kid's](family) tickets?
+- Can i claim reimbursement for my [family's](family) travel?
+- Can i submit the tickets of my [family](family) for claiming [LTA](policy_type:leave_travel_policy)
+- What is my travel entitlement?
+- Tell me about my travel entitlement?
+- Do i have to sumbit tickets for claiming [LTA](policy_type:leave_travel_policy)?
+- Can i submit [bus](travel_mode:bus) tickets as well?
+- Can i submit [flight](travel_mode:flight) tickets as well?
+
+## intent:about_exit
+- I am serving my notice period in the company
+- I have put my papers
+- I have resigned
+- I want to exit the company
+- I have left my job
+- I an leaving the company. Will i have to repay my [LTA](policy_type:leave_travel_policy) claims?
+- What about seperation case?
+- What happens in case of seperation from the company?
+- How will the exit cases be handled?
+- What happens when an employee leaves his job?
+- What if i resign from the company?
+- Will i get the benefit even if i am on notice period?
+- What if i am serving my notice period?
+- What happens in case the employee puts her paper
+- What if i decide the quit?
+- What if i quit my job?
+- I have decided to quit from the company
+- Do i have to pay back if i have left my job?
+
+## synonym: computation
+- estimated
+- computed
+- calculated
+- estimation
+- computation
+- calculation
+
+## synonym: office_use
+- Company use
+- office use
+- official use
+- official purpose
+- Official purpose
+- company purpose
+
+## synonym: unclaimed
+- could not be utilized
+- do not claim
+- untiilzed
+- could not be availed
+- did not use
+- do not utilize
+- could not utilize
+- do not comsume
+- do not use
+- dit not avail
+- did not avail
+- could not be fully claimed
+- could not be fully consumed
+- could not use
+- do not avail
+- unavailed
+- could not be claimed
+- did not utilize
+- could not avail
+- could not consume
+- could not be fully utilized
+- did not consume
+- could not claim
+- could not be fully used
+- did not claim
+
+## synonym:adoption
+- adopting
+- adopt
+
+## synonym:approval
+- approved
+- approve
+
+## synonym:cafeteria_policy
+- cafeteria
+- canteen
+- lunch at office
+- lunch in office
+- lunch area
+- lunch place
+- food counter
+- food stall
+
+## synonym:car
+- four wheeler
+
+## synonym:carry_forward
+- validity
+- valid
+- lapse
+- carry forward
+- carried forward
+- lapsed
+- expiry date
+- expire
+- expired
+
+## synonym:casual
+- casual leave
+- CL
+
+## synonym:child_number
+- first child
+- second kid
+- many children
+- many deliveries
+- second delivery
+- number of deleveries
+- second child
+- many kids
+- many child births
+- third child
+- number of children
+- many childbirths
+- first delivery
+- first pregnancy
+- number of childbirths
+
+## synonym:club
+- clubbing
+- clubbed
+- mix and match
+- combine
+- together
+- combining
+
+## synonym:duration
+- maximum length
+- extended
+- period
+- many days
+- longest
+- How many
+- longer
+- long
+- extend
+- total length
+- length
+
+## synonym:encash
+- encashment
+- encashable
+
+## synonym:hotel
+- accomodation
+- lodging
+- b&b
+- stay
+- acco
+
+## synonym:leave_policy
+- leave
+- leaves
+
+## synonym:leave_split
+- multiple chunks
+- multiple tranches
+- split
+- multiple blocks
+- more than one block
+- in multiple tranches
+- in more than one block
+- in more than one tranch
+
+## synonym:leave_travel_policy
+- Leave allowance
+- lta
+- Leave travel
+- LTA
+- leave travel
+
+## synonym:maternity_leave_policy
+- mat
+- pregnancy
+- maternity
+- pregnant
+- expecting a baby
+- expecting a child
+- expecting mother
+- going to be a mother
+- will be a new mother
+- will be a mother
+
+## synonym:medical_certificate
+- doctor certificate
+- certificate from a doctor
+- medical certificate
+- doctor's certificate
+
+## synonym:new
+- just started
+- new joinee
+- new employee
+- joined recently
+- just joined
+- newly joined
+- new in the company
+
+## synonym:paternity_leave_policy
+- paternity
+- pat
+- patternity
+- my wife is pregnant
+- my wife is expecting
+- will be a father
+- going to be a father
+
+## synonym:privilege
+- el
+- PL
+- earned
+- Pl
+- pl
+- EL
+- El
+
+## synonym:proration
+- pro rata basis
+- prorated
+
+## synonym:reimbursement_policy
+- tax reimbursement
+- reimbursement benefits
+- without tax
+- tax reimbursements
+- save taxes
+- Tax benefits
+- tax plannig
+- planning tax
+- tax planning
+- tax related benefits
+- save tax
+- tax benefit
+- save income tax
+- tax saving
+- tax benefits
+- saving tax
+- tax efficient
+- plan my tax
+- free of tax
+- income tax
+- tax free
+- Reimbursement benefits
+
+## synonym:retail
+- store
+
+## synonym:sick
+- SL
+- fever
+- sick leave
+- medical
+- not well
+- not feeling well
+
+## synonym:unpaid
+- LWP
+- leave without pay
+- lwp
+- unpaid leave
+
+## synonym:work_from_home
+- login from home
+- work from home

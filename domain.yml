@@ -98,11 +98,21 @@ intents:
 - apply_process_LTA
 - disburse_process_LTA
 - about_travel_benefits
+- maternity_illness
 
 entities:
-- leave_type
+- maternity_leave
+- paternity_leave
+- sick_leave
+- casual_leave
+- privilege_leave
+- without_pay
+- leave_clubbing
+- carry_forward_leave
+- proration_leave
+- leave_approval
+- leave_encash
 - employee_type
-- leave_benefit
 - maternity_benefit
 - policy_type
 - voucher
@@ -130,8 +140,18 @@ entities:
 - office_use
 - computation
 
-
 slots:
+  maternity_leave:
+    type: text
+    auto_fill: True
+  paternity_leave:
+    type: text
+    auto_fill: True
+  maternity_event:
+    type: categorical
+    values:
+    - tubectomy
+    - miscarriage
   leave_benefit:
     type: categorical
     values:
@@ -147,13 +167,6 @@ slots:
     - corporate
     - retail
     - new
-  leave_type:
-    type: categorical
-    values:
-    - sick
-    - privilege
-    - casual
-    - unpaid
   maternity_benefit:
     type: categorical
     values:
@@ -167,12 +180,9 @@ slots:
     type: categorical
     values:
     - leave_policy
-    - maternity_leave_policy
-    - paternity_leave_policy
     - cafeteria_policy
     - leave_travel_policy
     - reimbursement_policy
-    - leave_travel_policy
   travel_mode:
     type: categorical
     values:
@@ -305,7 +315,15 @@ responses:
       title: Clubbing of leaves
     - payload: /maternity_payment
       title: Salary during maternity
+    - payload: /maternity_illness
+      title: Illness out of pregnancy
     text: Looks like you want to know about maternity leave. Could you please tell me what exactly would you like to know about?
+  utter_miscarriage:
+  - text: In case of miscarriage or medical termination of pregnancy, a woman shall be on production of such proof, be entitled to leave with wages at the rate of maternity benefit for a period of six week immediately following the day of miscarriage or as the case may be, her medical termination of pregnancy.
+  utter_tubectomy:
+  - text: In case of Tubectomy operation , a woman shall on production of proof as prescribed, be entitled to leave with wages at the rate of maternity for a period of two weeks immediately following the day of Tubectomy operation.
+  utter_maternity_illness:
+  - text: Leave for illness arising out of pregnancy, premature birth of child (miscarriage, medical termination of pregnancy or Tubectomy operation). A woman suffering from illness arising out of pregnancy, delivery, premature birth of child ( miscarriage, medical termination of pregnancy, Tubectomy) , shall on production of such proof , in addition to maternity leave, be entitled to leave with wages at the rate of maternity benefit for a maximum period of one month.
   utter_maternity_weekend_counted:
   - text: Weekends and off days will be counted in your maternity leave.
   utter_club_maternity:
@@ -342,6 +360,8 @@ responses:
       title: Clubbing of leaves
     - payload: /maternity_payment
       title: Salary during maternity
+    - payload: /maternity_illness
+      title: Illness out of pregnancy
     text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, the maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
   utter_privilege_leave_corporate:
   - text: Corporate employees have 30 days of privilege leave. They can take a minimum of 4 days of privilege leave in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
@@ -360,9 +380,9 @@ responses:
   - text: In case of illness, you can take upto 7 sick leaves in a year. A medical certificate is required for more than 2 days of sick leave.
   - text: 7 days of sick leaves can be availed in a year,in case of illness. You must produce a medical certificate for applying more than 2 days of sick leave.
   utter_approve:
-  - text: Prior approval is needed for all leaves except sick leave. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
-  - text: All leaves except sick leaves require appropriate prior approvals. For emergencies/sickenss, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
-  - text: Prior approvals must be taken for all leaves except sick leave. For emergencies/sickenss, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
+  - text: Prior approval is needed for all leaves except sick leave. In case of emergency/sickness, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  - text: All leaves except sick leaves require appropriate prior approvals. For emergencies/sickness, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
+  - text: Prior approvals must be taken for all leaves except sick leave. For emergencies/sickness, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
   utter_club:
   - text: Only sick leave and privilege leave can be clubbed. Maternity leave can be clubbed with both sick and privilege leave.
   - text: You can club only sick leave and privilege leave. However, maternity leave can be combined with both sick and privilege leave.
@@ -399,6 +419,8 @@ responses:
     - payload: /apply_leave
       title: Leave Apply
     text: All the corporate Benetton employees on regular rolls of the company or third party payroll are eligible for leave. Please select as relevant to know more  
+  utter_leave_salary_deduction:
+  - text: For any additional leaves you take after exhausting your leave account, you salary would be deducted.
   utter_greet:
   - text: Hey! How are you?
   - text: Hey there, my name is iona.
@@ -599,7 +621,7 @@ responses:
       - payload: /apply_process_LTA
         title: Applying for LTA
       - payload: /disburse_process_LTA
-        title: Disbirsement of LTA
+        title: Disbursement of LTA
       text: Under LTA benefit, expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets and boarding passes in case of Air Travel and original tickets in case of train travel as per the entitlement. Please select which specific information you need regarding LTA benefit.
   utter_expenses_covered_under_LTA:
     - text: The LTA benefit covers expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets in case of train or bus travel and boarding passes in case of Air Travel. Hotel stay is not included.

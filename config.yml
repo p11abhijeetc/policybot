@@ -18,8 +18,8 @@ pipeline:
 policies:
 - name: MemoizationPolicy
 - name: TEDPolicy
-  max_history: 3
-  epochs: 100
+  max_history: 2
+  epochs: 50
 - name: MappingPolicy
 - name: FallbackPolicy
   nlu_threshold: 0.3

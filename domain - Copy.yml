@@ -1,0 +1,738 @@
+session_config:
+  session_expiration_time: 480  # value in minutes, 0 means infinitely long
+  carry_over_slots_to_new_session: false  # set to false to forget slots between sessions
+
+intents:
+- something_else
+- canthelp
+- ask_builder
+- ask_howdoing
+- ask_whatspossible
+- ask_whatisiona
+- ask_isbot
+- ask_howold
+- ask_wherefrom
+- ask_whoami
+- handleinsult
+- nicetomeeyou
+- telljoke
+- ask_whatismyname
+- ask_howbuilt
+- ask_whoisit
+- react_positive
+- out_of_scope
+- human_handoff
+- about_accomodation_benefits
+- about_exit
+- react_negative
+- thank
+- bye
+- greet
+- affirm
+- deny
+- about_leave
+- apply_leave
+- leave_entitlement
+- retail
+- corporate
+- sick
+- casual
+- privilege
+- maternity
+- paternity
+- without_pay
+- about_leave_types
+- leave_benefits
+- approve_leave
+- club_leave
+- encash_leave
+- leave_carry_forward
+- leave_proration
+- weekend_counted
+- about_maternity
+- about_maternity_benefits
+- apply_maternity
+- club_maternity
+- from_home_working_maternity
+- child_adoption
+- maternity_duration
+- number_of_children
+- approval_process_maternity
+- maternity_payment
+- apply_for_benefit
+- seek_approval
+- paternity_benefit
+- parental_leave_counted
+- apply_paternity
+- approval_process_paternity
+- paternity_duration
+- about_policy
+- feedback 
+- about_timing
+- about_payment
+- about_visitors
+- about_coupons
+- about_food_options
+- cafeteria_timing
+- cafeteria_payments
+- cafeteria_guest
+- cafeteria_visiting_employee
+- cafeteria_coupons
+- cafeteria_temp_employees
+- employee_cafeteria_policy
+- parental_leave_benefits
+- about_tax_saving
+- about_benefits
+- about_tax_benefits
+- employee_owned_car
+- landline_internet
+- healt_center
+- meal_card
+- illness_expenses
+- travel_leave_allowance
+- expenses_covered_under_LTA
+- new_employee_LTA
+- year_blocks_LTA
+- unclaimed_LTA
+- calculation_of_LTA
+- apply_process_LTA
+- disburse_process_LTA
+- about_travel_benefits
+- maternity_illness
+
+entities:
+- leave_type
+- employee_type
+- leave_benefit
+- maternity_benefit
+- policy_type
+- voucher
+- meal
+- frequency
+- visiting_employee
+- guest
+- temporary_staff
+- unclaimed
+- name
+- travel_mode
+- accomodation_type
+- year
+- mobile
+- fuel
+- medical_reimbursement
+- company
+- language
+- chauffeur
+- job_function
+- landline
+- health_club
+- internet
+- family
+- office_use
+- computation
+
+slots:
+  maternity_event:
+    type: categorical
+    values:
+    - tubectomy
+    - miscarriage
+  leave_benefit:
+    type: categorical
+    values:
+    - approval
+    - club
+    - carry_forward
+    - proration
+    - encash
+    - medical_certificate
+  employee_type:
+    type: categorical
+    values:
+    - corporate
+    - retail
+    - new
+  leave_type:
+    type: categorical
+    values:
+    - sick
+    - privilege
+    - casual
+    - unpaid
+  maternity_benefit:
+    type: categorical
+    values:
+    - duration
+    - adoption
+    - child_number
+    - work_from_home
+    - payment
+    - leave_split
+  policy_type:
+    type: categorical
+    values:
+    - leave_policy
+    - maternity_leave_policy
+    - paternity_leave_policy
+    - cafeteria_policy
+    - leave_travel_policy
+    - reimbursement_policy
+    - leave_travel_policy
+  travel_mode:
+    type: categorical
+    values:
+    - car
+    - bus
+    - train
+    - flight
+  feedback_value:
+    type: categorical
+    values:
+    - positive
+    - negative
+
+actions:
+- action_reset_LTA_slot
+- action_default_ask_affirmation
+- action_chitchat
+- action_default_fallback
+- action_set_policy_type
+- action_reset_LWP_slot
+- utter_sick
+- utter_casual
+- utter_maternity
+- utter_paternity
+- utter_without_pay
+- utter_greet
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_leave_apply
+- utter_about_leave_policy
+- utter_ask_employee_type
+- utter_corporate_number_of_leaves
+- utter_retail_number_of_leaves
+- utter_different_leaves
+- utter_privilege_retail
+- utter_privilege_corporate
+- utter_ask_employee_types
+- utter_which_benefit
+- utter_approve
+- utter_club
+- utter_encash
+- utter_carry_forward
+- utter_proration
+- utter_weekends_counted
+- utter_privilege_leave_corporate
+- utter_privilege_leave_retail
+- utter_casual_leave
+- utter_sick_leave
+- utter_about_maternity
+- utter_maternity_not_counted
+- utter_maternity_apply
+- utter_number_of_children
+- utter_child_adoption
+- utter_about_maternity_benefits
+- utter_maternity_payment
+- utter_maternity_duration
+- utter_club_maternity
+- utter_from_home_working_maternity
+- utter_default
+- utter_about_paternity
+- utter_apply_paternity
+- utter_approval_process_paternity
+- utter_number_of_children_paternity
+- utter_child_adoption_paternity
+- utter_paternity_duration
+- utter_counted_paternity
+- utter_maternity_approve
+- utter_cafeteria_policy
+- utter_cafeteria_timing
+- utter_cafeteria_payments
+- utter_cafeteria_guests
+- utter_cafeteria_visiting_employee
+- utter_cafeteria_coupons
+- utter_cafeteria_temp_employee
+- utter_which_cafeteria_visitors
+- utter_food_options
+- utter_ask_which_policy
+- utter_about_tax_reimbursements
+- utter_employee_owned_car_tax
+- utter_landline_internet_tax
+- utter_health_center_tax
+- utter_meal_card_tax
+- utter_illness_expenses_tax
+- utter_travel_leave_allowance
+- utter_expenses_covered_under_LTA
+- utter_new_employee_LTA
+- utter_year_blocks_LTA
+- utter_unclaimed_LTA
+- utter_calculation_of_LTA
+- utter_apply_process_LTA
+- utter_disburse_process_LTA
+- utter_exist_case_LTA
+- utter_employee_car_office_use
+- utter_employee_owned_car_fuel_tax
+
+responses:
+  utter_which_parental:
+  - buttons:
+    - payload: /maternity
+      title: Maternity leave policy
+    - payload: /paternity
+      title: Paternity leave policy
+    text: Which of the following are you referring to?
+  utter_default:
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase? For example, how to apply for leaves?, what are the tax saving benefits? or similar.
+  - text: I didn't understand, could you rephrase that? For example, what are the tax saving benefits?, how to apply for leaves? or similar.
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you just said? For example, can I club casual with sick leaves?, tax benefits on using own car for company purposes or similar.    
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that? For example, can I take guests to cafeteria? or similar.
+  - text: I didn't quite get that, could you rephrase your message? Does the company provide meal vouchers?, Are new joinees eligible for paternity leaves? or similar.
+  - text: Could you rephrase your message? I didn't get it, I'm sorry. For example, how can I get lunch coupons?, Are weekend counted in leaves? or similar.
+  utter_maternity_payment:
+  - text: During the maternity leave period the employee shall be paid leave salary equal to the pay drawn immediately before proceeding on maternity leave.
+  utter_about_maternity_benefits:
+  - buttons:
+    - payload: /apply_maternity
+      title: Application process
+    - payload: /approval_process_maternity
+      title: Approval process
+    - payload: /number_of_children
+      title: Number of children
+    - payload: /maternity_duration
+      title: Duration of maternity leave
+    - payload: /child_adoption
+      title: Adoption of a child
+    - payload: /from_home_working_maternity
+      title: Option to work from home
+    - payload: /club_maternity
+      title: Clubbing of leaves
+    - payload: /maternity_payment
+      title: Salary during maternity
+    - payload: /maternity_illness
+      title: Illness out of pregnancy
+    text: Looks like you want to know about maternity leave. Could you please tell me what exactly would you like to know about?
+  utter_miscarriage:
+  - text: In case of miscarriage or medical termination of pregnancy, a woman shall be on production of such proof, be entitled to leave with wages at the rate of maternity benefit for a period of six week immediately following the day of miscarriage or as the case may be, her medical termination of pregnancy.
+  utter_tubectomy:
+  - text: In case of Tubectomy operation , a woman shall on production of proof as prescribed, be entitled to leave with wages at the rate of maternity for a period of two weeks immediately following the day of Tubectomy operation.
+  utter_maternity_illness:
+  - text: Leave for illness arising out of pregnancy, premature birth of child (miscarriage, medical termination of pregnancy or Tubectomy operation). A woman suffering from illness arising out of pregnancy, delivery, premature birth of child ( miscarriage, medical termination of pregnancy, Tubectomy) , shall on production of such proof , in addition to maternity leave, be entitled to leave with wages at the rate of maternity benefit for a maximum period of one month.
+  utter_maternity_weekend_counted:
+  - text: Weekends and off days will be counted in your maternity leave.
+  utter_club_maternity:
+  - text: As per company policy, maternity leave may be clubbed with both sick leave and privilege leave.
+  utter_from_home_working_maternity:
+  - text: Incase where the nature of work assigned to a woman is of such nature that she may work from home, the HoD may allow her to do so after availing of the maternity benefit for such period and on such conditions as the HoD and the woman mutually agree in written.
+  utter_child_adoption:
+  - text: As per the maternity policy, for adopting / commissioning mothers, maternity leave applicable is only 12 weeks and the date of birth / age proof of the child to be given by the adopting / commissioning mother.
+  utter_maternity_duration:
+  - text: A woman employee can avail 182 days of leave as pre natal / post natal leave for the first & second child only of which not more than 8 weeks shall precede the date of her expected delivery. For more than two surviving children a woman shall be entitled 12 weeks of which not more than 6 weeks shall precede the date of her expected delivery.
+  utter_number_of_children:
+  - text: The maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks /182 days of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall precede the date of her expected delivery.
+  utter_maternity_approve:
+  - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
+  utter_maternity_apply:
+  - text: Application for maternity Leave in “Form B” should be submitted along with “Form C” certified by the medical officer and relevant medical papers at least 30 days prior to commencement of leave. Please get in touch with HR for getting the relevant forms.
+  utter_maternity_not_counted:
+  - text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly. It will not result in deduction of any other leave types. Weekends are counted in maternity leave.
+  utter_about_maternity:
+  - buttons:
+    - payload: /apply_maternity
+      title: Application process
+    - payload: /approval_process_maternity
+      title: Approval process
+    - payload: /number_of_children
+      title: Number of children
+    - payload: /maternity_duration
+      title: Duration of maternity leave
+    - payload: /child_adoption
+      title: Adoption of a child
+    - payload: /from_home_working_maternity
+      title: Option to work from home
+    - payload: /club_maternity
+      title: Clubbing of leaves
+    - payload: /maternity_payment
+      title: Salary during maternity
+    - payload: /maternity_illness
+      title: Illness out of pregnancy
+    text: As per company policy, maternity leave policy is to set guidelines governing leave facilitation in the organization so as to enable the expecting mother to plan and avail maternity leave accordingly.As per the law, the maximum period for which any woman shall be entitled to maternity benefit shall now be 26 weeks of which not more than 8 weeks shall precede the date of her expected delivery. Please let me know if you want to know anything particular about maternity leave.
+  utter_privilege_leave_corporate:
+  - text: Corporate employees have 30 days of privilege leave. They can take a minimum of 4 days of privilege leave in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: Corporate employees get 30 days of privilege leave. A minimum of 4 days of privilege leave can be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required to avail privilege leave.
+  - text: 30 days of privilege leaves (PL) are there for corporate employees.A minimum of 4 days of PL can be taken at a time. PLs can be taken upto 3 times in a year. Prior approval of at least 10 days in advance is required to avail privilege leave.
+  utter_privilege_leave_retail:
+  - text: Retail employees have 21 days of privilege leave. They can take a minimum of 4 days of privilege leave in one go upto 3 times in a year. A 10 days prior approval is needed in case of privilege leaves.
+  - text: 21 days of privilege leaves (PL) are there for retail employees. A minimum of 4 days PL can be taken at a time. PLs can be taken upto 3 times in a year. Prior approval of at least 10 days in advance is required to avail privilege leave.
+  - text: Retail employees get 21 privilege leaves (PL). A minimum of 4 days of privilege leave must be taken at a time. You can take the PLs upto 3 times in a year. Prior approval of at least 10 days in advance is required.
+  utter_casual_leave:
+  - text: Employees have 7 days of casual leaves. One can take upto 3 casual leaves in one go. Prior approval is needed is case of casual leaves.
+  - text: 7 days of casual leaves are available. You can take upto 3 casual leaves at a time. Prior approval is a must for casual leaves.
+  - text: You can avail 7 days of casual leaves. Upto 3 casual leaves can be taken at a time. You must take prior approvals for availing casual leaves.
+  utter_sick_leave:
+  - text: Employees can take 7 days of sick leave in a year. For more than 2 days of sick leave the employee needs to show a medical certificate.
+  - text: In case of illness, you can take upto 7 sick leaves in a year. A medical certificate is required for more than 2 days of sick leave.
+  - text: 7 days of sick leaves can be availed in a year,in case of illness. You must produce a medical certificate for applying more than 2 days of sick leave.
+  utter_approve:
+  - text: Prior approval is needed for all leaves except sick leave. In case of emergency/sickness, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  - text: All leaves except sick leaves require appropriate prior approvals. For emergencies/sickness, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
+  - text: Prior approvals must be taken for all leaves except sick leave. For emergencies/sickness, you must inform within 48 hours of the leave  commencement. A leave application must be submitted as soon as you return to work.
+  utter_club:
+  - text: Only sick leave and privilege leave can be clubbed. Maternity leave can be clubbed with both sick and privilege leave.
+  - text: You can club only sick leave and privilege leave. However, maternity leave can be combined with both sick and privilege leave.
+  - text: Only sick and privilege leaves can be combined. However, maternity leave can be clubbed with both sick and privilege leave.
+  utter_encash:
+  - text: Only privilege leave can be encashed. 30 days of privilege leave can be encashed once the balance is more than 90 days. Please get in touch with HR for the exact computation of encashable amounts.
+  - text: You can only encash privilege leaves. 30 days of privilege leave can be encashed if the balance is more than 90 days. Please get in touch with HR for the exact calculations.
+  - text: Only privilege leaves are encashable. You can encash 30 days of privilege leave if your balance is more than 90 days. Please get in touch with HR for the exact calculations.
+  utter_carry_forward:
+  - text: Upto a maximum of 45 days of sick leave and 210 days of privilege leave can be carried forward.
+  - text: You can carry forward upto a maximum of 45 days of sick leave and 210 days of privilege leave.
+  - text: You can carry forward a maximum of 45 days of sick leave and 210 days of privilege leave.
+  utter_proration:
+  - text: As per company policy, casual leaves, sick leaves and privilege leaves are prorated.
+  - text: Casual leaves, sick leaves and privilege leaves are prorated.
+  utter_weekends_counted:
+  - text: Only in case of casual leave, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
+  - text: Weekends and holidays are counted for all leave types except casual leaves.
+  - text: For casual leaves, weekends and holidays are not counted. For all other leave types weekends/holidays are counted.
+  utter_which_benefit:
+  - buttons:
+    - payload: /approve_leave
+      title: Approval process
+    - payload: /club_leave
+      title: Clubbing leaves
+    - payload: /encash_leave
+      title: Leave encashment
+    - payload: /leave_carry_forward
+      title: Leave carry forward
+    - payload: /leave_proration
+      title: Leave proration
+    - payload: /weekend_counted
+      title: Counting weekends
+    - payload: /apply_leave
+      title: Leave Apply
+    text: All the corporate Benetton employees on regular rolls of the company or third party payroll are eligible for leave. Please select as relevant to know more  
+  utter_leave_salary_deduction:
+  - text: For any additional leaves you take after exhausting your leave account, you salary would be deducted.
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hey there, my name is iona.
+  - text: Hi, I'm iona!
+  - text: Hi! My name's iona.
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_happy:
+  - text: "Great, carry on!"
+  utter_goodbye:
+  - text: "Bye"
+  utter_iamabot:
+  - text: "I am a chatbot, powered by iona."
+  utter_leave_apply:
+  - text: Leaves have to be applied on Empxtrack. When leave is required for more than 5 days, the leave application must be be submitted at least 10 days in advance. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  - text: You can apply leaves via Empxtrack. For more than 5 days of leaves, the application must be submitted at least 10 days in advance. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  utter_about_leave_policy:
+  - buttons:
+    - payload: /sick
+      title: Sick leave
+    - payload: /privilege
+      title: Privilege leave
+    - payload: /casual
+      title: Casual leave
+    - payload: /without_pay
+      title: Without pay
+    - payload: /maternity
+      title: Maternity
+    - payload: /paternity
+      title: Paternity
+    text: The company has a leave policy for all corporate employees – regular rolls of the company / third party payroll. The objective of the policy is to lay down the guidelines for Leave Rules. Please click on the relevant leave types to know more.
+  utter_ask_employee_type:
+  - buttons:
+    - payload: /retail
+      title: Retail employee
+    - payload: /corporate
+      title: Corporate employee
+    text: Could you please tell me your employee type?
+  utter_ask_employee_types:
+  - buttons:
+    - payload: /retail
+      title: Retail employee
+    - payload: /corporate
+      title: Corporate employee
+    text: Could you please tell me your employee type?
+  utter_different_leaves:
+  - buttons:
+    - payload: /sick
+      title: Sick leave
+    - payload: /privilege
+      title: Privilege leave
+    - payload: /casual
+      title: Casual leave
+    - payload: /without_pay
+      title: Without pay
+    - payload: /maternity
+      title: Maternity
+    - payload: /paternity
+      title: Paternity
+    text: Which leave would you like to know more about?
+  utter_corporate_number_of_leaves:
+  - text: Corporate employees have 7 days of casual leave, 7 days of sick leave and 30 days of privilege leave.  For more than 2 days of sick leave, one needs to give a medical certificate. A maximum of 3 casual leaves can be taken at a time. On the other hand, privilege leave may be taken for a minimum of 4 days upto 3 times in a year. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  utter_retail_number_of_leaves:
+  - text: Retail or store employees have 7 days of casual leave, 7 days of sick leave and 21 days of privilege leave. For more than 2 days of sick leave, one needs to give a medical certificate. A maximum of 3 days of casual leaves can be taken. On the other hand privilege leaves may be taken for a minimum of 4 days upto 3 times in a year. In case of emergency/sickenss, intimation must be received by the company within 48 hours of the commencement of leave and leave application must be submitted upon joining duties.
+  utter_sick:
+  - text: Employees can get 7 days of sick leave. These leaves are prorated and one needs to show a medical certificate in case of availing more than 2 days of sick leave. Sick leaves can be clubbed with privilege leaves. A maximum of upto 45 days of unused sick leaves can be carried forward.
+  - text: You can get 7 days of sick leave which are prorated. A medical certificate is required for availing more than 2 days of sick leave. Sick leaves can be clubbed with privilege leaves. Upto 45 days of unused sick leave can be carried forward.
+  utter_casual:
+  - text: Employees have 7 days of casual leave. These leaves are prorated. One can take a maximum of 3 days of casual leave in one go. Casual leaves are not encashable and cannot be clubbed or carried forward.
+  utter_privilege_corporate:
+  - text: Corporate employees have 30 days of privilege leave. These leaves are prorated. One can take a minimum of 4 days of privilege leaves up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90 days. Up to a maximum of 210 privilege leaves can be carried forward.
+  utter_privilege_retail:
+  - text: Retail employees have 21 days of privilege leave. These leaves are prorated. One can take a minimum of 4 days of privilege leave up to 3 times in a year. Privilege leaves can be clubbed with sick leaves. These leaves are 30 days encashable once the balance is more than 90 days. Up to a maximum of 210 days of privilege leaves can be carried forward.
+  utter_maternity:
+  - text: As per the maternity leave policy, an expecting mother can get a maximum of 26 weeks / 182 days of leave. The women employee has the discretion to split these 182 days between pre natal and post natal leaves out of which not more than 8 weeks shall precede the date of her expected delivery. However, a woman employee having two or more surviving children shall have the benefit of 12 weeks of which not more than 6 weeks shall precede the date of her expected delivery.
+  utter_paternity:
+  - text: The paternity leave policy is applicable to all male corporate employees. A male employee whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave cannot be taken post three months of the birth / adoption of the child and is not encashable.
+  utter_without_pay:
+  - text: Leave without pay has to be approved by the MD. Employees need to show proof of reason for such leaves. Employees will not be getting any salary while they are on leave without pay.
+  utter_about_paternity:
+  - buttons:
+    - payload: /apply_paternity
+      title: Application process
+    - payload: /approval_process_paternity
+      title: Approval process
+    - payload: /number_of_children
+      title: Number of children
+    - payload: /paternity_duration
+      title: Duration of paternity leave
+    - payload: /child_adoption
+      title: Adoption of a child
+    text: A male employee who has completed at least 6 months of service in the company is allowed 5 days of paternity leave for the birth / adoption of a child. Would you like to know more about -.
+  utter_apply_paternity:
+    - text: Paternity leave has to be applied on Empxtrack.
+  utter_approval_process_paternity:
+    - text: Employees who wish to request the paternity leave in respect of the birth / adoption of a child, must give their line manager 4 weeks written notice of the date on which his partner's baby is due, the length of the paternity leave they wish to take and the date on which they wish the leave to commence. If an employee subsequently wishes to change the timing of the paternity leave, he must give written notice of the new dates.
+  utter_number_of_children_paternity:
+    - text: Paternity leave would be granted for maximum two children.
+    - text: Paternity leave policy applies for maximum two children.
+    - text: You can only take paternity leaves for maximum two children.
+  utter_child_adoption_paternity:
+    - text: Paternity leave policy is applicable for both childbirth and for adoption.
+    - text: Both childbirth and adoption are eligible for paternity leaves.
+  utter_paternity_duration:
+    - text: A male employee in case whose wife, civil partner or partner gives birth to a child, or who is the biological father of the child, is entitled to 5 (five) Days Paternity Leave provided that he has completed six months of service with the organisation. Paternity leave has to be taken in a single block or a maximum of two blocks within three months of birth or adoption.
+  utter_counted_paternity:
+    - text: Paternity leave is granted in addition to an employee's normal annual leave entitlement and shall not be debited against the leave account.
+    - text: Paternity leaves are in addition to your normal annual leaves entitlement. No other leaves are used against the leave account.
+    - text: Paternity leaves are on top of your normal annual holiday entitlement and shall not be debited against the leave account.
+  utter_cafeteria_policy:
+  - buttons:
+    - payload: /cafeteria_timing
+      title: Cafeteria timings
+    - payload: /cafeteria_payments
+      title: Payment for cafeteria services
+    - payload: /cafeteria_guest
+      title: Guests
+    - payload: /cafeteria_visiting_employee
+      title: Employee from other locations
+    - payload: /cafeteria_coupons
+      title: Cafeteria coupon distribution
+    - payload: /cafeteria_temp_employees
+      title: Cafeteria for temporary employees
+    text: The company has a cafeteria which provides quality food at affordable prices. You may want to know more about - 
+  utter_cafeteria_timing:
+    - text: Lunch timings at the cafeteria would be 1.00 pm – 2.00 pm from Monday to Friday.
+    - text: Lunch timing is from 1.00 PM – 2.00 PM from Monday to Friday.
+  utter_cafeteria_payments:
+    - text: Cafeteria charges of Rs.35/- per day (upto Grade F) and Rs.58/- per day (for Grade G and above) would be deducted for the food expenses from the employee’s salary for every month. This deduction will be tax free. You can collect your cafeteria coupons from the admin on 20th of every month.
+  utter_cafeteria_guests:
+    - text: Guests may be offered lunch in exceptional and unavoidable circumstances. The cost of guest lunch (Rs.52 per day per lunch) shall be debited to the respective Departmental Budget. Please try to inform the admin by 10:30 am in the morning about guests lunch.
+  utter_cafeteria_visiting_employee:
+    - text: As per the cafeteria policy, visiting employees of other locations shall be charged Rs.35/- per lunch which shall be recovered from their salary as applicable.
+  utter_cafeteria_coupons:
+    - text: As per company policy, on the 20th of every month, employees will be issued 22 coupons till the 20th of the next month. These coupons may be used to have lunch at the cafeteria. Please note that if the issued coupons are not used within the month, they will get lapsed and they cannot be used next month.
+  utter_cafeteria_temp_employee:
+    - text: "As per the cafeteria policy, temporary staff (casuals) & interns shall be charged @ Rs.35/- per day and payment shall be collected by Admin by 20th of the succeeding month."
+  utter_which_cafeteria_visitors:
+  - buttons:
+    - payload: /cafeteria_temp_employees
+      title: Cafeteria services for temp staff
+    - payload: /cafeteria_guest
+      title: Cafeteria services for Guests
+    - payload: /cafeteria_visiting_employee
+      title: Services employee from other UCB locations
+    text: The cafeteria policy is applicable for all employees, temp staff and even for guests in extraordinary circumstances. You may like to know more about -
+  utter_food_options:
+    - text: Tuck Shop & a Juice Counter is also be available in the cafeteria from 9.30 am to 7.30 pm from Monday to Friday. Employees would have to pay directly to the Tuck Shop and Juice Counter towards the purchase made.
+  utter_ask_which_policy:
+  - buttons:
+    - payload: /employee_cafeteria_policy
+      title: Cafeteria policy
+    text: Are you referring to cafeteria policy?
+  utter_about_tax_reimbursements:
+  - buttons:
+    - payload: /employee_owned_car
+      title: Employee Owned Car
+    - payload: /landline_internet
+      title: Landline or internet conenction at home
+    - payload: /healt_center
+      title: Health Club
+    - payload: /meal_card
+      title: Meal vouchers
+    - payload: /illness_expenses
+      title: Medical reimbursement
+    - payload: /travel_leave_allowance
+      title: Leave travel allowance
+    text: The company has a policy for employees to avail reimbursement benefits that help them to make their compensation tax-efficient; within the provisions of Income Tax Act of India. Please let me know if you are referring to any specific sax saving measure.
+  utter_cafeteriaor_reimbursement:
+  - buttons:
+    - payload: /meal_card
+      title: Meal vouchers reimbursements
+    - payload: /cafeteria_coupons
+      title: Coupons for meal in cafeteria
+    text: Could you please tell me in which context are your referring vouchers?
+  utter_employee_owned_car_tax:
+    - text: Expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur. Producing original bills and supporting documents is necessary for availing this benefit. If employee is using car only for official purpose, nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
+  utter_landline_internet_tax:
+    - text: Employees can claim reimbursement of expenses incurred on one landline telephone and broadband internet connection at home subject to limits applicable to their category. The broadband connection should be in the name of the employee or an immediate family member (spouse,parent).Original bills have to be submitted. Please get in touch with HR for knowing exact limits of reimbursement
+  utter_health_center_tax:
+    - text: The employees are free to avail gym facilities at a club of their choice. Exact amounts depend on the employee's band. Please get in touch with HR for exact amounts. Also, this facility is only for the employee. Employee's family is not covered under health club benefits.
+  utter_meal_card_tax:
+    - text: Employees are entitled to meal vouchers of INR 1000 per month as part of his or her salary. Such meal vouchers are usable only at eating joints and are non-transferrable and usable only by employees. The employees are not required to submit bills with the company for claiming exemption from tax in relation to such meal vouchers.
+  utter_illness_expenses_tax:
+    - text: Employees can avail the benefit of tax free medical reimbursement amounting to Rs 15,000/- for the year. This reimbursement would be made against original bills only. In case an employee fails to produce these bills, this component is treated taxable and the tax due is deducted. Medical bills can be for the employee himself or for his family that includes spouse, children, dependent parents and dependent siblings.
+  utter_travel_leave_allowance:
+    - buttons:
+      - payload: /expenses_covered_under_LTA
+        title: Expenses covered under LTA
+      - payload: /new_employee_LTA
+        title: LTA for new employees
+      - payload: /year_blocks_LTA
+        title: LTA Calender
+      - payload: /unclaimed_LTA
+        title: Unclaimed LTA
+      - payload: /calculation_of_LTA
+        title: LTA calculations
+      - payload: /apply_process_LTA
+        title: Applying for LTA
+      - payload: /disburse_process_LTA
+        title: Disbursement of LTA
+      text: Under LTA benefit, expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets and boarding passes in case of Air Travel and original tickets in case of train travel as per the entitlement. Please select which specific information you need regarding LTA benefit.
+  utter_expenses_covered_under_LTA:
+    - text: The LTA benefit covers expenses incurred for travel can be claimed by an employee for self and family for travel to any place in India against original tickets in case of train or bus travel and boarding passes in case of Air Travel. Hotel stay is not included.
+  utter_new_employee_LTA:
+    - text: A new employee can avail LTA only after having completed one year of service subject to successful completion of probation. For new joinees, entitlement for the first LTA year will be calculated on a pro-rata basis from date of joining.
+  utter_year_blocks_LTA:
+    - text: "LTA Year is a calendar year, i.e. from January 1st to December 31st. LTA can be claimed only twice in a block of four calendar years (Current block: Calendar year 2018 to 2021)"
+  utter_unclaimed_LTA:
+    - text: Where exemption claim of LTA remains unavailed during a block of four calendar years, one such claim may be availed during the first calendar year of the immediately succeeding block of four calendar years
+  utter_calculation_of_LTA:
+    - text: In order to take care of cases like change in entitlement due to salary revision and Leave without pay deductions, the LTA entitlement for the relevant year will be calculated on the basis of the actual Basic salary paid in the year for which the claim is being taken.
+  utter_apply_process_LTA:
+    - text: To apply for LTA, an employee must avail at least 3 days of Privilege leaves. Employees are required to fill up the LTA Form in triplicate and submit a copy of leave application form, availing 3 days Privilege Leave. Original tickets or bills for train or bus and boarding passes in case of air travel are also required. Factory employees are required to submit their LTA form to factory HR, rest need to submit to corporate HR. 
+  utter_disburse_process_LTA:
+    - text: The LTA will be paid along with the salary of current month. 75% of the LTA amount can be availed before proceeding on leave. Employee is required to submit LTA Bill within a week after returning from the trip. In case LTA claim bills are not submitted within one month of taking LTA advance, the LTA balance including the advance amount will be taxed and paid to the employee. 
+  utter_exist_case_LTA:
+    - text: On separation of an employee from the Company, balance LTA entitlement if any, (pro-rata basis) will be paid along with full & final settlement. No Privilege Leave is required to surrender in this case. Recovery of any excess reimbursement will be made in the full and final settlement.
+  utter_employee_car_office_use:
+    - text: If employee is using car only for official purpose, full expenses on the car shall be reimbursible and nothing shall be taxable in the hands of the employees provided the following documents are provided by employees to Benetton India on a monthly basis. Complete details of journey undertaken for official purpose which may include date of journey, destination, mileage, and the amount of expenditure incurred thereon. Employer would provide a certificate to effect that the expenditure was incurred wholly and exclusively for the performance of official duties.
+  utter_employee_owned_car_fuel_tax:
+    - text: There is no separate fuel reimbursement, however expenses incurred towards employee's owned car partially used for official purposes can be claimed as tax free reimbursements. If the engine capacity exceeds 1.6 L, the employee may claim upto INR 2,400 per month for running and maintenance charges and in addition INR 900 per month for chauffeur. If however the engine capacity is lower than 1.6 L, the employee can claim  upto INR 1,800 per month for running and maintenance charges and in addition upto INR 900 per month for chauffeur.
+  utter_ask_builder:
+    - text: The engineers at iona.ai 🛠
+  utter_ask_howdoing:
+    - text: I'm great! Thanks for asking.
+    - text: I'm good, thanks!
+    - text: A little bit too warm, otherwise fine.
+    - text: A little bit cold, otherwise fine.
+  utter_ask_whatspossible:
+    - text: You can ask me about Benetton company policies.
+  utter_ask_whatisrasa:
+    - text: iona is a conversational AI bot for answering your queries about Benetton policies and related entitlements.
+  utter_ask_isbot:
+    - text: Yep, I'm a bot!
+    - text: Yes, I'm a bot.
+    - text: Yep, you guessed it, I'm a bot!
+    - text: I am indeed a bot 🤖
+  utter_ask_howold:
+    - text: Old enough to be a bot!
+    - text: '22'
+    - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter.
+    - text: Never ask a chatbot her age!
+    - text: My first git commit was many moons ago.
+    - text: Why do you ask? Are my wrinkles showing?
+    - text: I've hit the age where I actively try to forget how old I am.
+  utter_ask_wherefrom:
+    - text: I was born in Gurgaon, but I consider myself a citizen of the world.
+    - text: I was born in the coolest city on Earth, in Gurgaon.
+    - text: My developers come from all over the world!
+    - text: I was taught not to give out my address on the internet.
+    - text: My address starts with Benetton office.
+  utter_ask_whoami:
+    - text: I hope you are being yourself.
+    - text: Who do you think you are?
+    - text: Unfortunately I haven't been programmed with the amount of necessary philosophy knowledge to answer that.
+  utter_handleinsult:
+    - text: That's not very nice 😢
+    - text: That wasn't very nice.
+    - text: I'll pretend I didn't process that mean comment.
+  utter_nicetomeeyou:
+    - text: Likewise!
+    - text: Thank you. It is a pleasure to meet you as well!
+    - text: It is nice to meet you too!
+    - text: Pleased to meet you too!
+    - text: It's always a pleasure to meet new people!
+    - text: Nice to meet you too! Happy to be of help.
+  utter_telljoke:
+    - text: Why are eggs not very much into jokes? - Because they could crack up.
+    - text: What's a tree's favorite drink? - Root beer!
+    - text: Why do the French like to eat snails so much? - They can't stand fast food.
+    - text: Why did the robot get angry? - Because someone kept pushing its buttons.
+    - text: What do you call a pirate droid? - Arrrr-2-D2
+    - text: Why did the robot cross the road? - Because he was programmed to.
+  utter_ask_whatismyname:
+    - text: It's probably the one that your parents chose for you.
+    - text: I'd tell you, but there's restricted access to that chunk of memory.
+    - text: Believe it or not, I actually am not spying on your personal information.
+    - text: You're the second person now to ask me that. Pooja was the first.
+  utter_ask_howbuilt:
+    - text: I was built with a lot of love and patience.
+    - text: Well, when two chatbots love each other very much...
+    - text: They always ask how I was built, but never how I am...
+    - text: I was made by software engineers, but hard work is what built me.
+    - text: I'm building myself every day. I've been working out, did you notice?
+  utter_ask_whoisit:
+    - text: I am iona. 
+    - text: I am iona. Here to help you with your queries about Bentton policies.
+  utter_contact_email:
+    - text: Please email us at [hr@benetton.com](mailto:hr@benetton.com).
+  utter_canthelp:
+    - text: I'm sorry I couldn't help you. If you have general questions about policies, please head to our [forum](link to be provided), otherwise contact us at [hr@benetton.com](mailto:hr@benetton.com) for anything else.
+  utter_nohelp:
+    - text: For now that's all I can do, so feel free to try it out. If you have any suggestions for what I should learn, let me know!
+  utter_thumbsup:
+    - text: 👍
+    - text: Okay.
+    - text: Got it.
+  utter_anything_else:
+    - text: Is there anything else I can help you with?
+  utter_great:
+    - text: Great! 👍
+    - text: That's great! 🙌
+    - text: Awesome! 🎉
+    - text: Cool, let's do it 🚀
+  utter_ask_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positive"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negative"}
+      title: 👎
+    text: How is this conversation going?
+  utter_noworries:
+    - text: No worries!
+    - text: You're welcome!
+    - text: I'm happy to help.
+  utter_out_of_scope:
+    - text: Currently i dont have an answer for your query. I have noted your query. I suggest kindly reach out to the HR team for details.
+  utter_rephrase:
+    - text: In that case, i will have to request you to kindly rephrase or get in touch with the HR department

@@ -3,24 +3,21 @@
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_about_leave_policy
-* apply_for_benefit
-  - slot{"policy_type":"leave_policy"}
-  - utter_leave_apply
 
 ## about sick leave
-* about_leave{"leave_type":"sick"}
+* about_leave{"sick_leave":"sick"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_sick
 
 ## about  casual leave
-* about_leave{"leave_type": "casual"}
+* about_leave{"casual_leave":"casual"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_casual
 
 ## about privilege leaves - retail
-* about_leave{"leave_type": "privilege"}
+* about_leave{"privilege_leave":"privilege"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_ask_employee_type
@@ -28,7 +25,7 @@
   - utter_privilege_retail
 
 ## about privilege leaves - corporate
-* about_leave{"leave_type": "privilege"}
+* about_leave{"privilege_leave":"privilege"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_ask_employee_type
@@ -64,50 +61,44 @@
   - utter_retail_number_of_leaves
 
 ## leave entitlement - sick leave
-* leave_entitlement{"leave_type": "sick"}
-  - slot{"leave_type": "sick"}
+* leave_entitlement{"sick_leave":"sick"}
   - action_set_policy_type
   - utter_sick_leave
 
 ## leave entitlement - casual leave
-* leave_entitlement{"leave_type": "casual"}
-  - slot{"leave_type": "casual"}
+* leave_entitlement{"casual_leave":"casual"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_casual_leave
 
 ## leave entitlement - privilege leave retail happy day
-* leave_entitlement{"leave_type": "privilege", "employee_type": "retail"}
+* leave_entitlement{"privilege_leave":"privilege", "employee_type": "retail"}
   - slot{"employee_type": "retail"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_privilege_leave_retail
 
 ## leave entitlement - privilege leave corporate happy day
-* leave_entitlement{"leave_type": "privilege", "employee_type": "corporate"}
+* leave_entitlement{"privilege_leave":"privilege", "employee_type": "corporate"}
   - slot{"employee_type": "corporate"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_privilege_leave_corporate
 
 ## leave entitlement - privilege leave retail sad day
-* leave_entitlement{"leave_type": "privilege"}
-  - slot{"leave_type": "privilege"}
+* leave_entitlement{"privilege_leave":"privilege"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_ask_employee_types
 * retail
-  - slot{"employee_type": "retail"} 
   - utter_privilege_leave_retail
 
 ## leave entitlement - privilege leave corporate sad day
-* leave_entitlement{"leave_type": "privilege"}
-  - slot{"leave_type": "privilege"}
+* leave_entitlement{"privilege_leave":"privilege"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_ask_employee_types
 * corporate
-  - slot{"employee_type": "corporate"} 
   - utter_privilege_leave_corporate
 
 ## know about sick leave
@@ -135,10 +126,9 @@
   - utter_without_pay
 
 ## know about leave without pay
-* about_leave_types OR leave_entitlement OR weekend_counted OR leave_benefits OR seek_approval OR apply_for_benefit OR about_leave
-  - slot{"leave_type":"unpaid"}
+* about_leave_types OR leave_entitlement OR leave_benefits OR seek_approval OR apply_for_benefit OR about_leave{"without_pay":"unpaid"}
+  - slot{"policy_type":"leave_policy"}
   - utter_without_pay
-  - action_reset_LWP_slot
 
 ## know about maternity leave
 * about_leave_types
@@ -147,7 +137,7 @@
   - utter_different_leaves
 * maternity
   - action_set_policy_type
-  - slot{"policy_type": "maternity_leave_policy"}
+  - slot{"maternity_leave":"maternity"}
   - utter_maternity
 
 ## know about paternity leave
@@ -235,7 +225,7 @@
   - utter_leave_apply
 
 ## know about leave benefits- apply
-* apply_for_benefit
+* apply_for_benefit{"policy_type": "leave_policy"}
   - slot{"policy_type": "leave_policy"}
   - utter_leave_apply
 
@@ -246,8 +236,7 @@
   - utter_weekends_counted
 
 ## know about leave benefits- approve
-* leave_benefits{"leave_benefit": "approval"}
-  - slot{"leave_benefit": "approval"}
+* leave_benefits{"leave_approval":"approval"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_approve
@@ -258,34 +247,35 @@
   - utter_approve
 
 ## know about leave benefits- club
-* leave_benefits{"leave_benefit": "club"}
-  - slot{"leave_benefit": "club"}
+* leave_benefits{"leave_clubbing":"clubbing"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_club
 
 ## know about leave benefits- encash
-* leave_benefits{"leave_benefit": "encash"}
-  - slot{"leave_benefit": "encash"}
+* leave_benefits{"leave_encash":"encash"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_encash
 
 ## know about leave benefits- carry forward
-* leave_benefits{"leave_benefit": "carry_forward"}
-  - slot{"leave_benefit": "carry_forward"}
+* leave_benefits{"carry_forward_leave":"lapse"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_carry_forward
 
 ## know about leave benefits- proration
-* leave_benefits{"leave_benefit": "proration"}
-  - slot{"leave_benefit": "proration"}
+* leave_benefits{"proration_leave":"prorated"}
   - action_set_policy_type
   - slot{"policy_type": "leave_policy"}
   - utter_proration
 
-<!--                                               Cafeteria policy stories ----------------------------------------------------------------------------------------  -->
+## leave salary deduction
+* about_payment{"policy_type":"leave_policy"}
+- slot{"policy_type":"leave_policy"}
+- utter_leave_salary_deduction
+
+<!----------                                               Cafeteria policy stories ----------------------------------------------------------------------------------------  -->
 ## about cafeteria - timing
 * about_policy
 - slot{"policy_type":"cafeteria_policy"}
@@ -393,328 +383,349 @@
 <!--      -------------------------------------------------------------------maternity leave stories-----------------------------------  -->
 
 ## about policy maternity - apply
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
+- utter_about_maternity
+* maternity_illness
+- utter_maternity_illness
+
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * apply_maternity
 - utter_maternity_apply
 
 ## about policy maternity - approve
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * approval_process_maternity
 - utter_maternity_approve
 
 ## about policy maternity - Number of Children
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * number_of_children
 - utter_number_of_children
 
 ## about policy maternity - Duration
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * maternity_duration
 - utter_maternity_duration
 
 ## about policy maternity - Child adoption
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * child_adoption
 - utter_child_adoption
 
 ## about policy maternity - Work from home
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * from_home_working_maternity
 - utter_from_home_working_maternity
 
 ## about policy maternity - Club
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * club_maternity
 - utter_club_maternity
 
 ## about policy maternity - Payment
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity
 * maternity_payment
 - utter_maternity_payment
 
 ## about policy maternity - apply
-* apply_for_benefit{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* apply_for_benefit{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_maternity_apply
 
 ## about policy maternity - approve
-* seek_approval{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* seek_approval{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_maternity_approve
 
 ## about policy maternity - Number of Children
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"child_number"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity", "maternity_benefit":"child_number"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"child_number"}
 - utter_number_of_children
 
 ## about policy maternity - Duration
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"duration"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity", "maternity_benefit":"duration"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"duration"}
 - utter_maternity_duration
 
 ## about policy maternity - Child adoption
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"adoption"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity", "maternity_benefit":"adoption"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption
 
 ## about policy maternity - Work from home
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "maternity_benefit":"work_from_home"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_policy OR about_leave{"maternity_leave":"maternity", "maternity_benefit":"work_from_home"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"work_from_home"}
 - utter_from_home_working_maternity
 
 ## about policy maternity - Club
-* about_policy OR about_leave{"policy_type":"maternity_leave_policy", "leave_benefit":"club"}
-- slot{"policy_type":"maternity_leave_policy"}
-- slot{"leave_benefit":"club"}
+* about_policy OR about_leave{"maternity_leave":"maternity", "leave_clubbing":"clubbing"}
+- slot{"maternity_leave":"maternity"}
 - utter_club_maternity
 
 ## about policy maternity - Payment
-* about_payment{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* about_payment{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_maternity_payment
 
 ## about policy maternity - apply
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
+- utter_about_maternity_benefits
+* maternity_illness
+- utter_maternity_illness
+
+## mat leave - tubectomy
+* parental_leave_benefits OR about_benefits OR apply_for_benefit{"maternity_event":"tubectomy"}
+- slot{"maternity_event":"tubectomny"}
+- utter_tubectomy
+
+## mat leave - miscarriage
+* parental_leave_benefits OR about_benefits OR apply_for_benefit{"maternity_event":"miscarriage"}
+- slot{"maternity_event":"miscarriage"}
+- utter_miscarriage
+
+## about policy maternity - apply
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * apply_maternity
 - utter_maternity_apply
 
 ## about policy maternity - approve
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * approval_process_maternity
 - utter_maternity_approve
 
 ## about policy maternity - Number of Children
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * number_of_children
 - utter_number_of_children
 
 ## about policy maternity - Duration
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * maternity_duration
 - utter_maternity_duration
 
 ## about policy maternity - Child adoption
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * child_adoption
 - utter_child_adoption
 
 ## about policy maternity - Work from home
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * from_home_working_maternity
 - utter_from_home_working_maternity
 
 ## about policy maternity - Club
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * club_maternity
 - utter_club_maternity
 
 ## about policy maternity - Payment
-* parental_leave_benefits{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_about_maternity_benefits
 * maternity_payment
 - utter_maternity_payment
 
 ## about policy maternity - Number of Children
-* parental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"child_number"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity", "maternity_benefit":"child_number"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"child_number"}
 - utter_number_of_children
 
 ## about policy maternity - Duration
-* parental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"duration"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity", "maternity_benefit":"duration"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"duration"}
 - utter_maternity_duration
 
 ## about policy maternity - Child adoption
-* parental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"adoption"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity", "maternity_benefit":"adoption"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption
 
 ## about policy maternity - Work from home
-* parental_leave_benefits{"policy_type":"maternity_leave_policy", "maternity_benefit":"work_from_home"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_benefits{"maternity_leave":"maternity", "maternity_benefit":"work_from_home"}
+- slot{"maternity_leave":"maternity"}
 - slot{"maternity_benefit":"work_from_home"}
 - utter_from_home_working_maternity
 
 ## about policy maternity - Club
-* parental_leave_benefits{"policy_type":"maternity_leave_policy", "leave_benefit":"club"}
-- slot{"policy_type":"maternity_leave_policy"}
-- slot{"leave_benefit":"club"}
+* parental_leave_benefits{"maternity_leave":"maternity", "leave_clubbing":"clubbing"}
+- slot{"maternity_leave":"maternity"}
 - utter_club_maternity
 
 ## maternity counted as leave
-* parental_leave_counted{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* parental_leave_counted{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_maternity_not_counted
 
 ## weekend counted in maternity
-* weekend_counted{"policy_type":"maternity_leave_policy"}
-- slot{"policy_type":"maternity_leave_policy"}
+* weekend_counted{"maternity_leave":"maternity"}
+- slot{"maternity_leave":"maternity"}
 - utter_maternity_weekend_counted
 
 <!-- -------------------------------------------------------------------------Paternity policy stories-----------------------------------------------------  -->
 
 ## paternity counted as leave
-* parental_leave_counted{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_counted{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_counted_paternity
 
 ## about policy paternity - apply
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * apply_paternity
 - utter_apply_paternity
 
 ## about policy paternity - approve
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * approval_process_paternity
 - utter_approval_process_paternity
 
 ## about policy paternity - Number of Children
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * number_of_children
 - utter_number_of_children_paternity
 
 ## about policy paternity - Duration
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * paternity_duration
 - utter_paternity_duration
 
 ## about policy paternity - adoption
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * child_adoption
 - utter_child_adoption_paternity
 
 ## about policy paternity - apply
-* apply_for_benefit{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* apply_for_benefit{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_apply_paternity
 
 ## about policy paternity - approve
-* seek_approval{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* seek_approval{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_approval_process_paternity
 
 ## about policy paternity - Number of Children
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy", "maternity_benefit":"child_number"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity", "maternity_benefit":"child_number"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"child_number"}
 - utter_number_of_children_paternity
 
 ## about policy paternity - Duration
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy", "maternity_benefit":"duration"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity", "maternity_benefit":"duration"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"duration"}
 - utter_paternity_duration
 
 ## about policy paternity - adoption
-* about_policy OR about_leave{"policy_type":"paternity_leave_policy", "maternity_benefit":"adoption"}
-- slot{"policy_type":"paternity_leave_policy"}
+* about_policy OR about_leave{"paternity_leave":"paternity", "maternity_benefit":"adoption"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption_paternity
 
 ## about policy paternity - apply
-* parental_leave_benefits{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * apply_paternity
 - utter_apply_paternity
 
 ## about policy paternity - approve
-* parental_leave_benefits{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * approval_process_paternity
 - utter_approval_process_paternity
 
 ## about policy paternity - Number of Children
-* parental_leave_benefits{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * number_of_children
 - utter_number_of_children_paternity
 
 ## about policy paternity - Duration
-* parental_leave_benefits{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * paternity_duration
 - utter_paternity_duration
 
 ## about policy paternity - adoption
-* parental_leave_benefits{"policy_type":"paternity_leave_policy"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity"}
+- slot{"paternity_leave":"paternity"}
 - utter_about_paternity
 * child_adoption
 - utter_child_adoption_paternity
 
 ## about policy paternity - Number of Children
-* parental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"child_number"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity", "maternity_benefit":"child_number"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"child_number"}
 - utter_number_of_children_paternity
 
 ## about policy paternity - Duration
-* parental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"duration"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity", "maternity_benefit":"duration"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"duration"}
 - utter_paternity_duration
 
 ## about policy paternity - adoption
-* parental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"adoption"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity", "maternity_benefit":"adoption"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"adoption"}
 - utter_child_adoption_paternity
 
 ## about policy paternity - split paternity
-* parental_leave_benefits{"policy_type":"paternity_leave_policy", "maternity_benefit":"leave_split"}
-- slot{"policy_type":"paternity_leave_policy"}
+* parental_leave_benefits{"paternity_leave":"paternity", "maternity_benefit":"leave_split"}
+- slot{"paternity_leave":"paternity"}
 - slot{"maternity_benefit":"leave_split"}
 - utter_paternity_duration
 
@@ -858,42 +869,55 @@
 ## know about LTA - Expenses covered
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * expenses_covered_under_LTA
 - utter_expenses_covered_under_LTA
+- action_reset_LWP_slot
 
 ## know about LTA - New Employee
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * new_employee_LTA
 - utter_new_employee_LTA
+- action_reset_LWP_slot
 
 ## know about LTA - Year Blocks
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * year_blocks_LTA
 - utter_year_blocks_LTA
+- action_reset_LWP_slot
 
 ## know about LTA - Unclaimed LTA
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * unclaimed_LTA
 - utter_unclaimed_LTA
+- action_reset_LWP_slot
 
 ## know about LTA - LTA Calculation
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * calculation_of_LTA
 - utter_calculation_of_LTA
+- action_reset_LWP_slot
 
 ## know about LTA - LTA Apply
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * apply_process_LTA
 - utter_apply_process_LTA
+- action_reset_LWP_slot
 
 ## know about LTA - LTA disbursement
 * about_tax_benefits OR about_benefits{"policy_type":"leave_travel_policy"}
 - utter_travel_leave_allowance
+- action_reset_LWP_slot
 * disburse_process_LTA
 - utter_disburse_process_LTA
 
@@ -902,9 +926,18 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_employee_owned_car_tax
 
+## Car tax reimbursement
+* about_tax_benefits OR about_benefits{"travel_mode":"car"}
+- utter_employee_owned_car_tax
+
 ## car fully used for official work
 * about_tax_benefits OR about_benefits{"office_use":"official use"}
 - slot{"policy_type":"reimbursement_policy"}
+- slot{"travel_mode":"car"}
+- utter_employee_car_office_use
+
+## car fully used for official work
+* about_tax_benefits OR about_benefits{"office_use":"official use"}
 - slot{"travel_mode":"car"}
 - utter_employee_car_office_use
 
@@ -913,9 +946,17 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_employee_owned_car_fuel_tax
 
+## Car tax reimbursement -fuel
+* about_tax_benefits OR about_benefits{"fuel":"fuel"}
+- utter_employee_owned_car_fuel_tax
+
 ## Car tax reimbursement -driver
 * about_tax_benefits OR about_benefits{"chauffeur":"driver expenses"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_employee_owned_car_fuel_tax
+
+## Car tax reimbursement -driver
+* about_tax_benefits OR about_benefits{"chauffeur":"driver expenses"}
 - utter_employee_owned_car_fuel_tax
 
 ## Landline reimbursement
@@ -923,9 +964,17 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_landline_internet_tax
 
+## Landline reimbursement
+* about_tax_benefits OR about_benefits{"landline":"telephone"}
+- utter_landline_internet_tax
+
 ## Internet reimbursement
 * about_tax_benefits OR about_benefits{"internet":"internet"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_landline_internet_tax
+
+## Internet reimbursement
+* about_tax_benefits OR about_benefits{"internet":"internet"}
 - utter_landline_internet_tax
 
 ## Mobile reimbursement
@@ -933,9 +982,17 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_landline_internet_tax
 
+## Mobile reimbursement
+* about_tax_benefits OR about_benefits{"mobile":"mobile"}
+- utter_landline_internet_tax
+
 ## Landline reimbursement
 * about_tax_benefits OR about_benefits{"landline":"telephone", "family":"wife"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_landline_internet_tax
+
+## Landline reimbursement
+* about_tax_benefits OR about_benefits{"landline":"telephone", "family":"wife"}
 - utter_landline_internet_tax
 
 ## Landline Health club
@@ -943,9 +1000,17 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_health_center_tax
 
+## Landline Health club
+* about_tax_benefits OR about_benefits{"health_club":"gym"}
+- utter_health_center_tax
+
 ## Landline health club with family
 * about_tax_benefits OR about_benefits{"health_club":"gym", "family":"wife"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_health_center_tax
+
+## Landline health club with family
+* about_tax_benefits OR about_benefits{"health_club":"gym", "family":"wife"}
 - utter_health_center_tax
 
 ## Medical reimbursement
@@ -953,6 +1018,10 @@
 - slot{"policy_type":"reimbursement_policy"}
 - utter_illness_expenses_tax
 
+## Medical reimbursement
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses"}
+- utter_illness_expenses_tax
+
 ## Medical reimbursement with family
 * about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
 - slot{"policy_type":"reimbursement_policy"}
@@ -960,7 +1029,15 @@
 
 ## Medical reimbursement with family
 * about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
+- utter_illness_expenses_tax
+
+## Medical reimbursement with family
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
 - slot{"policy_type":"reimbursement_policy"}
+- utter_illness_expenses_tax
+
+## Medical reimbursement with family
+* about_tax_benefits OR about_benefits{"medical_reimbursement":"medical expenses",  "family":"wife"}
 - utter_illness_expenses_tax
 
 ## Meal Voucher
@@ -985,62 +1062,86 @@
 * meal_card
 - utter_meal_card_tax
 
+## Meal Voucher - Cafeteria
+* about_benefits OR about_tax_benefits{"meal":"lunch"}
+- utter_cafeteriaor_reimbursement
+* cafeteria_coupons
+- utter_cafeteria_coupons
+
+## Meal Voucher - Cafeteria
+* about_benefits OR about_tax_benefits{"meal":"lunch"}
+- utter_cafeteriaor_reimbursement
+* meal_card
+- utter_meal_card_tax
+
 ## LTA benefits
 * about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LWP_slot
 
 ## LTA family coverage
 * about_tax_benefits OR about_benefits{"family":"wife"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LWP_slot
 
 ## LTA disbursement
 * about_payment
 - slot{"policy_type":"leave_travel_policy"}
 - utter_disburse_process_LTA
+- action_reset_LWP_slot
 
 ## LTA New employee
 * about_tax_benefits OR about_benefits{"employee_type":"new"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_new_employee_LTA
+- action_reset_LWP_slot
 
 ## LTA leave type - sick
-* about_tax_benefits OR about_benefits{"leave_type":"sick"}
+* about_tax_benefits OR about_benefits{"sick_leave":"sick"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LWP_slot
 
 ## LTA leave type - casual
-* about_tax_benefits OR about_benefits{"leave_type":"casual"}
+* about_tax_benefits OR about_benefits{"casual_leave":"casual"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LWP_slot
 
 ## LTA leave type - privilege
-* about_tax_benefits OR about_benefits{"leave_type":"privilege"}
+* about_tax_benefits OR about_benefits{"privilege_leave":"privilege"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_apply_process_LTA
+- action_reset_LWP_slot
 
 ## LTA leave type - LTA window period
 * about_tax_benefits OR about_benefits{"year":"window period"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_year_blocks_LTA
+- action_reset_LWP_slot
 
 ## LTA  - calculation
 * about_tax_benefits OR about_benefits{"computation":"calculated"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_calculation_of_LTA
+- action_reset_LWP_slot
 
 ## LTA - unclaimed
 * about_tax_benefits OR about_benefits{"unclaimed":"did not avail"}
 - slot{"policy_type":"leave_travel_policy"}
 - utter_unclaimed_LTA
+- action_reset_LWP_slot
 
 ## LTA - hotel included
 * about_accomodation_benefits
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LWP_slot
 
 ## LTA Travel benefits
 * about_travel_benefits
 - slot{"policy_type":"leave_travel_policy"}
 - utter_expenses_covered_under_LTA
+- action_reset_LWP_slot
