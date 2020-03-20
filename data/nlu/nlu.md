@@ -2161,6 +2161,8 @@
 - Can i get my [wellness center](health_club) cost reimbursed?
 - Can i get reimbursement for [medical expenses](medical_reimbursement)
 - Can i get reimbursement for expenses for [treatment](medical_reimbursement)?
+- Can i claim [medical reimbursement](medical_reimbursement)?
+- Can i get [medical reimbursement](medical_reimbursement)?
 - Can i get my [hospital](medical_reimbursement) expenses reimbursed?
 - Will the company reimburse my [healthcare](medical_reimbursement) bills
 - Are [medical bills](medical_reimbursement) reimbursible?
