@@ -1789,7 +1789,7 @@
 - How many [sick](sick_leave) [leaves](policy_type:leave_policy) are there for [retail](employee_type) employees
 - How many [casual](casual_leave) [leaves](policy_type:leave_policy) are there for [corporate](employee_type) employees
 - I am [store](employee_type:retail) staff. How many [privilege](privilege_leave) [leaves](policy_type:leave_policy) can i take?
-- can i take [leave](policy_type:leave_policy) for [medical](sick_leave) reasons
+- can i take [leave](policy_type:leave_policy) for medical reasons
 - can i get [unpaid](without_pay) [leave](policy_type:leave_policy)
 - I want [leave](policy_type:leave_policy) [without pay](without_pay)
 - I want to take [leave](policy_type:leave_policy) [without pay](without_pay)
@@ -1978,6 +1978,7 @@
 - Am i going to loose my [leaves](policy_type:leave_policy) due to [paternity](paternity_leave)?
 
 ## intent:parental_leave_benefits
+- What is the notice period of my [maternity](maternity_leave) [leave](policy_type:leave_policy)?
 - Can i get [leave](policy_type:leave_policy) if I undergo [miscarriage](maternity_event:miscarriage)?
 - Can i get [leave](policy_type:leave_policy) for [abortion](maternity_event:miscarriage)?
 - Can i get [leave](policy_type:leave_policy) If I [abort](maternity_event:miscarriage) my child?
@@ -2130,12 +2131,12 @@
 - What are the [tax benefits](policy_type:reimbursement_policy) of owned [car](travel_mode:car)
 - I use my [car](travel_mode:car) for [official use](office_use) only. What benefits can i claim?
 - I use my [car](travel_mode:car) only for [work](office_use). Can i claim
-- How much [driver salary](chauffeur) can i claim?
+- How much [driver](chauffeur) salary can i claim?
 - How much [car](travel_mode:car) [fuel](fuel) can i claim?
-- Can i claim [driver expenses](chauffeur)?
+- Can i claim [driver](chauffeur) expenses?
 - Can i claim [chauffeur](chauffeur) expenses?
 - Can i claim [chauffeur's](chauffeur) salary?
-- Is [driver's salary](chauffeur) reimbursible?
+- Is [driver's](chauffeur) salary reimbursible?
 - I user my [car](travel_mode:car) for [official](office_use) only.
 - My [car](travel_mode:car) is used for [company purposes](office_use) only.
 - Can i claim my [telephone](landline) bill?
@@ -2148,6 +2149,10 @@
 - Will the company reimburse my [mobile](mobile) bills?
 - Can i get reimbursement for my [internet](internet) connection
 - can i claim reimbursement for my [wifi](internet) connection at home
+- can i claim reimbursement for my [wi fi](internet) connection at home
+- can i claim reimbursement for my [wi-fi](internet) connection at home
+- Can i get reimbursement for my [wi-fi](internet) connection?
+- Can i reimburse my [wi fi](internet) bills?
 - Does the company provide any [health club](health_club) benefit?
 - Can i join a [health club](health_club)?
 - Is a [gym](health_club) membership allowed?

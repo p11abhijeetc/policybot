@@ -292,7 +292,7 @@ responses:
   - text: Sorry, I didn't get that 🤷. Could you please rephrase? For example, how to apply for leaves?, what are the tax saving benefits? or similar.
   - text: I didn't understand, could you rephrase that? For example, what are the tax saving benefits?, how to apply for leaves? or similar.
   - text: I'm sorry, but I didn't understand you. Could you please rephrase what you just said? For example, can I club casual with sick leaves?, tax benefits on using own car for company purposes or similar.    
-  - text: I'm afraid I didn't get what you just said. Could you rephrase that? For example, can I take guests to cafeteria? or similar.
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that? For example, can I take guests to cafeteria?, how many casual leaves can i get? or similar.
   - text: I didn't quite get that, could you rephrase your message? Does the company provide meal vouchers?, Are new joinees eligible for paternity leaves? or similar.
   - text: Could you rephrase your message? I didn't get it, I'm sorry. For example, how can I get lunch coupons?, Are weekend counted in leaves? or similar.
   utter_maternity_payment:
@@ -317,7 +317,7 @@ responses:
       title: Salary during maternity
     - payload: /maternity_illness
       title: Illness out of pregnancy
-    text: Looks like you want to know about maternity leave. Could you please tell me what exactly would you like to know about?
+    text: Looks like you want to know about maternity leave. A woman employee can avail 182 days of leave as pre-natal or post-natal leave. You can know more by clicking buttons given below. 
   utter_miscarriage:
   - text: In case of miscarriage or medical termination of pregnancy, a woman shall be on production of such proof, be entitled to leave with wages at the rate of maternity benefit for a period of six week immediately following the day of miscarriage or as the case may be, her medical termination of pregnancy.
   utter_tubectomy:

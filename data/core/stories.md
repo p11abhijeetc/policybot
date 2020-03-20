@@ -742,7 +742,7 @@
 - utter_about_paternity
 <!--    -------------------------------------------------------Tax Saving Reimbursement Stories -----------------------------------------------------------------    -->
 
-## kenow about tax reimbursements - Owned car
+## know about tax reimbursements - Owned car
 * about_tax_saving{"policy_type":"reimbursement_policy"}
 - utter_about_tax_reimbursements
 * employee_owned_car
